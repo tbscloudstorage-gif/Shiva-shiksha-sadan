@@ -154,7 +154,7 @@ export default function HeaderOne() {
                       </svg>
                       <span>02</span>
                     </Link>
-                    <Link to="/courses-with-filter" className="it-btn-yellow d-none d-md-flex">
+                    <Link to="/contact-us" className="it-btn-yellow d-none d-md-flex">
                       <span>
                         <span className="text-1">Connect With Us</span>
                         <span className="text-2">Connect With Us</span>

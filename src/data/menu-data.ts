@@ -137,7 +137,7 @@ const menu_data: DataType[] = [
     link: "#",
      has_dropdown: true,
     sub_menus: [
-      { link: "/event-grid", title: "Upcoming Event" },
+      { link: "/upcoming-event", title: "Upcoming Event" },
         { link: "/magazines", title: "Magazines" },
       { link: "/contact-me", title: "Media Coverage" },
     ],

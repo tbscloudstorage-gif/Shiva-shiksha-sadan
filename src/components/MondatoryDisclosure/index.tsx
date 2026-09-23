@@ -9,7 +9,7 @@ export default function index() {
     <div>
         <HeaderOne/>                <Breadcrumb title="Mandatory Public Disclosure" subtitle="Mandatory Public Disclosure" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
         
-        <MainPage pdfUrl="assets/sec-pdf.pdf" />
+        <MainPage pdfUrl = "https://docs.google.com/document/d/11AFWVdK7hH334oXHdbE7ZxAXqWQuQUBo3rt7BEhPiaE/edit?usp=sharing"  />
         <FooterThree/>
         
     </div>

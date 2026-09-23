@@ -19,7 +19,12 @@ export default function HeroFive() {
                   </h1>
                   <div className="it-hero-tex wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".7s">
-                     <p className=" text-[#6C757D] ">We nurture curious minds through engaging learning, strong academic foundations, and opportunities that inspire students to explore, grow, and achieve their full potential.
+                     <p className=" text-[#6C757D] ">At Shiva Shiksha Sadan, we believe education is more than academic success.
+We nurture curiosity, creativity, confidence, and strong values in every student.
+Through engaging learning experiences and diverse opportunities, we encourage students to explore their potential.
+Our aim is to prepare young minds to face the future with knowledge, character, and purpose.
+Together, we inspire every learner to grow, achieve, and make a meaningful difference.
+
 </p>
                   </div>
                   <div className="d-flex align-items-center wow itfadeUp" data-wow-duration=".9s"

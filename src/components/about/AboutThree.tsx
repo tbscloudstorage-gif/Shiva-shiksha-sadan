@@ -41,8 +41,8 @@ export default function AboutThree() {
                     </span>
                   </div>
                   <div>
-                    <h5>30 +</h5>
-                    <span>wonderful Awards</span>
+                    <h5>50+</h5>
+                    <span>Years of Excellence</span>
                   </div>
                 </div>
                 <img className="it-about-2-shape-1 d-none d-xl-block" src="assets/img/shape/about-3-1.png" alt="" />
