@@ -22329,12 +22329,12 @@ input[type=radio] {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .it-gallery-thumb img {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 @media (max-width: 767px) {
   .it-gallery-thumb img {
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 30px;
   }
 }

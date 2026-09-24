@@ -23,7 +23,7 @@ export default function Aboutusv1() {
       <HeaderOne
        />
       <main>
-        <Breadcrumb title="Gallery" subtitle="Gallery" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
+        <Breadcrumb title="Gallery" subtitle="Gallery" breadcrumb_img="/assets/img/breadcrumb/gallery-page.JPG" />
       <ImageSection/>
       </main>
       <FooterThree/>
