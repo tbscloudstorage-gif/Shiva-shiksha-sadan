@@ -83,7 +83,7 @@ export default function TestimonialThree() {
                       <div className="row align-items-center">
                         <div className="col-lg-5 col-md-5">
                           <div className="it-testimonial-thumb border-radius-20">
-                            <img src="assets/img/testimonial/thumb-1-3.jpg" alt="" />
+                            <img src="assets/img/testimonial/satpal.png" alt="" />
                           </div>
                         </div>
                         <div className="col-lg-7 col-md-7">
@@ -115,7 +115,7 @@ export default function TestimonialThree() {
                       <div className="row align-items-center">
                         <div className="col-lg-5 col-md-5">
                           <div className="it-testimonial-thumb border-radius-20">
-                            <img src="assets/img/testimonial/thumb-1-2.jpg" alt="" />
+                            <img src="assets/img/testimonial/nidhi.png" alt="" />
                           </div>
                         </div>
                         <div className="col-lg-7 col-md-7">
@@ -148,7 +148,7 @@ export default function TestimonialThree() {
                       <div className="row align-items-center">
                         <div className="col-lg-5 col-md-5">
                           <div className="it-testimonial-thumb border-radius-20">
-                            <img src="assets/img/testimonial/thumb-1-1.jpg" alt="" />
+                            <img src="assets/img/testimonial/dc.png" alt="" />
                           </div>
                         </div>
                         <div className="col-lg-7 col-md-7">
