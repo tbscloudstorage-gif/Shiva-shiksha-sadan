@@ -18,7 +18,7 @@ export default function TestimonialThree() {
                     <path d="M17.5 2.24284H16.6667V1.40951C16.6667 1.18849 16.5789 0.97653 16.4226 0.82025C16.2663 0.663969 16.0543 0.576172 15.8333 0.576172C13.3333 0.576172 10.5708 0.709505 9.16667 2.04284C7.7625 0.709505 5 0.576172 2.5 0.576172C2.27899 0.576172 2.06702 0.663969 1.91074 0.82025C1.75446 0.97653 1.66667 1.18849 1.66667 1.40951V2.24284H0.833333C0.61232 2.24284 0.400358 2.33064 0.244078 2.48692C0.0877973 2.6432 0 2.85516 0 3.07617V13.0762C0 13.2972 0.0877973 13.5091 0.244078 13.6654C0.400358 13.8217 0.61232 13.9095 0.833333 13.9095H17.5C17.721 13.9095 17.933 13.8217 18.0893 13.6654C18.2455 13.5091 18.3333 13.2972 18.3333 13.0762V3.07617C18.3333 2.85516 18.2455 2.6432 18.0893 2.48692C17.933 2.33064 17.721 2.24284 17.5 2.24284ZM15.8333 1.40951V11.4095C13.5542 11.4095 11.0708 11.5178 9.58333 12.5345V2.80534C10.675 1.53034 13.375 1.40951 15.8333 1.40951ZM8.75 2.80534V12.5345C7.2625 11.5178 4.77917 11.4095 2.5 11.4095V1.40951C4.95833 1.40951 7.65833 1.53034 8.75 2.80534ZM0.833333 3.07617H1.66667V11.4095C1.66667 11.6305 1.75446 11.8425 1.91074 11.9988C2.06702 12.155 2.27899 12.2428 2.5 12.2428C4.53333 12.2428 6.72917 12.3262 8.04583 13.0762H0.833333V3.07617ZM17.5 13.0762H10.2875C11.6042 12.3262 13.8 12.2428 15.8333 12.2428C16.0543 12.2428 16.2663 12.155 16.4226 11.9988C16.5789 11.8425 16.6667 11.6305 16.6667 11.4095V3.07617H17.5V13.0762Z" fill="#03594E" />
                   </svg>
                   Testimonial</span>
-                <h4 className="it-section-title">What Parents Say About Our School</h4>
+                <h4 className="it-section-title">Inspiring Words From Our Alumni</h4>
               </div>
             </div>
           </div>
@@ -63,13 +63,13 @@ export default function TestimonialThree() {
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">The school encourages our child to explore new ideas, participate actively, and develop a positive attitude toward learning.
+                              <h5 className="mb-30">Shiva Shiksha Sadan gave me a strong academic foundation while encouraging me to think independently. The guidance of my teachers continues to inspire me even today.
 </h5>
                             </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
-                                <h5 className="it-testimonial-avatar-name">Isha Singh</h5>
-                                <span>Mother of Arohi (Class 10th)</span>
+                                <h5 className="it-testimonial-avatar-name">Anu Kumari</h5>
+                                <span>IAS (Batch 20033)</span>
                               </div>
                                
                             </div>
@@ -95,12 +95,13 @@ export default function TestimonialThree() {
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">We are grateful for the supportive teachers and enriching environment that help our child grow both personally and academically.</h5>
+                              <h5 className="mb-30">My school years taught me discipline, confidence, and the importance of staying curious. The lessons I learned here have helped me at every stage of my journey.</h5>
                             </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
-                                <h5 className="it-testimonial-avatar-name">Vivek Rai</h5>
-                                <span>Father of Krishiv (Class 3rd)</span>
+                                <h5 className="it-testimonial-avatar-name">Satpal Antil</h5>
+                                <span>SP, Gorakhpur(Batch 2004)
+</span>
                               </div>
                                
                             </div>
@@ -126,12 +127,14 @@ export default function TestimonialThree() {
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">It is wonderful to see our child becoming more confident, curious, and responsible with every passing year.</h5>
+                              <h5 className="mb-30">From classroom learning to activities and friendships, my time at Shiva Shiksha Sadan is filled with wonderful memories. The school truly helped shape the person I am today.</h5>
                             </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
-                                <h5 className="it-testimonial-avatar-name">Anubhav Pratap Singh</h5>
-                                <span>Father of Mahi Singh (Class 9th)</span>
+                                <h5 className="it-testimonial-avatar-name">Nidhi Sehrawat
+</h5>
+                                <span>(Batch - 2013) IAS
+</span>
                               </div>
                                
                             </div>
@@ -157,14 +160,15 @@ export default function TestimonialThree() {
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">
-Shiva Shiksha Sadan provides a caring environment where our child feels supported, confident, and motivated to learn every day.
+                              <h5 className="mb-30">The teachers always encouraged us to discover our strengths and aim higher. Their support and mentorship played an important role in building my confidence and preparing me for the future.
 </h5>
                             </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
-                                <h5 className="it-testimonial-avatar-name">Ankit Gupta </h5>
-                                <span>Parent of Vedhansh Gupta (LKG)</span>
+                                <h5 className="it-testimonial-avatar-name">Pradeep Dahiya
+</h5>
+                                <span>IAS, DC Hisar (Batch-2013)
+</span>
                               </div>
                                
                             </div>
@@ -190,45 +194,14 @@ Shiva Shiksha Sadan provides a caring environment where our child feels supporte
                               </svg>
                             </div>
                             <div className="it-testimonial-text">
-                              <h5 className="mb-30">The teachers are dedicated and supportive, helping our child grow academically while developing strong values and confidence.
+                              <h5 className="mb-30"> Looking back, some of my most valuable lessons came from my time at Shiva Shiksha Sadan. The school provided the right balance of education, values, creativity, and personal development.
 </h5>                            </div>
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
-                                <h5 className="it-testimonial-avatar-name">Ravi Garg</h5>
-                                <span>Father of Aman Garg (Class 8th)</span>
-                              </div>
-                               
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="it-testimonial-item">
-                      <div className="row align-items-center">
-                        <div className="col-lg-5 col-md-5">
-                          <div className="it-testimonial-thumb border-radius-20">
-                            <img src="assets/img/testimonial/thumb-1-4.jpg" alt="" />
-                          </div>
-                        </div>
-                        <div className="col-lg-7 col-md-7">
-                          <div className="it-testimonial-content">
-                            <div className="it-testimonial-quote mb-35">
-                              <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 0.0849609H5C3.67392 0.0849609 2.40215 0.611745 1.46447 1.54943C0.526784 2.48711 0 3.75888 0 5.08496L0 10.085C0 10.748 0.263392 11.3839 0.732233 11.8527C1.20107 12.3216 1.83696 12.585 2.5 12.585H9.8875C9.59091 14.3306 8.68685 15.9153 7.33504 17.059C5.98323 18.2026 4.27069 18.8317 2.5 18.835C2.16848 18.835 1.85054 18.9667 1.61612 19.2011C1.3817 19.4355 1.25 19.7534 1.25 20.085C1.25 20.4165 1.3817 20.7344 1.61612 20.9688C1.85054 21.2033 2.16848 21.335 2.5 21.335C5.15125 21.332 7.69306 20.2775 9.56778 18.4027C11.4425 16.528 12.497 13.9862 12.5 11.335V2.58496C12.5 1.92192 12.2366 1.28603 11.7678 0.817194C11.2989 0.348353 10.663 0.0849609 10 0.0849609Z" fill="#4C505B" />
-                                <path d="M27.5 0.0849609H22.5C21.1739 0.0849609 19.9021 0.611745 18.9645 1.54943C18.0268 2.48711 17.5 3.75888 17.5 5.08496V10.085C17.5 10.748 17.7634 11.3839 18.2322 11.8527C18.7011 12.3216 19.337 12.585 20 12.585H27.3875C27.0909 14.3306 26.1868 15.9153 24.835 17.059C23.4832 18.2026 21.7707 18.8317 20 18.835C19.6685 18.835 19.3505 18.9667 19.1161 19.2011C18.8817 19.4355 18.75 19.7534 18.75 20.085C18.75 20.4165 18.8817 20.7344 19.1161 20.9688C19.3505 21.2033 19.6685 21.335 20 21.335C22.6513 21.332 25.1931 20.2775 27.0678 18.4027C28.9425 16.528 29.997 13.9862 30 11.335V2.58496C30 1.92192 29.7366 1.28603 29.2678 0.817194C28.7989 0.348353 28.163 0.0849609 27.5 0.0849609Z" fill="#4C505B" />
-                              </svg>
-                            </div>
-                            <div className="it-testimonial-text">
-                              <h5 className="mb-30"> 
- We appreciate the balanced approach to education, where academics, activities, and character development go hand in hand.
+                                <h5 className="it-testimonial-avatar-name">Ankur Raparia
 </h5>
-                            </div>
-                            <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
-                              <div className="it-testimonial-avatar-info">
-                                <h5 className="it-testimonial-avatar-name">Monica Sharma</h5>
-                                <span>Mother of  Ruhi Sharma (Class 3rd)</span>
+                                <span>(Batch - 2011) IFS
+</span>
                               </div>
                                
                             </div>
@@ -237,6 +210,7 @@ Shiva Shiksha Sadan provides a caring environment where our child feels supporte
                       </div>
                     </div>
                   </SwiperSlide>
+                 
 
                 </Swiper>
                 <div className="it-testimonial-arrow-wrap">

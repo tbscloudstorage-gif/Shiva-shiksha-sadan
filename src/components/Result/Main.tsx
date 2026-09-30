@@ -140,7 +140,7 @@ export default function TeamSeven() {
               </div>
             </div>
           </div>
-          {/* <div className="row">
+          <div className="row">
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".3s">
               <div className="it-team-3-item text-center mb-35">
@@ -148,13 +148,10 @@ export default function TeamSeven() {
                   <img src="assets/img/faculty/1.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
-                  <h4 className="it-team-3-title"><Link className="border-line" to="#">       Dr. Jyoti Dhiman       
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">       Avni    
 
  </Link></h4>
-                  <span>( Batch 2011-12)
- Anaesthesia
-Resident Doctor at 
-Dr S N Medical  Collge Jodhpur</span>
+                  <span> 96.8%</span>
                 </div>
               </div>
             </div>
@@ -166,13 +163,10 @@ Dr S N Medical  Collge Jodhpur</span>
                   <img src="assets/img/faculty/16.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
-                  <h4 className="it-team-3-title"><Link className="border-line" to="#">   Dr. Akanksha
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">   Mantavya
 
 </Link></h4>
-                  <span>(Batch 2017-18) 
-Puruing MBBS 
- SHKM Govt. Medical Collge
-Nalhar, Nuh</span>
+                  <span>96.6%</span>
                 </div>
               </div>
             </div>
@@ -184,9 +178,9 @@ Nalhar, Nuh</span>
                   <img src="assets/img/faculty/6.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
-                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Miss Tanvi</Link></h4>
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Shreya</Link></h4>
                   <span>
-Working as Director, Consulting at Voiant Group (Canada)</span>
+96.4%</span>
                 </div>
               </div>
             </div>            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
@@ -196,16 +190,13 @@ Working as Director, Consulting at Voiant Group (Canada)</span>
                   <img src="assets/img/faculty/17.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
-                  <h4 className="it-team-3-title"><Link className="border-line" to="#">      Dr. Soumya    
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">      Pulkesh  
 </Link></h4>
-                  <span>( Batch 2019-20)   
-Pursuing MBBS
- Rama medical college
-  Kanpur</span>
+                  <span>96.4%</span>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div> 
         </div>
       </div>
       {/* <!-- team-area-end --> */}
