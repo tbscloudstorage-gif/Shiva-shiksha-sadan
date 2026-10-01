@@ -9,6 +9,7 @@ import LanguageAcademy from "@/components/homes/language-academy";
 import CookupAcademy from "@/components/homes/cookup-academy";
 import BooksShop from "@/components/homes/books-shop";
 import Magazines from "@/components/Magazines"
+import BooksStationery from "@/components/BooksStationery"
 import Awards from "@/components/Awards/index.tsx"
 import MusicPlatform from "@/components/homes/music-platform";
 import QuranLearning from "@/components/homes/quran-learning";
@@ -31,6 +32,7 @@ import CareerDetails from "@/components/inner-pages/career/career-details";
 import EventGrid from "@/components/inner-pages/event/event-grid";
 import EventList from "@/components/inner-pages/event/event-list";
 import EventDetails from "@/components/inner-pages/event/event-details";
+import StudentCouncil from "@/components/StudentCouncil/index"
 // import TeamDetails from "@/components/inner-pages/team-inner/team-details";
 import Price from "@/components/inner-pages/price";
 import Faq from "@/components/inner-pages/faq";
@@ -58,6 +60,7 @@ import GalleryPage from "@/components/GalleryPage/index.tsx";
 import FeeStructure from "@/components/FeeStructure/index.tsx"
 import OurFaculty from "@/components/OurFaculty/index.tsx"
 import Academics from "@/components/Academics/index.tsx"
+import AcademicCalender from "@/components/AcademicCalendar/index"
 import Coursesv8 from "@/components/inner-pages/courses/courses-v8";
 import CoursesListSidebar from "@/components/inner-pages/courses/courses-list-sidebar";
 import CoursesOpenFilter from "@/components/inner-pages/courses/courses-open-filter";
@@ -120,6 +123,9 @@ const router = createBrowserRouter([
   { path: "/event-list", element: <EventList /> },
   { path: "/event-details", element: <EventDetails /> },
     { path: "/pre-primary", element: <Kindergarten /> },
+    { path: "/school-council", element: <StudentCouncil /> },
+    { path: "/academic-calender", element: <AcademicCalender /> },
+    { path: "/List-of-books-stationery", element: <BooksStationery /> },
 
   { path: "/our-philosophy", element: <OurPhilosophy /> },
   { path: "/prinicipal-message", element: <PrinicipalMessage/> },

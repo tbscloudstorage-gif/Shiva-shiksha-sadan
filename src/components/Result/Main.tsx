@@ -31,7 +31,7 @@ export default function TeamSeven() {
             </div>
           </div>
           <div className="row">
-                              <h5 className="it-section-title " style={{marginTop:"20px" , marginBottom : "50px"}}>Class X  Toppers</h5>
+            <h5 className="it-section-title " style={{ marginTop: "20px", marginBottom: "50px" }}>Class X  Toppers</h5>
 
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".3s">
@@ -53,9 +53,9 @@ export default function TeamSeven() {
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Chirag
-</Link></h4>
+                  </Link></h4>
                   <span>98.6%
-</span>
+                  </span>
                 </div>
               </div>
             </div>
@@ -79,9 +79,9 @@ export default function TeamSeven() {
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Reet
-</Link></h4>
+                  </Link></h4>
                   <span>
-97.4%</span>
+                    97.4%</span>
                 </div>
               </div>
             </div>
@@ -95,9 +95,9 @@ export default function TeamSeven() {
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Tishika
-</Link></h4>
+                  </Link></h4>
                   <span>97.4%
-</span>
+                  </span>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function TeamSeven() {
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Swasti
- </Link></h4>
+                  </Link></h4>
                   <span>97.4%</span>
                 </div>
               </div>
@@ -134,7 +134,7 @@ export default function TeamSeven() {
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Deeksha
-</Link></h4>
+                  </Link></h4>
                   <span>97%</span>
                 </div>
               </div>
@@ -148,14 +148,14 @@ export default function TeamSeven() {
                   <img src="assets/img/faculty/1.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
-                  <h4 className="it-team-3-title"><Link className="border-line" to="#">       Avni    
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">       Avni
 
- </Link></h4>
+                  </Link></h4>
                   <span> 96.8%</span>
                 </div>
               </div>
             </div>
-           
+
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".7s">
               <div className="it-team-3-item text-center mb-35">
@@ -165,13 +165,13 @@ export default function TeamSeven() {
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">   Mantavya
 
-</Link></h4>
+                  </Link></h4>
                   <span>96.6%</span>
                 </div>
               </div>
             </div>
 
- <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".5s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
@@ -180,7 +180,7 @@ export default function TeamSeven() {
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Shreya</Link></h4>
                   <span>
-96.4%</span>
+                    96.4%</span>
                 </div>
               </div>
             </div>            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
@@ -190,13 +190,180 @@ export default function TeamSeven() {
                   <img src="assets/img/faculty/17.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
-                  <h4 className="it-team-3-title"><Link className="border-line" to="#">      Pulkesh  
-</Link></h4>
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">      Pulkesh
+                  </Link></h4>
                   <span>96.4%</span>
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
+            <div className="row">
+            <h5 className="it-section-title " style={{ marginTop: "20px", marginBottom: "50px" }}>Class XII  Toppers</h5>
+
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".3s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/11.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Saanvi</Link></h4>
+                  <span>99.2%</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".5s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/15.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Chirag
+                  </Link></h4>
+                  <span>98.6%
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".7s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/7.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Angel</Link></h4>
+                  <span>98.2%</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".9s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/8.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Reet
+                  </Link></h4>
+                  <span>
+                    97.4%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".3s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/10.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Tishika
+                  </Link></h4>
+                  <span>97.4%
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".3s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/14.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Swasti
+                  </Link></h4>
+                  <span>97.4%</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".7s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/12.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Kartik</Link></h4>
+                  <span> 97.4%</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".9s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/13.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Deeksha
+                  </Link></h4>
+                  <span>97%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".3s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/1.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">       Avni
+
+                  </Link></h4>
+                  <span> 96.8%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".7s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/16.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">   Mantavya
+
+                  </Link></h4>
+                  <span>96.6%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".5s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/6.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Shreya</Link></h4>
+                  <span>
+                    96.4%</span>
+                </div>
+              </div>
+            </div>            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".9s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/faculty/17.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">      Pulkesh
+                  </Link></h4>
+                  <span>96.4%</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* <!-- team-area-end --> */}

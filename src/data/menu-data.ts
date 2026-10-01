@@ -193,7 +193,7 @@ const menu_data: DataType[] = [
       { link: "/assessment-promotion", title: "Assessment Promotion" },
             { link: "/results", title: "Result" },
                         { link: "/academic-calender", title: "Academic Calender" },
-                                                { link: "/student-council", title: "Student Council" },
+                                                { link: "/school-council", title: "Student Council" },
 
 
 
