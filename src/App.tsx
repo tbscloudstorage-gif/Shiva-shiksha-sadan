@@ -9,6 +9,7 @@ import LanguageAcademy from "@/components/homes/language-academy";
 import CookupAcademy from "@/components/homes/cookup-academy";
 import BooksShop from "@/components/homes/books-shop";
 import Magazines from "@/components/Magazines"
+import AssessmentPromotion from "@/components/AssessmentPromotion/index"
 import BooksStationery from "@/components/BooksStationery"
 import Awards from "@/components/Awards/index.tsx"
 import MusicPlatform from "@/components/homes/music-platform";
@@ -95,6 +96,7 @@ const router = createBrowserRouter([
     { path: "/magazines", element: <Magazines /> },
     { path: "/our-alumni", element: <Alumni /> },
     { path: "/media-coverage", element: <MediaCoverage /> },
+    { path: "/assessment-promotion", element: <AssessmentPromotion /> },
 
   { path: "/language-academy", element: <LanguageAcademy /> },
   { path: "/cookup-academy", element: <CookupAcademy /> },

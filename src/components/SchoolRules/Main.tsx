@@ -100,7 +100,7 @@ export default function SchoolRules() {
         {/* Heading */}
         <div className="rules-heading">
           <span className="rules-subtitle">STUDENT GUIDELINES</span>
-          <h2>School Rules & Code of Conduct</h2>
+          <h2 className="it-breadcrumb-title it-split-text it-split-in-right">School Rules & Code of Conduct</h2>
           <p className="it-feature-content ">
             Our school rules help create a safe, respectful and disciplined
             environment where every student can learn, grow and succeed.

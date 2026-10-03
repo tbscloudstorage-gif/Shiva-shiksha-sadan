@@ -55,7 +55,7 @@ export default function HeroThree() {
                             <p className="mb-35">At Shiva Shakti Sadan, we foster a supportive learning environment where every child is encouraged to explore, learn, grow with confidence, and develop the knowledge and values needed for a successful future.
 </p>
                             <div className="it-slider-btn">
-                              <Link to="#" className="it-btn-yellow theme-bg border-radius-100">
+                              <Link to="/apply-now" className="it-btn-yellow theme-bg border-radius-100">
                                 <span>
                                   <span className="text-1">Get Admissions</span>
                                   <span className="text-2">Get Admissions</span>
@@ -99,7 +99,7 @@ export default function HeroThree() {
                             <p className="mb-35">We nurture confidence, creativity, and curiosity, helping every student discover their strengths and reach their full potential.
 </p>
                             <div className="it-slider-btn">
-                              <Link to="#" className="it-btn-yellow theme-bg border-radius-100">
+                              <Link to="/apply-now" className="it-btn-yellow theme-bg border-radius-100">
                                 <span>
                                   <span className="text-1">Get Admissions</span>
                                   <span className="text-2">Get Admissions</span>
@@ -142,7 +142,7 @@ export default function HeroThree() {
                           <div className="it-slider-content-text">
                             <p className="mb-35">Empowering every student with the knowledge, confidence, and opportunities needed to grow, excel, and achieve their aspirations. </p>
                             <div className="it-slider-btn">
-                              <Link to="#" className="it-btn-yellow theme-bg border-radius-100">
+                              <Link to="/apply-now" className="it-btn-yellow theme-bg border-radius-100">
                                 <span>
                                   <span className="text-1">Get Admissions</span>
                                   <span className="text-2">Get Admissions</span>
@@ -185,7 +185,7 @@ export default function HeroThree() {
                           <div className="it-slider-content-text">
                             <p className="mb-35">Educaeet offers expert-led courses, modern tools, and a supportive environment <br /> to help learners grow, achieve success, and build a brighter future.</p>
                             <div className="it-slider-btn">
-                              <Link to="#" className="it-btn-yellow theme-bg border-radius-100">
+                              <Link to="/apply-now" className="it-btn-yellow theme-bg border-radius-100">
                                 <span>
                                   <span className="text-1">Get Admissions</span>
                                   <span className="text-2">Get Admissions</span>

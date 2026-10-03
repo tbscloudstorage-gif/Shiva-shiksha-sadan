@@ -22636,7 +22636,7 @@ textarea::placeholder {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 1.5px;
-  color: #1e63c6;
+  color: #03594e;
 }
 
 .rules-heading h2 {
@@ -22647,8 +22647,8 @@ textarea::placeholder {
 }
 
 .rules-heading p {
-  color: #68748a;
-  font-size: 16px;
+  color: #747e90;
+  font-size: 15px;
   line-height: 1.7;
 }
 
@@ -22673,7 +22673,7 @@ textarea::placeholder {
 }
 
 .blue-card {
-  border-top: 4px solid #2868c7;
+  border-top: 4px solid #03594e;
 }
 
 .green-card {
@@ -22681,7 +22681,7 @@ textarea::placeholder {
 }
 
 .discipline-card {
-  border-top: 4px solid #2868c7;
+  border-top: 4px solid #03594e;
   margin-bottom: 25px;
 }
 
@@ -22719,7 +22719,7 @@ textarea::placeholder {
 }
 
 .blue-icon {
-  color: #2868c7;
+  color: #03594e;
   background: #edf4ff;
 }
 
@@ -22754,7 +22754,7 @@ textarea::placeholder {
 }
 
 .blue-check {
-  color: #2868c7;
+  color: #03594e;
 }
 
 .green-check {
@@ -22836,7 +22836,7 @@ textarea::placeholder {
 
 .cooperation-card {
   text-align: center;
-  border-bottom: 4px solid #2868c7;
+  border-bottom: 4px solid #03594e;
 }
 
 .cooperation-icon {
@@ -22845,7 +22845,7 @@ textarea::placeholder {
   margin: 0 auto 15px;
   border-radius: 50%;
   background: #edf4ff;
-  color: #2868c7;
+  color: #03594e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23249,6 +23249,1329 @@ textarea::placeholder {
   }
 
 }
+/* =========================================
+   BOOK LIST PAGE
+========================================= */
+
+.book-list-page {
+  width: 100%;
+  background: #f3f7fb;
+  padding: 22px 0;
+}
+
+
+/* =========================================
+   EACH SECTION
+========================================= */
+
+.book-download-section {
+  width: 100%;
+  padding: 22px 0;
+}
+
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.book-container {
+  width: 92%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+
+/* =========================================
+   BLUE BOX
+========================================= */
+
+.book-download-box {
+  width: 100%;
+  min-height: 235px;
+
+  background: #d1e4c5;
+
+  border-radius: 15px;
+
+  padding: 35px 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.book-download-title {
+  margin: 0 0 20px;
+
+  color: black;
+
+  font-size: 25px;
+  line-height: 1.3;
+
+  font-weight: 700;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+/* =========================================
+   ASSESSMENT & PROMOTION POLICY
+========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+.assessment-page {
+  width: 100%;
+  background: #f5f7fa;
+  color: #0a2445;
+}
+
+.assessment-container {
+  width: 100%;
+  max-width: 1115px;
+  margin: 0 auto;
+}
+
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.assessment-hero {
+  padding: 50px 20px 0;
+  background: #f5f7fa;
+}
+
+.assessment-subtitle {
+  width: fit-content;
+  margin: 0 auto 22px;
+
+  color: #03594e;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 600;
+
+  text-align: center;
+
+  padding-bottom: 3px;
+  border-bottom: 4px solid #a8ccff;
+}
+
+.assessment-hero h1 {
+  max-width: 1100px;
+
+  margin: 0 auto 22px;
+
+  color: #06264d;
+
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 700;
+
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.assessment-intro {
+  max-width: 1120px;
+
+  margin: 0 auto 50px;
+
+  text-align: center;
+}
+
+.assessment-intro p {
+  margin: 0;
+
+  color: #1f2937;
+
+  font-size: 15px;
+  line-height: 1.85;
+  font-weight: 400;
+}
+
+
+/* =========================================
+   TABS
+========================================= */
+
+.assessment-tabs {
+  width: 100%;
+
+  min-height: 84px;
+
+  padding: 8px;
+
+  background: #ffffff;
+
+  border-radius: 14px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+
+  gap: 8px;
+
+  box-shadow: 0 8px 25px rgba(20, 40, 70, 0.1);
+
+  position: relative;
+  z-index: 2;
+}
+
+.assessment-tabs button {
+  width: 100%;
+  height: 62px;
+
+  padding: 0 20px;
+
+  border: 0;
+  border-radius: 10px;
+
+  background: transparent;
+
+  color: #303b49;
+
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 1.3;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+.assessment-tabs button:hover {
+  background: #f3f6fa;
+  color: #03594e;
+}
+
+.assessment-tabs button.active {
+  background: #03594e;
+  color: #ffffff;
+
+  box-shadow: 0 7px 18px rgba(55, 111, 189, 0.28);
+}
+
+
+/* =========================================
+   CONTENT SECTION
+========================================= */
+
+.assessment-content-section {
+  padding: 0 20px 55px;
+}
+
+.assessment-content-card {
+  width: 100%;
+
+  background: #ffffff;
+
+  padding: 0 36px 35px;
+
+  border-left: 5px solid #03594e;
+  border-radius: 0 0 18px 18px;
+
+  box-shadow: 0 18px 35px rgba(20, 40, 70, 0.08);
+
+  animation: assessmentFade 0.3s ease;
+}
+
+@keyframes assessmentFade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* =========================================
+   TAB HEADING
+========================================= */
+
+.assessment-content-card > h2 {
+    margin: 0px 0 41px;
+    padding-top: 4px;
+    color: #03594e;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+.assessment-content-card {
+    margin-top: 84px;
+    width: 100%;
+    background: #ffffff;
+    padding: 57px 36px 35px;
+    border-left: 5px solid #03594e;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 18px 35px rgba(20, 40, 70, 0.08);
+    animation: assessmentFade 0.3s ease;
+}
+
+/* =========================================
+   ACADEMIC SESSION
+========================================= */
+
+.academic-session-box {
+  width: 100%;
+
+  padding: 13px 24px 15px;
+
+  background: #f0f2f4;
+
+  border-left: 4px solid #03594e;
+  border-radius: 10px;
+}
+
+.academic-session-box h3 {
+  margin: 0 0 4px;
+
+  color: #3d4651;
+
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.academic-session-box p {
+  margin: 0;
+
+  color: #59697a;
+
+  font-size: 14px;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+.assessment-divider {
+  width: 100%;
+  height: 1px;
+
+  margin: 25px 0 32px;
+
+  background: #e6e9ed;
+}
+
+
+/* =========================================
+   ASSESSMENT CARDS
+========================================= */
+
+.assessment-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  column-gap: 24px;
+  row-gap: 40px;
+}
+
+.assessment-feature-card {
+  min-height: 157px;
+
+  padding: 25px;
+
+  background: #f5f6f7;
+
+  border-radius: 11px;
+
+  display: flex;
+  align-items: flex-start;
+
+  gap: 24px;
+}
+
+.assessment-icon {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+
+  margin-top: 0;
+
+  border-radius: 13px;
+
+  background: #03594e;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
+}
+
+.assessment-card-text {
+  flex: 1;
+}
+
+.assessment-card-text h3 {
+  margin: 0 0 7px;
+
+  color: #03594e;
+
+  font-size: 17px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.assessment-card-text p {
+  margin: 0;
+
+  color: #596979;
+
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+
+/* =========================================
+   CO-SCHOLASTIC
+========================================= */
+
+.co-scholastic {
+  margin-top: 34px;
+}
+
+.co-scholastic > h3 {
+  margin: 0 0 11px;
+
+  color: #071f3b;
+
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.co-scholastic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  column-gap: 70px;
+  row-gap: 17px;
+}
+
+
+/* =========================================
+   CHECK ITEMS
+========================================= */
+
+.check-list-item {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 11px;
+
+  color: #344354;
+
+  font-size: 16px;
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+.check-list-item svg {
+  min-width: 12px;
+
+  margin-top: 7px;
+
+  color: #0aa532;
+
+  font-size: 11px;
+}
+
+
+/* =========================================
+   IMPORTANT NOTES
+========================================= */
+
+.important-notes {
+  padding: 43px 0 5px;
+}
+
+.important-notes h2 {
+  margin: 0 0 10px;
+
+  color: #061d3a;
+
+  font-size: 21px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.important-notes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  column-gap: 70px;
+  row-gap: 15px;
+}
+
+
+/* =========================================
+   LAPTOP
+   1200px and below
+========================================= */
+
+@media (max-width: 1199px) {
+
+  .assessment-container {
+    max-width: 960px;
+  }
+
+  .assessment-hero h1 {
+    font-size: 50px;
+  }
+
+  .assessment-content-card > h2 {
+    font-size: 27px;
+  }
+
+  .assessment-feature-card {
+    padding: 22px;
+    gap: 18px;
+  }
+
+  .assessment-card-text h3 {
+    font-size: 18px;
+  }
+
+  .assessment-card-text p {
+    font-size: 15px;
+  }
+}
+
+
+/* =========================================
+   TABLET
+   992px and below
+========================================= */
+
+@media (max-width: 991px) {
+
+  .assessment-hero {
+    padding: 40px 20px 0;
+  }
+
+  .assessment-container {
+    max-width: 760px;
+  }
+
+  .assessment-subtitle {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+
+  .assessment-hero h1 {
+    max-width: 750px;
+
+    font-size: 42px;
+    line-height: 1.12;
+
+    margin-bottom: 20px;
+  }
+
+  .assessment-intro {
+    margin-bottom: 35px;
+  }
+
+  .assessment-intro p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .assessment-tabs {
+    min-height: 74px;
+  }
+
+  .assessment-tabs button {
+    height: 56px;
+
+    padding: 0 12px;
+
+    font-size: 15px;
+  }
+
+  .assessment-content-card {
+    padding: 0 25px 30px;
+  }
+
+  .assessment-content-card > h2 {
+    font-size: 25px;
+  }
+
+  .academic-session-box h3 {
+    font-size: 17px;
+  }
+
+  .academic-session-box p {
+    font-size: 14px;
+  }
+
+  .assessment-card-grid {
+    column-gap: 18px;
+    row-gap: 20px;
+  }
+
+  .assessment-feature-card {
+    min-height: 150px;
+
+    padding: 20px 18px;
+
+    gap: 15px;
+  }
+
+  .assessment-icon {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+
+    font-size: 18px;
+  }
+
+  .assessment-card-text h3 {
+    font-size: 16px;
+  }
+
+  .assessment-card-text p {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .check-list-item {
+    font-size: 14.5px;
+  }
+}
+
+
+/* =========================================
+   MOBILE
+   768px and below
+========================================= */
+
+@media (max-width: 767px) {
+
+  .assessment-hero {
+    padding: 30px 15px 0;
+  }
+
+  .assessment-content-section {
+    padding: 0 15px 40px;
+  }
+
+  .assessment-subtitle {
+    max-width: 100%;
+
+    font-size: 14px;
+    line-height: 1.5;
+
+    margin-bottom: 15px;
+  }
+
+  .assessment-hero h1 {
+    font-size: 32px;
+    line-height: 1.15;
+
+    letter-spacing: -0.5px;
+
+    margin-bottom: 17px;
+  }
+
+  .assessment-intro {
+    margin-bottom: 25px;
+  }
+
+  .assessment-intro p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+
+  /* -------------------------
+     MOBILE TABS
+  ------------------------- */
+
+  .assessment-tabs {
+    min-height: auto;
+
+    display: flex;
+
+    gap: 7px;
+
+    padding: 7px;
+
+    overflow-x: auto;
+
+    border-radius: 11px;
+
+    scrollbar-width: none;
+  }
+
+  .assessment-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .assessment-tabs button {
+    width: auto;
+    min-width: 185px;
+    height: 50px;
+
+    flex: 0 0 auto;
+
+    padding: 0 14px;
+
+    font-size: 13px;
+
+    white-space: nowrap;
+
+    border-radius: 8px;
+  }
+
+
+  /* -------------------------
+     TAB CONTENT
+  ------------------------- */
+
+  .assessment-content-card {
+    padding: 20px 17px 27px;
+
+    border-left-width: 4px;
+
+    border-radius: 0 0 13px 13px;
+  }
+
+  .assessment-content-card > h2 {
+    padding: 0;
+
+    margin-bottom: 10px;
+
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  .academic-session-box {
+    padding: 13px 15px;
+  }
+
+  .academic-session-box h3 {
+    margin-bottom: 4px;
+
+    font-size: 16px;
+  }
+
+  .academic-session-box p {
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .assessment-divider {
+    margin: 20px 0;
+  }
+
+
+  /* -------------------------
+     CARDS
+  ------------------------- */
+
+  .assessment-card-grid {
+    grid-template-columns: 1fr;
+
+    gap: 14px;
+  }
+
+  .assessment-feature-card {
+    min-height: auto;
+
+    padding: 18px 16px;
+
+    gap: 15px;
+  }
+
+  .assessment-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+
+    border-radius: 10px;
+
+    font-size: 17px;
+  }
+
+  .assessment-card-text h3 {
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    line-height: 1.35;
+  }
+
+  .assessment-card-text p {
+    font-size: 13.5px;
+    line-height: 1.55;
+  }
+
+
+  /* -------------------------
+     CO-SCHOLASTIC
+  ------------------------- */
+
+  .co-scholastic {
+    margin-top: 25px;
+  }
+
+  .co-scholastic > h3 {
+    margin-bottom: 10px;
+
+    font-size: 17px;
+  }
+
+  .co-scholastic-grid {
+    grid-template-columns: 1fr;
+
+    gap: 10px;
+  }
+
+  .check-list-item {
+    gap: 9px;
+
+    font-size: 13.5px;
+    line-height: 1.55;
+  }
+
+  .check-list-item svg {
+    margin-top: 5px;
+  }
+
+
+  /* -------------------------
+     IMPORTANT NOTES
+  ------------------------- */
+
+  .important-notes {
+    padding: 30px 0 0;
+  }
+
+  .important-notes h2 {
+    margin-bottom: 10px;
+
+    font-size: 18px;
+  }
+
+  .important-notes-grid {
+    grid-template-columns: 1fr;
+
+    gap: 10px;
+  }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+   480px and below
+========================================= */
+
+@media (max-width: 480px) {
+
+  .assessment-hero {
+    padding: 25px 12px 0;
+  }
+
+  .assessment-content-section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .assessment-subtitle {
+    font-size: 12.5px;
+
+    border-bottom-width: 3px;
+  }
+
+  .assessment-hero h1 {
+    font-size: 27px;
+    line-height: 1.18;
+  }
+
+  .assessment-intro p {
+    font-size: 13px;
+    line-height: 1.65;
+  }
+
+  .assessment-tabs button {
+    min-width: 170px;
+
+    height: 47px;
+
+    font-size: 12.5px;
+  }
+
+  .assessment-content-card {
+    padding: 18px 13px 24px;
+  }
+
+  .assessment-content-card > h2 {
+    font-size: 20px;
+  }
+
+  .academic-session-box {
+    padding: 12px 13px;
+  }
+
+  .academic-session-box h3 {
+    font-size: 15px;
+  }
+
+  .academic-session-box p {
+    font-size: 12.5px;
+  }
+
+  .assessment-feature-card {
+    padding: 15px 13px;
+
+    gap: 12px;
+  }
+
+  .assessment-icon {
+    width: 43px;
+    height: 43px;
+    min-width: 43px;
+
+    font-size: 15px;
+  }
+
+  .assessment-card-text h3 {
+    font-size: 15px;
+  }
+
+  .assessment-card-text p {
+    font-size: 12.5px;
+  }
+
+  .co-scholastic > h3,
+  .important-notes h2 {
+    font-size: 17px;
+  }
+
+  .check-list-item {
+    font-size: 12.5px;
+  }
+}
+.book-download-description {
+  width: 100%;
+  max-width: 950px;
+
+  margin: 0 auto 27px;
+
+  color: black
+  ;
+
+  font-size: 17px;
+  line-height: 1.6;
+
+  font-weight: 400;
+}
+
+
+/* =========================================
+   BUTTON WRAPPER
+========================================= */
+
+.book-download-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 18px;
+
+  flex-wrap: wrap;
+}
+
+
+/* =========================================
+   COMMON BUTTON
+========================================= */
+
+.book-download-btn {
+  min-width: 165px;
+  height: 57px;
+
+  padding: 0 28px;
+
+  border: none;
+  border-radius: 10px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 13px;
+
+  font-family: inherit;
+
+  font-size: 16px;
+  line-height: 1;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  box-sizing: border-box;
+
+  transition:
+    transform 0.25s ease,
+    background-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+/* =========================================
+   ICON
+========================================= */
+
+.book-download-btn svg {
+  font-size: 17px;
+  flex-shrink: 0;
+}
+
+
+/* =========================================
+   DOWNLOAD BUTTON
+========================================= */
+
+.book-pdf-btn {
+  background: #ffd15b;
+  color: #111111;
+}
+
+.book-pdf-btn:hover {
+  background: #ffc83d;
+  color: #111111;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================
+   PRINT BUTTON
+========================================= */
+
+.book-print-btn {
+  background: #ffffff;
+  color: #075cf5;
+}
+
+.book-print-btn:hover {
+  background: #f3f6ff;
+  color: #075cf5;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Remove button default styling */
+
+.book-print-btn {
+  outline: none;
+}
+
+.book-print-btn:focus {
+  outline: none;
+}
+
+
+/* =========================================
+   LARGE DESKTOP
+   1400px+
+========================================= */
+
+@media (min-width: 1400px) {
+
+  .book-container {
+    max-width: 1320px;
+  }
+
+  .book-download-box {
+    min-height: 237px;
+  }
+}
+
+
+/* =========================================
+   LAPTOP
+   1200px
+========================================= */
+
+@media (max-width: 1199px) {
+
+  .book-container {
+    width: 92%;
+  }
+
+  .book-download-box {
+    min-height: 225px;
+    padding: 32px 25px;
+  }
+
+  .book-download-title {
+    font-size: 24px;
+  }
+
+  .book-download-description {
+    font-size: 16px;
+  }
+}
+
+
+/* =========================================
+   TABLET
+   992px
+========================================= */
+
+@media (max-width: 991px) {
+
+  .book-list-page {
+    padding: 15px 0;
+  }
+
+  .book-download-section {
+    padding: 18px 0;
+  }
+
+  .book-container {
+    width: 94%;
+  }
+
+  .book-download-box {
+    min-height: auto;
+
+    padding: 35px 25px;
+
+    border-radius: 14px;
+  }
+
+  .book-download-title {
+    font-size: 23px;
+    margin-bottom: 16px;
+  }
+
+  .book-download-description {
+    max-width: 750px;
+
+    font-size: 15.5px;
+
+    margin-bottom: 25px;
+  }
+
+  .book-download-btn {
+    height: 54px;
+
+    min-width: 160px;
+
+    padding: 0 24px;
+
+    font-size: 15px;
+  }
+}
+
+
+/* =========================================
+   SMALL TABLET
+   768px
+========================================= */
+
+@media (max-width: 767px) {
+
+  .book-download-section {
+    padding: 14px 0;
+  }
+
+  .book-container {
+    width: 92%;
+  }
+
+  .book-download-box {
+    padding: 32px 20px;
+
+    border-radius: 13px;
+  }
+
+  .book-download-title {
+    font-size: 21px;
+    line-height: 1.4;
+
+    margin-bottom: 14px;
+  }
+
+  .book-download-description {
+    font-size: 14.5px;
+    line-height: 1.6;
+
+    margin-bottom: 22px;
+  }
+
+  .book-download-buttons {
+    gap: 12px;
+  }
+
+  .book-download-btn {
+    min-width: 155px;
+
+    height: 52px;
+
+    padding: 0 20px;
+
+    font-size: 14.5px;
+  }
+}
+
+
+/* =========================================
+   MOBILE
+   576px
+========================================= */
+
+@media (max-width: 575px) {
+
+  .book-list-page {
+    padding: 10px 0;
+  }
+
+  .book-download-section {
+    padding: 10px 0;
+  }
+
+  .book-container {
+    width: calc(100% - 30px);
+  }
+
+  .book-download-box {
+    width: 100%;
+
+    min-height: auto;
+
+    padding: 28px 18px;
+
+    border-radius: 12px;
+  }
+
+  .book-download-title {
+    font-size: 20px;
+    line-height: 1.35;
+
+    margin-bottom: 13px;
+  }
+
+  .book-download-description {
+    font-size: 14px;
+    line-height: 1.6;
+
+    margin-bottom: 22px;
+  }
+
+  .book-download-buttons {
+    width: 100%;
+
+    flex-direction: column;
+
+    gap: 11px;
+  }
+
+  .book-download-btn {
+    width: 100%;
+
+    min-width: 0;
+
+    max-width: 300px;
+
+    height: 51px;
+
+    padding: 0 18px;
+
+    font-size: 14px;
+  }
+
+  .book-download-btn svg {
+    font-size: 15px;
+  }
+}
+
+
+/* =========================================
+   VERY SMALL MOBILE
+   375px
+========================================= */
+
+@media (max-width: 375px) {
+
+  .book-container {
+    width: calc(100% - 20px);
+  }
+
+  .book-download-box {
+    padding: 25px 15px;
+  }
+
+  .book-download-title {
+    font-size: 18px;
+  }
+
+  .book-download-description {
+    font-size: 13px;
+  }
+
+  .book-download-btn {
+    height: 48px;
+
+    font-size: 13.5px;
+  }
+}
+
+
+/* =========================================
+   PRINT
+========================================= */
+
+@media print {
+
+  .book-download-buttons {
+    display: none;
+  }
+
+  .book-list-page {
+    background: #ffffff;
+  }
+
+  .book-download-box {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .book-download-title,
+  .book-download-description {
+    color: #000000;
+  }
+}
 .cooperation-card > p {
   max-width: 760px;
   margin: 0 auto 28px;
@@ -23267,7 +24590,7 @@ textarea::placeholder {
   background: #f6f9ff;
   padding: 18px 10px;
   border-radius: 8px;
-  color: #2868c7;
+  color: #03594e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23473,6 +24796,908 @@ textarea::placeholder {
 @media (max-width: 767px) {
   .it-gallery-shape-2 {
     display: none;
+  }
+}
+/* =========================================
+   BASE
+========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+.transport-page {
+  width: 100%;
+  overflow: hidden;
+
+  background: #ffffff;
+  color: #172235;
+}
+
+.transport-container {
+  width: 100%;
+  max-width: 1120px;
+
+  margin: 0 auto;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.transport-hero {
+  width: 100%;
+
+  padding: 18px 0 84px;
+
+  background: #172742;
+  color: #ffffff;
+
+  text-align: center;
+}
+
+.transport-hero h1 {
+  margin: 0 0 24px;
+
+  color: #f5f7fb;
+
+  font-size: 58px;
+  line-height: 1.15;
+  font-weight: 700;
+
+  letter-spacing: -1px;
+}
+
+.transport-hero p {
+  margin: 0;
+
+  color: #f0f3f8;
+
+  font-size: 20px;
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+
+/* STATS */
+
+.transport-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 70px;
+
+  margin-top: 37px;
+}
+
+.transport-stat {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 120px;
+
+  text-align: center;
+}
+
+.transport-stat strong {
+  color:  #03594e;
+
+  font-size: 43px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.transport-stat span {
+  margin-top: 9px;
+
+  color: #a9c0df;
+
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+
+/* =========================================
+   COMMON SECTIONS
+========================================= */
+
+.transport-section {
+  width: 100%;
+
+  padding: 76px 0;
+}
+
+.transport-section-heading {
+  margin-bottom: 47px;
+
+  text-align: center;
+}
+
+.transport-section-heading > span {
+  display: block;
+
+  margin-bottom: 13px;
+
+  color: #1763ff;
+
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 700;
+
+  letter-spacing: 1.4px;
+}
+
+.transport-section-heading h2 {
+  margin: 0;
+
+  color: #152238;
+
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  letter-spacing: -0.7px;
+}
+
+.transport-section-heading p {
+  margin: 17px 0 0;
+
+  color: #687589;
+
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+
+/* =========================================
+   TRANSPORT OPTIONS
+========================================= */
+
+.transport-options-section {
+  background: #f6f7f9;
+}
+
+.transport-options-grid {
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+}
+
+.transport-option-card {
+  min-height: 480px;
+
+  padding: 32px 34px 40px;
+
+  background: #ffffff;
+
+  border-radius: 0 0 12px 12px;
+
+  box-shadow: 0 7px 17px rgba(23, 34, 53, 0.13);
+}
+
+.transport-option-icon {
+  width: 70px;
+  height: 70px;
+
+  margin-bottom: 21px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #dbeaff;
+  color:  #03594e;
+
+  font-size: 31px;
+}
+
+.transport-option-icon.green {
+  background: #d6f8e8;
+  color: #0ab978;
+}
+
+.transport-option-card h3 {
+  margin: 0 0 28px;
+
+  color: #111c2d;
+
+  font-size: 26px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+
+/* FEATURE LIST */
+
+.transport-feature-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 19px;
+}
+
+.transport-feature {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 13px;
+
+  color: #172235;
+
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.transport-feature svg {
+  flex: 0 0 auto;
+
+  margin-top: 4px;
+
+  color: #06b978;
+
+  font-size: 14px;
+}
+
+
+/* INFO */
+
+.transport-info-box {
+  margin-top: 28px;
+
+  padding: 18px 16px;
+
+  display: flex;
+  align-items: flex-start;
+
+  gap: 13px;
+
+  background: #f6f8fa;
+
+  border-radius: 10px;
+
+  color: #687589;
+
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.transport-info-box svg {
+  flex: 0 0 auto;
+
+  margin-top: 3px;
+
+  color:  #03594e;
+}
+
+
+/* =========================================
+   ROUTES
+========================================= */
+
+.routes-section {
+  background: #f8fafc;
+}
+
+.transport-routes-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 24px;
+}
+
+.transport-route-card {
+  min-height: 315px;
+
+  padding: 32px;
+
+  background: #ffffff;
+
+  border: 1px solid #dde2e8;
+  border-radius: 11px;
+
+  box-shadow: 0 3px 6px rgba(23, 34, 53, 0.08);
+}
+
+.route-code {
+  width: 41px;
+  height: 41px;
+
+  margin-bottom: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background:  #03594e;
+  color: #ffffff;
+
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.transport-route-card h3 {
+  margin: 0 0 23px;
+
+  color: #202b3d;
+
+  font-size: 21px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.route-location-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.route-location {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 12px;
+
+  color: #2f3948;
+
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.route-location svg {
+  flex: 0 0 auto;
+
+  margin-top: 3px;
+
+  color:  #03594e;
+
+  font-size: 14px;
+}
+
+
+/* =========================================
+   SAFETY
+========================================= */
+
+.safety-section {
+  background: #ffffff;
+}
+
+.safety-grid {
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 31px;
+}
+
+.safety-card {
+  min-height: 230px;
+
+  padding: 32px 25px;
+
+  background: #f8fafc;
+
+  border: 1px solid #dce2e9;
+  border-radius: 11px;
+
+  text-align: center;
+}
+
+.safety-icon {
+  width: 61px;
+  height: 61px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #dceaff;
+  color:  #03594e;
+
+  border-radius: 50%;
+
+  font-size: 24px;
+}
+
+.safety-card h3 {
+  margin: 0 0 12px;
+
+  color: #1d2738;
+
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.safety-card p {
+  margin: 0;
+
+  color: #6c7788;
+
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+/* =========================================
+   IMPORTANT INFORMATION
+========================================= */
+
+.important-section {
+  padding: 5px 0 75px;
+
+  background: #ffffff;
+}
+
+.important-box {
+  max-width: 800px;
+
+  margin: 0 auto;
+
+  padding: 29px 32px;
+
+  background: #f8fafc;
+
+  border: 1px solid #dce2e9;
+  border-radius: 11px;
+}
+
+.important-heading {
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+
+  margin-bottom: 24px;
+}
+
+.important-heading svg {
+  color: #f59d0b;
+
+  font-size: 23px;
+}
+
+.important-heading h2 {
+  margin: 0;
+
+  color: #172235;
+
+  font-size: 25px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.important-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 17px;
+}
+
+.important-item {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 17px;
+
+  color: #162238;
+
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.important-item svg {
+  flex: 0 0 auto;
+
+  margin-top: 4px;
+
+  color: #05b879;
+
+  font-size: 14px;
+}
+
+
+/* =========================================
+   LAPTOP
+========================================= */
+
+@media (max-width: 1199px) {
+
+  .transport-container {
+    max-width: 960px;
+  }
+
+  .transport-hero h1 {
+    font-size: 50px;
+  }
+
+  .transport-routes-grid {
+    gap: 18px;
+  }
+
+  .transport-route-card {
+    padding: 26px;
+  }
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+  .transport-container {
+    max-width: 760px;
+  }
+
+  .transport-hero {
+    padding: 45px 0 65px;
+  }
+
+  .transport-hero h1 {
+    font-size: 43px;
+  }
+
+  .transport-hero p {
+    font-size: 17px;
+  }
+
+  .transport-section {
+    padding: 65px 0;
+  }
+
+  .transport-section-heading h2 {
+    font-size: 36px;
+  }
+
+  .transport-options-grid {
+    gap: 20px;
+  }
+
+  .transport-option-card {
+    padding: 27px;
+  }
+
+  .transport-routes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .safety-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .transport-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
+  /* HERO */
+
+  .transport-hero {
+    padding: 45px 0 50px;
+  }
+
+  .transport-hero h1 {
+    margin-bottom: 17px;
+
+    font-size: 34px;
+    line-height: 1.15;
+  }
+
+  .transport-hero p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .desktop-break {
+    display: none;
+  }
+
+
+  /* STATS */
+
+  .transport-stats {
+    gap: 25px;
+
+    margin-top: 32px;
+  }
+
+  .transport-stat {
+    flex: 1;
+
+    min-width: 0;
+  }
+
+  .transport-stat strong {
+    font-size: 31px;
+  }
+
+  .transport-stat span {
+    font-size: 11px;
+  }
+
+
+  /* SECTIONS */
+
+  .transport-section {
+    padding: 55px 0;
+  }
+
+  .transport-section-heading {
+    margin-bottom: 30px;
+  }
+
+  .transport-section-heading > span {
+    margin-bottom: 9px;
+
+    font-size: 12px;
+  }
+
+  .transport-section-heading h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .transport-section-heading p {
+    margin-top: 12px;
+
+    font-size: 14px;
+  }
+
+
+  /* TRANSPORT CARDS */
+
+  .transport-options-grid {
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+  }
+
+  .transport-option-card {
+    min-height: auto;
+
+    padding: 25px 22px;
+  }
+
+  .transport-option-icon {
+    width: 58px;
+    height: 58px;
+
+    margin-bottom: 17px;
+
+    font-size: 25px;
+  }
+
+  .transport-option-card h3 {
+    margin-bottom: 21px;
+
+    font-size: 22px;
+  }
+
+  .transport-feature-list {
+    gap: 14px;
+  }
+
+  .transport-feature {
+    font-size: 14px;
+  }
+
+  .transport-info-box {
+    margin-top: 22px;
+
+    padding: 14px;
+
+    font-size: 13px;
+  }
+
+
+  /* ROUTES */
+
+  .transport-routes-grid {
+    grid-template-columns: 1fr;
+
+    gap: 16px;
+  }
+
+  .transport-route-card {
+    min-height: auto;
+
+    padding: 24px 21px;
+  }
+
+  .route-code {
+    width: 38px;
+    height: 38px;
+
+    margin-bottom: 14px;
+
+    font-size: 15px;
+  }
+
+  .transport-route-card h3 {
+    margin-bottom: 19px;
+
+    font-size: 19px;
+  }
+
+  .route-location-list {
+    gap: 12px;
+  }
+
+  .route-location {
+    font-size: 14px;
+  }
+
+
+  /* SAFETY */
+
+  .safety-grid {
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+  }
+
+  .safety-card {
+    min-height: auto;
+
+    padding: 27px 20px;
+  }
+
+  .safety-icon {
+    width: 55px;
+    height: 55px;
+
+    margin-bottom: 15px;
+
+    font-size: 21px;
+  }
+
+  .safety-card h3 {
+    font-size: 18px;
+  }
+
+  .safety-card p {
+    font-size: 14px;
+  }
+
+
+  /* IMPORTANT */
+
+  .important-section {
+    padding: 0 0 55px;
+  }
+
+  .important-box {
+    padding: 23px 20px;
+  }
+
+  .important-heading {
+    gap: 12px;
+
+    margin-bottom: 20px;
+  }
+
+  .important-heading svg {
+    font-size: 20px;
+  }
+
+  .important-heading h2 {
+    font-size: 21px;
+  }
+
+  .important-list {
+    gap: 14px;
+  }
+
+  .important-item {
+    gap: 12px;
+
+    font-size: 13.5px;
+  }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+  .transport-container {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .transport-hero {
+    padding: 38px 0 42px;
+  }
+
+  .transport-hero h1 {
+    font-size: 29px;
+  }
+
+  .transport-hero p {
+    font-size: 13.5px;
+  }
+
+  .transport-stats {
+    gap: 12px;
+  }
+
+  .transport-stat strong {
+    font-size: 27px;
+  }
+
+  .transport-stat span {
+    font-size: 10px;
+  }
+
+  .transport-section {
+    padding: 45px 0;
+  }
+
+  .transport-section-heading h2 {
+    font-size: 26px;
+  }
+
+  .transport-section-heading p {
+    font-size: 13px;
+  }
+
+  .transport-option-card {
+    padding: 22px 18px;
+  }
+
+  .transport-option-card h3 {
+    font-size: 20px;
+  }
+
+  .transport-route-card {
+    padding: 21px 18px;
+  }
+
+  .transport-route-card h3 {
+    font-size: 18px;
+  }
+
+  .important-box {
+    padding: 20px 17px;
+  }
+
+  .important-heading h2 {
+    font-size: 19px;
   }
 }
 .it-gallery-shape-3 {

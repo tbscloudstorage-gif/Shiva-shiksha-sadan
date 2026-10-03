@@ -1,5 +1,5 @@
 import Breadcrumb from "@/components/breadcrumb/Breadcrumb";
-import Main from "@/components/BooksStationery/Main";
+import Main from "@/components/AssessmentPromotion/Main";
 import NewsletterThree from "@/components/newsletter/NewsletterThree";
 import FooterThree from "@/layouts/footers/FooterThree";
 // import HeaderInner from "@/layouts/headers/HeaderInner";
@@ -13,7 +13,7 @@ export default function EventGrid() {
     <Wrapper>
       <HeaderOne />
       <main>
-        <Breadcrumb title="Books & Stationery" subtitle="Books & Stationery" breadcrumb_img="/assets/img/breadcrumb/media.JPG" />
+        <Breadcrumb title="Assessment Promotion" subtitle="Assessment Promotion" breadcrumb_img="/assets/img/breadcrumb/media.JPG" />
         <Main/>
         <NewsletterThree style_2={true} />
       </main>

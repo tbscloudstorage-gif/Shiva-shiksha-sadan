@@ -44,12 +44,12 @@ export default function FooterThree() {
                     <h4 className="it-footer-widget-title">Academics</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
-                        <li><a href="/">School Rules</a></li>
-                        <li><a href="/about-us-v1">List of Books & Stationery</a></li>
-                        <li><a href="/event-grid">Assessment Promotion</a></li>
-                        <li><a href="blog-grid">Results</a></li>
-                        <li><a href="contact-us">Academic Calender</a></li>
-                                                <li><a href="contact-us">Student Council</a></li>
+                        <li><a href="/school-rules">School Rules</a></li>
+                        <li><a href="/List-of-books-stationery">List of Books & Stationery</a></li>
+                        <li><a href="/assessment-promotion">Assessment Promotion</a></li>
+                        <li><a href="results">Results</a></li>
+                        <li><a href="academic-calender">Academic Calender</a></li>
+                                                <li><a href="school-council">Student Council</a></li>
 
                       </ul>
                     </div>
@@ -75,7 +75,7 @@ export default function FooterThree() {
                     <h4 className="it-footer-widget-title">News & Event</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
-                        <li><a href="/event-grid">Upcoming Event</a></li>
+                        <li><a href="/upcoming-event">Upcoming Event</a></li>
                         <li><a href="/magazines">Magazines</a></li>
                                                 <li><a href="/media-coverage">Media Coverage</a></li>
 
@@ -90,7 +90,7 @@ export default function FooterThree() {
                     <div className="it-footer-widget-menu">
                       <ul>
                         <li><a href="/fee-structure">Fee Structure</a></li>
-                        <li><a href="/about-us-v1">Transport Facility</a></li>
+                        <li><a href="/transport-facility">Transport Facility</a></li>
                         <li><a href="/faq">FAQs</a></li>
                         <li><a href="/apply-now">Apply Now</a></li>
                       </ul>

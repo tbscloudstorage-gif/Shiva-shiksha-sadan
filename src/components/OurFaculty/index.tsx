@@ -565,7 +565,7 @@ export default function TeamArea() {
               data-wow-delay=".7s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Kajal Gupta IV D.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Kajal Gupta VI F.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -581,7 +581,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Anju kaushik III E.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Neha Dahra PP2 Zinnia.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -613,7 +613,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Anju Paliwal.png " alt="" />
+                  <img className="w-100" src="assets/img/faculty/Shikha Jhamb. VIII D.png " alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -629,7 +629,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Bhawna Tyagi.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Sukanya VI B.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -661,7 +661,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Nisha Sehrawat ( VI H ).jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Sunita Narang PP 3 Cosmos.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -677,7 +677,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Munesh Sharma (IV G).jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Yogita.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -693,7 +693,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Meenu-VIII A.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Seema SAROHA PP2 lavender.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -709,7 +709,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Manju Narwal VIII C.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Preeti Sharma_I B.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -725,7 +725,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Madhu Antil XE.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Yashika VI-A.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -757,7 +757,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Preeti Kuchhal.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Poonam Bhagat-V C.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -774,7 +774,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Priya Mor - IX D.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Shruti Singla PP 3 Tulip.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -794,7 +794,7 @@ export default function TeamArea() {
               data-wow-delay=".3s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Aarkey Gupta VI E.heic" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Pooja Tyagi.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -810,7 +810,7 @@ export default function TeamArea() {
               data-wow-delay=".5s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Aarti-Gupta-IV-F.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Shweta Chugh PP3 Daffodil.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -842,7 +842,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className="p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/alisha thukral.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Sonu IXG.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -858,7 +858,7 @@ export default function TeamArea() {
               data-wow-delay=".3s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Alka Jain IX B.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Seema Bansal ( PRT non CT).jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -874,7 +874,7 @@ export default function TeamArea() {
               data-wow-delay=".5s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Amisha-PP3 Lavender.JPG" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Preeti kalra VII C.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -890,7 +890,7 @@ export default function TeamArea() {
               data-wow-delay=".7s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Amita Kochar_PP2 Jasmine.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Seema Jaiswal Vll E.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -906,7 +906,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Anishma Neb - PP1 zinnia.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/moni.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -922,7 +922,7 @@ export default function TeamArea() {
               data-wow-delay=".3s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Anita Tewari.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Shallu XI E.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -938,7 +938,7 @@ export default function TeamArea() {
               data-wow-delay=".5s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Anjali Sharma - I A.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Neetu Vll B.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -954,7 +954,7 @@ export default function TeamArea() {
               data-wow-delay=".7s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Archana Kamra.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Pooja VIII E.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -970,7 +970,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Anju kaushik III E.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/neet.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -986,7 +986,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Anjali Arora web.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Reetu_IF.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1002,7 +1002,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Anju Paliwal.png " alt="" />
+                  <img className="w-100" src="assets/img/faculty/Sugandha_III B.jpg " alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1034,7 +1034,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Nisha Tewari VI D.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Poonam Dalal XI -B.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1050,7 +1050,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Nisha Sehrawat ( VI H ).jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Santosh Kuhar-IIIH.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1066,7 +1066,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Munesh Sharma (IV G).jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Yojna.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1082,7 +1082,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Meenu-VIII A.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Lalita Batra 7th F.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1098,7 +1098,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Manju Narwal VIII C.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Sonia Wadhwa PP 1(Lav).jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1130,7 +1130,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/riti.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Sangeeta Maan PHE.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1146,7 +1146,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Preeti Kuchhal.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Rashmi Chaudhary.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1163,7 +1163,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Priya Mor - IX D.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Laksha. png" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1182,7 +1182,7 @@ export default function TeamArea() {
               data-wow-delay=".3s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Aarkey Gupta VI E.heic" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Yogesh kumar _ VE.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1198,7 +1198,7 @@ export default function TeamArea() {
               data-wow-delay=".5s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Aarti-Gupta-IV-F.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Romani Sethi_IV-H.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1214,12 +1214,12 @@ export default function TeamArea() {
               data-wow-delay=".7s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Abha-Tyagi-X.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/DrRajneeJain.png" alt="" />
 
                 </div>
                 <div className="it-team-content">
                   <h4 className="it-team-title">
-                    <Link className="border-line" to="">Dr. Rajni Jain </Link>
+                    <Link className="border-line" to="">Dr. Rajnee Jain </Link>
                   </h4>
                   <span>Class X D</span>
 
@@ -1230,7 +1230,7 @@ export default function TeamArea() {
               data-wow-delay=".9s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className="p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/alisha thukral.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Vandana Arora XII B.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1246,7 +1246,7 @@ export default function TeamArea() {
               data-wow-delay=".3s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Alka Jain IX B.jpg" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Harshita Gautam  VF.heif" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1262,7 +1262,7 @@ export default function TeamArea() {
               data-wow-delay=".5s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Amisha-PP3 Lavender.JPG" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Yash Malhotra VD.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1326,7 +1326,7 @@ export default function TeamArea() {
               data-wow-delay=".5s">
               <div className="it-team-item text-center p-relative mb-35">
                 <div className=" p-relative border-radius-20">
-                  <img className="w-100" src="assets/img/faculty/Anjali Sharma - I A.png" alt="" />
+                  <img className="w-100" src="assets/img/faculty/Poonam khanna.jpg" alt="" />
 
                 </div>
                 <div className="it-team-content">
@@ -1370,6 +1370,7 @@ export default function TeamArea() {
                 </div>
               </div>
             </div>
+
          
            
         

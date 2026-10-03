@@ -21,10 +21,10 @@ export default function BrandThree() {
                      <h4 className="it-section-title">A Journey of Success, Recognition, Pride <br />  and Excellence</h4>
                   </div>
                   <div className="it-brand-btn">
-                     <a href="#" className="it-btn-yellow theme-bg border-radius-100">
+                     <a href="/awards-&-honors" className="it-btn-yellow theme-bg border-radius-100">
                         <span>
-                           <span className="text-1">Start Learning Now</span>
-                           <span className="text-2">Start Learning Now</span>
+                           <span className="text-1"> Awards & Honors</span>
+                           <span className="text-2"> Awards & Honors</span>
                         </span>
                         <i>
                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">

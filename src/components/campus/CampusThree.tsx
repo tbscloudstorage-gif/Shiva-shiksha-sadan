@@ -33,12 +33,12 @@ export default function CampusThree() {
             <div className="col-xl-4 col-lg-4 col-md-6 mb-35 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".3s">
               <div className="it-campus-item p-relative">
-                <h4 className="it-campus-title"><Link className="border-line" to="/about-us-v3">Sustainability</Link></h4>
+                <h4 className="it-campus-title"><Link className="border-line" to="/academics">Sustainability</Link></h4>
                 <div className="it-campus-thumb">
                   <img src="assets/img/blog/blog-1-2.jpg" alt="" />
                 </div>
                 <div className="it-campus-arrow">
-                  <Link to="/about-us-v3">
+                  <Link to="/academics">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M19.0604 2.43985C19.0604 1.61142 18.3888 0.939849 17.5604 0.939849L4.0604 0.939848C3.23197 0.939848 2.5604 1.61142 2.5604 2.43985C2.5604 3.26828 3.23197 3.93985 4.0604 3.93985H16.0604V15.9398C16.0604 16.7683 16.732 17.4398 17.5604 17.4398C18.3888 17.4398 19.0604 16.7683 19.0604 15.9398L19.0604 2.43985ZM1.17285 18.8274L2.23351 19.8881L18.6211 3.50051L17.5604 2.43985L16.4997 1.37919L0.112191 17.7667L1.17285 18.8274Z" fill="currentcolor" />
                     </svg>
@@ -49,13 +49,13 @@ export default function CampusThree() {
             <div className="col-xl-4 col-lg-4 col-md-6 mb-35 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".5s">
               <div className="it-campus-item p-relative">
-                <h4 className="it-campus-title"><Link className="border-line" to="/about-us-v3">Build Confidence
+                <h4 className="it-campus-title"><Link className="border-line" to="/academics">Build Confidence
 </Link></h4>
                 <div className="it-campus-thumb">
                   <img src="assets/img/campus/campus-3-2.jpg" alt="" />
                 </div>
                 <div className="it-campus-arrow">
-                  <Link to="/about-us-v3">
+                  <Link to="/academics">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M19.0604 2.43985C19.0604 1.61142 18.3888 0.939849 17.5604 0.939849L4.0604 0.939848C3.23197 0.939848 2.5604 1.61142 2.5604 2.43985C2.5604 3.26828 3.23197 3.93985 4.0604 3.93985H16.0604V15.9398C16.0604 16.7683 16.732 17.4398 17.5604 17.4398C18.3888 17.4398 19.0604 16.7683 19.0604 15.9398L19.0604 2.43985ZM1.17285 18.8274L2.23351 19.8881L18.6211 3.50051L17.5604 2.43985L16.4997 1.37919L0.112191 17.7667L1.17285 18.8274Z" fill="currentcolor" />
                     </svg>
@@ -66,13 +66,13 @@ export default function CampusThree() {
             <div className="col-xl-4 col-lg-4 col-md-6 mb-35 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".7s">
               <div className="it-campus-item p-relative">
-                <h4 className="it-campus-title"><Link className="border-line" to="/about-us-v3">Career Guidance
+                <h4 className="it-campus-title"><Link className="border-line" to="/academics">Career Guidance
 </Link></h4>
                 <div className="it-campus-thumb">
                   <img src="assets/img/campus/campus-3-3.jpg" alt="" />
                 </div>
                 <div className="it-campus-arrow">
-                  <Link to="/about-us-v3">
+                  <Link to="/academics">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M19.0604 2.43985C19.0604 1.61142 18.3888 0.939849 17.5604 0.939849L4.0604 0.939848C3.23197 0.939848 2.5604 1.61142 2.5604 2.43985C2.5604 3.26828 3.23197 3.93985 4.0604 3.93985H16.0604V15.9398C16.0604 16.7683 16.732 17.4398 17.5604 17.4398C18.3888 17.4398 19.0604 16.7683 19.0604 15.9398L19.0604 2.43985ZM1.17285 18.8274L2.23351 19.8881L18.6211 3.50051L17.5604 2.43985L16.4997 1.37919L0.112191 17.7667L1.17285 18.8274Z" fill="currentcolor" />
                     </svg>

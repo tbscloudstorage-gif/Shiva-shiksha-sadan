@@ -47,7 +47,7 @@ export default function FeaturesTwelve() {
                 <h4 className="it-features-4-title"><Link className="border-line" to="/">SSS Buddy Techno
 </Link></h4>
                 <p>A peer mentorship program pairing senior students with juniors to build confidence in technology and everyday problem-solving.</p>
-                <Link to="/event-details" className="it-btn-yellow">
+                <Link to="/" className="it-btn-yellow">
                   <span>
                     <span className="text-1">View More</span>
                     <span className="text-2">View More</span>
@@ -83,7 +83,7 @@ export default function FeaturesTwelve() {
 
 </Link></h4>
                 <p>An annual celebration of science and culture, blending astronomy, tradition, and creativity through hands-on discovery and performance.</p>
-                <Link to="/event-details" className="it-btn-yellow">
+                <Link to="/ " className="it-btn-yellow">
                   <span>
                     <span className="text-1">View More</span>
                     <span className="text-2">View More</span>
@@ -116,7 +116,7 @@ export default function FeaturesTwelve() {
                 <h4 className="it-features-4-title"><Link className="border-line" to="#">Sports
 </Link></h4>
                 <p>Structured coaching across multiple sports disciplines, building teamwork, discipline, and fitness alongside academic life.</p>
-                <Link to="/event-details" className="it-btn-yellow">
+                <Link to="/ " className="it-btn-yellow">
                   <span>
                     <span className="text-1">View More</span>
                     <span className="text-2">View More</span>
@@ -140,10 +140,10 @@ export default function FeaturesTwelve() {
                     <path d="M21.2078 17.7253H21.1562V17.188C21.1562 16.8644 20.894 16.6021 20.5703 16.6021C20.2466 16.6021 19.9844 16.8644 19.9844 17.188V18.3112C19.9844 18.6348 20.2466 18.8971 20.5703 18.8971H21.2078C21.5315 18.8971 21.7938 18.6348 21.7938 18.3112C21.7938 17.9876 21.5314 17.7253 21.2078 17.7253Z" fill="currentcolor" />
                   </svg>
                 </span>
-                <h4 className="it-features-4-title"><Link className="border-line" to="/event-details">Extra-Curricular Clubs
+                <h4 className="it-features-4-title"><Link className="border-line" to="/ ">Extra-Curricular Clubs
 </Link></h4>
                 <p>A wide range of interest-based clubs where students explore passions beyond the classroom, from debate to design.</p>
-                <Link to="/event-details" className="it-btn-yellow">
+                <Link to="/ " className="it-btn-yellow">
                   <span>
                     <span className="text-1">View More</span>
                     <span className="text-2">View More</span>
@@ -168,10 +168,10 @@ export default function FeaturesTwelve() {
                     <path d="M21.1708 25.3134C21.2238 25.3268 21.2782 25.3335 21.3328 25.3334C21.6384 25.3331 21.9046 25.1251 21.9788 24.8287C22.2857 23.5838 23.3877 22.6983 24.6695 22.6667C25.0377 22.6658 25.3354 22.3666 25.3345 21.9984C25.3336 21.6302 25.0343 21.3325 24.6662 21.3334C22.7713 21.3585 21.1338 22.6633 20.6862 24.5047C20.5967 24.8619 20.8137 25.2239 21.1708 25.3134Z" fill="currentcolor" />
                   </svg>
                 </span>
-                <h4 className="it-features-4-title"><Link className="border-line" to="/event-details">Wings of Fire Heritage
+                <h4 className="it-features-4-title"><Link className="border-line" to="/ ">Wings of Fire Heritage
 </Link></h4>
                 <p>A heritage and leadership initiative inspired by stories of resilience, encouraging students to dream boldly and lead with purpose.</p>
-                <Link to="/event-details" className="it-btn-yellow">
+                <Link to="/ " className="it-btn-yellow">
                   <span>
                     <span className="text-1">View More</span>
                     <span className="text-2">View More</span>
@@ -199,7 +199,7 @@ export default function FeaturesTwelve() {
                 <h4 className="it-features-4-title"><Link className="border-line" to="#">Impasto Bharat Vani
 </Link></h4>
                 <p>An art and expression platform where students showcase creativity and voice through visual art, speech, and performance.</p>
-                <Link to="/event-details" className="it-btn-yellow">
+                <Link to="/ " className="it-btn-yellow">
                   <span>
                     <span className="text-1">View More</span>
                     <span className="text-2">View More</span>
