@@ -16370,7 +16370,6 @@ input[type=radio] {
 }
 .it-course-meta span:first-child {
   padding-right: 60px;
-  border-right: 1px solid var(--it-text-body);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .it-course-meta span:first-child {

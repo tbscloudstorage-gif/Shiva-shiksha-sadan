@@ -62,7 +62,7 @@ export default function CourseOne() {
   const allCoursesData: Course[] = [
     {
       id: 1,
-      title: "Design Thinking Researching for Better UX",
+      title: "ccccccccccccccccccccccccUX",
       category: "Design",
       author: "Samantha",
       authorAvatar: avatar8,

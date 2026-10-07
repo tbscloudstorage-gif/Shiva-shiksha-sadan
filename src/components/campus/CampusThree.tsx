@@ -4,7 +4,7 @@ export default function CampusThree() {
   return (
     <>
       {/* <!-- campus-area-start --> */}
-      <section className="it-campus-area it-blog-style-2 white-bg z-index-1 pt-130 pb-95">
+      <section className="it-campus-area it-blog-style-2 white-bg z-index-1 pt-40 pb-95">
         <div className="container">
           <div className="it-campus-section-title-wrap mb-70">
             <div className="row align-items-end">

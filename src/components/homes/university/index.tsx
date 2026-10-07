@@ -11,13 +11,13 @@ import CtaThree from "@/components/cta/CtaThree";
 import FeaturesThree from "@/components/features/FeaturesThree";
 import HeroThree from "@/components/hero/HeroThree";
 import NewsletterThree from "@/components/newsletter/NewsletterThree";
-import TestimonialThree from "@/components/testimonial/TestimonialThree";
 // import TuitionThree from "@/components/tuition/TuitionThree";
 import FeaturesTwelve from "@/components/features/FeaturesTwelve";
 import GalleryFour from "@/components/gallery/GalleryFour";
 import FaqEight from "@/components/faq/FaqEight";
-
-
+import CourseTwo from "@/components/course/CourseTwo";
+import AwardsHome from "@/components/AwardsHome/index"
+import TestimonialEight from "@/components/testimonial/TestimonialEight";
 
 export default function University() {
   return (
@@ -27,13 +27,17 @@ export default function University() {
         <HeroThree />
         <FeaturesThree />
         <AboutThree />
-        <CtaThree />
+        <CourseTwo />
+                <CtaThree />
+
+        <AwardsHome />
         <FeaturesTwelve/>
         {/* <CourseThree /> */}
         <CampusThree />
         {/* <TuitionThree /> */}
         <GalleryFour/>
-        <TestimonialThree />
+        <TestimonialEight/>
+        {/* <TestimonialThree /> */}
         <BrandThree />
         <BlogThree />
         <FaqEight/>

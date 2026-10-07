@@ -13,6 +13,7 @@ import HeroTwo from "@/components/hero/HeroTwo";
 import NewsletterTwo from "@/components/newsletter/NewsletterTwo";
 import TeamTwo from "@/components/team/TeamTwo";
 import TestimonialTwo from "@/components/testimonial/TestimonialTwo";
+import TestimonialEight from "@/components/testimonial/TestimonialEight";
 
 
 export default function OnlineCourses() {
@@ -26,6 +27,7 @@ export default function OnlineCourses() {
         <CourseTwo />
         <CtaTwo />
         <TestimonialTwo />
+        <TestimonialEight/>
         <BrandTwo />
         <EventTwo />
         <TeamTwo />

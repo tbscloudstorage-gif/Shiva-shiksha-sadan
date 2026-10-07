@@ -39,46 +39,47 @@ const settings = {
 const testimonials = [
   {
     id: 1,
-    name: "Daniel Johnson",
-    title: "Founder & CEO UIPainter",
-    text: "Educeet transformed my learning journey! The platform is intuitive, the courses are top-notch, and the support is exceptional. I've gained real skills and confidence."
+    name: "Pradeep Dahiya",
+    title: "IAS, DC Hisar (Batch-2013)",
+    text: "Shiva Shiksha Sadan gave me much more than academic knowledge. The guidance of my teachers, the discipline I learned, and the confidence I developed here continue to help me in every stage of life."
   },
   {
     id: 2,
-    name: "Edwin Lyon",
-    title: "Founder & CEO UIPainter",
-    text: "Educeet transformed my learning journey! The platform is intuitive, the courses are top-notch, and the support is exceptional. I've gained real skills and confidence."
+    name: "Ankur Raparia",
+    title: "(Batch - 2011) IFS",
+    text: " My years at Shiva Shiksha Sadan are filled with wonderful memories. From classroom learning to cultural activities and friendships, every experience contributed to the person I am today."
   },
   {
     id: 3,
-    name: "Christian Hastings",
-    title: "Founder & CEO UIPainter",
-    text: "Educeet transformed my learning journey! The platform is intuitive, the courses are top-notch, and the support is exceptional. I've gained real skills and confidence."
+    name: "Anu Kumari",
+    title: "IAS(Batch-2003)",
+    text: "The school encouraged me to explore my interests, ask questions, and believe in my abilities. The lessons I learned here went far beyond textbooks and prepared me for real-world challenges."
   },
   {
     id: 4,
-    name: "Sarah Johnson",
-    title: "Product Manager",
-    text: "The best learning platform I've ever used! The instructors are knowledgeable and the community is very supportive."
+    name: "Nidhi Sehrawat",
+    title: "(Batch - 2013) IAS",
+    text: "I will always be grateful to the teachers who supported and motivated me throughout my school journey. Their guidance helped me become more confident, responsible, and focused on my goals."
   },
   {
     id: 5,
-    name: "Michael Chen",
-    title: "Software Engineer",
-    text: "Thanks to Educeet, I was able to switch careers successfully. The practical projects really helped me build my portfolio."
+    name: "Amit Jain",
+    title: "(Batch - 1995) IRS",
+    text: "Being a student of Shiva Shiksha Sadan has been an important part of my journey. The school provided a strong academic foundation while teaching values that continue to guide me today."
   }
 ];
 
 export default function TestimonialEight() {
   return (
-    <section className="it-testimonial-3-area pt-130 pb-130">
+    <section className="it-testimonial-3-area pt-130 pb-130 mb-70">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="it-testimonial-section-title-box text-center mb-70">
               <span className="it-section-subtitle">Testimonial</span>
               <h4 className="it-section-title">
-                What Our Learners Say About Educeet's Impact and Value
+              Inspiring Words From Our Alumni
+
               </h4>
             </div>
           </div>

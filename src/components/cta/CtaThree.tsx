@@ -3,7 +3,7 @@ export default function CtaThree() {
   return (
     <>
       {/* <!-- stats-area-start --> */}
-      <section className="it-stats-area z-index-1 pb-120 wow itfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+      <section className="it-stats-area z-index-1 pb-120 pt-70 wow itfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
         <div className="container container-1130">
           <div className="it-stats-wrap">
             <div className="row">
