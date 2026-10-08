@@ -4,7 +4,7 @@ return(
 <>
    <div className="container " style={{marginTop : "80px" , marginBottom : "200px"}}>
 
-        <h1>Our Vision for Holistic Education</h1>
+        <h1>Our Vision for Holisticd Education</h1>
         <p>
 
 At Shiva Shiksha Sadan, we believe that education is not simply about acquiring knowledge; it is about discovering potential, developing character, and preparing young minds to face the world with confidence and purpose. Our philosophy is built around the belief that every child is unique, with their own abilities, interests, aspirations, and pace of learning. We strive to create an environment where every student feels encouraged to explore, question, learn, and grow.
