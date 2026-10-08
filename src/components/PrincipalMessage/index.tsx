@@ -29,9 +29,9 @@ export default function AboutEight() {
                         </svg>
                       </a> */}
                     </div>
-                    <div className="it-about-experience-box mb-20 d-inline-flex align-items-center">
-                      <h5>25 +</h5>
-                      <span>Years of <br />Experience</span>
+                    <div className="it-about-experience-box mb-20 d-inline-flex align-items-center text-white">
+                      <h5 className="text-white">25 +</h5>
+                      <span className="text-white">Years of <br />Experience</span>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">

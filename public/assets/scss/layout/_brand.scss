@@ -15,7 +15,7 @@
     &-wrap {
         padding: 30px 80px;
         border-radius: 20px;
-        border: 1px solid rgba($color: #03594E, $alpha: .5);
+        border: 1px solid rgba($color: #181348, $alpha: .5);
         @media #{$md,$xs}{
             padding: 30px;
         } 
@@ -237,7 +237,7 @@
             display: inline-block;
             margin-bottom: 0;
             color: var(--it-theme-1);            
-            border: 1px solid rgba($color: #03594E, $alpha: .3);
+            border: 1px solid rgba($color: #181348, $alpha: .3);
             @media #{$md}{
                 font-size: 14px;
                 padding: 4px 25px;

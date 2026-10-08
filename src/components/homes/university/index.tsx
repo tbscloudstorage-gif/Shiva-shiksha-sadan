@@ -17,6 +17,7 @@ import GalleryFour from "@/components/gallery/GalleryFour";
 import FaqEight from "@/components/faq/FaqEight";
 import CourseTwo from "@/components/course/CourseTwo";
 import AwardsHome from "@/components/AwardsHome/index"
+
 import TestimonialEight from "@/components/testimonial/TestimonialEight";
 
 export default function University() {

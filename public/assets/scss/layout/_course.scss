@@ -399,7 +399,7 @@
         }
         & .it-course-item {
             box-shadow: none;
-            border: 1px solid rgba($color: #03594E, $alpha: .12);
+            border: 1px solid rgba($color: #181348, $alpha: .12);
             & .flag {
                 position: absolute;
                 left: 0;
@@ -564,7 +564,7 @@
     &-style-8 {
         & .it-course-item {
             background-color: var(--it-gray-1);
-            border: 1px solid rgba($color: #03594E, $alpha: .1);
+            border: 1px solid rgba($color: #181348, $alpha: .1);
             & p {
                 margin-bottom: 25px;
                 @media #{$xl,$lg,$md,$xs}{
@@ -719,7 +719,7 @@
             height: 891px;
             width: 891px;
             border-radius: 50%;
-            background-color: rgba($color: #03594E, $alpha: 0.1);
+            background-color: rgba($color: #181348, $alpha: 0.1);
             @media #{$md,$xs}{
                 display: none;
             }

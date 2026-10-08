@@ -125,7 +125,7 @@ export default function FooterTwelve() {
           </div>
 
           {/* <!-- copyright-area-start --> */}
-          <div className="it-copyright-area it-copyright-style-3 it-copyright-ptb" style={{backgroundColor: `#03594E`}}>
+          <div className="it-copyright-area it-copyright-style-3 it-copyright-ptb" style={{backgroundColor: `#181348`}}>
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-5 col-md-6">

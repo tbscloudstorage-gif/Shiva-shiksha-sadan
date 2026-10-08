@@ -100,7 +100,7 @@ export default function HeaderOne() {
                     </nav>
                   </div>
                 </div>
-                <div className="col-xxl-4 col-xl-3 col-lg-8 col-md-7 col-6">
+                <div className="col-xxl-4 col-xl-3 col-lg-8 col-md-7 col-6 d-flex justify-content-center">
                   <div className="it-header-right-action d-flex justify-content-end align-items-center">
                     {/* <div className="it-header-search-wrap d-none d-lg-flex align-items-center">
                       <div className="it-header-categorie p-relative d-flex align-items-center">
@@ -156,8 +156,8 @@ export default function HeaderOne() {
                     </Link> */}
                     <Link to="/contact-us" className="it-btn-yellow d-none d-md-flex">
                       <span>
-                        <span className="text-1">Connect With Us</span>
-                        <span className="text-2">Connect With Us</span>
+                        <span className="text-1" style={{color:"#181348"}}>Connect With Us</span>
+                        <span className="text-2 " style={{color:"#181348"}}>Connect With Us</span>
                       </span>
                       <i>
                         <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -139,8 +139,8 @@
   --it-gray-3: #F5F7F9;
   --it-gray-4: #FFF8F4;
   --it-text-body: #6C757D;
-  --it-theme-1: #03594E;
-  --it-theme-2: #F8C62F;
+  --it-theme-1: #181348;
+  --it-theme-2:  #181348;
   --it-theme-3: #1AB69D;
   --it-theme-4: #618269;
   --it-theme-5: #FE8235;
@@ -689,7 +689,7 @@ input[type=color] {
   justify-content: center;
   color: var(--it-common-white);
   font-family: var(--it-ff-jost);
-  background-color: var(--it-theme-2);
+  background-color: #f8c62f;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .it-btn-yellow {
@@ -1750,7 +1750,7 @@ input[type=color] {
 /*Background color
 /*-----------------------------------------*/
 .theme-bg {
-  background: var(--it-theme-1);
+  background: #03594e;
 }
 
 .theme-4-bg {
@@ -14080,7 +14080,7 @@ input[type=radio] {
   width: 0;
   height: 2px;
   transition: 0.4s;
-  background: linear-gradient(90deg, #03594e 0%, rgba(3, 89, 78, 0) 100%);
+  background: linear-gradient(90deg, #181348 0%, rgba(3, 89, 78, 0) 100%);
 }
 .it-hero-10-social a:hover::after {
   width: 100%;
@@ -14357,6 +14357,9 @@ input[type=radio] {
     padding-bottom: 90px;
     background-position: right;
   }
+      .it-header-logo img {
+        max-width: 60%;
+    }
 }
 .it-hero-12-area .it-hero-title {
   margin-bottom: 27px;
@@ -15267,7 +15270,7 @@ input[type=radio] {
   left: 0;
   padding: 17px 20px;
   padding-right: 30px;
-  background-color: var(--it-theme-1);
+  background-color: #03594e;
   animation: ittranslateX2 4s forwards infinite alternate;
 }
 @media (max-width: 767px) {
@@ -19830,7 +19833,7 @@ input[type=radio] {
 .it-testimonial-3-right .it-testimonial-2-ratting i {
   display: inline-block;
   padding-right: 2px;
-  color: var(--it-theme-2);
+  color: #F8C62F;
 }
 .it-testimonial-3-right .it-testimonial-2-avatar-info {
   margin-bottom: 0;
@@ -19901,7 +19904,7 @@ input[type=radio] {
   text-align: center;
   border-radius: 50%;
   color: var(--it-common-white);
-  background-color: var(--it-theme-1);
+  background-color: #03594e;
 }
 @media (max-width: 767px) {
   .it-testimonial-3-play-icon a {
@@ -20646,7 +20649,7 @@ input[type=radio] {
 .it-newsletter-wrap {
   padding: 49px 78px;
   border-radius: 20px;
-  background-color: var(--it-theme-1);
+  background-color: #03594e;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .it-newsletter-wrap {
@@ -21305,7 +21308,7 @@ input[type=radio] {
 }
 .it-campus-item:hover .it-campus-arrow a {
   color: var(--it-common-black);
-  background-color: var(--it-theme-2);
+  background-color: #03594e;
 }
 .it-campus-arrow {
   position: absolute;
@@ -22080,10 +22083,10 @@ input[type=radio] {
   background: rgba(240, 244, 245, 0.6);
 }
 .it-features-4-style-2 .it-features-4-item:hover .it-features-4-icon {
-  background-color: var(--it-theme-1);
+  background-color: #03594e;
 }
 .it-features-4-style-2 .it-features-4-item:hover .it-features-4-icon svg {
-  color: var(--it-theme-2);
+  color: white;
 }
 .it-features-4-style-2 .it-features-4-item:hover .it-btn-yellow svg, .it-features-4-style-2 .it-features-4-item:hover .it-btn-yellow span {
   color: var(--it-theme-1);
@@ -22635,7 +22638,7 @@ textarea::placeholder {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 1.5px;
-  color: #03594e;
+  color: #181348;
 }
 
 .rules-heading h2 {
@@ -22672,7 +22675,7 @@ textarea::placeholder {
 }
 
 .blue-card {
-  border-top: 4px solid #03594e;
+  border-top: 4px solid #181348;
 }
 
 .green-card {
@@ -22680,7 +22683,7 @@ textarea::placeholder {
 }
 
 .discipline-card {
-  border-top: 4px solid #03594e;
+  border-top: 4px solid #181348;
   margin-bottom: 25px;
 }
 
@@ -22718,7 +22721,7 @@ textarea::placeholder {
 }
 
 .blue-icon {
-  color: #03594e;
+  color: #181348;
   background: #edf4ff;
 }
 
@@ -22753,7 +22756,7 @@ textarea::placeholder {
 }
 
 .blue-check {
-  color: #03594e;
+  color: #181348;
 }
 
 .green-check {
@@ -22835,7 +22838,7 @@ textarea::placeholder {
 
 .cooperation-card {
   text-align: center;
-  border-bottom: 4px solid #03594e;
+  border-bottom: 4px solid #181348;
 }
 
 .cooperation-icon {
@@ -22844,7 +22847,7 @@ textarea::placeholder {
   margin: 0 auto 15px;
   border-radius: 50%;
   background: #edf4ff;
-  color: #03594e;
+  color: #181348;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23171,7 +23174,7 @@ textarea::placeholder {
 }
 
 .calendar-download-btn:hover {
-  background: #03594e;
+  background: #181348;
   color: #fff;
   transform: translateY(-3px);
 }
@@ -23358,7 +23361,7 @@ textarea::placeholder {
   width: fit-content;
   margin: 0 auto 22px;
 
-  color: #03594e;
+  color: #181348;
   font-size: 18px;
   line-height: 1.4;
   font-weight: 600;
@@ -23455,11 +23458,11 @@ textarea::placeholder {
 
 .assessment-tabs button:hover {
   background: #f3f6fa;
-  color: #03594e;
+  color: #181348;
 }
 
 .assessment-tabs button.active {
-  background: #03594e;
+  background: #181348;
   color: #ffffff;
 
   box-shadow: 0 7px 18px rgba(55, 111, 189, 0.28);
@@ -23481,7 +23484,7 @@ textarea::placeholder {
 
   padding: 0 36px 35px;
 
-  border-left: 5px solid #03594e;
+  border-left: 5px solid #181348;
   border-radius: 0 0 18px 18px;
 
   box-shadow: 0 18px 35px rgba(20, 40, 70, 0.08);
@@ -23509,7 +23512,7 @@ textarea::placeholder {
 .assessment-content-card > h2 {
     margin: 0px 0 41px;
     padding-top: 4px;
-    color: #03594e;
+    color: #181348;
     font-size: 24px;
     line-height: 1.25;
     font-weight: 700;
@@ -23519,7 +23522,7 @@ textarea::placeholder {
     width: 100%;
     background: #ffffff;
     padding: 57px 36px 35px;
-    border-left: 5px solid #03594e;
+    border-left: 5px solid #181348;
     border-radius: 0 0 18px 18px;
     box-shadow: 0 18px 35px rgba(20, 40, 70, 0.08);
     animation: assessmentFade 0.3s ease;
@@ -23536,7 +23539,7 @@ textarea::placeholder {
 
   background: #f0f2f4;
 
-  border-left: 4px solid #03594e;
+  border-left: 4px solid #181348;
   border-radius: 10px;
 }
 
@@ -23606,7 +23609,7 @@ textarea::placeholder {
 
   border-radius: 13px;
 
-  background: #03594e;
+  background: #181348;
   color: #ffffff;
 
   display: flex;
@@ -23623,7 +23626,7 @@ textarea::placeholder {
 .assessment-card-text h3 {
   margin: 0 0 7px;
 
-  color: #03594e;
+  color: #181348;
 
   font-size: 17px;
   line-height: 1.35;
@@ -24589,7 +24592,7 @@ textarea::placeholder {
   background: #f6f9ff;
   padding: 18px 10px;
   border-radius: 8px;
-  color: #03594e;
+  color: #181348;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24884,7 +24887,7 @@ textarea::placeholder {
 }
 
 .transport-stat strong {
-  color:  #03594e;
+  color:  #181348;
 
   font-size: 43px;
   line-height: 1;
@@ -24998,7 +25001,7 @@ textarea::placeholder {
   border-radius: 50%;
 
   background: #dbeaff;
-  color:  #03594e;
+  color:  #181348;
 
   font-size: 31px;
 }
@@ -25078,7 +25081,7 @@ textarea::placeholder {
 
   margin-top: 3px;
 
-  color:  #03594e;
+  color:  #181348;
 }
 
 
@@ -25123,7 +25126,7 @@ textarea::placeholder {
 
   border-radius: 50%;
 
-  background:  #03594e;
+  background:  #181348;
   color: #ffffff;
 
   font-size: 17px;
@@ -25164,7 +25167,7 @@ textarea::placeholder {
 
   margin-top: 3px;
 
-  color:  #03594e;
+  color:  #181348;
 
   font-size: 14px;
 }
@@ -25213,7 +25216,7 @@ textarea::placeholder {
   justify-content: center;
 
   background: #dceaff;
-  color:  #03594e;
+  color:  #181348;
 
   border-radius: 50%;
 
@@ -26345,7 +26348,7 @@ textarea::placeholder {
 .it-stats-wrap {
   padding: 13px 27px;
   border-radius: 20px;
-  background-color: var(--it-theme-1);
+  background-color: #03594e;
   box-shadow: 0 20px 30px 0 rgba(1, 6, 20, 0.1);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
