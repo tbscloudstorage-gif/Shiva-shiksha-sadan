@@ -34,7 +34,7 @@ export default function HeroThree() {
                 <div className="it-slider-box it-slider-overlay z-index-1">
                   <img className="it-slider-shape-1" src="assets/img/shape/slider-1-1.png" alt="" />
                   <img className="it-slider-shape-2" src="assets/img/shape/slider-1-2.png" alt="" />
-                  <img className="it-slider-shape-3" src="assets/img/shape/slider-1-3.png" alt="" />
+                  {/* <img className="it-slider-shape-3" src="assets/img/shape/slider-1-3.png" alt="" /> */}
                   <div className="it-slider-bg"><img src="assets/img/slider/slider-1-2.jpg" alt="" /></div>
                   <div className="container">
                     <div className="row">
@@ -78,7 +78,7 @@ export default function HeroThree() {
                 <div className="it-slider-box it-slider-overlay z-index-1">
                   <img className="it-slider-shape-1" src="assets/img/shape/slider-1-1.png" alt="" />
                   <img className="it-slider-shape-2" src="assets/img/shape/slider-1-2.png" alt="" />
-                  <img className="it-slider-shape-3" src="assets/img/shape/slider-1-3.png" alt="" />
+                  {/* <img className="it-slider-shape-3" src="assets/img/shape/slider-1-3.png" alt="" /> */}
                   <div className="it-slider-bg"><img src="assets/img/slider/slider-1-4.jpg" alt="" /></div>
                   <div className="container">
                     <div className="row">
@@ -122,7 +122,7 @@ export default function HeroThree() {
                 <div className="it-slider-box it-slider-overlay z-index-1">
                   <img className="it-slider-shape-1" src="assets/img/shape/slider-1-1.png" alt="" />
                   <img className="it-slider-shape-2" src="assets/img/shape/slider-1-2.png" alt="" />
-                  <img className="it-slider-shape-3" src="assets/img/shape/slider-1-3.png" alt="" />
+                  {/* <img className="it-slider-shape-3" src="assets/img/shape/slider-1-3.png" alt="" /> */}
                   <div className="it-slider-bg"><img src="assets/img/slider/slider-1-5.jpg" alt="" /></div>
                   <div className="container">
                     <div className="row">
@@ -165,7 +165,7 @@ export default function HeroThree() {
                 <div className="it-slider-box it-slider-overlay z-index-1">
                   <img className="it-slider-shape-1" src="assets/img/shape/slider-1-1.png" alt="" />
                   <img className="it-slider-shape-2" src="assets/img/shape/slider-1-2.png" alt="" />
-                  <img className="it-slider-shape-3" src="assets/img/shape/slider-1-3.png" alt="" />
+                  {/* <img className="it-slider-shape-3" src="assets/img/shape/slider-1-3.png" alt="" /> */}
                   <div className="it-slider-bg"><img src="assets/img/slider/slider-1-3.jpg" alt="" /></div>
                   <div className="container">
                     <div className="row">

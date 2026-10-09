@@ -108,7 +108,7 @@ export default function CourseTwo() {
                       <div className="row gx-0">
                         <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
                           <div className="it-course-thumb z-index-1 border-radius-20">
-                            <a href="#"><img className="w-100" src="assets/img/campus/cpa.JPG" alt="" /></a>
+                            <a href="#"><img className="w-100" src="assets/img/course/2-4.png" alt="" /></a>
 
                           </div>
                         </div>
@@ -117,16 +117,44 @@ export default function CourseTwo() {
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">CPA-Based Learning
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Career Counselling & Guidance
 
                             </Link></h5>
 
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
 
-                                Using the Concrete–Pictorial–Abstract approach to make mathematical concepts easier through hands-on and visual learning.                              </span>
+                                Helping students identify their strengths, explore career opportunities, and make informed decisions about their future.</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="it-course-item mb-35">
+                      <div className="row gx-0">
+                        <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
+                          <div className="it-course-thumb z-index-1 border-radius-20">
+                            <a href="#"><img className="w-100" src="assets/img/course/2-2.png" alt="" /></a>
+
+                          </div>
+                        </div>
+                        <div className="col-xl-7 col-lg-12 col-md-12 col-sm-7">
+                          <div className="it-course-content p-relative">
+                            <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Mathematics with R.D. Sharma
+
+
+                            </Link></h5>
+
+                            <div className="it-course-meta d-flex justify-content-between">
+                              <span>
+
+From Class VIII onwards, students use R.D. Sharma's mathematics books to strengthen conceptual clarity, logical reasoning, and advanced problem-solving skills.
+                           </span> </div>
                           </div>
                         </div>
                       </div>
@@ -162,7 +190,7 @@ export default function CourseTwo() {
                       </div>
                     </div>
                   </div>
-               
+
                 </div>
               </div>
               <div className="tab-pane fade" id="trending" role="tabpanel" aria-labelledby="trending-tab">
@@ -172,7 +200,7 @@ export default function CourseTwo() {
                       <div className="row gx-0">
                         <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
                           <div className="it-course-thumb z-index-1 border-radius-20">
-                            <a href="#"><img className="w-100" src="assets/img/course/course-2-2.jpg" alt="" /></a>
+                            <a href="#"><img className="w-100" src="assets/img/course/2-2.png" alt="" /></a>
 
                           </div>
                         </div>
@@ -186,12 +214,12 @@ export default function CourseTwo() {
 
                             </div>
                             <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Mathematics with R.D. Sharma</Link></h5>
-                           
+
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
-                            
-From Class VIII onwards, students use R.D. Sharma's mathematics books to strengthen conceptual clarity, logical reasoning, and advanced problem-solving skills.                              </span>
-                      
+
+                                From Class VIII onwards, students use R.D. Sharma's mathematics books to strengthen conceptual clarity, logical reasoning, and advanced problem-solving skills.                              </span>
+
                             </div>
                           </div>
                         </div>
@@ -203,7 +231,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                       <div className="row gx-0">
                         <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
                           <div className="it-course-thumb z-index-1 border-radius-20">
-                            <a href="#"><img className="w-100" src="assets/img/course/course-2-3.jpg" alt="" /></a>
+                            <a href="#"><img className="w-100" src="assets/img/course/2-3.png" alt="" /></a>
 
                           </div>
                         </div>
@@ -215,14 +243,14 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                             </div>
                             <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Science with Lakhmir Singh</Link></h5>
                             <div className="it-course-rating mb-10">
-                             
+
                             </div>
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
-                               
+
                                 Students benefit from Lakhmir Singh's science reference books, developing a deeper understanding of scientific concepts through practical examples and structured learning.
                               </span>
-                              
+
                             </div>
                           </div>
                         </div>
@@ -248,13 +276,13 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
 
                             </div>
                             <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">44 Sounds with Jolly Phonics</Link></h5>
-                           
+
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
-                              
-Building strong English pronunciation and reading skills through 44 phonetic sounds instead of traditional alphabet-based learning.
+
+                                Building strong English pronunciation and reading skills through 44 phonetic sounds instead of traditional alphabet-based learning.
                               </span>
-                            
+
                             </div>
                           </div>
                         </div>
@@ -277,15 +305,15 @@ Building strong English pronunciation and reading skills through 44 phonetic sou
                             </div>
                             <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">CPA-Based Learning</Link></h5>
                             <div className="it-course-rating mb-10">
-                             
+
                             </div>
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
-                                
-Using the Concrete–Pictorial–Abstract approach to make mathematical concepts easier through hands-on and visual learning.
+
+                                Using the Concrete–Pictorial–Abstract approach to make mathematical concepts easier through hands-on and visual learning.
                               </span>
-                             
-                               
+
+
                             </div>
                           </div>
                         </div>
@@ -307,12 +335,12 @@ Using the Concrete–Pictorial–Abstract approach to make mathematical concepts
 
                             </div>
                             <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Social & Emotional Learning</Link></h5>
-                            
+
                             <div className="it-course-meta d-flex justify-content-between">
-                              
+
                               <span>
-                               
-A Japan-inspired approach that develops confidence, empathy, discipline, emotional awareness, and positive social skills.
+
+                                A Japan-inspired approach that develops confidence, empathy, discipline, emotional awareness, and positive social skills.
                               </span>
                             </div>
                           </div>
@@ -320,7 +348,7 @@ A Japan-inspired approach that develops confidence, empathy, discipline, emotion
                       </div>
                     </div>
                   </div>
-                   <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="it-course-item mb-35">
                       <div className="row gx-0">
                         <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
@@ -335,12 +363,12 @@ A Japan-inspired approach that develops confidence, empathy, discipline, emotion
 
                             </div>
                             <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">STEM-Based Learning</Link></h5>
-                            
+
                             <div className="it-course-meta d-flex justify-content-between">
-                              
+
                               <span>
-                               
-Our activity-based STEM curriculum introduces Science, Technology, Engineering, and Mathematics through creative experiments, exploration, and problem-solving activities.                              </span>
+
+                                Our activity-based STEM curriculum introduces Science, Technology, Engineering, and Mathematics through creative experiments, exploration, and problem-solving activities.                              </span>
                             </div>
                           </div>
                         </div>
@@ -356,7 +384,7 @@ Our activity-based STEM curriculum introduces Science, Technology, Engineering, 
                       <div className="row gx-0">
                         <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
                           <div className="it-course-thumb z-index-1 border-radius-20">
-                            <a href="#"><img className="w-100" src="assets/img/course/course-2-3.jpg" alt="" /></a>
+                            <a href="#"><img className="w-100" src="assets/img/course/2-6.png" alt="" /></a>
 
                           </div>
                         </div>
@@ -365,30 +393,13 @@ Our activity-based STEM curriculum introduces Science, Technology, Engineering, 
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Boost Your Skills with Popular Courses</Link></h5>
-                            <div className="it-course-rating mb-10">
-                              <div>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-regular fa-star"></i>
-                                <span>(4.7/5 Customer Rating)</span>
-                              </div>
-                            </div>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">IIT-JEE & NEET Preparation</Link></h5>
+
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M18.5 1.80239C18.0315 1.41066 17.4826 1.12688 16.8921 0.971189C16.3016 0.815501 15.684 0.791726 15.0833 0.901552L11.8983 1.47989C11.163 1.61492 10.4944 1.99324 10 2.55405C9.5043 1.99227 8.8338 1.61387 8.09667 1.47989L4.91667 0.901552C4.31596 0.79163 3.69844 0.815094 3.10781 0.970282C2.51718 1.12547 1.96789 1.40859 1.4988 1.7996C1.02972 2.19061 0.652322 2.67994 0.393318 3.23297C0.134315 3.78601 4.0677e-05 4.38921 0 4.99989L0 13.9941C4.78799e-05 14.9697 0.342481 15.9144 0.967611 16.6635C1.59274 17.4126 2.46092 17.9186 3.42083 18.0932L8.65917 19.0457C9.5458 19.2068 10.4542 19.2068 11.3408 19.0457L16.5833 18.0932C17.5425 17.9177 18.4097 17.4114 19.034 16.6624C19.6583 15.9134 20.0001 14.9691 20 13.9941V4.99989C20.0004 4.38942 19.8662 3.78638 19.6069 3.23371C19.3476 2.68104 18.9697 2.19233 18.5 1.80239ZM9.16667 17.4399C9.09667 17.4299 9.02667 17.4182 8.95667 17.4057L3.71917 16.4541C3.14314 16.3493 2.62216 16.0456 2.24707 15.596C1.87198 15.1465 1.66658 14.5795 1.66667 13.9941V4.99989C1.66667 4.33684 1.93006 3.70096 2.3989 3.23212C2.86774 2.76328 3.50363 2.49989 4.16667 2.49989C4.31758 2.50025 4.46816 2.51391 4.61667 2.54072L7.8 3.12405C8.18301 3.19414 8.52939 3.39611 8.77904 3.69492C9.02868 3.99373 9.16582 4.37052 9.16667 4.75989V17.4399ZM18.3333 13.9941C18.3334 14.5795 18.128 15.1465 17.7529 15.596C17.3778 16.0456 16.8569 16.3493 16.2808 16.4541L11.0433 17.4057C10.9733 17.4182 10.9033 17.4299 10.8333 17.4399V4.75989C10.8333 4.36956 10.9702 3.9916 11.2203 3.69189C11.4703 3.39219 11.8176 3.18975 12.2017 3.11989L15.3858 2.53655C15.7464 2.47094 16.117 2.48543 16.4714 2.57898C16.8258 2.67253 17.1553 2.84285 17.4365 3.07789C17.7178 3.31293 17.9439 3.60693 18.0988 3.93907C18.2538 4.27121 18.3339 4.63337 18.3333 4.99989V13.9941Z" fill="#6C757D" />
-                                </svg>
-                                20 Lessons
-                              </span>
-                              <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M10 0C4.48583 0 0 4.48583 0 10C0 15.5142 4.48583 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48583 15.5142 0 10 0ZM6.66667 17.6367V17.5C6.66667 15.6617 8.16167 14.1667 10 14.1667C11.8383 14.1667 13.3333 15.6617 13.3333 17.5V17.6367C12.3117 18.0842 11.185 18.3333 10 18.3333C8.815 18.3333 7.68833 18.0842 6.66667 17.6367ZM14.9375 16.7092C14.5575 14.3267 12.4883 12.5 10 12.5C7.51167 12.5 5.44333 14.3267 5.0625 16.7092C3.00417 15.19 1.66667 12.7483 1.66667 10C1.66667 5.405 5.405 1.66667 10 1.66667C14.595 1.66667 18.3333 5.405 18.3333 10C18.3333 12.7483 16.9958 15.19 14.9375 16.7092ZM10 4.16667C8.16167 4.16667 6.66667 5.66167 6.66667 7.5C6.66667 9.33833 8.16167 10.8333 10 10.8333C11.8383 10.8333 13.3333 9.33833 13.3333 7.5C13.3333 5.66167 11.8383 4.16667 10 4.16667ZM10 9.16667C9.08083 9.16667 8.33333 8.41917 8.33333 7.5C8.33333 6.58083 9.08083 5.83333 10 5.83333C10.9192 5.83333 11.6667 6.58083 11.6667 7.5C11.6667 8.41917 10.9192 9.16667 10 9.16667Z" fill="#6C757D" />
-                                </svg>
-                                50 Sutudents
-                              </span>
+
+                                Preparing secondary school students for competitive examinations through focused academic guidance, conceptual learning, and problem-solving skills.                              </span>
+
                             </div>
                           </div>
                         </div>
@@ -400,7 +411,7 @@ Our activity-based STEM curriculum introduces Science, Technology, Engineering, 
                       <div className="row gx-0">
                         <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
                           <div className="it-course-thumb z-index-1 border-radius-20">
-                            <a href="#"><img className="w-100" src="assets/img/course/course-2-4.jpg" alt="" /></a>
+                            <a href="#"><img className="w-100" src="assets/img/course/2-4.png" alt="" /></a>
 
                           </div>
                         </div>
@@ -409,126 +420,22 @@ Our activity-based STEM curriculum introduces Science, Technology, Engineering, 
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Discover Highly Rated Learning Programs</Link></h5>
-                            <div className="it-course-rating mb-10">
-                              <div>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-regular fa-star"></i>
-                                <span>(4.7/5 Customer Rating)</span>
-                              </div>
-                            </div>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Career Counselling & Guidance</Link></h5>
+
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M18.5 1.80239C18.0315 1.41066 17.4826 1.12688 16.8921 0.971189C16.3016 0.815501 15.684 0.791726 15.0833 0.901552L11.8983 1.47989C11.163 1.61492 10.4944 1.99324 10 2.55405C9.5043 1.99227 8.8338 1.61387 8.09667 1.47989L4.91667 0.901552C4.31596 0.79163 3.69844 0.815094 3.10781 0.970282C2.51718 1.12547 1.96789 1.40859 1.4988 1.7996C1.02972 2.19061 0.652322 2.67994 0.393318 3.23297C0.134315 3.78601 4.0677e-05 4.38921 0 4.99989L0 13.9941C4.78799e-05 14.9697 0.342481 15.9144 0.967611 16.6635C1.59274 17.4126 2.46092 17.9186 3.42083 18.0932L8.65917 19.0457C9.5458 19.2068 10.4542 19.2068 11.3408 19.0457L16.5833 18.0932C17.5425 17.9177 18.4097 17.4114 19.034 16.6624C19.6583 15.9134 20.0001 14.9691 20 13.9941V4.99989C20.0004 4.38942 19.8662 3.78638 19.6069 3.23371C19.3476 2.68104 18.9697 2.19233 18.5 1.80239ZM9.16667 17.4399C9.09667 17.4299 9.02667 17.4182 8.95667 17.4057L3.71917 16.4541C3.14314 16.3493 2.62216 16.0456 2.24707 15.596C1.87198 15.1465 1.66658 14.5795 1.66667 13.9941V4.99989C1.66667 4.33684 1.93006 3.70096 2.3989 3.23212C2.86774 2.76328 3.50363 2.49989 4.16667 2.49989C4.31758 2.50025 4.46816 2.51391 4.61667 2.54072L7.8 3.12405C8.18301 3.19414 8.52939 3.39611 8.77904 3.69492C9.02868 3.99373 9.16582 4.37052 9.16667 4.75989V17.4399ZM18.3333 13.9941C18.3334 14.5795 18.128 15.1465 17.7529 15.596C17.3778 16.0456 16.8569 16.3493 16.2808 16.4541L11.0433 17.4057C10.9733 17.4182 10.9033 17.4299 10.8333 17.4399V4.75989C10.8333 4.36956 10.9702 3.9916 11.2203 3.69189C11.4703 3.39219 11.8176 3.18975 12.2017 3.11989L15.3858 2.53655C15.7464 2.47094 16.117 2.48543 16.4714 2.57898C16.8258 2.67253 17.1553 2.84285 17.4365 3.07789C17.7178 3.31293 17.9439 3.60693 18.0988 3.93907C18.2538 4.27121 18.3339 4.63337 18.3333 4.99989V13.9941Z" fill="#6C757D" />
-                                </svg>
-                                20 Lessons
+
+                                Helping students identify their strengths, explore career opportunities, and make informed decisions about their future.
                               </span>
-                              <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M10 0C4.48583 0 0 4.48583 0 10C0 15.5142 4.48583 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48583 15.5142 0 10 0ZM6.66667 17.6367V17.5C6.66667 15.6617 8.16167 14.1667 10 14.1667C11.8383 14.1667 13.3333 15.6617 13.3333 17.5V17.6367C12.3117 18.0842 11.185 18.3333 10 18.3333C8.815 18.3333 7.68833 18.0842 6.66667 17.6367ZM14.9375 16.7092C14.5575 14.3267 12.4883 12.5 10 12.5C7.51167 12.5 5.44333 14.3267 5.0625 16.7092C3.00417 15.19 1.66667 12.7483 1.66667 10C1.66667 5.405 5.405 1.66667 10 1.66667C14.595 1.66667 18.3333 5.405 18.3333 10C18.3333 12.7483 16.9958 15.19 14.9375 16.7092ZM10 4.16667C8.16167 4.16667 6.66667 5.66167 6.66667 7.5C6.66667 9.33833 8.16167 10.8333 10 10.8333C11.8383 10.8333 13.3333 9.33833 13.3333 7.5C13.3333 5.66167 11.8383 4.16667 10 4.16667ZM10 9.16667C9.08083 9.16667 8.33333 8.41917 8.33333 7.5C8.33333 6.58083 9.08083 5.83333 10 5.83333C10.9192 5.83333 11.6667 6.58083 11.6667 7.5C11.6667 8.41917 10.9192 9.16667 10 9.16667Z" fill="#6C757D" />
-                                </svg>
-                                50 Sutudents
-                              </span>
+
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-6 col-lg-6 col-md-6">
-                    <div className="it-course-item mb-35">
-                      <div className="row gx-0">
-                        <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
-                          <div className="it-course-thumb z-index-1 border-radius-20">
-                            <a href="#"><img className="w-100" src="assets/img/course/course-2-1.jpg" alt="" /></a>
 
-                          </div>
-                        </div>
-                        <div className="col-xl-7 col-lg-12 col-md-12 col-sm-7">
-                          <div className="it-course-content p-relative">
-                            <div className="d-flex justify-content-between align-items-center mb-20">
 
-                            </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Design Thinking Researching for Better UX</Link></h5>
-                            <div className="it-course-rating mb-10">
-                              <div>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-regular fa-star"></i>
-                                <span>(4.7/5 Customer Rating)</span>
-                              </div>
-                            </div>
-                            <div className="it-course-meta d-flex justify-content-between">
-                              <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M18.5 1.80239C18.0315 1.41066 17.4826 1.12688 16.8921 0.971189C16.3016 0.815501 15.684 0.791726 15.0833 0.901552L11.8983 1.47989C11.163 1.61492 10.4944 1.99324 10 2.55405C9.5043 1.99227 8.8338 1.61387 8.09667 1.47989L4.91667 0.901552C4.31596 0.79163 3.69844 0.815094 3.10781 0.970282C2.51718 1.12547 1.96789 1.40859 1.4988 1.7996C1.02972 2.19061 0.652322 2.67994 0.393318 3.23297C0.134315 3.78601 4.0677e-05 4.38921 0 4.99989L0 13.9941C4.78799e-05 14.9697 0.342481 15.9144 0.967611 16.6635C1.59274 17.4126 2.46092 17.9186 3.42083 18.0932L8.65917 19.0457C9.5458 19.2068 10.4542 19.2068 11.3408 19.0457L16.5833 18.0932C17.5425 17.9177 18.4097 17.4114 19.034 16.6624C19.6583 15.9134 20.0001 14.9691 20 13.9941V4.99989C20.0004 4.38942 19.8662 3.78638 19.6069 3.23371C19.3476 2.68104 18.9697 2.19233 18.5 1.80239ZM9.16667 17.4399C9.09667 17.4299 9.02667 17.4182 8.95667 17.4057L3.71917 16.4541C3.14314 16.3493 2.62216 16.0456 2.24707 15.596C1.87198 15.1465 1.66658 14.5795 1.66667 13.9941V4.99989C1.66667 4.33684 1.93006 3.70096 2.3989 3.23212C2.86774 2.76328 3.50363 2.49989 4.16667 2.49989C4.31758 2.50025 4.46816 2.51391 4.61667 2.54072L7.8 3.12405C8.18301 3.19414 8.52939 3.39611 8.77904 3.69492C9.02868 3.99373 9.16582 4.37052 9.16667 4.75989V17.4399ZM18.3333 13.9941C18.3334 14.5795 18.128 15.1465 17.7529 15.596C17.3778 16.0456 16.8569 16.3493 16.2808 16.4541L11.0433 17.4057C10.9733 17.4182 10.9033 17.4299 10.8333 17.4399V4.75989C10.8333 4.36956 10.9702 3.9916 11.2203 3.69189C11.4703 3.39219 11.8176 3.18975 12.2017 3.11989L15.3858 2.53655C15.7464 2.47094 16.117 2.48543 16.4714 2.57898C16.8258 2.67253 17.1553 2.84285 17.4365 3.07789C17.7178 3.31293 17.9439 3.60693 18.0988 3.93907C18.2538 4.27121 18.3339 4.63337 18.3333 4.99989V13.9941Z" fill="#6C757D" />
-                                </svg>
-                                20 Lessons
-                              </span>
-                              <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M10 0C4.48583 0 0 4.48583 0 10C0 15.5142 4.48583 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48583 15.5142 0 10 0ZM6.66667 17.6367V17.5C6.66667 15.6617 8.16167 14.1667 10 14.1667C11.8383 14.1667 13.3333 15.6617 13.3333 17.5V17.6367C12.3117 18.0842 11.185 18.3333 10 18.3333C8.815 18.3333 7.68833 18.0842 6.66667 17.6367ZM14.9375 16.7092C14.5575 14.3267 12.4883 12.5 10 12.5C7.51167 12.5 5.44333 14.3267 5.0625 16.7092C3.00417 15.19 1.66667 12.7483 1.66667 10C1.66667 5.405 5.405 1.66667 10 1.66667C14.595 1.66667 18.3333 5.405 18.3333 10C18.3333 12.7483 16.9958 15.19 14.9375 16.7092ZM10 4.16667C8.16167 4.16667 6.66667 5.66167 6.66667 7.5C6.66667 9.33833 8.16167 10.8333 10 10.8333C11.8383 10.8333 13.3333 9.33833 13.3333 7.5C13.3333 5.66167 11.8383 4.16667 10 4.16667ZM10 9.16667C9.08083 9.16667 8.33333 8.41917 8.33333 7.5C8.33333 6.58083 9.08083 5.83333 10 5.83333C10.9192 5.83333 11.6667 6.58083 11.6667 7.5C11.6667 8.41917 10.9192 9.16667 10 9.16667Z" fill="#6C757D" />
-                                </svg>
-                                50 Sutudents
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-6 col-lg-6 col-md-6">
-                    <div className="it-course-item mb-35">
-                      <div className="row gx-0">
-                        <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
-                          <div className="it-course-thumb z-index-1 border-radius-20">
-                            <a href="#"><img className="w-100" src="assets/img/course/course-2-2.jpg" alt="" /></a>
-
-                          </div>
-                        </div>
-                        <div className="col-xl-7 col-lg-12 col-md-12 col-sm-7">
-                          <div className="it-course-content p-relative">
-                            <div className="d-flex justify-content-between align-items-center mb-20">
-                              <div className="it-course-author">
-                              </div>
-
-                            </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Learn from the Best – Student Favorite Programs</Link></h5>
-                            <div className="it-course-rating mb-10">
-                              <div>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-solid fa-star"></i>
-                                <i className="fa-sharp fa-regular fa-star"></i>
-                                <span>(4.7/5 Customer Rating)</span>
-                              </div>
-                            </div>
-                            <div className="it-course-meta d-flex justify-content-between">
-                              <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M18.5 1.80239C18.0315 1.41066 17.4826 1.12688 16.8921 0.971189C16.3016 0.815501 15.684 0.791726 15.0833 0.901552L11.8983 1.47989C11.163 1.61492 10.4944 1.99324 10 2.55405C9.5043 1.99227 8.8338 1.61387 8.09667 1.47989L4.91667 0.901552C4.31596 0.79163 3.69844 0.815094 3.10781 0.970282C2.51718 1.12547 1.96789 1.40859 1.4988 1.7996C1.02972 2.19061 0.652322 2.67994 0.393318 3.23297C0.134315 3.78601 4.0677e-05 4.38921 0 4.99989L0 13.9941C4.78799e-05 14.9697 0.342481 15.9144 0.967611 16.6635C1.59274 17.4126 2.46092 17.9186 3.42083 18.0932L8.65917 19.0457C9.5458 19.2068 10.4542 19.2068 11.3408 19.0457L16.5833 18.0932C17.5425 17.9177 18.4097 17.4114 19.034 16.6624C19.6583 15.9134 20.0001 14.9691 20 13.9941V4.99989C20.0004 4.38942 19.8662 3.78638 19.6069 3.23371C19.3476 2.68104 18.9697 2.19233 18.5 1.80239ZM9.16667 17.4399C9.09667 17.4299 9.02667 17.4182 8.95667 17.4057L3.71917 16.4541C3.14314 16.3493 2.62216 16.0456 2.24707 15.596C1.87198 15.1465 1.66658 14.5795 1.66667 13.9941V4.99989C1.66667 4.33684 1.93006 3.70096 2.3989 3.23212C2.86774 2.76328 3.50363 2.49989 4.16667 2.49989C4.31758 2.50025 4.46816 2.51391 4.61667 2.54072L7.8 3.12405C8.18301 3.19414 8.52939 3.39611 8.77904 3.69492C9.02868 3.99373 9.16582 4.37052 9.16667 4.75989V17.4399ZM18.3333 13.9941C18.3334 14.5795 18.128 15.1465 17.7529 15.596C17.3778 16.0456 16.8569 16.3493 16.2808 16.4541L11.0433 17.4057C10.9733 17.4182 10.9033 17.4299 10.8333 17.4399V4.75989C10.8333 4.36956 10.9702 3.9916 11.2203 3.69189C11.4703 3.39219 11.8176 3.18975 12.2017 3.11989L15.3858 2.53655C15.7464 2.47094 16.117 2.48543 16.4714 2.57898C16.8258 2.67253 17.1553 2.84285 17.4365 3.07789C17.7178 3.31293 17.9439 3.60693 18.0988 3.93907C18.2538 4.27121 18.3339 4.63337 18.3333 4.99989V13.9941Z" fill="#6C757D" />
-                                </svg>
-                                20 Lessons
-                              </span>
-                              <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M10 0C4.48583 0 0 4.48583 0 10C0 15.5142 4.48583 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48583 15.5142 0 10 0ZM6.66667 17.6367V17.5C6.66667 15.6617 8.16167 14.1667 10 14.1667C11.8383 14.1667 13.3333 15.6617 13.3333 17.5V17.6367C12.3117 18.0842 11.185 18.3333 10 18.3333C8.815 18.3333 7.68833 18.0842 6.66667 17.6367ZM14.9375 16.7092C14.5575 14.3267 12.4883 12.5 10 12.5C7.51167 12.5 5.44333 14.3267 5.0625 16.7092C3.00417 15.19 1.66667 12.7483 1.66667 10C1.66667 5.405 5.405 1.66667 10 1.66667C14.595 1.66667 18.3333 5.405 18.3333 10C18.3333 12.7483 16.9958 15.19 14.9375 16.7092ZM10 4.16667C8.16167 4.16667 6.66667 5.66167 6.66667 7.5C6.66667 9.33833 8.16167 10.8333 10 10.8333C11.8383 10.8333 13.3333 9.33833 13.3333 7.5C13.3333 5.66167 11.8383 4.16667 10 4.16667ZM10 9.16667C9.08083 9.16667 8.33333 8.41917 8.33333 7.5C8.33333 6.58083 9.08083 5.83333 10 5.83333C10.9192 5.83333 11.6667 6.58083 11.6667 7.5C11.6667 8.41917 10.9192 9.16667 10 9.16667Z" fill="#6C757D" />
-                                </svg>
-                                50 Sutudents
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

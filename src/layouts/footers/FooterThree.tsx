@@ -119,7 +119,7 @@ export default function FooterThree() {
               <div className="row align-items-center">
                 <div className="col-12">
                   <div className="it-copyright-left style-2 text-center">
-                    <p className="mb-0">Copyright © {new Date().getFullYear()} <a href="#">Shiva Shiksha Sadan</a> All Rights Reserved</p>
+                    <p className="mb-0">Copyright © {new Date().getFullYear()} <a href="#" className="text-white">Shiva Shiksha Sadan</a> All Rights Reserved</p>
                   </div>
                 </div>
               </div>

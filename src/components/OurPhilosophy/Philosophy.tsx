@@ -4,12 +4,12 @@ return(
 <>
    <div className="container " style={{marginTop : "80px" , marginBottom : "200px"}}>
 
-        <h1>Our Vision for Holisticd Education</h1>
+        <h1 className="it-breadcrumb-title it-split-text it-split-in-right" >Our Vision for Holisticd Education</h1>
         <p>
 
 At Shiva Shiksha Sadan, we believe that education is not simply about acquiring knowledge; it is about discovering potential, developing character, and preparing young minds to face the world with confidence and purpose. Our philosophy is built around the belief that every child is unique, with their own abilities, interests, aspirations, and pace of learning. We strive to create an environment where every student feels encouraged to explore, question, learn, and grow.
 
-<h5  className="mt-4"> Education with Purpose</h5>
+<h5  className="mt-4 "> Education with Purpose</h5>
 
 We believe meaningful education goes beyond textbooks and examinations. While academic excellence remains an important part of a student's journey, we focus equally on developing critical thinking, creativity, communication, collaboration, and problem-solving abilities. Our approach encourages students to understand concepts, apply their learning, and develop a genuine curiosity about the world around them.
 
