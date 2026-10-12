@@ -14,6 +14,7 @@ import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 // import TestimonialThree from "@/components/testimonial/TestimonialThree";
 import ImageSection from "@/components/GalleryPage/ImageSection";
+import TabsGallery from "@/components/GalleryPage/TabsGallery"
 
 
 
@@ -24,7 +25,7 @@ export default function Aboutusv1() {
        />
       <main>
         <Breadcrumb title="Gallery" subtitle="Gallery" breadcrumb_img="/assets/img/breadcrumb/gallery-page.JPG" />
-      <ImageSection/>
+      <TabsGallery/>
       </main>
       <FooterThree/>
       <BackToTop />
