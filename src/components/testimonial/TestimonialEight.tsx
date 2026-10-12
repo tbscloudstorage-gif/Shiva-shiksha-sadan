@@ -88,7 +88,7 @@ export default function TestimonialEight() {
         <div className="row gx-35">
           <div className="col-xl-6 col-lg-6">
             <div className="it-testimonial-3-thumb p-relative">
-              <img src="assets/img/testimonial/thumb-9-1.jpg" alt="Testimonial" />
+              <img src="assets/img/about/anu.png" alt="Testimonial" />
               <div className="it-testimonial-3-play-icon">
                 <VideoPopup>
                   <a className="pulse-theme popup-video"  style={{ cursor: "pointer" }}>

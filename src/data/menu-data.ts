@@ -73,7 +73,7 @@ const menu_data: DataType[] = [
  has_dropdown: true,
    sub_menus: [
       { link: "/about-school", title: "About School" },
-          { link: "/prinicipal-message", title: "Principal's Message" },
+          { link: "/Chairman-message", title: "Chairman's Message" },
                     { link: "/our-philosophy", title: "Our Philosophy" },
                               { link: "/our-faculty", title: "Our Faculty" },
           { link: "/awards-&-honors", title: "Awards & Honors" },

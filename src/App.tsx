@@ -130,7 +130,7 @@ const router = createBrowserRouter([
     { path: "/List-of-books-stationery", element: <BooksStationery /> },
 
   { path: "/our-philosophy", element: <OurPhilosophy /> },
-  { path: "/prinicipal-message", element: <PrinicipalMessage/> },
+  { path: "/Chairman-message", element: <PrinicipalMessage/> },
 
   { path: "/our-faculty", element: <OurFaculty /> },
   { path: "/price", element: <Price /> },

@@ -100,7 +100,7 @@ export default function HeaderOne() {
                     </nav>
                   </div>
                 </div>
-                <div className="col-xxl-4 col-xl-3 col-lg-8 col-md-7 col-6 d-flex justify-content-center">
+                <div className="col-xxl-4 col-xl-3 col-lg-8 col-md-7 col-6 d-flex justify-content-end">
                   <div className="it-header-right-action d-flex justify-content-end align-items-center">
                     {/* <div className="it-header-search-wrap d-none d-lg-flex align-items-center">
                       <div className="it-header-categorie p-relative d-flex align-items-center">

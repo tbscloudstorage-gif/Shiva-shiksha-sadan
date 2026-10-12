@@ -21801,6 +21801,9 @@ input[type=radio] {
   transition: 0.3s;
   font-family: var(--it-ff-spartan-semibold);
 }
+.it-feature-content a:hover{
+  color: #d41a2e;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .it-feature-content a {
     font-size: 12px;
@@ -22468,6 +22471,60 @@ input[type=radio] {
   }
 }
 
+.feature-notice-window {
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+  margin: 12px 0;
+}
+
+.feature-notice-track {
+  display: flex;
+  flex-direction: column;
+  animation: featureNoticeScroll 20s linear infinite;
+}
+
+.feature-notice-item {
+  flex: 0 0 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-notice-item p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.feature-notice-dot {
+  width: 7px;
+  height: 7px;
+  background: #d41a2e;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+@keyframes featureNoticeScroll {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+.feature-notice-window:hover .feature-notice-track,
+.feature-notice-window:focus-within .feature-notice-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feature-notice-track {
+    animation: none;
+  }
+}
 .school-gallery-heading p {
   font-size: 16px;
   color: #666;

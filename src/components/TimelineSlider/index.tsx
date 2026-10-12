@@ -5,18 +5,22 @@ const slides = [
   {
     title: "Academic Excellence & Curriculum",
     image: "/assets/img/about/ac-2.png",
+    link: "/",
   },
   {
     title: "Innovative Teaching & Learning",
     image: "/assets/img/about/ac-3.png",
+    link: "/",
   },
   {
     title: "Sports & Extracurricular Activities",
     image: "/assets/img/about/ac-4.png",
+    link: "/",
   },
   {
     title: "School Healthcare & Medical Facilities",
-    image: "/assets/img/about/ac-5.JPG ",
+    image: "/assets/img/about/ac-5.JPG",
+    link: "/",
   },
 ];
 
@@ -132,18 +136,35 @@ const handleTimelineClick = (index: number) => {    activeRef.current = index;
       <div className="school-timeline-wrapper">
 
         {/* Full background image slider */}
-        <div className="school-timeline-images">
-          {slides.map((slide, index) => (
-            <img
-              key={index}
-              src={slide.image}
-              alt={slide.title}
-              className={`school-timeline-img ${
-                activeIndex === index ? "active" : ""
-              }`}
-            />
-          ))}
-        </div>
+     <div className="school-timeline-images">
+  {slides.map((slide, index) => (
+    <a
+      key={index}
+      href={slide.link}
+      className={`school-timeline-img ${
+        activeIndex === index ? "active" : ""
+      }`}
+      style={{
+        display: "block",
+        position: "absolute",
+        inset: 0,
+        pointerEvents: activeIndex === index ? "auto" : "none",
+      }}
+      tabIndex={activeIndex === index ? 0 : -1}
+      aria-label={`Explore ${slide.title}`}
+    >
+      <img
+        src={slide.image}
+        alt={slide.title}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+        }}
+      />
+    </a>
+  ))}
+</div>
 
         {/* White timeline overlay */}
         <div className="school-timeline-overlay">

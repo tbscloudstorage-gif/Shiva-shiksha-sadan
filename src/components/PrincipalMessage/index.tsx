@@ -7,7 +7,7 @@ export default function AboutEight() {
   return (
     <>
     <HeaderOne/>
-            <Breadcrumb title="Principal's Message" subtitle="Principal's Message " breadcrumb_img="/assets/img/breadcrumb/Principal-breadcrumb.png" />
+            <Breadcrumb title="Chairman's Message" subtitle="Chairman's Message " breadcrumb_img="/assets/img/breadcrumb/Principal-breadcrumb.png" />
     
       {/* <!-- about-area-start --> */}
       <section className="it-about-area it-about-style-3 z-index-1 gray-bg pt-190 pb-130">
@@ -46,10 +46,10 @@ export default function AboutEight() {
               data-wow-delay=".7s">
               <div className="it-about-right">
                 <div className="it-about-section-title-box mb-25">
-                  <span className="it-section-subtitle">Principal’s Message</span>
+                  <span className="it-section-subtitle">Chairman's Message</span>
                   <h4 className="it-section-title">A Message from Our  <br />
                     <span className="z-index-1">
-                      Principal
+                      Chairman
                      
                     </span>
                     

@@ -9,25 +9,56 @@ export default function FeaturesThree() {
         <div className="container">
           <div className="it-feature-wrap z-index-2">
             <div className="row gx-0">
-              <div className="col-xl-4 col-lg-4 col-md-6">
-                <div className="it-feature-item d-flex justify-content-center">
-                  <div className="it-feature-icon">
+            <div className="col-xl-4 col-lg-4 col-md-6">
+  <div className="it-feature-item d-flex justify-content-center">
+                <div className="it-feature-icon">
                     <span>
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" >
                         <path d="M28.6625 19.5288C27.8162 18.8688 26.735 18.64 25.6938 18.9C23.12 19.545 18.31 20.625 15 20.625C11.69 20.625 6.88 19.5438 4.3075 18.9C3.26625 18.6413 2.18375 18.87 1.3375 19.5288C0.4875 20.1925 0 21.1913 0 22.2713V26.4788C0 27.5588 0.4875 28.5575 1.3375 29.2213C2.18375 29.8813 3.265 30.11 4.30625 29.85C6.88 29.205 11.69 28.125 15 28.125C18.31 28.125 23.12 29.2063 25.6925 29.85C25.975 29.92 26.2587 29.955 26.5413 29.955C27.3025 29.955 28.045 29.7025 28.6625 29.2213C29.5125 28.5575 30 27.5588 30 26.4788V22.2713C30 21.1913 29.5125 20.1925 28.6625 19.5288ZM13.75 25.6663C10.5288 25.8563 6.5925 26.7013 3.69875 27.425C3.30375 27.5238 3.0125 27.3575 2.875 27.25C2.63625 27.0638 2.5 26.7825 2.5 26.4788V22.2713C2.5 21.9675 2.63625 21.6863 2.875 21.5C3.0125 21.3913 3.30125 21.225 3.7 21.325C6.59375 22.0488 10.5288 22.8938 13.75 23.0838V25.6663ZM27.5 26.4788C27.5 26.7825 27.3638 27.0638 27.125 27.25C26.9863 27.3575 26.695 27.5238 26.3 27.425C23.4063 26.7013 19.4713 25.8563 16.25 25.6663V23.0838C19.4713 22.8938 23.4075 22.0488 26.3013 21.325C26.695 21.2238 26.9863 21.3913 27.125 21.5C27.3638 21.6863 27.5 21.9675 27.5 22.2713V26.4788ZM28.1538 4.19875L18.2763 0.573752C16.205 -0.184998 13.9262 -0.189998 11.8562 0.565002L1.8575 4.2025C0.73 4.61375 0.00125 5.67 0.0025 6.8925C0.0025 8.11625 0.7325 9.17125 1.86 9.58L6.25 11.1725V16.2488C6.25 16.9388 6.81 17.4988 7.5 17.4988C8.19 17.4988 8.75 16.9388 8.75 16.2488V12.0788L11.8025 13.1863C12.8313 13.56 13.9125 13.7463 14.9925 13.7463C16.0725 13.7463 17.1525 13.56 18.18 13.1863L21.25 12.0725V16.2475C21.25 16.9375 21.81 17.4975 22.5 17.4975C23.19 17.4975 23.75 16.9375 23.75 16.2475V11.165L27.5 9.805V14.9975C27.5 15.6875 28.06 16.2475 28.75 16.2475C29.44 16.2475 30 15.6875 30 14.9975V6.90375C30 6.90375 30.0025 6.89375 30.0025 6.8875C30.0038 5.665 29.2788 4.60875 28.1538 4.19625V4.19875ZM27.2913 7.22375L17.3275 10.8388C15.8188 11.3838 14.16 11.385 12.6538 10.8388L2.71125 7.23125C2.52875 7.165 2.50125 6.99 2.50125 6.8925C2.50125 6.795 2.5275 6.62 2.71 6.55375L12.71 2.915C13.465 2.64 14.2575 2.5025 15.0513 2.5025C15.8513 2.5025 16.6513 2.6425 17.4125 2.92125L27.2913 6.54625C27.4675 6.61125 27.4963 6.775 27.4988 6.875C27.4963 6.975 27.4688 7.16 27.2913 7.22375Z" fill="#D41A2E" />
                       </svg>
                     </span>
                   </div>
-                  <div className="it-feature-content">
-                    <h5 className="it-feature-title">Holistic Education</h5>
-                    <p>Build strong academic foundations while developing confidence, discipline, creativity, and essential life skills.</p>
-                    <Link to="#" >Read More {' '}
-                      <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" >
-                        <path d="M14.6364 7.6364C14.9879 7.28492 14.9879 6.71508 14.6364 6.3636L8.90883 0.636039C8.55736 0.284567 7.98751 0.284567 7.63604 0.636039C7.28457 0.987511 7.28457 1.55736 7.63604 1.90883L12.7272 7L7.63604 12.0912C7.28457 12.4426 7.28457 13.0125 7.63604 13.364C7.98751 13.7154 8.55736 13.7154 8.90883 13.364L14.6364 7.6364ZM0 7V7.9H14V7V6.1H0V7Z" fill="currentcolor" />
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
+              <div className="it-feature-content" >
+  <h5 className="it-feature-title">Notices & Announcements</h5>
+
+  <div className="feature-notice-window">
+    <div className="feature-notice-track">
+      {[
+        "Admission Enquiries for the Upcoming Academic Session",
+        "Latest School Circulars and Important Updates",
+        "Upcoming School Events and Activities",
+        "Academic Calendar and Examination Updates",
+        "Important Information for Parents",
+        "Admission Enquiries for the Upcoming Academic Session",
+        "Latest School Circulars and Important Updates",
+        "Upcoming School Events and Activities",
+        "Academic Calendar and Examination Updates",
+        "Important Information for Parents",
+      ].map((notice, index) => (
+        <div className="feature-notice-item" key={index}>
+          <span className="feature-notice-dot"></span>
+          <p>{notice}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <Link to="/notices">
+    View All Notices{" "}
+    <svg
+      width="15"
+      height="14"
+      viewBox="0 0 15 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14.6364 7.6364C14.9879 7.28492 14.9879 6.71508 14.6364 6.3636L8.90883 0.636039C8.55736 0.284567 7.98751 0.284567 7.63604 0.636039C7.28457 0.987511 7.28457 1.55736 7.63604 1.90883L12.7272 7L7.63604 12.0912C7.28457 12.4426 7.28457 13.0125 7.63604 13.364C7.98751 13.7154 8.55736 13.7154 8.90883 13.364L14.6364 7.6364ZM0 7V7.9H14V7V6.1H0V7Z"
+        fill="currentColor"
+      />
+    </svg>
+  </Link>
+</div></div>
               </div>
               <div className="col-xl-4 col-lg-4 col-md-6">
                 <div className="it-feature-item d-flex justify-content-center">
