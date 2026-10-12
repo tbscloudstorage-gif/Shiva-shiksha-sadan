@@ -50,7 +50,7 @@ export default function CampusThree() {
               data-wow-delay=".5s">
               <div className="it-campus-item p-relative">
                 <h4 className="it-campus-title"><Link className="border-line" to="/academics">Build Confidence
-</Link></h4>
+                </Link></h4>
                 <div className="it-campus-thumb">
                   <img src="assets/img/campus/campus-3-2.jpg" alt="" />
                 </div>
@@ -67,7 +67,7 @@ export default function CampusThree() {
               data-wow-delay=".7s">
               <div className="it-campus-item p-relative">
                 <h4 className="it-campus-title"><Link className="border-line" to="/academics">Career Guidance
-</Link></h4>
+                </Link></h4>
                 <div className="it-campus-thumb">
                   <img src="assets/img/campus/campus-3-3.jpg" alt="" />
                 </div>
