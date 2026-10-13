@@ -22501,6 +22501,7 @@ input[type=radio] {
 .feature-notice-dot {
   width: 7px;
   height: 7px;
+  margin-bottom: 20px;
   background: #d41a2e;
   border-radius: 50%;
   flex-shrink: 0;
