@@ -125,6 +125,25 @@ export default function FooterThree() {
               </div>
             </div>
           </div>
+          {/* <!-- Sticky WhatsApp Button Start --> */}
+<a
+ href="https://wa.me/919555812226?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Rishikul%20Vidyapeeth."
+  className="whatsapp-sticky-btn"
+  target="_blank"
+  rel="noopener noreferrer"
+  title="Chat with us on WhatsApp"
+>
+  <img src="assets/img/whatsapp.svg" alt="WhatsApp" />
+</a>
+<a
+  href="https://www.google.com/maps/dir/?api=1&destination=Shiva+Shiksha+Sadan%2C+Dev+Nagar%2C+Sonipat%2C+Haryana&waypoints=Street+No+8%2C+Dev+Nagar%2C+Sonipat%2C+Haryana&travelmode=driving"
+  className="location-button"
+  target="_blank"
+  rel="noopener noreferrer"
+  title="Get Directions to Shiva Shiksha Sadan"
+>
+  Get Direction Now
+</a>
           {/* <!-- copyright-area-end --> */}
 
         </section>

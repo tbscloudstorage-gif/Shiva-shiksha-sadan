@@ -22294,7 +22294,7 @@ input[type=radio] {
   top: 12.5%;
   left: 17px;
   width: 2px;
-  background: #15967e;
+  background: #D41A2E;
   z-index: 1;
 }
 
@@ -22337,21 +22337,107 @@ input[type=radio] {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #15967e;
+  background: #d41a2e;
 }
 
 .school-timeline-point.active
 .school-timeline-circle {
-  background: #15967e;
+  background: #d41a2e;
   border: 3px solid #ffffff;
   box-shadow: 0 0 0 1px #bcbcbc;
 }
 
 .school-timeline-point.completed
 .school-timeline-circle {
-  border-color: #15967e;
+  border-color: #d41a2e;
+}
+.whatsapp-sticky-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+/* WhatsApp Icon */
+.whatsapp-sticky-btn img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Hover Effect */
+.whatsapp-sticky-btn:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+.location-button {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 9999;
+
+    background-color: #d41a2e;
+    color: #ffffff;
+
+    padding: 20px 10px;
+    border-radius: 0 16px 16px 0;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.location-button:hover {
+    background-color: #d41a2e;
+    color: #ffffff;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .location-button {
+        font-size: 12px;
+        padding: 15px 8px;
+        border-radius: 0 12px 12px 0;
+    }
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .whatsapp-sticky-btn {
+        width: 50px;
+        height: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .whatsapp-sticky-btn img {
+        width: 30px;
+        height: 30px;
+    }
+}
 /* Timeline text */
 .school-timeline-text {
   font-size: 16px;
@@ -22363,17 +22449,17 @@ input[type=radio] {
 
 .school-timeline-point.active
 .school-timeline-text {
-  color: #15967e;
+  color: #1c1651;
   font-weight: 600;
 }
 
 .school-timeline-point:hover
 .school-timeline-text {
-  color: #15967e;
+  color:#1c1651;
 }
 
 .school-timeline-point:focus-visible {
-  outline: 2px solid #15967e;
+  outline: 2px solid #1c1651;
   outline-offset: 3px;
   border-radius: 5px;
 }
