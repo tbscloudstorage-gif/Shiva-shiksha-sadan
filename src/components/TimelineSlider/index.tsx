@@ -122,7 +122,7 @@ const handleTimelineClick = (index: number) => {    activeRef.current = index;
               </div>
               <div className="col-xl-4 col-lg-5">
                 <div className="it-campus-text">
-                  <p className="mb-0">At Shiva Shiksha Sadan, we believe the most important things we teach happen outside the syllabus. These are the programs that make us different.
+                  <p className="mb-0"> At Shiva Shiksha Sadan, we focus on holistic development through quality education, sports, extracurricular activities, and life skills, nurturing well-rounded individuals ready for the future.
 
  </p>
                 </div>

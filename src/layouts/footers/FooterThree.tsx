@@ -47,7 +47,7 @@ export default function FooterThree() {
                       <ul>
                         <li><a href="/school-rules">School Rules</a></li>
                         <li><a href="/List-of-books-stationery">List of Books & Stationery</a></li>
-                        <li><a href="/assessment-promotion">Assessment Promotion</a></li>
+                        <li><a href="/assessment-promotion">Assessment & Promotion</a></li>
                         <li><a href="results">Results</a></li>
                         <li><a href="academic-calendar">Academic Calendar</a></li>
                                                 <li><a href="school-council">Student Council</a></li>

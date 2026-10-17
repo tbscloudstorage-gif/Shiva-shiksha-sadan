@@ -190,7 +190,7 @@ const menu_data: DataType[] = [
             { link: "/school-rules", title: "School Rules" },
 
       { link: "/List-of-books-stationery", title: "List of Books & Stationery" },
-      { link: "/assessment-promotion", title: "Assessment Promotion" },
+      { link: "/assessment-promotion", title: "Assessment & Promotion" },
             { link: "/results", title: "Result" },
                         { link: "/academic-calendar", title: "Academic Calendar" },
                                                 { link: "/school-council", title: "Student Council" },
@@ -202,7 +202,7 @@ const menu_data: DataType[] = [
 
   {
     id: 5,
-    title: "Admission",
+    title: "Admissions",
     link: "#",
     has_dropdown: true,
     sub_menus: [

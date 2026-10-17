@@ -76,7 +76,7 @@ export default function TestimonialEight() {
         <div className="row">
           <div className="col-12">
             <div className="it-testimonial-section-title-box text-center mb-70">
-              <span className="it-section-subtitle">Testimonial</span>
+              <span className="it-section-subtitle">Testimonials</span>
               <h4 className="it-section-title">
               Inspiring Words From Our Alumni
 

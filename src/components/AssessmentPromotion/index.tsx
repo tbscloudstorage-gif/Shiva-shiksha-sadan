@@ -13,7 +13,7 @@ export default function EventGrid() {
     <Wrapper>
       <HeaderOne />
       <main>
-        <Breadcrumb title="Assessment Promotion" subtitle="Assessment Promotion" breadcrumb_img="/assets/img/breadcrumb/media.JPG" />
+        <Breadcrumb title="Assessment & Promotion" subtitle="Assessment & Promotion" breadcrumb_img="/assets/img/breadcrumb/media.JPG" />
         <Main/>
         <NewsletterThree style_2={true} />
       </main>

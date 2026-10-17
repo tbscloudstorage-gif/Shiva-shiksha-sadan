@@ -50,7 +50,7 @@ export default function OffCanvas({ offCanvasOpen, setOffCanvasOpen }: OffCanvas
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Phone</span>
-                <a href="tel:0130-2242451">0130-2242451 / 2253385</a>
+                <a href="tel:0130-2242451">0130-2242451/2253385</a>
               </div>
             </div>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">

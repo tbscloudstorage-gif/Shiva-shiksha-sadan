@@ -58,8 +58,8 @@ export default function HeroThree() {
                             <div className="it-slider-btn">
                               <Link to="/apply-now" className="it-btn-yellow theme-bg border-radius-100">
                                 <span>
-                                  <span className="text-1">Get Admissions</span>
-                                  <span className="text-2">Get Admissions</span>
+                                  <span className="text-1">Admissions Open</span>
+                                  <span className="text-2">Admissions Open</span>
                                 </span>
                                 <i>
                                   <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -102,8 +102,8 @@ export default function HeroThree() {
                             <div className="it-slider-btn">
                               <Link to="/apply-now" className="it-btn-yellow theme-bg border-radius-100">
                                 <span>
-                                  <span className="text-1">Get Admissions</span>
-                                  <span className="text-2">Get Admissions</span>
+                                  <span className="text-1">Admissions Open</span>
+                                  <span className="text-2">Admissions Open</span>
                                 </span>
                                 <i>
                                   <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -145,8 +145,8 @@ export default function HeroThree() {
                             <div className="it-slider-btn">
                               <Link to="/apply-now" className="it-btn-yellow theme-bg border-radius-100">
                                 <span>
-                                  <span className="text-1">Get Admissions</span>
-                                  <span className="text-2">Get Admissions</span>
+                                  <span className="text-1">Admissions Open</span>
+                                  <span className="text-2">Admissions Open</span>
                                 </span>
                                 <i>
                                   <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -188,8 +188,8 @@ export default function HeroThree() {
                             <div className="it-slider-btn">
                               <Link to="/apply-now" className="it-btn-yellow theme-bg border-radius-100">
                                 <span>
-                                  <span className="text-1">Get Admissions</span>
-                                  <span className="text-2">Get Admissions</span>
+                                  <span className="text-1">Admissions Open</span>
+                                  <span className="text-2">Admissions Open</span>
                                 </span>
                                 <i>
                                   <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">

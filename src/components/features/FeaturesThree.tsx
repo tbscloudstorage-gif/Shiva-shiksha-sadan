@@ -44,7 +44,7 @@ export default function FeaturesThree() {
                       </div>
                     </div>
 
-                    <Link to="/notices">
+                    <Link to="#">
                       View All Notices{" "}
                       <svg
                         width="15"
@@ -69,22 +69,26 @@ export default function FeaturesThree() {
                     </span>
                   </div>
                   <div className="it-feature-content" >
-                    <h5 className="it-feature-title">Events 2025-2026
+                    <h5 className="it-feature-title">Events 2026-2027
 </h5>
 
                     <div className="feature-notice-window">
                       <div className="feature-notice-track">
                         {[
-                          "Guru Vandan Chhatra Abhinandan",
-                          "TEDx: Ideas Worth Spreading",
-                          "Kaushal Bodh Mela",
-                          "Hindi Diwas Celebration",
-                          "BEYOND: The 52nd Foundation Day",
-                          "Janmashtmi Celebration",
-                          "Teachers day Celebration",
-                          "Rakshabandhan",
-                          "Abhinandan Samaroh",
-                          "Independence Day",
+                          
+                           "Dussehra Celebration",
+                          "Maharishi Valmiki Jayanti",
+                          "National Unity Day",
+                          "Diwali",
+                          "National Education Day",
+                          "Children's Day Celebration",
+                          " Chhath Puja",
+                          "Guru Nanak Jayanti",
+                          "Human Rights Day",
+                         
+                          " National Energy Conservation Day",
+                          " National Mathematics Day",
+                          "Christmas",
                         ].map((notice, index) => (
                           <div className="feature-notice-item" key={index}>
                             <span className="feature-notice-dot"></span>
@@ -94,7 +98,7 @@ export default function FeaturesThree() {
                       </div>
                     </div>
 
-                    <Link to="/upcoming-event">
+                    <Link to="#">
                       View Upcoming Event{" "}
                       <svg
                         width="15"

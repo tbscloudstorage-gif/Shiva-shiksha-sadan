@@ -44,7 +44,7 @@ export default function BlogThree() {
                           </clipPath>
                         </defs>
                       </svg>
-                      Jan, 8, 2022
+                      Sept, 08, 2026
                     </span>
                     <span>
                       <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +94,7 @@ Admin                    </span>
                           </clipPath>
                         </defs>
                       </svg>
-                      Sept, 08, 2024
+                      Jan, 15, 2026
                     </span>
                     <span>
                       <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
