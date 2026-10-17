@@ -81,7 +81,7 @@ const menu_data: DataType[] = [
 
 
 
-                    { link: "/mondatory-public-disclosure", title: "Mandatory Public Disclosure" },
+                    { link: "/mandatory-public-disclosure", title: "Mandatory Public Disclosure" },
 
     ],
     // mega_menus: [
@@ -192,7 +192,7 @@ const menu_data: DataType[] = [
       { link: "/List-of-books-stationery", title: "List of Books & Stationery" },
       { link: "/assessment-promotion", title: "Assessment Promotion" },
             { link: "/results", title: "Result" },
-                        { link: "/academic-calender", title: "Academic Calender" },
+                        { link: "/academic-calendar", title: "Academic Calendar" },
                                                 { link: "/school-council", title: "Student Council" },
 
 

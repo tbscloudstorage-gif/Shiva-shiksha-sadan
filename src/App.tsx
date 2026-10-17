@@ -90,7 +90,7 @@ const router = createBrowserRouter([
   { path: "/online-courses", element: <OnlineCourses /> },
   { path: "/education", element:  <GeneralEducation /> },
     { path: "/fee-structure", element: <FeeStructure /> },
-    { path: "/mondatory-public-disclosure", element: <MondatoryDisclosure /> },
+    { path: "/mandatory-public-disclosure", element: <MondatoryDisclosure /> },
     
     { path: "/academics", element: <Academics /> },
     { path: "/magazines", element: <Magazines /> },
@@ -126,7 +126,7 @@ const router = createBrowserRouter([
   { path: "/event-details", element: <EventDetails /> },
     { path: "/pre-primary", element: <Kindergarten /> },
     { path: "/school-council", element: <StudentCouncil /> },
-    { path: "/academic-calender", element: <AcademicCalender /> },
+    { path: "/academic-calendar", element: <AcademicCalender /> },
     { path: "/List-of-books-stationery", element: <BooksStationery /> },
 
   { path: "/our-philosophy", element: <OurPhilosophy /> },

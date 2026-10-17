@@ -75,7 +75,7 @@ export default function FeaturesThree() {
                     <div className="feature-notice-window">
                       <div className="feature-notice-track">
                         {[
-                          "Guru Vandan Chatr Abhinandan",
+                          "Guru Vandan Chhatra Abhinandan",
                           "TEDx: Ideas Worth Spreading",
                           "Kaushal Bodh Mela",
                           "Hindi Diwas Celebration",

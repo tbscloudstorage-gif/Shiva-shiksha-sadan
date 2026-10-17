@@ -20,7 +20,8 @@ export default function FooterThree() {
                     <div className="it-footer-widget-menu">
                       <ul>
                         <li><a href="/about-school">About School</a></li>
-                        <li><a href="/principal-message">Principal's Message
+                        <li><a href="/Chairman-message">Chairman's Message
+
 </a></li>
                         <li><a href="/our-philosophy">Our Philosophy</a></li>
                                                 <li><a href="/our-faculty">Our Faculty</a></li>
@@ -30,7 +31,7 @@ export default function FooterThree() {
                         <li><a href="/our-alumni">Our Alumni
 </a></li>
 
-           <li><a href="/mondatory-public-disclosure">Mandatory Public Disclosure
+           <li><a href="/mandatory-public-disclosure">Mandatory Public Disclosure
 
 </a></li>
                       </ul>
@@ -48,7 +49,7 @@ export default function FooterThree() {
                         <li><a href="/List-of-books-stationery">List of Books & Stationery</a></li>
                         <li><a href="/assessment-promotion">Assessment Promotion</a></li>
                         <li><a href="results">Results</a></li>
-                        <li><a href="academic-calender">Academic Calender</a></li>
+                        <li><a href="academic-calendar">Academic Calendar</a></li>
                                                 <li><a href="school-council">Student Council</a></li>
 
                       </ul>

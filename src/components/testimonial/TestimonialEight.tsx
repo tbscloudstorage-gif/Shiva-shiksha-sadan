@@ -40,13 +40,13 @@ const testimonials = [
   {
     id: 1,
     name: "Pradeep Dahiya",
-    title: "IAS, DC Hisar (Batch-2013)",
+    title: "IAS, DC Hisar(Batch-2013)",
     text: "Shiva Shiksha Sadan gave me much more than academic knowledge. The guidance of my teachers, the discipline I learned, and the confidence I developed here continue to help me in every stage of life."
   },
   {
     id: 2,
     name: "Ankur Raparia",
-    title: "(Batch - 2011) IFS",
+    title: " IFS(Batch-2011)",
     text: " My years at Shiva Shiksha Sadan are filled with wonderful memories. From classroom learning to cultural activities and friendships, every experience contributed to the person I am today."
   },
   {
@@ -58,13 +58,13 @@ const testimonials = [
   {
     id: 4,
     name: "Nidhi Sehrawat",
-    title: "(Batch - 2013) IAS",
+    title: "IAS(Batch-2013)",
     text: "I will always be grateful to the teachers who supported and motivated me throughout my school journey. Their guidance helped me become more confident, responsible, and focused on my goals."
   },
   {
     id: 5,
     name: "Amit Jain",
-    title: "(Batch - 1995) IRS",
+    title: " IRS(Batch-1995)",
     text: "Being a student of Shiva Shiksha Sadan has been an important part of my journey. The school provided a strong academic foundation while teaching values that continue to guide me today."
   }
 ];

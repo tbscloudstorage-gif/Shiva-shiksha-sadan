@@ -117,7 +117,7 @@ export default function CourseTwo() {
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Career Counselling & Guidance
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">Career Counselling & Guidance
 
                             </Link></h5>
 
@@ -145,7 +145,7 @@ export default function CourseTwo() {
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Mathematics with R.D. Sharma
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">Mathematics with R.D. Sharma
 
 
                             </Link></h5>
@@ -174,7 +174,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Social & Emotional Learning</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">Social & Emotional Learning</Link></h5>
                             <div className="it-course-rating mb-10">
 
                             </div>
@@ -213,7 +213,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                               </div>
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Mathematics with R.D. Sharma</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">Mathematics with R.D. Sharma</Link></h5>
 
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
@@ -241,7 +241,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
 
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Science with Lakhmir Singh</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">Science with Lakhmir Singh</Link></h5>
                             <div className="it-course-rating mb-10">
 
                             </div>
@@ -275,7 +275,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">44 Sounds with Jolly Phonics</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">44 Sounds with Jolly Phonics</Link></h5>
 
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
@@ -303,7 +303,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">CPA-Based Learning</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">CPA-Based Learning</Link></h5>
                             <div className="it-course-rating mb-10">
 
                             </div>
@@ -334,7 +334,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Social & Emotional Learning</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">Social & Emotional Learning</Link></h5>
 
                             <div className="it-course-meta d-flex justify-content-between">
 
@@ -362,7 +362,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">STEM-Based Learning</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">STEM-Based Learning</Link></h5>
 
                             <div className="it-course-meta d-flex justify-content-between">
 
@@ -393,7 +393,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">IIT-JEE & NEET Preparation</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">IIT-JEE & NEET Preparation</Link></h5>
 
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
@@ -420,7 +420,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v2">Career Counselling & Guidance</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">Career Counselling & Guidance</Link></h5>
 
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>

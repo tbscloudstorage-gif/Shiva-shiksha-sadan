@@ -53,11 +53,11 @@ export default function BlogThree() {
 Admin                    </span>
                   </div>
                   <h5 className="it-blog-title mb-15">
-                    <Link className="border-line" to="/blog-details-left-sidebar">How to Make Your Children’s Learning Better Every Single Day?
+                    <Link className="border-line" to="/">How to Make Your Children’s Learning Better Every Single Day?
 </Link>
                   </h5>
                   <div className="it-blog-btn">
-                    <Link to="/blog-details-left-sidebar" className="it-btn-yellow">
+                    <Link to="/" className="it-btn-yellow">
                       <span>
                         <span className="text-1">More Details</span>
                         <span className="text-2">More Details</span>
@@ -104,10 +104,10 @@ Admin                    </span>
                     </span>
                   </div>
                   <h5 className="it-blog-title mb-15">
-                    <Link className="border-line" to="/blog-details-left-sidebar">The Golden Jubilee Celebration of Shiva Shiksha Sadan</Link>
+                    <Link className="border-line" to="/">The Golden Jubilee Celebration of Shiva Shiksha Sadan</Link>
                   </h5>
                   <div className="it-blog-btn">
-                    <Link to="/blog-details-left-sidebar" className="it-btn-yellow">
+                    <Link to="/" className="it-btn-yellow">
                       <span>
                         <span className="text-1">More Details</span>
                         <span className="text-2">More Details</span>
@@ -154,10 +154,10 @@ Admin                    </span>
                     </span>
                   </div>
                   <h5 className="it-blog-title mb-15">
-                    <Link className="border-line" to="/blog-details-left-sidebar">How Can Schools Build Confidence and Leadership in Students?</Link>
+                    <Link className="border-line" to="/">How Can Schools Build Confidence and Leadership in Students?</Link>
                   </h5>
                   <div className="it-blog-btn">
-                    <Link to="/blog-details-left-sidebar" className="it-btn-yellow">
+                    <Link to="/" className="it-btn-yellow">
                       <span>
                         <span className="text-1">More Details</span>
                         <span className="text-2">More Details</span>
