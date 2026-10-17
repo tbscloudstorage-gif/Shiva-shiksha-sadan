@@ -76,19 +76,19 @@ export default function FeaturesThree() {
                       <div className="feature-notice-track">
                         {[
                           
-                           "Dussehra Celebration",
-                          "Maharishi Valmiki Jayanti",
-                          "National Unity Day",
-                          "Diwali",
-                          "National Education Day",
-                          "Children's Day Celebration",
-                          " Chhath Puja",
-                          "Guru Nanak Jayanti",
-                          "Human Rights Day",
+                           "20 October – Dussehra Celebration",
+                          "26 October – Maharishi Valmiki Jayanti",
+                          "31 October – National Unity Day",
+                          "8 November – Diwali",
+                          "11 November – National Education Day",
+                          "14 November – Children's Day Celebration",
+                          " 15 November – Chhath Puja",
+                          "24 November – Guru Nanak Jayanti",
+                          "10 December – Human Rights Day",
                          
-                          " National Energy Conservation Day",
-                          " National Mathematics Day",
-                          "Christmas",
+                          " 14 December – National Energy Conservation Day",
+                          "22 December – National Mathematics Day",
+                          "25 December – Christmas",
                         ].map((notice, index) => (
                           <div className="feature-notice-item" key={index}>
                             <span className="feature-notice-dot"></span>
