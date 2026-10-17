@@ -54,7 +54,7 @@ export default function HeaderOne() {
                     <Link to="/sign-up">Register</Link>
                   </div> */}
                   <div className="it-header-top-social-box align-items-center d-none d-md-flex">
-                    <span>Follow On:</span>
+                    <span>Follow Us:</span>
                     <a href="https://www.facebook.com/shivashikshasadansnp">
                       <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg" style={{color:"#D41A2E"}}>
                         <path fillRule="evenodd" clipRule="evenodd"

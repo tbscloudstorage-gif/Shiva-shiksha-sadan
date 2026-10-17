@@ -79,7 +79,7 @@ export default function FeaturesThree() {
                           "TEDx: Ideas Worth Spreading",
                           "Kaushal Bodh Mela",
                           "Hindi Diwas Celebration",
-                          "BEYOND: The 52nd foundation day",
+                          "BEYOND: The 52nd Foundation Day",
                           "Janmashtmi Celebration",
                           "Teachers day Celebration",
                           "Rakshabandhan",

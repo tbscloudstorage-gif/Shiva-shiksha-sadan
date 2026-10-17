@@ -17,7 +17,7 @@ const settings = {
   dots: false,
   cssEase: 'linear',
   infinite: true,
-  pauseOnHover: false,
+  pauseOnHover: true,
   
   responsive: [
     {

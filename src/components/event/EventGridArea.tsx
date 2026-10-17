@@ -153,7 +153,7 @@ A meaningful celebration of the Hindi language and its rich cultural heritage, e
                 </div>
                 <div className="it-event-content">
                   <h5 className="it-event-title mb-20">
-                    <Link className="border-line" to="#">BEYOND: The 52nd foundation day 
+                    <Link className="border-line" to="#">BEYOND: The 52nd Foundation Day 
 </Link>
                   </h5>
                   <div className="it-event-meta mb-25">
