@@ -37,8 +37,7 @@ export default function FaqEight() {
                       <div id="collapseOne2" className="accordion-collapse collapse show"
                         aria-labelledby="headingOne2" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>Shiva Shiksha Sadan focuses on academic excellence, character development, creativity, discipline, and overall growth, helping students become confident and responsible individuals. </p>
-                        </div>
+<p>Shiva Shiksha Sadan follows global standards of education, fostering academic excellence, creativity, discipline, character development, and holistic growth to nurture confident, responsible, and future-ready individuals.</p>                        </div>
                       </div>
                     </div>
                     <div className="accordion-items mb-30">
