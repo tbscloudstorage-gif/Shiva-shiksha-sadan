@@ -107,10 +107,10 @@ export default function AboutOne() {
                     </div>
                   </div>
                 </div>
-                <Link to="/about-us-v1" className="it-btn-yellow theme-bg">
+                <Link to="/academics" className="it-btn-yellow theme-bg">
                   <span>
-                    <span className="text-1">More About US </span>
-                    <span className="text-2">More About US</span>
+                    <span className="text-1">Explore Our Academics </span>
+                    <span className="text-2">Explore Our Academics</span>
                   </span>
                   <i>
                     <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">

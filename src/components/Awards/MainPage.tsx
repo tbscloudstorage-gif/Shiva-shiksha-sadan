@@ -1,23 +1,42 @@
 // import React from "react";
 
 const images = [
-  "/assets/img/about/1.png",
-  "/assets/img/about/2.png",
-  "/assets/img/about/3.png",
-  "/assets/img/about/4.png",
-    "/assets/img/about/5.png",
+  {
+    url: "/assets/img/about/1.png",
+    title: "Awards Description"
+  },
+  {
+    url: "/assets/img/about/2.png",
+    title: "Awards Description"
+  },
+  {
+    url: "/assets/img/about/3.png",
+    title: "Awards Description"
+  },
+  {
+    url: "/assets/img/about/4.png",
+    title: "Awards Description"
+  },
+  {
+    url: "/assets/img/about/5.png",
+    title: "Awards Description"
+  },
+  {
+    url: "/assets/img/about/6.png",
+    title: "Awards Description"
+  },
+  {
+    url: "/assets/img/about/7.png",
+    title: "Awards Description"
+  },
 
-      "/assets/img/about/6.png",
 
-        "/assets/img/about/7.png",
-
- 
 ];
 
 export default function ImageSection() {
   return (
     <section >
-      <div className="container" style={{marginBottom:"178px", marginTop:"50px"}}>
+      <div className="container" style={{ marginBottom: "178px", marginTop: "50px" }}>
         <div className="row g-4">
           {images.map((image, index) => (
             <div
@@ -26,13 +45,16 @@ export default function ImageSection() {
             >
               <div className="gallery-item">
                 <img
-                  src={image}
+                  src={image.url}
                   alt={`School gallery ${index + 1}`}
                   className="img-fluid"
                 />
               </div>
+              <h6 className=" text-center it-course-title mb-20" style={{paddingTop : "20px"}}>{image.title}</h6>
+
             </div>
           ))}
+
         </div>
       </div>
 

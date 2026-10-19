@@ -12,7 +12,8 @@ export default function NewsletterTwelve() {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="it-newsletter-2-left">
-                  <h4 className="it-newsletter-2-title mb-0">Sign Up today to get the latest inspiration & insights </h4>
+                  <h4 className="it-newsletter-2-title mb-0">Stay Updated with Our Latest School Events & News
+ </h4>
                 </div>
               </div>
               <div className="col-lg-6">

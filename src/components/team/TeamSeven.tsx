@@ -15,7 +15,7 @@ export default function TeamSeven() {
               </div>
               <div className="col-xl-4 col-lg-4 col-md-4">
                 <div className="it-team-3-btn text-md-end">
-                  <Link to="/shop" className="it-btn-yellow theme-bg border-radius-0">
+                  <Link to="/" className="it-btn-yellow theme-bg border-radius-0">
                     <span>
                       <span className="text-1">Register As Alumni</span>
                       <span className="text-2">Register  As Alumni</span>

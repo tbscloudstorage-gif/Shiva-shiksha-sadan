@@ -5,10 +5,10 @@ export default function FeaturesThree() {
   return (
     <>
       {/* <!-- feature-area-start --> */}
-      <section className="it-feature-area">
+      <section className="it-feature-area mt-120 mb-120">
         <div className="container">
           <div className="it-feature-wrap z-index-2">
-            <div className="row gx-0">
+            <div className="row gx-0" style={{marginTop: "190px"}}>
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="it-feature-item d-flex justify-content-center">
                   <div className="it-feature-icon">

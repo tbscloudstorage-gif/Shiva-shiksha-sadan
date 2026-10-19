@@ -120,7 +120,7 @@ export default function FooterThree() {
               <div className="row align-items-center">
                 <div className="col-12">
                   <div className="it-copyright-left style-2 text-center">
-                    <p className="mb-0">Copyright © {new Date().getFullYear()} <a href="#" className="text-white">Shiva Shiksha Sadan</a> All Rights Reserved</p>
+                    <p className="mb-0">Copyright © {new Date().getFullYear()} <a href="#" className="text-white">Shiva Shiksha Sadan</a> All rights reserved</p>
                   </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@ export default function FooterThree() {
   rel="noopener noreferrer"
   title="Get Directions to Shiva Shiksha Sadan"
 >
-  Get Direction Now
+  Get Directions Now
 </a>
           {/* <!-- copyright-area-end --> */}
 

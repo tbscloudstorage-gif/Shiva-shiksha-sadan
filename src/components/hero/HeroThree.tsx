@@ -15,7 +15,7 @@ export default function HeroThree() {
           loop={true}
           effect="fade"
           autoplay={{
-            delay: 4000,
+            delay: 6000,
             disableOnInteraction: false
           }}
           pagination={{

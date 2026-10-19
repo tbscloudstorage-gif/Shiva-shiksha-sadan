@@ -15,7 +15,7 @@ export default function HeaderOne() {
     <>
       <header className="it-header-height">
         {/* <!-- header-top-area-start --> */}
-        <div className="it-header-top-area  black-bg it-header-top-ptb">
+        {/* <div className="it-header-top-area  black-bg it-header-top-ptb">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-6 col-lg-6 col-md-4 col-sm-5">
@@ -53,7 +53,7 @@ export default function HeaderOne() {
                     <span>/</span>
                     <Link to="/sign-up">Register</Link>
                   </div> */}
-                  <div className="it-header-top-social-box align-items-center d-none d-md-flex">
+                  {/* <div className="it-header-top-social-box align-items-center d-none d-md-flex">
                     <span>Follow Us On:</span>
                     <a href="https://www.facebook.com/shivashikshasadansnp">
                       <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg" style={{color:"#D41A2E"}}>
@@ -80,7 +80,8 @@ export default function HeaderOne() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */} 
+        {/* */} 
         {/* <!-- header-top-area-end --> */}
 
         {/* <!-- header-area-start --> */}

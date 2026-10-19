@@ -27,19 +27,20 @@ export default function University() {
       <HeaderOne />
       <main>
         <HeroThree />
-        <FeaturesThree />
         <AboutThree />
         <CourseTwo />
-                <CtaThree />
+               
+        <FeaturesThree />
 
         <AwardsHome />
         {/* <FeaturesTwelve/>
         {/* <CourseThree /> */}
         {/* <CampusThree /> */}
                 <TimelineSlider/>
-
+ <CtaThree />
         {/* <TuitionThree /> */}
         <GalleryFour/>
+
         <TestimonialEight/>
         {/* <TestimonialThree /> */}
         <BrandThree />

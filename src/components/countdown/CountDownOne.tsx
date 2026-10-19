@@ -86,7 +86,7 @@ export default function CountDownOne() {
                   </div>
                   <div className="it-funfact-content">
                      <h6 className="it-funfact-number"><i className="purecounter" data-purecounter-duration="1" data-purecounter-end="6000">
-                      <Count number={6000} text="+" />
+                      <Count number={2000} text="+" />
                       </i></h6>
                      <span>Total Students <br/> Enrolled</span>
                   </div>

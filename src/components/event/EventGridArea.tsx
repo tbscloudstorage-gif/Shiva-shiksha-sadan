@@ -16,13 +16,12 @@ export default function EventGridArea() {
                 </div>
                 <div className="it-event-content">
                   <h5 className="it-event-title mb-20">
-                    <Link className="border-line" to="#">Guru Vandan Chatr Abhinandan 
+                    <Link className="border-line" to="#">Guru Vandan Chhatra Abhinandan 
 </Link>
                   </h5>
                   <div className="it-event-meta mb-25">
                     <span className="" style={{paddingLeft :"0px"}}>
-                     A heartfelt celebration honouring the invaluable contribution of our teachers while applauding the achievements, dedication, and spirit of our students.
-
+A heartfelt celebration honouring the invaluable contribution of our teachers while applauding the achievements, dedication, and spirit of our students.
                       
                     </span>
                  
@@ -187,7 +186,7 @@ A memorable celebration marking 52 years of educational excellence, honouring ou
                 </div>
                 <div className="it-event-content">
                   <h5 className="it-event-title mb-20">
-                    <Link className="border-line" to="#">Janmashtmi Celebration
+                    <Link className="border-line" to="#">Janmashtami Celebration
 </Link>
                   </h5>
                   <div className="it-event-meta mb-25">
@@ -221,7 +220,7 @@ A joyful celebration of Lord Krishna’s birth, bringing together devotion, cult
                 </div>
                 <div className="it-event-content">
                   <h5 className="it-event-title mb-20">
-                    <Link className="border-line" to="#">Teachers day Celebration 
+                    <Link className="border-line" to="#">Teachers' Day Celebration
 </Link>
                   </h5>
                   <div className="it-event-meta mb-25">
@@ -255,7 +254,7 @@ A special celebration honouring our teachers for their dedication, guidance, and
                 </div>
                 <div className="it-event-content">
                   <h5 className="it-event-title mb-20">
-                    <Link className="border-line" to="#">Rakshabandhan 
+                    <Link className="border-line" to="#">Raksha Bandhan 
 </Link>
                   </h5>
                   <div className="it-event-meta mb-25">
@@ -294,8 +293,7 @@ A heartwarming celebration of the bond of love, care, and protection, where stud
                   <div className="it-event-meta mb-25">
                     <span style={{paddingLeft : "0px"}}>
                      
-A special gathering to recognise and celebrate the achievements, dedication, and contributions of our students, teachers, and school community.
-                    </span>
+A special gathering to recognise and celebrate the achievements, dedication, and contributions of our students, teachers, and school community.                    </span>
                   </div>
                   <div className="it-event-btn">
                     <Link to="#" className="it-btn-yellow w-100">
@@ -328,8 +326,7 @@ A special gathering to recognise and celebrate the achievements, dedication, and
 
                     <span style={{paddingLeft : "0px"}}>
                      
-A proud celebration of India’s Independence, filled with patriotic spirit, inspiring performances, and activities that instil a sense of pride, unity, and responsibility in our students.
-                    </span>
+A proud celebration of India's Independence, filled with patriotic spirit, inspiring performances, and activities that instill a sense of pride, unity, and responsibility in our students.                    </span>
                   </div>
                   <div className="it-event-btn">
                     <Link to="#" className="it-btn-yellow w-100">

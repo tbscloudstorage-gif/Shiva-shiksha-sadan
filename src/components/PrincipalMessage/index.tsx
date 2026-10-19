@@ -30,7 +30,7 @@ export default function AboutEight() {
                       </a> */}
                     </div>
                     <div className="it-about-experience-box mb-20 d-inline-flex align-items-center text-white">
-                      <h5 className="text-white">25 +</h5>
+                      <h5 className="text-white">50 +</h5>
                       <span className="text-white">Years of <br />Experience</span>
                     </div>
                   </div>
@@ -56,11 +56,15 @@ export default function AboutEight() {
                   </h4>
                 </div>
                 <div className="it-about-text">
-                  <p className="mb-45">At Shiva Shiksha Sadan, every student is valued, supported, and encouraged to discover their unique potential. We are committed to providing a nurturing environment that inspires curiosity, builds confidence, strengthens character, and prepares our students to grow into responsible, compassionate, and capable individuals.
+                  <p className="mb-45">
+<strong>Mr. Arun Bansal, Chairman of Shiva Shiksha Sadan</strong>, firmly believes that education goes beyond academics to nurture character, values, and confidence.
 
-Through meaningful learning experiences, dedicated mentorship, and a strong partnership with parents, we strive to create opportunities where every child can learn, flourish, and confidently shape their own future.
-<br/>
-Our goal is to empower each learner with the knowledge, values, and skills to make a meaningful difference in the world.
+At Shiva Shiksha Sadan, our mission is to provide a supportive and inspiring environment where every student can discover their potential, develop essential life skills, and grow into a responsible and compassionate individual.
+
+Through quality education, dedicated mentorship, and strong collaboration with parents, we strive to empower young minds to achieve excellence and build a brighter future.<br/>
+
+We are committed to fostering creativity, curiosity, and independent thinking while instilling strong moral values. Our goal is to prepare students not only for academic success but also for life's challenges, enabling them to become confident leaders and responsible citizens who contribute positively to society.
+
 
 </p>
                 </div>
