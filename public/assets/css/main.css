@@ -10599,6 +10599,7 @@ input[type=radio] {
 /* .it-header-right-action {
   margin-left: -50px;
 } */
+ 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   /* .it-header-right-action {
     margin-left: -80px;
@@ -16577,9 +16578,157 @@ input[type=radio] {
   .it-course-style-2 .it-course-tab-btn ul li button {
     margin: 0 11px;
     margin-bottom: 0px;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
+
+/* Unique alumni slider styling */
+
+.alumni-testimonial-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.alumni-testimonial-slider {
+  width: 100%;
+}
+
+.alumni-testimonial-slider .slick-list {
+  overflow: hidden;
+}
+
+.alumni-testimonial-slider .slick-slide {
+  box-sizing: border-box;
+}
+
+.alumni-testimonial-slider .it-testimonial-2-content-wrap {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.alumni-testimonial-slider .it-testimonial-2-text p {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.alumni-testimonial-slider .alumni-person {
+  min-width: 0;
+}
+
+.alumni-testimonial-slider .it-testimonial-2-avatar-info {
+  min-width: 0;
+}
+
+/* Mobile responsive fixes */
+
+@media (max-width: 767px) {
+
+  .alumni-testimonial-section {
+    overflow-x: clip;
+  }
+
+  .alumni-testimonial-wrapper {
+    height: 600px !important;
+    margin-top: 25px;
+    touch-action: pan-y;
+  }
+
+  .alumni-testimonial-slider {
+    width: 100%;
+  }
+
+  .alumni-testimonial-slider .slick-list {
+    overflow: hidden;
+  }
+
+  .alumni-testimonial-slider .it-testimonial-2-content-wrap {
+    width: 100%;
+  }
+
+  .alumni-testimonial-slider .it-testimonial-2-content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .alumni-testimonial-slider .it-testimonial-2-text p {
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: normal;
+    overflow-wrap: break-word;
+    margin-bottom: 15px;
+  }
+
+  .alumni-testimonial-slider .it-testimonial-2-bottom {
+    gap: 10px;
+    min-width: 0;
+  }
+
+  .alumni-testimonial-slider .alumni-person {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .alumni-testimonial-slider .alumni-avatar {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+  }
+
+  .alumni-testimonial-slider .it-testimonial-2-avatar-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .alumni-testimonial-slider .it-testimonial-2-avatar-name {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 4px;
+  }
+
+  .alumni-testimonial-slider .it-testimonial-2-avatar-info span {
+    font-size: 12px;
+    line-height: 1.4;
+    display: block;
+    overflow-wrap: break-word;
+  }
+
+  .alumni-testimonial-slider .it-testimonial-2-quote {
+    flex-shrink: 0;
+  }
+
+  .alumni-testimonial-slider .it-testimonial-2-quote svg {
+    width: 28px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .it-header-top-area {
+    padding: 8px 0;
+  }
+
+  .it-header-top-contact-wrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .it-header-top-contact {
+    gap: 6px;
+  }
+
+  .it-header-top-contact a {
+    font-size: 12px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+}
+
 .it-course-style-3 {
   background-size: cover;
   background-repeat: no-repeat;
@@ -23023,7 +23172,9 @@ input[type=radio] {
   width: 100%;
   min-width: 0;
 }
-
+.slick-list {
+  height: 643px !important;
+}
 .awards-right .slick-slider,
 .awards-right .slick-list,
 .awards-right .slick-track {

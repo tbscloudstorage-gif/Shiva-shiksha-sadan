@@ -11,7 +11,7 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 0,
+  autoplaySpeed: 2000,
   speed: 6000,
   arrows: false,
   dots: false,
@@ -40,38 +40,43 @@ const testimonials = [
   {
     id: 1,
     name: "Pradeep Dahiya",
-    title: "IAS, DC Hisar (Batch 2013)",
+    title: "IAS, DC Hisar(Batch-2013)",
+    image: "/assets/img/Alumni/pradeep-tt.png",
     text: "Shiva Shiksha Sadan gave me much more than academic knowledge. The guidance of my teachers, the discipline I learned, and the confidence I developed here continue to help me in every stage of life."
   },
   {
     id: 2,
     name: "Ankur Raparia",
-    title: "IFS (Batch 2011)",
+    title: " IFS(Batch-2011)",
+    image: "/assets/img/Alumni/ankur-tt.png",
     text: " My years at Shiva Shiksha Sadan are filled with wonderful memories. From classroom learning to cultural activities and friendships, every experience contributed to the person I am today."
   },
   {
     id: 3,
     name: "Anu Kumari",
-    title: "IAS(Batch 2003)",
+    title: "IAS(Batch-2003)",
+    image: "/assets/img/Alumni/anu-tt.png",
     text: "The school encouraged me to explore my interests, ask questions, and believe in my abilities. The lessons I learned here went far beyond textbooks and prepared me for real-world challenges."
   },
   {
     id: 4,
     name: "Nidhi Sehrawat",
-    title: "IAS (Batch 2013)",
+    title: "IAS(Batch-2013)",
+    image: "/assets/img/Alumni/nidhi-tt.png",
     text: "I will always be grateful to the teachers who supported and motivated me throughout my school journey. Their guidance helped me become more confident, responsible, and focused on my goals."
   },
   {
     id: 5,
-    name: "Amit Jain",
-    title: " IRS (Batch 1995)",
+    name: "Satpal Antil",
+    title: "SP, Gorakhpur(Batch 2004)",
+    image: "/assets/img/Alumni/satpal-tt.png",
     text: "Being a student of Shiva Shiksha Sadan has been an important part of my journey. The school provided a strong academic foundation while teaching values that continue to guide me today."
   }
 ];
 
 export default function TestimonialEight() {
   return (
-    <section className="it-testimonial-3-area pt-130 pb-130 mb-70">
+    <section className="it-testimonial-3-area pt-130 pb-120 ">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -118,10 +123,31 @@ export default function TestimonialEight() {
                         <p>{testimonial.text}</p>
                       </div>
                       <div className="it-testimonial-2-bottom d-flex align-items-center justify-content-between">
-                        <div className="it-testimonial-2-avatar-info">
-                          <h5 className="it-testimonial-2-avatar-name">{testimonial.name}</h5>
-                          <span>{testimonial.title}</span>
-                        </div>
+                       <div
+  className="d-flex align-items-center"
+  style={{ gap: "12px", minWidth: 0 }}
+>
+  <img
+    src={testimonial.image}
+    alt={testimonial.name}
+    loading="lazy"
+    style={{
+      width: "55px",
+      height: "55px",
+      minWidth: "55px",
+      borderRadius: "50%",
+      objectFit: "cover",
+      flexShrink: 0
+    }}
+  />
+
+  <div className="it-testimonial-2-avatar-info">
+    <h5 className="it-testimonial-2-avatar-name">
+      {testimonial.name}
+    </h5>
+    <span>{testimonial.title}</span>
+  </div>
+</div>
                         <div className="it-testimonial-2-quote">
                           <svg width="43" height="30" viewBox="0 0 43 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.1176 0H7.05882C5.18671 0 3.39127 0.743695 2.06748 2.06748C0.743695 3.39127 0 5.18671 0 7.05882L0 14.1176C0 15.0537 0.371848 15.9514 1.03374 16.6133C1.69563 17.2752 2.59335 17.6471 3.52941 17.6471H13.9588C13.5401 20.1115 12.2638 22.3487 10.3553 23.9633C8.44691 25.5779 6.02921 26.4659 3.52941 26.4706C3.06138 26.4706 2.61252 26.6565 2.28158 26.9875C1.95063 27.3184 1.76471 27.7673 1.76471 28.2353C1.76471 28.7033 1.95063 29.1522 2.28158 29.4831C2.61252 29.8141 3.06138 30 3.52941 30C7.27235 29.9958 10.8608 28.5071 13.5075 25.8604C16.1541 23.2137 17.6429 19.6253 17.6471 15.8824V3.52941C17.6471 2.59335 17.2752 1.69563 16.6133 1.03374C15.9514 0.371848 15.0537 0 14.1176 0Z" fill="#4C505B" />

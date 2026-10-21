@@ -40,7 +40,7 @@ export default function OffCanvas({ offCanvasOpen, setOffCanvasOpen }: OffCanvas
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Email</span>
-                <a href="mailto:info@shivashikshasadan.com" className="border-line">info@shivashikshasadan.com</a>
+                <a href="mailto:info@shivashikshasadan.com" className="border-line">info@shivashiksha<br/>sadan.com</a>
               </div>
             </div>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">
