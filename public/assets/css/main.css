@@ -16576,9 +16576,9 @@ input[type=radio] {
 }
 @media (max-width: 767px) {
   .it-course-style-2 .it-course-tab-btn ul li button {
-    margin: 0 11px;
+    margin: 0 4px;
     margin-bottom: 0px;
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
