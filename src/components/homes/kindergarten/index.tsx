@@ -27,8 +27,8 @@ export default function Kindergarten() {
         {/* <CourseFour /> */}
         <CountDownFour />
         <ChooseFour />
-        <TeamFour />
-        <ContactFour />
+        {/* <TeamFour /> */}
+        {/* <ContactFour /> */}
         <GalleryFour />
         {/* <GallerySeven/> */}
         {/* <GalleryThirteen/> */}

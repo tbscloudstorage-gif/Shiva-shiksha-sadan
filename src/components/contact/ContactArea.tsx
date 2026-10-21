@@ -26,7 +26,7 @@ export default function ContactArea() {
                       </span>
                       <a href="https://maps.app.goo.gl/Jxu6ANAFyfqWEuTz8">
                         Dev Nagar , Sonipat -131001, Haryana 
-<br />India
+India
                       </a>
                     </li>
                     <li>

@@ -5,7 +5,7 @@ export default function CourseTwo() {
   return (
     <>
       {/* <!-- course-area-start --> */}
-      <section className="it-course-area it-course-style-2 z-index-1 gray-bg pt-130 pb-130 mb-120">
+      <section className="it-course-area it-course-style-2 z-index-1 gray-bg pt-130 pb-5 sm:pb-130 mb-2 sm:mb-120">
         <img className="it-course-shape-2 d-none d-xl-block" data-parallax='{"x": 200, "smoothness": 30}' src="assets/img/shape/course-2-1.png" alt="" />
         <img className="it-course-shape-3" src="assets/img/shape/course-2-2.png" alt="" />
         <img className="it-course-shape-4" data-parallax='{"y": -100, "smoothness": 50}' src="assets/img/shape/course-2-3.png" alt="" />

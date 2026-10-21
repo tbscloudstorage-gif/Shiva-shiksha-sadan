@@ -42,11 +42,11 @@ the Start                     <span className="it-title-shape">
                 </h1>
                 <div className="it-hero-3-text wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
-                  <p>Our Pre-Primary programme nurtures young minds through joyful learning, creative activities, and meaningful experiences. We encourage curiosity, build confidence, and help every child develop essential skills in a <br /> caring and engaging environment. </p>
+                  <p>Our Pre-primary programme nurtures young minds through joyful learning, creative activities, and meaningful experiences. We encourage curiosity, build confidence, and help every child develop essential skills in a <br /> caring and engaging environment. </p>
                 </div>
                 <div className="it-hero-3-btn wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".7s">
-                  <Link to="#" className="it-btn-yellow theme-bg">
+                  <Link to="/apply-now" className="it-btn-yellow theme-bg">
                     <span>
                       <span className="text-1">Get Admission 
                         <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">

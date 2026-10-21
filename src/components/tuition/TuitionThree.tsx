@@ -23,7 +23,7 @@ export default function TuitionThree() {
 </h4>
                 </div>
                 <div className="it-tuition-text">
-                  <p>No surprises partway through the year. Every family gets a complete fee breakdown — tuition, admission, and any additional charges — shared directly during the admission process.</p>
+                  <p>No surprises partway through the year. Every family gets a complete fee breakdown tuition, admission, and any additional charges shared directly during the admission process.</p>
                 </div>
                 <div className="it-tuition-btn">
                   <Link to="/contact-us" className="it-btn-yellow theme-bg border-radius-100">

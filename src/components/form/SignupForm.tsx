@@ -27,9 +27,9 @@ export default function SignupForm() {
                     Admissions Open
                   </span>
 
-                  <h4 className="it-signup-title">
+                  <h6 className="it-breadcrumb-title mb-0 pb-1">
                     Admission Application Form
-                  </h4>
+                  </h6>
 
                   <p>
                     Please fill in the details below to begin your child's

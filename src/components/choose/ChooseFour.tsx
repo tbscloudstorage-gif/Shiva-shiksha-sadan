@@ -71,10 +71,10 @@ Opportunities to Explore                          </span>
                     </div>
                   </div>
                 </div>
-                <Link to="#" className="it-btn-yellow theme-bg">
+                <Link to="/" className="it-btn-yellow theme-bg">
                   <span>
-                    <span className="text-1">Find Courses</span>
-                    <span className="text-2">Find Courses</span>
+                    <span className="text-1">Explore More</span>
+                    <span className="text-2">Explore More</span>
                   </span>
                 </Link>
               </div>

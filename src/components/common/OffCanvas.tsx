@@ -26,8 +26,7 @@ export default function OffCanvas({ offCanvasOpen, setOffCanvasOpen }: OffCanvas
           </div>
           <div className="itoffcanvas__text">
             <p>
-              Suspendisse interdum consectetur libero id. Fermentum leo vel orci porta non.
-              Euismod viverra nibh cras pulvinar suspen.
+             Established in 1974, Shiva Shiksha Sadan has been nurturing young minds through quality education, strong values, and academic excellence. We foster holistic development, empowering students with the knowledge, confidence, and skills to build a brighter future.
             </p>
           </div>
           <div className="it-menu-mobile d-xl-none">
@@ -59,7 +58,7 @@ export default function OffCanvas({ offCanvasOpen, setOffCanvasOpen }: OffCanvas
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Location</span>
-                <a href="https://maps.app.goo.gl/QHimyUV1UwvKJK2e9" target="_blank">Dev Nagar , Sonipat -131001, Haryana , India
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Shiva+Shiksha+Sadan%2C+Dev+Nagar%2C+Sonipat%2C+Haryana&waypoints=Street+No+8%2C+Dev+Nagar%2C+Sonipat%2C+Haryana&travelmode=driving" target="_blank">Dev Nagar , Sonipat -131001, Haryana , India
  </a>
               </div>
             </div>

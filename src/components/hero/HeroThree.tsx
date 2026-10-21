@@ -11,24 +11,28 @@ export default function HeroThree() {
       <section className="it-slider-area">
         <div className="it-slider-wrap p-relative">
           <Swiper 
-          slidesPerView={1}
-          loop={true}
-          effect="fade"
-          autoplay={{
-            delay: 6000,
-            disableOnInteraction: false
-          }}
-          pagination={{
-            el: ".it-slider-dots",
-            clickable: true,
-          }}
-          navigation={{
-            prevEl: '.arrow-prev',
-            nextEl: '.arrow-next',
-          }}
-          modules={[Navigation, Pagination, Autoplay, EffectFade]}
-
-          className="swiper it-slider-active p-relative">
+         slidesPerView={1}
+  spaceBetween={0}
+  loop={true}
+  speed={900}
+  effect="fade"
+  fadeEffect={{ crossFade: true }}
+  autoHeight={false}
+  autoplay={{
+    delay: 6000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  }}
+  pagination={{
+    clickable: true,
+    dynamicBullets: false,
+  }}
+  navigation={false}
+  observer={true}
+  observeParents={true}
+  watchOverflow={true}
+  modules={[Navigation, Pagination, Autoplay, EffectFade]}
+  className="swiper it-slider-active p-relative">
            
               <SwiperSlide className="swiper-slide">
                 <div className="it-slider-box it-slider-overlay z-index-1">

@@ -113,29 +113,16 @@ export default function FaqArea() {
                               <button className="accordion-buttons collapsed" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#collapseFour44"
                                 aria-expanded="false" aria-controls="collapseFour44">
-7. Does the school provide support for competitive exams?                              </button>
+7.How does Shiva Shiksha Sadan encourage students to develop leadership skills?                        </button>
                             </h4>
                             <div id="collapseFour44" className="accordion-collapse collapse"
                               aria-labelledby="headingFour44" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
-                                <p className="mb-0">Yes, students are encouraged and supported in their preparation for competitive pathways, including IIT-JEE, NEET, and Olympiads.</p>
+                                <p className="mb-0">The school encourages leadership through student council activities, house responsibilities, teamwork, and extracurricular programmes, helping students build confidence, responsibility, and decision-making skills.</p>
                               </div>
                             </div>
                           </div>
-                          <div className="accordion-items mb-30">
-                            <h4 className="accordion-header" id="headingFour55">
-                              <button className="accordion-buttons collapsed" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseFour55"
-                                aria-expanded="false" aria-controls="collapseFour4">
-8. What is the school's approach to student development?                              </button>
-                            </h4>
-                            <div id="collapseFour55" className="accordion-collapse collapse"
-                              aria-labelledby="headingFour55" data-bs-parent="#accordionExample2">
-                              <div className="accordion-body">
-                                <p className="mb-0">The school focuses on developing students academically, socially, creatively, physically, and emotionally through a multidimensional learning approach.</p>
-                              </div>
-                            </div>
-                          </div>
+                     
                         </div>
                       </div>
                     </div>

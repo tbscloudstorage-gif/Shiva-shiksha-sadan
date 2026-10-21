@@ -14,7 +14,7 @@ export default function HeaderThree() {
       <header className="it-header-height it-header-transparent">
         {/* <!-- header-top-area-start --> */}
         <div className="it-header-top-area it-header-top-style-2 black-bg it-header-top-ptb">
-          <div className="container">
+          {/* <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-6 col-lg-7 col-md-4 col-sm-5">
                 <div
@@ -82,7 +82,7 @@ export default function HeaderThree() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* <!-- header-top-area-end --> */}
 
@@ -95,14 +95,14 @@ export default function HeaderThree() {
                   <Link to="/"><img src="assets/img/logo/logo-black.png" alt="" /></Link>
                 </div>
               </div>
-              <div className="col-xl-7 d-none d-xl-block">
+              <div className="col-xl-8 d-none d-xl-block">
                 <div className="it-header-menu it-header-dropdown text-center">
                   <nav className="it-menu-content">
                     <Navmenu />
                   </nav>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-8 col-md-7 col-6">
+              <div className="col-xl-2 col-lg-8 col-md-7 col-6">
                 <div className="it-header-right-action d-flex justify-content-end align-items-center">
                   <Link to="/contact-us" className="it-btn-yellow theme-bg d-none d-md-flex">
                     <span>

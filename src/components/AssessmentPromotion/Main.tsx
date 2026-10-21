@@ -286,7 +286,7 @@ export default function AssessmentPolicy() {
                   className="assessment-feature-card"
                   key={index}
                 >
-                  <div className="assessment-icon">
+                  <div className="assessment-icon" >
                     {card.icon}
                   </div>
 
@@ -332,7 +332,7 @@ export default function AssessmentPolicy() {
                   className="check-list-item"
                   key={index}
                 >
-                  <FaCheck />
+                  <FaCheck  style={{color: "#D41A2E"}} />
                   <span>{note}</span>
                 </div>
               ))}

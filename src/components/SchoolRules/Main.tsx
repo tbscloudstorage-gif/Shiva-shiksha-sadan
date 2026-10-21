@@ -30,7 +30,7 @@ const studentRules: Rule[] = [
   {
     title: "Proper Uniform",
     description:
-      "Students should wear the complete school uniform neatly and maintain a clean and presentable appearance.",
+      "Students must wear the prescribed school uniform and maintain a neat, clean, and presentable appearance.",
   },
   {
     title: "Respectful Behaviour",
@@ -139,7 +139,7 @@ export default function SchoolRules() {
           <div className="rule-card green-card">
             <div className="card-title">
               <div className="title-icon green-icon">
-                <FaUsers />
+                <FaUsers style={{color: "#D41A2E"}} />
               </div>
 
               <div>
@@ -151,7 +151,7 @@ export default function SchoolRules() {
             <div className="rule-list">
               {parentRules.map((rule, index) => (
                 <div className="rule-item" key={index}>
-                  <FaCheckCircle className="check green-check" />
+                  <FaCheckCircle className="check green-check"  style={{color: "#D41A2E"}}  />
 
                   <div>
                     <h4>{rule.title}</h4>

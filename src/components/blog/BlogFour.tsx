@@ -23,7 +23,7 @@ export default function BlogFour() {
               </div>
               <div className="col-lg-4">
                 <div className="it-blog-btn text-lg-end">
-                  <Link to="/blog-grid" className="it-btn-yellow theme-bg">
+                  <Link to="/" className="it-btn-yellow theme-bg">
                     <span>
                       <span className="text-1">See All Articles</span>
                       <span className="text-2">See All Articles</span>

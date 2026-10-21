@@ -12,7 +12,7 @@ const settings = {
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 0,
-  speed: 3000,
+  speed: 6000,
   arrows: false,
   dots: false,
   cssEase: 'linear',

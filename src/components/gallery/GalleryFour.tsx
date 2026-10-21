@@ -194,7 +194,7 @@ export default function GalleryFour() {
                 )}
 
                 <h4 className="it-section-title">
-                  Check Our Gallery
+                  Explore Our Gallery
                 </h4>
 
               </div>

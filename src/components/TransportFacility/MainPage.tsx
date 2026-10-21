@@ -132,7 +132,7 @@ export default function TransportFacility() {
 
           <div className="transport-section-heading">
 
-            <span>TRANSPORT OPTIONS</span>
+            <span className="" style={{color : "#D41A2E"}}>TRANSPORT OPTIONS</span>
 
             <h2 className="it-breadcrumb-title it-split-text it-split-in-right">Choose Your Comfort Zone</h2>
 
@@ -202,7 +202,7 @@ export default function TransportFacility() {
 
           <div className="transport-section-heading">
 
-            <span>COVERAGE AREA</span>
+            <span  style={{color : "#D41A2E"}}>COVERAGE AREA</span>
 
             <h2 className="it-breadcrumb-title it-split-text it-split-in-right">Our Transport Routes</h2>
 
@@ -218,9 +218,9 @@ export default function TransportFacility() {
 
             {routes.map((route, index) => (
 
-              <div className="transport-route-card" key={index}>
+              <div className="transport-route-card" key={index} >
 
-                <div className="route-code">
+                <div className="route-code" >
                   {route.code}
                 </div>
 
@@ -235,7 +235,7 @@ export default function TransportFacility() {
                       className="route-location"
                       key={locationIndex}
                     >
-                      <FaMapMarkerAlt />
+                      <FaMapMarkerAlt   style={{color : "#D41A2E"}}/>
 
                       <span>{location}</span>
                     </div>
