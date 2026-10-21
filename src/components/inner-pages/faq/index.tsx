@@ -12,7 +12,7 @@ export default function Faq() {
     <Wrapper>
       <HeaderOne />
       <main>
-        <BreadcrumbBlogSidebar title="Faq’s" subtitle2="Faq’s" style_3={true} />
+        <BreadcrumbBlogSidebar title="FAQs" subtitle2="FAQs" style_3={true} />
         <FaqArea />
         <NewsletterThree style_2={true} />
       </main>

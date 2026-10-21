@@ -11,7 +11,7 @@ export default function NewsletterTwo() {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="it-newsletter-2-left">
-                  <h4 className="it-newsletter-2-title text-white mb-0">Sign Up today to get the <br /> latest inspiration & insights</h4>
+                  <h4 className="it-newsletter-2-title text-white mb-0">Sign up today to receive the latest<br />  school news and updates</h4>
                 </div>
               </div>
               <div className="col-lg-6">

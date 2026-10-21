@@ -18,7 +18,7 @@ export default function FeaturesThree() {
                     </span>
                   </div>
                   <div className="it-feature-content" >
-                    <h5 className="it-feature-title">News/Announcement/Notices
+                    <h5 className="it-feature-title">News, Announcements & Notices
 
 </h5>
 

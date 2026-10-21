@@ -31,7 +31,7 @@ export default function AboutFour() {
               data-wow-delay=".7s">
               <div className="it-about-right">
                 <div className="it-about-section-title-box mb-25">
-                  <span className="it-section-subtitle-2">About us</span>
+                  <span className="it-section-subtitle-2">About Us</span>
                   <h4 className="it-section-title">Empowering Minds Through Meaningful <br /> Learning  Experiences   
                     <span className="z-index-1">
                    <span className="it-title-shape">

@@ -73,10 +73,10 @@ export default function FooterThree() {
                  <div className=" mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
-                    <h4 className="it-footer-widget-title">News & Event</h4>
+                    <h4 className="it-footer-widget-title">News & Events</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
-                        <li><a href="/upcoming-event">Upcoming Event</a></li>
+                        <li><a href="/upcoming-event">Upcoming Events</a></li>
                         <li><a href="/magazines">Magazines</a></li>
                                                 <li><a href="/media-coverage">Media Coverage</a></li>
 
@@ -128,7 +128,7 @@ export default function FooterThree() {
           </div>
           {/* <!-- Sticky WhatsApp Button Start --> */}
 <a
- href="https://wa.me/919555812226?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Rishikul%20Vidyapeeth."
+ href="https://wa.me/919555812226?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Shiva Shiksha Sadan."
   className="whatsapp-sticky-btn"
   target="_blank"
   rel="noopener noreferrer"

@@ -125,8 +125,7 @@ A vibrant celebration of skills, creativity, and learning where students showcas
                     
                     <span style={{paddingLeft : "0px"}}>
                       
-A meaningful celebration of the Hindi language and its rich cultural heritage, encouraging students to appreciate, express, and celebrate the beauty of Hindi.
-                    </span>
+A meaningful celebration of the Hindi language and its rich cultural heritage, encouraging students to appreciate and celebrate the beauty of Hindi through creative expression.                    </span>
                   </div>
                   <div className="it-event-btn">
                     <Link to="#" className="it-btn-yellow w-100">
@@ -260,8 +259,7 @@ A special celebration honouring our teachers for their dedication, guidance, and
                   <div className="it-event-meta mb-25">
                     
                     <span style={{paddingLeft : "0px"}}>
-A heartwarming celebration of the bond of love, care, and protection, where students come together to honour the beautiful tradition of Rakshabandhan.
-                    </span>
+A heartwarming celebration of love, care, and protection, where students come together to honour the beautiful tradition of Raksha Bandhan.                    </span>
                   </div>
                   <div className="it-event-btn">
                     <Link to="#" className="it-btn-yellow w-100">
@@ -326,7 +324,7 @@ A special gathering to recognise and celebrate the achievements, dedication, and
 
                     <span style={{paddingLeft : "0px"}}>
                      
-A proud celebration of India's Independence, filled with patriotic spirit, inspiring performances, and activities that instill a sense of pride, unity, and responsibility in our students.                    </span>
+A proud celebration of India's independence, filled with patriotic spirit, inspiring performances, and activities that instill a sense of pride, unity, and responsibility in our students.                    </span>
                   </div>
                   <div className="it-event-btn">
                     <Link to="#" className="it-btn-yellow w-100">

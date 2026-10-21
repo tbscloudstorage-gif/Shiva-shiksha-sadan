@@ -20,7 +20,7 @@ const studentRules: Rule[] = [
   {
     title: "Regular Attendance",
     description:
-      "Students are expected to attend school regularly and maintain the required attendance throughout the academic year.",
+      "Students are expected to attend school regularly and maintain the minimum required attendance throughout the academic year. ",
   },
   {
     title: "Punctuality",
@@ -48,18 +48,16 @@ const parentRules: Rule[] = [
   {
     title: "Parent-Teacher Meetings",
     description:
-      "Parents should attend scheduled meetings to remain informed about their child's academic progress.",
-  },
+"Parents should attend scheduled parent-teacher meetings to stay informed about their child's academic progress."  },
   {
-    title: "Support School Policies",
+    title: "Follow and Support School Policies",
     description:
       "Parents are expected to support school rules and encourage discipline, punctuality and responsible behaviour.",
   },
   {
-    title: "Update Information",
+    title: "Keep Student Information Updated",
     description:
-      "Any change in contact details, address or important student information should be communicated promptly.",
-  },
+"Parents should promptly inform the school of any changes to their contact details, address or other important student information."  },
 ];
 
 const disciplineRules: Rule[] = [
@@ -86,10 +84,10 @@ const disciplineRules: Rule[] = [
 ];
 
 const prohibitedItems = [
-  "Mobile phones and unauthorized electronic devices",
+  "Mobile phones and Unauthorised electronic devices",
   "Sharp or potentially dangerous objects",
   "Tobacco, alcohol or prohibited substances",
-  "Any material considered inappropriate for school",
+  "Any material deemed inappropriate for the school environment",
 ];
 
 export default function SchoolRules() {
@@ -208,9 +206,9 @@ export default function SchoolRules() {
             <FaExclamationTriangle />
 
             <div>
-              <h4>Important School Policy</h4>
+              <h4>Important School Policies</h4>
               <p className="it-feature-content ">
-                Students should not bring unauthorized or potentially harmful
+                Students should not bring Unauthorised or potentially harmful
                 items to the school campus.
               </p>
             </div>
@@ -250,7 +248,7 @@ export default function SchoolRules() {
 
             <div>
               <FaMobileAlt />
-              <span>Stay Connected With School</span>
+              <span>Stay Connected With the School</span>
             </div>
 
             <div>

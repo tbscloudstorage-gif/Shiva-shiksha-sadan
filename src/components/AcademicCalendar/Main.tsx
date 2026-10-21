@@ -24,7 +24,7 @@ export default function Main() {
         </div>
 
         <h2 className="it-section-title text-center mt-5 mb-5">
-          School Academic Calendar
+          Academic Calendar 2026–27
         </h2>
 
         <p className="academic-description">
@@ -55,7 +55,7 @@ export default function Main() {
             <h3>Download Academic Calendar</h3>
 
             <p>
-              Get the complete academic calendar for 2026-27
+              Download the complete academic calendar for the 2026–27 academic 
               <br />
               session in PDF format
             </p>
@@ -66,7 +66,7 @@ export default function Main() {
               className="calendar-download-btn"
             >
               <i className="bi bi-download"></i>
-              Download PDF Calendar
+           Download Academic Calendar
             </a>
 
           </div>

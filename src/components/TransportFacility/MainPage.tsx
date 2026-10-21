@@ -21,10 +21,10 @@ export default function TransportFacility() {
       title: "School Bus Service",
       type: "bus",
       features: [
-        "Spacious seating capacity",
-        "GPS tracking enabled",
+        "Spacious and Comfortable Seating",
+        "GPS-Enabled Vehicles",
         "Trained female attendants",
-        "First-aid equipped",
+        "Equipped with First-Aid Kits",
         "Regular maintenance checks",
       ],
       info: "Ideal for group transportation with maximum safety",
@@ -35,7 +35,7 @@ export default function TransportFacility() {
       type: "van",
       features: [
         "Compact and flexible",
-        "Quick pick-up and drop",
+        "Convenient Pick-up and Drop-off",
         "Door-to-door service",
         "Personalized attention",
         "Efficient for smaller groups",
@@ -96,7 +96,7 @@ export default function TransportFacility() {
     {
       icon: <FaMapMarkedAlt />,
       title: "Live Tracking",
-      description: "GPS enabled vehicles with real-time tracking",
+      description: "GPS-enabled vehicles with real-time tracking",
     },
     {
       icon: <FaFirstAid />,
@@ -111,9 +111,9 @@ export default function TransportFacility() {
   ];
 
   const importantInfo = [
-    "Transport facility is subject to availability on specific routes",
+    "Transport services are subject to availability on specific routes.",
     "Parents must accompany children to and from pickup points",
-    "Any changes in address must be notified in advance",
+    "Parents must inform the school in advance of any changes to their address.",
     "Transport rules and regulations must be strictly followed",
   ];
 
@@ -134,7 +134,7 @@ export default function TransportFacility() {
 
             <span className="" style={{color : "#D41A2E"}}>TRANSPORT OPTIONS</span>
 
-            <h2 className="it-breadcrumb-title it-split-text it-split-in-right">Choose Your Comfort Zone</h2>
+            <h2 className="it-breadcrumb-title it-split-text it-split-in-right">Choose the Right Transport Option</h2>
 
           </div>
 

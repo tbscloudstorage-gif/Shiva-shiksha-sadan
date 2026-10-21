@@ -55,7 +55,7 @@ export default function FaqArea() {
                             <div id="collapseFour4" className="accordion-collapse collapse"
                               aria-labelledby="headingFour4" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
-                                <p className="mb-0">The school offers education from the Pre-Primary level through Senior Secondary, providing students with a continuous learning journey.</p>
+                                <p className="mb-0">The school offers education from pre-primary to senior secondary level, providing students with a continuous learning journey.</p>
                               </div>
                             </div>
                           </div>
@@ -64,7 +64,7 @@ export default function FaqArea() {
                               <button className="accordion-buttons collapsed" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#collapseFour5"
                                 aria-expanded="false" aria-controls="collapseFour4">
-4. Is Shiva Shiksha Sadan CBSE affiliated?                              </button>
+4. Is Shiva Shiksha Sadan affiliated with CBSE?                             </button>
                             </h4>
                             <div id="collapseFour5" className="accordion-collapse collapse"
                               aria-labelledby="headingFour5" data-bs-parent="#accordionExample">
@@ -90,7 +90,7 @@ export default function FaqArea() {
                             <div id="collapseOne22" className="accordion-collapse collapse show"
                               aria-labelledby="headingOne22" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
-                                <p className="mb-0">The school combines a strong academic foundation with sports, arts, technology, activities, and value-based education.</p>
+                                <p className="mb-0">The school combines a strong academic foundation with sports, arts, technology, co-curricular activities, and value-based education.</p>
                               </div>
                             </div>
                           </div>
@@ -113,7 +113,7 @@ export default function FaqArea() {
                               <button className="accordion-buttons collapsed" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#collapseFour44"
                                 aria-expanded="false" aria-controls="collapseFour44">
-7.How does Shiva Shiksha Sadan encourage students to develop leadership skills?                        </button>
+7. How does Shiva Shiksha Sadan encourage students to develop leadership skills?                      </button>
                             </h4>
                             <div id="collapseFour44" className="accordion-collapse collapse"
                               aria-labelledby="headingFour44" data-bs-parent="#accordionExample2">

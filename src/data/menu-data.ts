@@ -133,11 +133,11 @@ const menu_data: DataType[] = [
 
   {
     id: 3,
-    title: "Event",
+    title: "Events",
     link: "#",
      has_dropdown: true,
     sub_menus: [
-      { link: "/upcoming-event", title: "Upcoming Event" },
+      { link: "/upcoming-event", title: "Upcoming Events" },
         { link: "/magazines", title: "Magazines" },
       { link: "/media-coverage", title: "Media Coverage" },
     ],
@@ -191,7 +191,7 @@ const menu_data: DataType[] = [
 
       { link: "/List-of-books-stationery", title: "List of Books & Stationery" },
       { link: "/assessment-promotion", title: "Assessment & Promotion" },
-            { link: "/results", title: "Result" },
+            { link: "/results", title: "Results" },
                         { link: "/academic-calendar", title: "Academic Calendar" },
                                                 { link: "/school-council", title: "Student Council" },
 
@@ -220,7 +220,7 @@ has_dropdown : false,
 },
   {
     id:7,
-    title: "Pre Primary",
+    title: "Pre-primary",
     link: "/pre-primary",
     has_dropdown: false,
     // sub_menus: [

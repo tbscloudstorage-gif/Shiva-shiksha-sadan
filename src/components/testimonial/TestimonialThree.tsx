@@ -69,7 +69,7 @@ export default function TestimonialThree() {
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Anu Kumari</h5>
-                                <span>IAS (Batch 20033)</span>
+                                <span>IAS (Batch 2003)</span>
                               </div>
                                
                             </div>
@@ -100,7 +100,7 @@ export default function TestimonialThree() {
                             <div className="it-testimonial-bottom d-flex align-items-center justify-content-between">
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Satpal Antil</h5>
-                                <span>SP, Gorakhpur(Batch 2004)
+                                <span>SP, Gorakhpur (Batch 2004)
 </span>
                               </div>
                                
@@ -133,7 +133,7 @@ export default function TestimonialThree() {
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Nidhi Sehrawat
 </h5>
-                                <span>(Batch - 2013) IAS
+                                <span>IAS (Batch 2013)
 </span>
                               </div>
                                
@@ -167,7 +167,7 @@ export default function TestimonialThree() {
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Pradeep Dahiya
 </h5>
-                                <span>IAS, DC Hisar (Batch-2013)
+                                <span>IAS, DC Hisar (Batch 2013)
 </span>
                               </div>
                                
@@ -200,7 +200,7 @@ export default function TestimonialThree() {
                               <div className="it-testimonial-avatar-info">
                                 <h5 className="it-testimonial-avatar-name">Ankur Raparia
 </h5>
-                                <span>(Batch - 2011) IFS
+                                <span>IFS (Batch 2011)
 </span>
                               </div>
                                

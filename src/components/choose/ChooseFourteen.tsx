@@ -12,7 +12,7 @@ export default function ChooseFourteen() {
           <div className="row">
             <div className="col-12">
               <div className="it-choose-section-title-box text-center mb-70">
-                <span className="it-section-subtitle style-3 white-style">why choose us</span>
+                <span className="it-section-subtitle style-3 white-style">Why Choose Us</span>
                 <h4 className="it-section-title-2 text-white mb-0">My course helps to <br /> become {" "}
                   <span className="z-index-1">
                     successful in life.

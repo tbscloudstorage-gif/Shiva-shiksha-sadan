@@ -30,7 +30,7 @@ export default function HeroFour() {
             <div className="col-xxl-7 col-xl-9 col-lg-7">
               <div className="it-hero-3-content text-center">
                 <h1 className="it-hero-3-title wow itfadeUp" data-wow-duration=".9s"
-                  data-wow-delay=".3s">Encouraging  Creativity and <br /> Confidence From  &nbsp;
+                  data-wow-delay=".3s">Encouraging Creativity and  <br />Confidence from   &nbsp;
                   <span className="z-index-1">
 the Start                     <span className="it-title-shape">
                       <svg width="322" height="31" viewBox="0 0 322 31" fill="none" xmlns="http://www.w3.org/2000/svg">

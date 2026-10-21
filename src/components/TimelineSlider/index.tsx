@@ -116,8 +116,7 @@ const handleTimelineClick = (index: number) => {    activeRef.current = index;
                     </svg>
                     Campus
                   </span>
-                  <h4 className="it-section-title">Education isn't a privilege.
- <br /> It's a Responsibility.</h4>
+                  <h4 className="it-section-title">Education Is More Than Learning. <br/>It's a Foundation for Life.</h4>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-5">

@@ -36,9 +36,7 @@ export default function Philosophy() {
           At Shiva Shiksha Sadan, we believe that education is not simply
           about acquiring knowledge; it is about discovering potential,
           developing character, and preparing young minds to face the world
-          with confidence and purpose. Our philosophy is built around the
-          belief that every child is unique, with their own abilities,
-          interests, aspirations, and pace of learning. We strive to create
+          with confidence and purpose. Our philosophy is rooted in the belief that every child is unique, with individual abilities, interests, aspirations, and a distinct pace of learning. We strive to create
           an environment where every student feels encouraged to explore,
           question, learn, and grow.
         </p>

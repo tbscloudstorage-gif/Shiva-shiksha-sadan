@@ -69,7 +69,7 @@ export default function CountDownOne() {
                   </div>
                   <div className="it-funfact-content">
                      <h6 className="it-funfact-number"><i className="purecounter" data-purecounter-duration="1" data-purecounter-end="120">
-                      <Count number={50} text="+" />
+                      <Count number={40} text="+" />
                       </i></h6>
                      <span>Clubs, Sports & <br/> Activities</span>
                   </div>

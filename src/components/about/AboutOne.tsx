@@ -36,7 +36,7 @@ export default function AboutOne() {
                         <Count number={50} text="+" />
 
                       </i></h5>
-                      <span>Years of <br />Experience</span>
+                      <span>Years of <br />Educational Excellence</span>
                     </div>
                   </div>
                 </div>

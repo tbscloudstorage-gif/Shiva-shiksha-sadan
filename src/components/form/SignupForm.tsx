@@ -24,7 +24,7 @@ export default function SignupForm() {
                 {/* Header */}
                 <div className="admission-form-header">
                   <span className="admission-badge">
-                    Admissions Open
+                   Admissions Open for 2026–27 & 2027–28
                   </span>
 
                   <h6 className="it-breadcrumb-title mb-0 pb-1">
@@ -294,7 +294,7 @@ export default function SignupForm() {
                     <span>02</span>
 
                     <div>
-                      <h5>Parent / Guardian Details</h5>
+                      <h5>Parent/Guardian Details</h5>
 
                       <p>
                         Please provide parent or guardian contact information.
@@ -351,7 +351,7 @@ export default function SignupForm() {
                         <div className="it-signup-input mb-20">
 
                           <label>
-                            Parent / Guardian Mobile Number <b>*</b>
+                           Parent/Guardian Mobile Number<b>*</b>
                           </label>
 
                           <input
@@ -476,7 +476,7 @@ export default function SignupForm() {
                         <div className="it-signup-input mb-20">
 
                           <label>
-                            School Transport Required
+                            Do You Require School Transport?
                           </label>
 
                           <div className="contact__select admission-select">
@@ -514,7 +514,7 @@ export default function SignupForm() {
                         <div className="it-signup-input mb-25">
 
                           <label>
-                            Message / Additional Information
+Message or Additional Information
                           </label>
 
                           <textarea
@@ -570,11 +570,11 @@ export default function SignupForm() {
                       <span>
 
                         <span className="text-1">
-                          Submit Application
+                          Submit Admission Application
                         </span>
 
                         <span className="text-2">
-                          Submit Application
+                          Submit Admission Application
                         </span>
 
                       </span>

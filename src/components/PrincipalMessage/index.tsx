@@ -31,7 +31,7 @@ export default function AboutEight() {
                     </div>
                     <div className="it-about-experience-box mb-20 d-inline-flex align-items-center text-white">
                       <h5 className="text-white">50 +</h5>
-                      <span className="text-white">Years of <br />Experience</span>
+                      <span className="text-white">Years of <br />Educational Excellence</span>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">

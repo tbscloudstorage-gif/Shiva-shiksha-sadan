@@ -13,7 +13,7 @@ export default function ChooseFour() {
               data-wow-delay=".5s">
               <div className="it-choose-left">
                 <div className="it-about-section-title-box mb-25">
-                  <span className="it-section-subtitle-2">Why Choose us</span>
+                  <span className="it-section-subtitle-2">Why Choose Us</span>
                   <h4 className="it-section-title">A Learning Environment  <br />That Inspires Every  &nbsp;
                     <span className="z-index-1">
                       Child

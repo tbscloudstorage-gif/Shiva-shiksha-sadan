@@ -23,7 +23,7 @@ export default function TuitionThree() {
 </h4>
                 </div>
                 <div className="it-tuition-text">
-                  <p>No surprises partway through the year. Every family gets a complete fee breakdown tuition, admission, and any additional charges shared directly during the admission process.</p>
+                  <p>We believe in maintaining transparency in our fee structure. Every family receives a complete breakdown of tuition fees, admission charges, and any additional costs during the admission process.</p>
                 </div>
                 <div className="it-tuition-btn">
                   <Link to="/contact-us" className="it-btn-yellow theme-bg border-radius-100">
@@ -53,14 +53,14 @@ export default function TuitionThree() {
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-Monthly Composite Fee : ₹4400                </span>
+Monthly Composite Fee: ₹4,400</span>
                     </li>
                     <li>
                       <span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        New Admission Fee: ₹15000                      </span>
+                       New Admission Fee: ₹15,000                     </span>
                     </li>
                       <li>
                       <span>
@@ -74,9 +74,9 @@ Monthly Composite Fee : ₹4400                </span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        Application Fee: ₹1500                      </span>
+                       Application Fee: ₹1,500                    </span>
                     </li>
-                    <span>Grand Total : 30900</span>
+                    <span>Grand Total: ₹30,900</span>
                   </ul>
                 </div>
                 <div className="it-tuition-list-box">
@@ -87,30 +87,30 @@ Monthly Composite Fee : ₹4400                </span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-Monthly Composite Fee : ₹4700</span>
+Monthly Composite Fee : ₹4,700</span>
                     </li>
                     <li>
                       <span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        New Admission Fee: ₹15000                      </span>
+                        New Admission Fee: ₹15,000                      </span>
                     </li>
                       <li>
                       <span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        One Time Registration Fee: ₹10000                      </span>
+                        One Time Registration Fee: ₹10,000                      </span>
                     </li>
                       <li>
                       <span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        Application Fee: ₹1500                      </span>
+                        Application Fee: ₹1,500                      </span>
                     </li>
-                    <span>Grand Total : 31200</span>
+                    <span>Grand Total : ₹31,200</span>
                   </ul>
                 </div>
               </div>
@@ -118,50 +118,50 @@ Monthly Composite Fee : ₹4700</span>
             <div className="col-xl-4 col-lg-6 col-md-6 mb-50 wow itfadeRight" data-wow-duration=".9s"
               data-wow-delay=".7s">
               <div className="it-tuition-item">
-                <h5 className="it-tuition-title-sm">Senior Secondary Programs</h5>
+                <h5 className="it-tuition-title-sm">Senior Secondary Programmes</h5>
                 <div className="it-tuition-list-box mb-35">
-                  <span>XI-XII (Commerce)</span>
+                  <span>Classes XI–XII (Commerce)</span>
                   <ul>
                     <li>
                       <span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-Monthly Composite Fee : ₹6000                 </span>
+Monthly Composite Fee : ₹6,000                 </span>
                     </li>
                     <li>
                       <span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        New Admission Fee: ₹15000                      </span>
+                        New Admission Fee: ₹15,000                      </span>
                     </li>
                       <li>
                       <span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        One Time Registration Fee: ₹10000                      </span>
+                        One Time Registration Fee: ₹10,000                      </span>
                     </li>
                       <li>
                       <span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        Application Fee: ₹1500                      </span>
+                        Application Fee: ₹1,500                      </span>
                     </li>
-                    <span>Grand Total : 32500</span>
+                    <span>Grand Total : 32,500</span>
                   </ul>
                 </div>
                 <div className="it-tuition-list-box">
-                  <span>XI-XII (Science)</span>
+                  <span>Classes XI–XII (Science)</span>
                   <ul>
                     <li>
                       <span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        Monthly Composite Fee : ₹6300
+                        Monthly Composite Fee : ₹6,300
                       </span>
                     </li>
                      <li>
@@ -169,7 +169,7 @@ Monthly Composite Fee : ₹6000                 </span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        New Admission Fee: ₹15000
+                        New Admission Fee: ₹15,000
                       </span>
                     </li>
                      <li>
@@ -177,7 +177,7 @@ Monthly Composite Fee : ₹6000                 </span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        One Time Registartion Fee : ₹10000
+                       One-Time Registration Fee : ₹10,000
                       </span>
                     </li>
                     <li>
@@ -185,10 +185,10 @@ Monthly Composite Fee : ₹6000                 </span>
                         <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" clipRule="evenodd" d="M5.71195 16.5762C5.58634 16.5762 5.48163 16.4905 5.43976 16.3834C5.41885 16.3406 3.618 11.5862 0.833023 9.7873C0.288584 9.44465 -0.130124 9.08056 0.0373593 8.26673C0.204843 7.47435 0.728376 7.02461 1.67062 6.81044C3.34575 6.44635 5.14655 9.10194 5.81666 10.1942C8.16184 6.70341 12.8523 1.22086 19.6786 0.578388C20.0079 0.538906 20.1297 1.03815 19.8252 1.17804C19.7205 1.22086 9.96258 5.78255 6.00505 16.4049C5.94227 16.5119 5.83756 16.5762 5.71195 16.5762Z" fill="currentcolor" />
                         </svg>
-                        Application Fee: ₹1500
+                        Application Fee: ₹1,500
                       </span>
                     </li>
-                                        <span>Grand Total : 32800</span>
+                                        <span>Grand Total : 32,800</span>
 
                   </ul>
                 </div>

@@ -19,7 +19,7 @@ export default function CtaThree() {
                 <div className="it-stats-item p-3">
                   <div>
                     <h4 className="it-stats-title text-center">7</h4>
-                    <span className="text-center d-flex ">Learning stages from pre primary onwards</span>
+                    <span className="text-center d-flex ">Learning stages from Pre-primary onwards</span>
                   </div>
                 </div>
               </div>
