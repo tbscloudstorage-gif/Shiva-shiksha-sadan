@@ -23172,9 +23172,7 @@ input[type=radio] {
   width: 100%;
   min-width: 0;
 }
-.slick-list {
-  height: 643px !important;
-}
+
 .awards-right .slick-slider,
 .awards-right .slick-list,
 .awards-right .slick-track {
