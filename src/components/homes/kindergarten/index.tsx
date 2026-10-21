@@ -6,13 +6,13 @@ import ActivitiesFour from "@/components/activities/ActivitiesFour";
 import BlogFour from "@/components/blog/BlogFour";
 import ChooseFour from "@/components/choose/ChooseFour";
 import BackToTop from "@/components/common/BackToTop";
-import ContactFour from "@/components/contact/ContactFour";
+// import ContactFour from "@/components/contact/ContactFour";
 import CountDownFour from "@/components/countdown/CountDownFour";
 // import CourseFour from "@/components/course/CourseFour";
 import GalleryFour from "@/components/gallery/GalleryFour";
 import HeroFour from "@/components/hero/HeroFour";
 import NewsletterFour from "@/components/newsletter/NewsletterFour";
-import TeamFour from "@/components/team/TeamFour";
+// import TeamFour from "@/components/team/TeamFour";
 
 import FooterThree from "@/layouts/footers/FooterThree";
 
