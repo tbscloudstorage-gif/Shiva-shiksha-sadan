@@ -1,8 +1,18 @@
 
-// import React from "react";
+interface MainPageProps {
+  pdfUrl: string;
+  coverImage: string;
+  title?: string;
+}
 
-export default function MainPage({ pdfUrl }) {
-
+export default function MainPage({
+  pdfUrl,
+  coverImage,
+  title = "School Document",
+}: MainPageProps) {
+  const pdfPath = pdfUrl.startsWith("/")
+    ? pdfUrl
+    : `/${pdfUrl}`;
 
   return (
     <section className="magazine-section">
@@ -11,8 +21,8 @@ export default function MainPage({ pdfUrl }) {
         {/* Desktop PDF Viewer */}
         <div className="magazine-desktop">
           <iframe
-            src={pdfUrl}
-            title="School Magazine"
+            src={pdfPath}
+            title={title}
             width="100%"
             height="800px"
             style={{
@@ -22,21 +32,16 @@ export default function MainPage({ pdfUrl }) {
           />
         </div>
 
-        {/* Mobile Magazine Cover */}
+        {/* Mobile Cover Image */}
         <div className="magazine-mobile">
-         {location.pathname == "/mandatory-public-disclosure" ? (  <img
-            src="/assets/img/breadcrumb/course-v1-breadcrumb.jpg"
-            alt="Shiva Shiksha Sadan Magazine Cover"
-            className="magazine-cover"
-          />) : (
           <img
-            src="/assets/img/academics.JPG"
-            alt="Shiva Shiksha Sadan Magazine Cover"
+            src={coverImage}
+            alt={`${title} Cover`}
             className="magazine-cover"
-          /> )}
-         
+          />
+
           <a
-            href={pdfUrl}
+            href={pdfPath}
             target="_blank"
             rel="noopener noreferrer"
             className="magazine-open-btn"

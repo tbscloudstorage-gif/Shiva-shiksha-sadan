@@ -10,7 +10,9 @@ export default function index() {
         <HeaderOne/>            
             <Breadcrumb title="Editorial" subtitle="Editorial" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
         
-        <MainPage pdfUrl="assets/Magazine.pdf"   />
+        <MainPage   pdfUrl="/assets/Magazine.pdf"
+  coverImage="/assets/img/academics.JPG"
+  title="Editorial"  />
         <FooterThree/>
         {/* gg */}
     </div>

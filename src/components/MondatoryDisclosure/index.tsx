@@ -9,7 +9,10 @@ export default function index() {
     <div>
         <HeaderOne/>                <Breadcrumb title="Mandatory Public Disclosure" subtitle="Mandatory Public Disclosure" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
         
-        <MainPage pdfUrl ="assets/Mandatory Disclosure Details _ SARAS 4.pdf"  />
+        <MainPage
+          pdfUrl="/assets/Mandatory Disclosure Details _ SARAS 4.pdf"
+  coverImage="/assets/img/breadcrumb/contact.jpg"
+  title="Mandatory Public Disclosure" />
         <FooterThree/>
         
     </div>
