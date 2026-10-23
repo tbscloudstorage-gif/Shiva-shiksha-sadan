@@ -16864,6 +16864,10 @@ input[type=radio] {
   .it-course-style-4 .it-course-meta-wrap .row [class*=col-]:first-child .it-course-meta {
     border-right: none;
   }
+  .it-about-list-box
+{
+  margin-bottom: 20px;
+}
 }
 @media (max-width: 767px) {
   .it-course-style-4 .it-course-section-title-box {
