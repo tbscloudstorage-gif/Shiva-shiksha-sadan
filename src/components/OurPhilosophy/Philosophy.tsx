@@ -1,3 +1,4 @@
+
 import {
   FaBullseye,
   FaChild,
@@ -33,12 +34,10 @@ export default function Philosophy() {
         </h1>
 
         <p>
-          At Shiva Shiksha Sadan, we believe that education is not simply
-          about acquiring knowledge; it is about discovering potential,
-          developing character, and preparing young minds to face the world
-          with confidence and purpose. Our philosophy is rooted in the belief that every child is unique, with individual abilities, interests, aspirations, and a distinct pace of learning. We strive to create
-          an environment where every student feels encouraged to explore,
-          question, learn, and grow.
+          At Shiva Shiksha Sadan, we believe education goes beyond
+          academics. Our philosophy focuses on nurturing each child's
+          potential, building character, and encouraging curiosity,
+          confidence, and lifelong learning.
         </p>
 
         <h5 className="mt-4" style={headingStyle}>
@@ -47,13 +46,9 @@ export default function Philosophy() {
         </h5>
 
         <p>
-          We believe meaningful education goes beyond textbooks and
-          examinations. While academic excellence remains an important part
-          of a student's journey, we focus equally on developing critical
-          thinking, creativity, communication, collaboration, and
-          problem-solving abilities. Our approach encourages students to
-          understand concepts, apply their learning, and develop a genuine
-          curiosity about the world around them.
+          We combine academic excellence with critical thinking,
+          creativity, communication, and problem-solving skills,
+          helping students apply their knowledge in everyday life.
         </p>
 
         <h5 className="mt-4" style={headingStyle}>
@@ -62,13 +57,9 @@ export default function Philosophy() {
         </h5>
 
         <p>
-          True education addresses the intellectual, emotional, social,
-          physical, and creative development of every student. At Shiva
-          Shiksha Sadan, we provide opportunities for students to participate
-          in sports, performing arts, creative activities, technology,
-          clubs, competitions, and experiential learning. These experiences
-          help students discover their interests, build confidence, develop
-          teamwork, and learn valuable lessons beyond the classroom.
+          We encourage intellectual, emotional, physical, and social
+          development through sports, arts, technology, competitions,
+          and activities beyond the classroom.
         </p>
 
         <h5 className="mt-4" style={headingStyle}>
@@ -77,12 +68,9 @@ export default function Philosophy() {
         </h5>
 
         <p>
-          We believe that knowledge becomes meaningful when guided by strong
-          values. Respect, honesty, discipline, compassion, responsibility,
-          and empathy form an important part of our educational philosophy.
-          We encourage our students to understand the importance of their
-          actions, respect others, appreciate diversity, and contribute
-          positively to their communities.
+          Respect, honesty, discipline, compassion, and responsibility
+          guide our approach, helping students develop strong character
+          and become responsible members of society.
         </p>
 
         <h5 className="mt-4" style={headingStyle}>
@@ -91,13 +79,10 @@ export default function Philosophy() {
         </h5>
 
         <p>
-          With a legacy of education since 1974, Shiva Shiksha Sadan values
-          the wisdom of traditional education while embracing the
-          possibilities offered by modern learning. We believe that the best
-          education brings together strong foundations and new ideas. By
-          encouraging students to adapt, innovate, and think independently,
-          we prepare them for a rapidly changing world while keeping them
-          grounded in essential human values.
+          Since 1974, Shiva Shiksha Sadan has combined traditional
+          values with modern teaching methods, preparing students
+          to embrace new opportunities while staying grounded
+          in strong principles.
         </p>
 
         <h5 className="mt-4" style={headingStyle}>
@@ -106,12 +91,9 @@ export default function Philosophy() {
         </h5>
 
         <p>
-          Our classrooms are spaces where questions are welcomed and
-          curiosity is encouraged. We want students to become active
-          participants in their learning rather than passive recipients of
-          information. By giving them opportunities to investigate,
-          experiment, express their ideas, and learn from their experiences,
-          we help them develop confidence in their own abilities.
+          We inspire students to ask questions, explore ideas,
+          think independently, and learn through practical
+          experiences that build confidence and creativity.
         </p>
 
         <h5 className="mt-4" style={headingStyle}>
@@ -120,23 +102,18 @@ export default function Philosophy() {
         </h5>
 
         <p>
-          The world our students will enter is constantly evolving.
-          Therefore, our responsibility extends beyond preparing them for
-          the next examination or academic milestone. We aim to equip them
-          with the knowledge, skills, values, and mindset they need to
-          navigate future opportunities and challenges with confidence.
+          Our goal is to equip students with the knowledge,
+          skills, confidence, and values needed to face
+          future challenges and achieve their aspirations.
         </p>
 
         <p>
-          At Shiva Shiksha Sadan, our philosophy is ultimately about{" "}
+          At Shiva Shiksha Sadan, we aim to nurture
           <strong>
-            creating individuals who are knowledgeable, compassionate,
-            confident, responsible, and ready to make a meaningful
-            contribution to society
+            {" "}confident, compassionate, knowledgeable, and
+            responsible individuals
           </strong>
-          . We believe that when education inspires curiosity, strengthens
-          character, and gives every child the confidence to pursue their
-          potential, it becomes a lifelong journey of growth and discovery.
+          {" "}who contribute positively to society.
         </p>
       </div>
     </>

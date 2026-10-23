@@ -20,9 +20,9 @@ export default function CountDownOne() {
                   </div>
                   <div className="it-funfact-content">
                      <h6 className="it-funfact-number"><i className="purecounter" data-purecounter-duration="1" data-purecounter-end="1090">
-                      <Count number={50} text="+" />
+                      <Count number={40} text="+" />
                       </i></h6>
-                     <span>Years of Academic Excellence</span>
+                     <span>Awards & Achievements</span>
                   </div>
                </div>
             </div>

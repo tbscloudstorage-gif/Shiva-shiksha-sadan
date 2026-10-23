@@ -8,7 +8,7 @@ export default function index() {
   return (
     <div>
         <HeaderOne/>            
-            <Breadcrumb title="Magazines" subtitle="Magazines" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
+            <Breadcrumb title="Editorial" subtitle="Editorial" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
         
         <MainPage pdfUrl="assets/Magazine.pdf"   />
         <FooterThree/>

@@ -262,6 +262,9 @@ body {
     .it-header-right-action {
         gap: 10px;
     }
+    .it-about-list-box {
+      margin-bottom: 27px;
+    }
 
   }
 
@@ -16597,6 +16600,63 @@ input[type=radio] {
 .alumni-testimonial-slider .slick-list {
   overflow: hidden;
 }
+
+.magazine-section {
+  padding: 60px 0 100px;
+}
+
+.magazine-desktop {
+  display: block;
+}
+
+.magazine-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .magazine-section {
+    padding: 40px 0 70px;
+  }
+
+  .magazine-desktop {
+    display: none;
+  }
+
+  .magazine-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .magazine-cover {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  }
+
+  .magazine-open-btn {
+    display: inline-block;
+    background: #D41A2E;
+    color: #fff;
+    margin-bottom: 99px  ;
+    padding: 14px 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .magazine-open-btn:hover {
+    background: #b81527;
+    color: #fff;
+  }
+}
+
 
 .alumni-testimonial-slider .slick-slide {
   box-sizing: border-box;

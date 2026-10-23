@@ -393,13 +393,12 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                             <div className="d-flex justify-content-between align-items-center mb-20">
 
                             </div>
-                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">IIT-JEE & NEET Preparation</Link></h5>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">Academic Excellence & Student Development</Link></h5>
 
                             <div className="it-course-meta d-flex justify-content-between">
                               <span>
 
-                                Preparing secondary school students for competitive examinations through focused academic guidance, conceptual learning, and problem-solving skills.                              </span>
-
+Empowering students through quality education, innovative learning experiences, and comprehensive holistic development.</span>
                             </div>
                           </div>
                         </div>

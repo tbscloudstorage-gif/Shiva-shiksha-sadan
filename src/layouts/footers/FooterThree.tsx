@@ -46,10 +46,10 @@ export default function FooterThree() {
                     <div className="it-footer-widget-menu">
                       <ul>
                         <li><a href="/school-rules">School Rules</a></li>
-                        <li><a href="/List-of-books-stationery">List of Books & Stationery</a></li>
-                        <li><a href="/assessment-promotion">Assessment & Promotion</a></li>
+                        {/* <li><a href="/List-of-books-stationery">List of Books & Stationery</a></li> */}
+                        {/* <li><a href="/assessment-promotion">Assessment & Promotion</a></li> */}
                         <li><a href="results">Results</a></li>
-                        <li><a href="academic-calendar">Academic Calendar</a></li>
+                        {/* <li><a href="academic-calendar">Academic Calendar</a></li> */}
                                                 <li><a href="school-council">Student Council</a></li>
 
                       </ul>
@@ -77,7 +77,7 @@ export default function FooterThree() {
                     <div className="it-footer-widget-menu">
                       <ul>
                         <li><a href="/upcoming-event">Upcoming Events</a></li>
-                        <li><a href="/magazines">Magazines</a></li>
+                        <li><a href="/editorial">Editorial</a></li>
                                                 <li><a href="/media-coverage">Media Coverage</a></li>
 
                       </ul>

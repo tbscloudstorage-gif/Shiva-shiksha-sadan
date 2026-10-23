@@ -93,7 +93,7 @@ const router = createBrowserRouter([
     { path: "/mandatory-public-disclosure", element: <MondatoryDisclosure /> },
     
     { path: "/academics", element: <Academics /> },
-    { path: "/magazines", element: <Magazines /> },
+    { path: "/editorial", element: <Magazines /> },
     { path: "/our-alumni", element: <Alumni /> },
     { path: "/media-coverage", element: <MediaCoverage /> },
     { path: "/assessment-promotion", element: <AssessmentPromotion /> },
