@@ -16,6 +16,8 @@ export default function HeroFour() {
         <div className="it-hero-3-thumb-box style-2">
           <div className="it-hero-3-thumb layer" data-depth="0.2">
             <img src="assets/img/hero/thumb-4-2.png" alt="" />
+                        {/* <img src="assets/img/sunflower-child.png" alt="" /> */}
+
             <img className="it-hero-3-shape-2" src="assets/img/shape/hero-4-2.png" alt="" />
           </div>
         </div>

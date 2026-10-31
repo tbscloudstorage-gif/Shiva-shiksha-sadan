@@ -63,7 +63,7 @@ export default function HeaderOne() {
                           className="border-line"
                           href="https://www.google.com/maps/dir/?api=1&destination=Shiva+Shiksha+Sadan%2C+Dev+Nagar%2C+Sonipat%2C+Haryana&waypoints=Street+No+8%2C+Dev+Nagar%2C+Sonipat%2C+Haryana&travelmode=driving"
                         >
-                          Get Direction Now
+                          Get Direction 
                         </a>
                       </div>
                     </li>

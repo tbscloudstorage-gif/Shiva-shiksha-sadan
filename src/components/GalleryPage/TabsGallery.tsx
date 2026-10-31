@@ -40,6 +40,46 @@ const galleryImages: GalleryImage[] = [
     image: "/assets/img/gallery/1.png",
     category: "Activities",
   },
+   {
+    id: 7,
+    image: "/assets/img/gallery/ac-44.png",
+    category: "Activities",
+  },
+   {
+    id: 8,
+    image: "/assets/img/gallery/kids-1.JPG",
+    category: "Pre-primary",
+  },
+   {
+    id: 9,
+    image: "/assets/img/gallery/pp-1.png",
+    category: "Pre-primary",
+  },
+    {
+    id: 10,
+    image: "/assets/img/gallery/kids-2.JPG",
+    category: "Pre-primary",
+  },
+   {
+    id: 11,
+    image: "/assets/img/gallery/kids-5.png",
+    category: "Pre-primary",
+  },
+    {
+    id: 12,
+    image: "/assets/img/gallery/sp-22.JPG",
+    category: "Sports",
+  },
+    {
+    id: 13,
+    image: "/assets/img/gallery/sp-32.png",
+    category: "Activities",
+  },
+  {
+    id: 14,
+    image: "/assets/img/gallery/sp-444.png",
+    category: "Activities",
+  },
 ];
 
 export default function Gallery() {

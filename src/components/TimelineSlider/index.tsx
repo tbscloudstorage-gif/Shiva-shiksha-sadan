@@ -3,22 +3,22 @@ import  { useState, useEffect, useRef } from "react";
 
 const slides = [
   {
-    title: "Academic Excellence & Curriculum",
+    title: "Teachers' Awards & Recognition",
     image: "/assets/img/about/ac-2.png",
     link: "/",
   },
   {
-    title: "Innovative Teaching & Learning",
+    title: "Student Achievements & Honours",
     image: "/assets/img/about/ac-3.png",
     link: "/",
   },
   {
-    title: "Sports & Extracurricular Activities",
+    title: "School Awards & Accolades",
     image: "/assets/img/about/ac-4.png",
     link: "/",
   },
   {
-    title: "School Healthcare & Medical Facilities",
+    title: " TEDx Events & Inspiring Talks",
     image: "/assets/img/about/ac-5.JPG",
     link: "/",
   },

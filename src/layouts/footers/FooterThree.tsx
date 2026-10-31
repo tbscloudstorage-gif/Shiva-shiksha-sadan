@@ -143,7 +143,7 @@ export default function FooterThree() {
   rel="noopener noreferrer"
   title="Get Directions to Shiva Shiksha Sadan"
 >
-  Get Directions Now
+  Get Directions 
 </a>
           {/* <!-- copyright-area-end --> */}
 

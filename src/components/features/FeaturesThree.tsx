@@ -9,8 +9,8 @@ export default function FeaturesThree() {
         <div className="container">
           <div className="it-feature-wrap z-index-2">
             <div className="row gx-0" style={{marginTop: "190px"}}>
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="it-feature-item d-flex justify-content-center">
+              <div className="col-xl-12 col-lg-12 col-md-12">
+                <div className="it-feature-item d-flex justify-content-start w-100">
                   <div className="it-feature-icon">
                     <span>
                                          <img src="assets/img/logo/news.png"  style={{width:"35px"}}/>
@@ -25,7 +25,7 @@ export default function FeaturesThree() {
                     <div className="feature-notice-window">
                       <div className="feature-notice-track">
                         {[
-                          "Admission Enquiries for the Upcoming Academic Session",
+                          "Admission Enquiries for the Upcoming Academic Session ",
                           "Latest School Circulars and Important Updates",
                           "Upcoming School Events and Activities",
                           "Academic Calendar and Examination Updates",
@@ -61,7 +61,7 @@ export default function FeaturesThree() {
                     </Link>
                   </div></div>
               </div>
-               <div className="col-xl-6 col-lg-6 col-md-6">
+               {/* <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="it-feature-item d-flex justify-content-start">
                   <div className="it-feature-icon">
                     <span>
@@ -114,7 +114,7 @@ export default function FeaturesThree() {
                       </svg>
                     </Link>
                   </div></div>
-              </div>
+              </div> */}
 
             </div>
           </div>
