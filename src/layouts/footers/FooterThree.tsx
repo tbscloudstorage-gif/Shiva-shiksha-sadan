@@ -20,7 +20,7 @@ export default function FooterThree() {
                     <div className="it-footer-widget-menu">
                       <ul>
                         <li><a href="/about-school">About School</a></li>
-                        <li><a href="/Chairman-message">Chairman's Message
+                        <li><a href="/principal-message">Principal's Message
 
 </a></li>
                         <li><a href="/our-philosophy">Our Philosophy</a></li>
