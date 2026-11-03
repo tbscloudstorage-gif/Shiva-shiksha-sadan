@@ -42,12 +42,12 @@ const images = [
     subtitle:"Keshav Singla (Batch 2024–25) Secured AIR 6"
   },
   {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/ac-45.png",
     title: "Bright Scholar School",
     subtitle:"Super First Position in Inter-School Song & Dance Competition, Winner of Overall Trophy"
   },
   {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/ac-22.png",
     title: "Google DevFest 2026",
     subtitle:"Lakshay (Class XI-B) Marked His Presence"
   },
@@ -57,47 +57,47 @@ const images = [
     subtitle:"Bhuvi Bansal (IX-E) & Tishika (XI) Honoured by Bharat Vikas Parishad"
   },
   {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/ac-43.png",
     title: "UPSC NDA 2026",
     subtitle:"Yuvraj (Class XII) Qualified for NDA"
   },
   {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/ac-34.png",
     title: "District-Level Hindi Group Song Competition",
     subtitle:"1st Position at Bharat Vikas Parishad"
   },
    {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/ac-55.png",
     title: "District-Level Sanskrit Group Song Competition",
     subtitle:"1st Position at Bharat Vikas Parishad"
   },
    {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/bkj-seniore-category.png",
     title: "Bharat Ko Jano Quiz – Senior Category",
     subtitle:"2nd Position at Bharat Vikas Parishad"
   },
    {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/ac-66.png",
     title: "Bharat Ko Jano Quiz – Junior Category",
     subtitle:"3rd Position at Bharat Vikas Parishad"
   },
    {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/sofia.png",
     title: "Indian Classical Dance Competition",
     subtitle:"Sofia Secured 1st Position at Bharat Vikas Parishad"
   },
    {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/neelakshi.png",
     title: "Veer Ras Kavita Pathan – Junior",
     subtitle:"Neelakshi Secured 3rd Position at Bharat Vikas Parishad"
   },
    {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/senior.png",
     title: "Veer Ras Kavita Pathan – Senior",
     subtitle:"Jigyasa Secured 3rd Position at Bharat Vikas Parishad"
   },
   {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/about/neet.png",
     title: "NEET Examination",
     subtitle:"Garima Successfully Qualified for NEET"
   },
