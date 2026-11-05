@@ -19,7 +19,7 @@ const slides = [
   },
   {
     title: " TEDx Events & Inspiring Talks",
-    image: "/assets/img/about/banner-awards.png",
+    image: "/assets/img/about/rr.png",
     link: "/",
   },
 ];
