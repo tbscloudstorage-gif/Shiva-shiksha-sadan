@@ -2,12 +2,11 @@
 import { useRef } from "react";
 
 export default function FacebookSlider() {
-  const sliderRef = useRef(null);
-
+const sliderRef = useRef<HTMLDivElement | null>(null);
   const posts = [
     "https://www.facebook.com/story.php?story_fbid=1521481419779454&id=100057528314849&mibextid=wwXIfr&rdid=KC7g9EZqDjrvvmJR#",
     "https://www.facebook.com/story.php?story_fbid=1583923916868537&id=100057528314849&mibextid=wwXIfr&rdid=yGHEvPTTUFoRireI#",
-    "facebook.com/story.php?story_fbid=1583130373614558&id=100057528314849&mibextid=wwXIfr&rdid=TMDVkpJTfv0EewSh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1EGNjbWr8P%2F%3Fmibextid%3DwwXIfr#",
+    "https://www.facebook.com/story.php?story_fbid=1583130373614558&id=100057528314849",
     "https://www.facebook.com/story.php?story_fbid=1557279919532937&id=100057528314849&mibextid=wwXIfr&rdid=1Nac7MgOxCMxYC4s#",
     "https://www.facebook.com/story.php?story_fbid=1549498376977758&id=100057528314849&mibextid=wwXIfr&rdid=5jD7kQqUuSYNUvi1#",
     "https://www.facebook.com/story.php?story_fbid=1601545985106330&id=100057528314849&mibextid=wwXIfr&rdid=Fo1Qj0XYKjtYQzuy#",
@@ -33,19 +32,20 @@ export default function FacebookSlider() {
     "post-11.png",
   ];
 
-  const scroll = (direction) => {
-    if (!sliderRef.current) return;
+const scroll = (direction: number) => {
+  if (!sliderRef.current) return;
 
-    const card = sliderRef.current.querySelector(".fb-post-card");
-    const distance = card
-      ? card.getBoundingClientRect().width + 20
-      : 380;
+  const card = sliderRef.current.querySelector(".fb-post-card");
 
-    sliderRef.current.scrollBy({
-      left: direction * distance,
-      behavior: "smooth",
-    });
-  };
+  const distance = card
+    ? card.getBoundingClientRect().width + 20
+    : 380;
+
+  sliderRef.current.scrollBy({
+    left: direction * distance,
+    behavior: "smooth",
+  });
+};
 
   return (
     <section className="fb-section">
