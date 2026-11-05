@@ -9,12 +9,12 @@ const slides = [
   },
   {
     title: "Student Achievements & Honours",
-    image: "/assets/img/about/banner-awards.png",
+    image: "/assets/img/about/ach.png",
     link: "/",
   },
   {
     title: "School Awards & Accolades",
-    image: "/assets/img/about/banner-awards.png",
+    image: "/assets/img/about/schl.png",
     link: "/",
   },
   {
