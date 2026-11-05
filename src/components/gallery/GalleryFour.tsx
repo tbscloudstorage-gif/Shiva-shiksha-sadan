@@ -214,14 +214,14 @@ export default function GalleryFour() {
                   <div className="it-gallery-thumb style-1 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-1.jpg"
-                      alt=""
+                      alt="" style={{width:"162px", height:"125px"}}
                     />
                   </div>
 
                   <div className="it-gallery-thumb style-2 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-2.jpg"
-                      alt=""
+                      alt="" style={{width:"160px" , height:"236px"}}
                     />
                   </div>
 
@@ -234,14 +234,14 @@ export default function GalleryFour() {
                   <div className="it-gallery-thumb style-1 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-3.jpg"
-                      alt=""
+                      alt="" style={{width:"231px"}}
                     />
                   </div>
 
                   <div className="it-gallery-thumb style-2 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-4.jpg"
-                      alt=""
+                      alt="" style={{width:"227", height:"135px"}}
                     />
                   </div>
 
@@ -254,14 +254,15 @@ export default function GalleryFour() {
                   <div className="it-gallery-thumb style-1 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-5.jpg"
-                      alt=""
+                      alt=""  style={{width: "165px" ,
+    height: "246px"}}
                     />
                   </div>
 
                   <div className="it-gallery-thumb style-2 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-6.jpg"
-                      alt=""
+                      alt="" style={{width:"166px", height:"134px"}}
                     />
                   </div>
 
@@ -274,14 +275,14 @@ export default function GalleryFour() {
                   <div className="it-gallery-thumb style-1 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-7.jpg"
-                      alt=""
+                      alt="" style={{width:"168px", height:"135px"}}
                     />
                   </div>
 
                   <div className="it-gallery-thumb style-2 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-8.jpg"
-                      alt=""
+                      alt="" style={{width:"173px", height:"257px"}}
                     />
                   </div>
 
@@ -294,14 +295,14 @@ export default function GalleryFour() {
                   <div className="it-gallery-thumb style-1 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-9.jpg"
-                      alt=""
+                      alt="" style={{width:"233px", height:"134px"}}
                     />
                   </div>
 
                   <div className="it-gallery-thumb style-2 border-radius-20">
                     <img
                       src="assets/img/gallery/gallery-4-10.jpg"
-                      alt=""
+                      alt="" style={{width:"251px", height:"313px"}}
                     />
                   </div>
 

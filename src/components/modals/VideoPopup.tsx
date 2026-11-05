@@ -31,7 +31,7 @@ const VideoPopup = ({ children }: { children: React.ReactNode }) => {
           }}
         >
           <iframe
-            src="https://www.youtube.com/embed/Q5PG0rMXgvw"
+            src="https://www.youtube.com/embed/a54LiQ2nLzU"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

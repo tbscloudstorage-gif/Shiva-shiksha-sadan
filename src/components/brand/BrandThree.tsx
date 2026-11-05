@@ -41,7 +41,7 @@ export default function BrandThree() {
                <div className="it-brand-3-wrap p-2 rounded-sm " style={ {borderRadius : "2px"}}>
                   <div className="row ">
                  
-                  <img src="assets/img/gallery/karate-kids.png" alt="" />
+                  <img src="assets/img/journey.JPG" alt="" />
                   <VideoPopup>
                     <a className="it-about-thumb-icon pulse-white popup-video" style={{ cursor: "pointer" , left:"43%"}}
                     >

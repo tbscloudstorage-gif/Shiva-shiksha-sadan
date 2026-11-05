@@ -93,7 +93,7 @@ export default function FaqEight() {
                   <img src="assets/img/contact/faq-9-1.jpg" alt="" />
                 </div>
                 <div className="it-about-2-thumb-sm border-radius-20 z-index-1">
-                  <img src="assets/img/contact/faq-9-2.jpg" alt="" />
+                  <img src="assets/img/contact/faq-9-2.jpg" alt=""  style={{width:"242px"}}/>
                 </div>
                 <img className="it-about-2-shape-7 d-none d-xl-block" src="assets/img/shape/about-8-1.png" alt="" />
               </div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import FacebookEmbed from "../FacebookEmbed";
 
 
 export default function FeaturesThree() {
@@ -8,19 +9,19 @@ export default function FeaturesThree() {
       <section className="it-feature-area mt-120 mb-120">
         <div className="container">
           <div className="it-feature-wrap z-index-2">
-            <div className="row gx-0" style={{marginTop: "190px"}}>
-              <div className="col-xl-12 col-lg-12 col-md-12">
+            <div className="row gx-0" style={{ marginTop: "190px" }}>
+              <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="it-feature-item d-flex justify-content-start w-100">
                   <div className="it-feature-icon">
                     <span>
-                                         <img src="assets/img/logo/news.png"  style={{width:"35px"}}/>
+                      <img src="assets/img/logo/news.png" style={{ width: "35px" }} />
 
                     </span>
                   </div>
                   <div className="it-feature-content" >
                     <h5 className="it-feature-title">News, Announcements & Notices
 
-</h5>
+                    </h5>
 
                     <div className="feature-notice-window">
                       <div className="feature-notice-track">
@@ -61,7 +62,11 @@ export default function FeaturesThree() {
                     </Link>
                   </div></div>
               </div>
-               {/* <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="col-xl-6 col-lg-6 col-md-6">
+                <FacebookEmbed/>
+                
+              </div>
+              {/* <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="it-feature-item d-flex justify-content-start">
                   <div className="it-feature-icon">
                     <span>

@@ -83,6 +83,7 @@ import MondatoryDisclosure from "@/components/MondatoryDisclosure/index"
 import PrinicipalMessage from "@/components/PrincipalMessage/index"
 import SchoolRules from "./components/SchoolRules/index";
 import Results from "@/components/Result/index"
+import FacebookEmbed from "./components/FacebookEmbed";
 const router = createBrowserRouter([
     { path: "/", element: <University /> },
   { path: "/results", element: <Results /> },
@@ -128,7 +129,7 @@ const router = createBrowserRouter([
     { path: "/school-council", element: <StudentCouncil /> },
     { path: "/academic-calendar", element: <AcademicCalender /> },
     { path: "/List-of-books-stationery", element: <BooksStationery /> },
-
+{path: "/facebook-section" , element : <FacebookEmbed/>},
   { path: "/our-philosophy", element: <OurPhilosophy /> },
   { path: "/principal-message", element: <PrinicipalMessage/> },
 

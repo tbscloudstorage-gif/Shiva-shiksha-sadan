@@ -21990,7 +21990,7 @@ input[type=radio] {
   }
 }
 .it-feature-item:hover {
-  background-color: var(--it-gray-1);
+  /* background-color: var(--it-gray-1); */
 }
 .it-feature-item:hover a {
   color: var(--it-theme-1);

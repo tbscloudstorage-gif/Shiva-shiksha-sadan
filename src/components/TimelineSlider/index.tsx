@@ -3,7 +3,7 @@ import  { useState, useEffect, useRef } from "react";
 
 const slides = [
   {
-    title: "Teachers' Awards & Recognition",
+    title: "Teacher's Awards & Recognition",
     image: "/assets/img/about/ac-2.png",
     link: "/",
   },
