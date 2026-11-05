@@ -4,12 +4,12 @@ import { useRef } from "react";
 export default function FacebookSlider() {
 const sliderRef = useRef<HTMLDivElement | null>(null);
   const posts = [
-    "https://www.facebook.com/story.php?story_fbid=1521481419779454&id=100057528314849&mibextid=wwXIfr&rdid=KC7g9EZqDjrvvmJR#",
-    "https://www.facebook.com/story.php?story_fbid=1583923916868537&id=100057528314849&mibextid=wwXIfr&rdid=yGHEvPTTUFoRireI#",
-    "https://www.facebook.com/story.php?story_fbid=1583130373614558&id=100057528314849",
-    "https://www.facebook.com/story.php?story_fbid=1557279919532937&id=100057528314849&mibextid=wwXIfr&rdid=1Nac7MgOxCMxYC4s#",
-    "https://www.facebook.com/story.php?story_fbid=1549498376977758&id=100057528314849&mibextid=wwXIfr&rdid=5jD7kQqUuSYNUvi1#",
-    "https://www.facebook.com/story.php?story_fbid=1601545985106330&id=100057528314849&mibextid=wwXIfr&rdid=Fo1Qj0XYKjtYQzuy#",
+    "https://www.facebook.com/story.php?story_fbid=1583923916868537&id=100057528314849&mibextid=wwXIfr&rdid=Rsixz9qnZPoDuvY6#",
+    "https://www.facebook.com/story.php?story_fbid=1583130373614558&id=100057528314849&mibextid=wwXIfr&rdid=XSVjMvPpurT50ggC#",
+    "https://www.facebook.com/story.php?story_fbid=1557279919532937&id=100057528314849&mibextid=wwXIfr&rdid=O54MgyvoOuWWtnhI#",
+    "https://www.facebook.com/story.php?story_fbid=1549498376977758&id=100057528314849&mibextid=wwXIfr&rdid=gfB9juPp7DqdaUaM#",
+    "https://www.facebook.com/story.php?story_fbid=1596705385590390&id=100057528314849&mibextid=wwXIfr&rdid=yFBnbQJO6jQQyxyQ#",
+    "https://www.facebook.com/story.php?story_fbid=1594238952503700&id=100057528314849&mibextid=wwXIfr&rdid=s9EsRCB73yuo6xPL#",
     "https://www.facebook.com/story.php?story_fbid=1596705385590390&id=100057528314849&mibextid=wwXIfr&rdid=nCnliuMcsxDvrFez#",
     "https://www.facebook.com/story.php?story_fbid=1594238952503700&id=100057528314849&mibextid=wwXIfr&rdid=aWNPpqSdMixWwBeC#",
     "https://www.facebook.com/story.php?story_fbid=1588958833031712&id=100057528314849&mibextid=wwXIfr&rdid=DF5wVBf1tXNSP2SX#",

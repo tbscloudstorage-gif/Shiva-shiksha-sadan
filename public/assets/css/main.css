@@ -15335,9 +15335,9 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
   .it-about-2-thumb-sm img {
     width: 100%  !important;
   }
-  #mobile-section,    .school-timeline-wrapper{
+  /* #mobile-section,    .school-timeline-wrapper{
     display: none;
-  }
+  } */
 }
 .it-about-2-thumb-sm.thumb-overlay::after {
   content: "";
