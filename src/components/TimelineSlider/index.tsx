@@ -4,22 +4,22 @@ import  { useState, useEffect, useRef } from "react";
 const slides = [
   {
     title: "Teacher's Awards & Recognition",
-    image: "/assets/img/about/ac-2.png",
+    image: "/assets/img/about/banner-awards.png",
     link: "/",
   },
   {
     title: "Student Achievements & Honours",
-    image: "/assets/img/about/ac-3.png",
+    image: "/assets/img/about/banner-awards.png",
     link: "/",
   },
   {
     title: "School Awards & Accolades",
-    image: "/assets/img/about/ac-4.png",
+    image: "/assets/img/about/banner-awards.png",
     link: "/",
   },
   {
     title: " TEDx Events & Inspiring Talks",
-    image: "/assets/img/about/ac-5.JPG",
+    image: "/assets/img/about/banner-awards.png",
     link: "/",
   },
 ];
@@ -105,7 +105,7 @@ const handleTimelineClick = (index: number) => {    activeRef.current = index;
 
   return (
     <>
-    <section className="container mb-40 mt-40">
+    <section className="container mb-40 mt-40" id="mobile-section">
          <div className="it-campus-section-title-wrap mb-40">
             <div className="row align-items-end">
               <div className="col-xl-8 col-lg-7">

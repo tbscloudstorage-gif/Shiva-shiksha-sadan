@@ -11,7 +11,7 @@ export default function AboutEight() {
       <Breadcrumb
         title="Principal's Message"
         subtitle="Principal's Message"
-        breadcrumb_img="/assets/img/breadcrumb/Principal-breadcrumb.png"
+        breadcrumb_img="/assets/img/about/teacher-brd.png"
       />
 
       {/* About Area Start */}
@@ -31,13 +31,13 @@ export default function AboutEight() {
                   <div className="col-lg-6 col-md-6">
                     <div className="it-about-thumb style-1 z-index-1">
                       <img
-                        src="assets/img/about/about-9-1.jpg"
+                        src="assets/img/about/principal.png"
                         alt="Shiva Shiksha Sadan"
                       />
                     </div>
 
                     <div className="it-about-experience-box mb-20 d-inline-flex align-items-center text-white">
-                      <h5 className="text-white">50 +</h5>
+                      <h5 className="text-white">50+</h5>
                       <span className="text-white">
                         Years of <br />
                         Educational Excellence
@@ -48,7 +48,7 @@ export default function AboutEight() {
                   <div className="col-lg-6 col-md-6">
                     <div className="it-about-thumb style-2 z-index-1">
                       <img
-                        src="assets/img/about/about-9-2.jpg"
+                        src="assets/img/about/principals.png"
                         alt="Principal of Shiva Shiksha Sadan"
                       />
                     </div>
