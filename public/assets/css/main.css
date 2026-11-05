@@ -11616,6 +11616,10 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
   .it-hero-title br {
     display: none;
   }
+  .fb-post-card {
+    flex: 0 0 calc((100% - 20px) / 2);
+    height: 337px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .it-hero-title {
