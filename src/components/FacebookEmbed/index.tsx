@@ -10,11 +10,11 @@ const sliderRef = useRef<HTMLDivElement | null>(null);
     "https://www.facebook.com/story.php?story_fbid=1549498376977758&id=100057528314849&mibextid=wwXIfr&rdid=gfB9juPp7DqdaUaM#",
     "https://www.facebook.com/story.php?story_fbid=1596705385590390&id=100057528314849&mibextid=wwXIfr&rdid=yFBnbQJO6jQQyxyQ#",
     "https://www.facebook.com/story.php?story_fbid=1594238952503700&id=100057528314849&mibextid=wwXIfr&rdid=s9EsRCB73yuo6xPL#",
-    "https://www.facebook.com/story.php?story_fbid=1596705385590390&id=100057528314849&mibextid=wwXIfr&rdid=nCnliuMcsxDvrFez#",
-    "https://www.facebook.com/story.php?story_fbid=1594238952503700&id=100057528314849&mibextid=wwXIfr&rdid=aWNPpqSdMixWwBeC#",
-    "https://www.facebook.com/story.php?story_fbid=1588958833031712&id=100057528314849&mibextid=wwXIfr&rdid=DF5wVBf1tXNSP2SX#",
-    "https://www.facebook.com/story.php?story_fbid=1583923916868537&id=100057528314849&mibextid=wwXIfr&rdid=0UwVJ4kSKZyiXPGL#",
-    "https://www.facebook.com/story.php?story_fbid=1514546307139632&id=100057528314849&mibextid=wwXIfr&rdid=hmjeoJaNbw0bp4Z0#",
+    "https://www.facebook.com/story.php?story_fbid=1588958833031712&id=100057528314849&mibextid=wwXIfr&rdid=d3AJZ4VnIf0f19XD#",
+    "https://www.facebook.com/story.php?story_fbid=1583923916868537&id=100057528314849&mibextid=wwXIfr&rdid=Vyy6G1INHCFMVrO7#",
+    "https://www.facebook.com/story.php?story_fbid=1509873634273566&id=100057528314849&mibextid=wwXIfr&rdid=YvNTaK2q2CfSDOo2#",
+    "https://www.facebook.com/story.php?story_fbid=1514546307139632&id=100057528314849&mibextid=wwXIfr&rdid=7Yt8n85BwnkMzF6o#",
+    "https://www.facebook.com/story.php?story_fbid=1521481419779454&id=100057528314849&mibextid=wwXIfr&rdid=dS4qpgxFLtomCDt6#",
   ];
 
   // Save post images in public/assets/img/facebook/
