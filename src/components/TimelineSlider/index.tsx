@@ -106,7 +106,7 @@ const handleTimelineClick = (index: number) => {    activeRef.current = index;
   return (
     <>
     <section className="container mb-40 mt-40" id="mobile-section">
-         <div className="it-campus-section-title-wrap mb-40">
+         <div className="it-campus-section-title-wrap mb-40"  id="new" >
             <div className="row align-items-end">
               <div className="col-xl-8 col-lg-7">
                 <div className="it-campus-section-title-box">
