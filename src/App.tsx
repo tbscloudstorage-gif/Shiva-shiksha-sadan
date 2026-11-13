@@ -61,7 +61,9 @@ import GalleryPage from "@/components/GalleryPage/index.tsx";
 import FeeStructure from "@/components/FeeStructure/index.tsx"
 import OurFaculty from "@/components/OurFaculty/index.tsx"
 import Academics from "@/components/Academics/index.tsx"
+import BlogSecond from "@/components/blog/BlogSecond/index.tsx"
 import AcademicCalender from "@/components/AcademicCalendar/index"
+import BlogThird from "@/components/blog/BlogThird/index.tsx"
 import Coursesv8 from "@/components/inner-pages/courses/courses-v8";
 import CoursesListSidebar from "@/components/inner-pages/courses/courses-list-sidebar";
 import CoursesOpenFilter from "@/components/inner-pages/courses/courses-open-filter";
@@ -131,6 +133,10 @@ const router = createBrowserRouter([
     { path: "/List-of-books-stationery", element: <BooksStationery /> },
 {path: "/facebook-section" , element : <FacebookEmbed/>},
   { path: "/our-philosophy", element: <OurPhilosophy /> },
+    { path: "/how-to-make-your-childrens-learning-better-every-single-day", element: <BlogDetailsWithoutSidebar /> },
+  { path: "/the-golden-jubilee-celebration-of-shiva-shiksha-sadan", element: <BlogSecond/> },
+  { path: "/how-can-schools-build-confidence-and-leadership-in-students", element: <BlogThird/> },
+
   { path: "/principal-message", element: <PrinicipalMessage/> },
 
   { path: "/our-faculty", element: <OurFaculty /> },

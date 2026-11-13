@@ -22624,6 +22624,110 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
 .school-timeline-circle {
   border-color: #d41a2e;
 }
+
+/* ==========================================
+   SHIVA SHIKSHA SADAN
+   ADMISSION FORM DROPDOWN STYLING
+   ========================================== */
+
+.admission-page .sss-admission-dropdown-wrap {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+/* Match admission form input appearance */
+.admission-page .sss-admission-dropdown {
+  display: block !important;
+  width: 100% !important;
+  height: 55px !important;
+  min-height: 55px !important;
+
+  padding: 0 45px 0 20px !important;
+
+  font-family: inherit !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+
+  color: #555555 !important;
+  background-color: #ffffff !important;
+
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 5px !important;
+
+  outline: none !important;
+  box-shadow: none !important;
+
+  cursor: pointer !important;
+
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+
+  transition: border-color 0.2s ease !important;
+}
+
+/* Dropdown arrow */
+.admission-page .sss-admission-dropdown-wrap::after {
+  content: "" !important;
+  position: absolute !important;
+
+  right: 22px !important;
+  top: 50% !important;
+
+  width: 8px !important;
+  height: 8px !important;
+
+  border-right: 2px solid #555555 !important;
+  border-bottom: 2px solid #555555 !important;
+
+  transform: translateY(-65%) rotate(45deg) !important;
+
+  pointer-events: none !important;
+  z-index: 2 !important;
+}
+
+/* Focus styling */
+.admission-page .sss-admission-dropdown:focus {
+  border-color: #181348 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Dropdown options */
+.admission-page .sss-admission-dropdown option {
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+/* Disabled placeholder */
+.admission-page .sss-admission-dropdown option:disabled {
+  color: #999999;
+}
+
+/* Prevent old theme arrows from showing twice */
+.admission-page .sss-admission-dropdown-wrap::before {
+  display: none !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+  .admission-page .sss-admission-dropdown {
+    width: 100% !important;
+    height: 55px !important;
+    min-height: 55px !important;
+    font-size: 15px !important;
+    padding-left: 16px !important;
+    padding-right: 40px !important;
+  }
+
+  .admission-page .sss-admission-dropdown-wrap::after {
+    right: 18px !important;
+  }
+}
+
 .whatsapp-sticky-btn {
     position: fixed;
     bottom: 20px;

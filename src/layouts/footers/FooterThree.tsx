@@ -128,7 +128,7 @@ export default function FooterThree() {
           </div>
           {/* <!-- Sticky WhatsApp Button Start --> */}
 <a
- href="https://wa.me/919555812226?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Shiva Shiksha Sadan."
+ href="https://wa.me/919253590701?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Shiva Shiksha Sadan."
   className="whatsapp-sticky-btn"
   target="_blank"
   rel="noopener noreferrer"

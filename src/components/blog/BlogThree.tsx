@@ -53,11 +53,11 @@ export default function BlogThree() {
 Admin                    </span>
                   </div>
                   <h5 className="it-blog-title mb-15">
-                    <Link className="border-line" to="/">How to Make Your Children’s Learning Better Every Single Day?
+                    <Link className="border-line" to="/how-to-make-your-childrens-learning-better-every-single-day">How to Make Your Children’s Learning Better Every Single Day?
 </Link>
                   </h5>
                   <div className="it-blog-btn">
-                    <Link to="/" className="it-btn-yellow">
+                    <Link to="/how-to-make-your-childrens-learning-better-every-single-day" className="it-btn-yellow">
                       <span>
                         <span className="text-1">More Details</span>
                         <span className="text-2">More Details</span>
@@ -104,10 +104,10 @@ Admin                    </span>
                     </span>
                   </div>
                   <h5 className="it-blog-title mb-15">
-                    <Link className="border-line" to="/">The Golden Jubilee Celebration of Shiva Shiksha Sadan</Link>
+                    <Link className="border-line" to="/the-golden-jubilee-celebration-of-shiva-shiksha-sadan">The Golden Jubilee Celebration of Shiva Shiksha Sadan</Link>
                   </h5>
                   <div className="it-blog-btn">
-                    <Link to="/" className="it-btn-yellow">
+                    <Link to="/the-golden-jubilee-celebration-of-shiva-shiksha-sadan" className="it-btn-yellow">
                       <span>
                         <span className="text-1">More Details</span>
                         <span className="text-2">More Details</span>
@@ -154,10 +154,10 @@ Admin                    </span>
                     </span>
                   </div>
                   <h5 className="it-blog-title mb-15">
-                    <Link className="border-line" to="/">How Can Schools Build Confidence and Leadership in Students?</Link>
+                    <Link className="border-line" to="/how-can-schools-build-confidence-and-leadership-in-students">How Can Schools Build Confidence and Leadership in Students?</Link>
                   </h5>
                   <div className="it-blog-btn">
-                    <Link to="/" className="it-btn-yellow">
+                    <Link to="/how-can-schools-build-confidence-and-leadership-in-students" className="it-btn-yellow">
                       <span>
                         <span className="text-1">More Details</span>
                         <span className="text-2">More Details</span>
@@ -173,7 +173,7 @@ Admin                    </span>
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-12">
               <div className="it-blog-button text-center mt-30">
                 <Link to="#" className="it-btn-yellow theme-bg border-radius-100">
@@ -189,7 +189,7 @@ Admin                    </span>
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* <!-- blog-area-end --> */}

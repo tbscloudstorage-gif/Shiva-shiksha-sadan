@@ -10,7 +10,7 @@ export default function index() {
         <HeaderOne/>
                 <Breadcrumb title="Awards & Honors" subtitle="Awards & Honors" breadcrumb_img="/assets/img/about/awards.png" />
         <MainPage />
-        <FooterThree/>
+       <FooterThree/>
     </div>
   )
 }

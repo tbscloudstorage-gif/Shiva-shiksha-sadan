@@ -1,16 +1,56 @@
-import NiceSelect from "@/ui/NiceSelect";
+import { useState } from 'react';
 
 export default function SignupForm() {
+  const [result, setResult] = useState("");
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    console.log("Admission form submitted");
-  };
+  
 
-  const selectHandler = (e: any) => {
-    return e;
-  };
 
+const onSubmit = async (event) => {
+  event.preventDefault();
+
+  const form = event.currentTarget;
+  const formData = new FormData(form);
+
+  formData.append("access_key", "19619d88-a2af-43af-8877-fa79ea097158");
+
+  // Check all fields before submitting
+  console.log(
+    "Form Data:",
+    Object.fromEntries(formData.entries())
+  );
+
+  setResult("Submitting...");
+
+  try {
+    const response = await fetch(
+      "https://api.web3forms.com/submit",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    const data = await response.json();
+
+    console.log("Web3Forms Response:", data);
+
+    if (response.ok && data.success) {
+      setResult("Application submitted successfully!");
+
+      form.reset();
+    } else {
+      setResult(data.message || "Submission failed.");
+    }
+  } catch (error) {
+    console.error("Submission Error:", error);
+    setResult("Network error. Please try again.");
+  }
+};
+
+
+  
+ 
   return (
     <>
       <div className="it-signup-area pt-130 pb-130 admission-page">
@@ -38,7 +78,7 @@ export default function SignupForm() {
                 </div>
 
 
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={onSubmit}>
 
                   {/* =====================================
                       STUDENT INFORMATION
@@ -105,31 +145,20 @@ export default function SignupForm() {
                             Gender <b>*</b>
                           </label>
 
-                          <div className="contact__select admission-select">
+                          
+<div className="contact__select admission-select sss-admission-dropdown-wrap">
+  <select
+    className="sss-admission-dropdown"
+    name="gender"
+    required
+    defaultValue=""
+  >
+    <option value="" disabled>Select Gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+</div>
 
-                            <NiceSelect
-                              className=""
-                              options={[
-                                {
-                                  value: "",
-                                  text: "Select Gender",
-                                },
-                                {
-                                  value: "male",
-                                  text: "Male",
-                                },
-                                {
-                                  value: "female",
-                                  text: "Female",
-                                },
-                              ]}
-                              defaultCurrent={0}
-                              onChange={selectHandler}
-                              name="gender"
-                              placeholder=""
-                            />
-
-                          </div>
 
                         </div>
                       </div>
@@ -143,83 +172,33 @@ export default function SignupForm() {
                             Applying for Class <b>*</b>
                           </label>
 
-                          <div className="contact__select admission-select">
+                       
+<div className="contact__select admission-select sss-admission-dropdown-wrap">
+  <select
+    className="sss-admission-dropdown"
+    name="class"
+    required
+    defaultValue=""
+  >
+    <option value="" disabled>Select Class</option>
+    <option value="nursery">Nursery</option>
+    <option value="lkg">LKG</option>
+    <option value="ukg">UKG</option>
+    <option value="1">Class I</option>
+    <option value="2">Class II</option>
+    <option value="3">Class III</option>
+    <option value="4">Class IV</option>
+    <option value="5">Class V</option>
+    <option value="6">Class VI</option>
+    <option value="7">Class VII</option>
+    <option value="8">Class VIII</option>
+    <option value="9">Class IX</option>
+    <option value="10">Class X</option>
+    <option value="11">Class XI</option>
+    <option value="12">Class XII</option>
+  </select>
+</div>
 
-                            <NiceSelect
-                              className=""
-                              options={[
-                                {
-                                  value: "",
-                                  text: "Select Class",
-                                },
-                                {
-                                  value: "nursery",
-                                  text: "Nursery",
-                                },
-                                {
-                                  value: "lkg",
-                                  text: "LKG",
-                                },
-                                {
-                                  value: "ukg",
-                                  text: "UKG",
-                                },
-                                {
-                                  value: "1",
-                                  text: "Class I",
-                                },
-                                {
-                                  value: "2",
-                                  text: "Class II",
-                                },
-                                {
-                                  value: "3",
-                                  text: "Class III",
-                                },
-                                {
-                                  value: "4",
-                                  text: "Class IV",
-                                },
-                                {
-                                  value: "5",
-                                  text: "Class V",
-                                },
-                                {
-                                  value: "6",
-                                  text: "Class VI",
-                                },
-                                {
-                                  value: "7",
-                                  text: "Class VII",
-                                },
-                                {
-                                  value: "8",
-                                  text: "Class VIII",
-                                },
-                                {
-                                  value: "9",
-                                  text: "Class IX",
-                                },
-                                {
-                                  value: "10",
-                                  text: "Class X",
-                                },
-                                {
-                                  value: "11",
-                                  text: "Class XI",
-                                },
-                                {
-                                  value: "12",
-                                  text: "Class XII",
-                                },
-                              ]}
-                              defaultCurrent={0}
-                              onChange={selectHandler}
-                              name="class"
-                              placeholder=""
-                            />
-
-                          </div>
 
                         </div>
                       </div>
@@ -233,31 +212,20 @@ export default function SignupForm() {
                             Academic Session <b>*</b>
                           </label>
 
-                          <div className="contact__select admission-select">
+                        
+<div className="contact__select admission-select sss-admission-dropdown-wrap">
+  <select
+    className="sss-admission-dropdown"
+    name="academic_session"
+    required
+    defaultValue=""
+  >
+    <option value="" disabled>Select Academic Session</option>
+    <option value="2026-27">2026-27</option>
+    <option value="2027-28">2027-28</option>
+  </select>
+</div>
 
-                            <NiceSelect
-                              className=""
-                              options={[
-                                {
-                                  value: "",
-                                  text: "Select Academic Session",
-                                },
-                                {
-                                  value: "2026-27",
-                                  text: "2026-27",
-                                },
-                                {
-                                  value: "2027-28",
-                                  text: "2027-28",
-                                },
-                              ]}
-                              defaultCurrent={0}
-                              onChange={selectHandler}
-                              name="academic_session"
-                              placeholder=""
-                            />
-
-                          </div>
 
                         </div>
                       </div>
@@ -479,31 +447,19 @@ export default function SignupForm() {
                             Do You Require School Transport?
                           </label>
 
-                          <div className="contact__select admission-select">
+                         
+<div className="contact__select admission-select sss-admission-dropdown-wrap">
+  <select
+    className="sss-admission-dropdown"
+    name="transport"
+    defaultValue=""
+  >
+    <option value="" disabled>Select Option</option>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+</div>
 
-                            <NiceSelect
-                              className=""
-                              options={[
-                                {
-                                  value: "",
-                                  text: "Select Option",
-                                },
-                                {
-                                  value: "yes",
-                                  text: "Yes",
-                                },
-                                {
-                                  value: "no",
-                                  text: "No",
-                                },
-                              ]}
-                              defaultCurrent={0}
-                              onChange={selectHandler}
-                              name="transport"
-                              placeholder=""
-                            />
-
-                          </div>
 
                         </div>
                       </div>
@@ -591,7 +547,7 @@ Message or Additional Information
                     </p>
 
                   </div>
-
+<p className='text-green-500 mt-5 text-sm' style={{color:"green"}}>{result}</p>
                 </form>
 
               </div>
