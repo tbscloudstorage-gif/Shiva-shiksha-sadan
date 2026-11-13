@@ -6,10 +6,11 @@ export default function SignupForm() {
   
 
 
-const onSubmit = async (event) => {
+const onSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
 
   const form = event.currentTarget;
+  
   const formData = new FormData(form);
 
   formData.append("access_key", "19619d88-a2af-43af-8877-fa79ea097158");
