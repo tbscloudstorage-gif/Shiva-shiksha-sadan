@@ -1,181 +1,95 @@
 
-import { useRef } from "react";
+import React from "react";
 
-export default function FacebookSlider() {
-const sliderRef = useRef<HTMLDivElement | null>(null);
-  const posts = [
-    "https://www.facebook.com/story.php?story_fbid=1583923916868537&id=100057528314849&mibextid=wwXIfr&rdid=Rsixz9qnZPoDuvY6#",
-    "https://www.facebook.com/story.php?story_fbid=1583130373614558&id=100057528314849&mibextid=wwXIfr&rdid=XSVjMvPpurT50ggC#",
-    "https://www.facebook.com/story.php?story_fbid=1557279919532937&id=100057528314849&mibextid=wwXIfr&rdid=O54MgyvoOuWWtnhI#",
-    "https://www.facebook.com/story.php?story_fbid=1549498376977758&id=100057528314849&mibextid=wwXIfr&rdid=gfB9juPp7DqdaUaM#",
-    "https://www.facebook.com/story.php?story_fbid=1596705385590390&id=100057528314849&mibextid=wwXIfr&rdid=yFBnbQJO6jQQyxyQ#",
-    "https://www.facebook.com/story.php?story_fbid=1594238952503700&id=100057528314849&mibextid=wwXIfr&rdid=s9EsRCB73yuo6xPL#",
-    "https://www.facebook.com/story.php?story_fbid=1588958833031712&id=100057528314849&mibextid=wwXIfr&rdid=d3AJZ4VnIf0f19XD#",
-    "https://www.facebook.com/story.php?story_fbid=1583923916868537&id=100057528314849&mibextid=wwXIfr&rdid=Vyy6G1INHCFMVrO7#",
-    "https://www.facebook.com/story.php?story_fbid=1509873634273566&id=100057528314849&mibextid=wwXIfr&rdid=YvNTaK2q2CfSDOo2#",
-    "https://www.facebook.com/story.php?story_fbid=1514546307139632&id=100057528314849&mibextid=wwXIfr&rdid=7Yt8n85BwnkMzF6o#",
-    "https://www.facebook.com/story.php?story_fbid=1521481419779454&id=100057528314849&mibextid=wwXIfr&rdid=dS4qpgxFLtomCDt6#",
-  ];
+const FacebookFeed: React.FC = () => {
+  // Replace with your actual Facebook Page URL
+  const facebookPageUrl =
+    "https://www.facebook.com/shivashikshasadansnp";
 
-  // Save post images in public/assets/img/facebook/
-  const images = [
-    "post-1.png",
-    "post-2.png",
-    "post-3.png",
-    "post-4.png",
-    "post-5.png",
-    "post-6.png",
-    "post-7.png",
-    "post-8.png",
-    "post-9.png",
-    "post-10.png",
-    "post-11.png",
-  ];
-
-const scroll = (direction: number) => {
-  if (!sliderRef.current) return;
-
-  const card = sliderRef.current.querySelector(".fb-post-card");
-
-  const distance = card
-    ? card.getBoundingClientRect().width + 20
-    : 380;
-
-  sliderRef.current.scrollBy({
-    left: direction * distance,
-    behavior: "smooth",
-  });
-};
+  const embedUrl =
+    "https://www.facebook.com/plugins/page.php?" +
+    new URLSearchParams({
+      href: facebookPageUrl,
+      tabs: "timeline",
+      width: "500",
+      height: "400",
+      small_header: "false",
+      adapt_container_width: "true",
+      hide_cover: "false",
+      show_facepile: "false",
+    }).toString();
 
   return (
-    <section className="fb-section">
-      <style>{`
-        .fb-section {
-          padding: 40px 20px;
-          max-width: 1100px;
-          margin: auto;
-        }
-
-        .fb-slider {
-          display: flex;
-          gap: 20px;
-          overflow-x: auto;
-          overflow-y: hidden;
-          scroll-snap-type: x mandatory;
-          scroll-behavior: smooth;
-          padding: 10px 0 18px;
-          scrollbar-width: thin;
-          scrollbar-color: #1e214a #e8e8e8;
-        }
-
-        .fb-slider::-webkit-scrollbar {
-          height: 8px;
-        }
-
-        .fb-slider::-webkit-scrollbar-thumb {
-          background: #1e214a;
-          border-radius: 10px;
-        }
-
-        .fb-post-card {
-          flex: 0 0 calc((100% - 20px) / 2);
-          height: 270px;
-          min-width: 0;
-          overflow: hidden;
-          border-radius: 12px;
-          background: #f5f5f5;
-          scroll-snap-align: start;
-          position: relative;
-        }
-
-        .fb-post-card a {
-          display: block;
-          width: 100%;
-          height: 100%;
-          cursor: pointer;
-        }
-
-        .fb-post-card img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          transition: transform 0.3s ease;
-        }
-
-        .fb-post-card:hover img {
-          transform: scale(1.04);
-        }
-
-        .fb-nav {
-          display: flex;
-          justify-content: center;
-          gap: 15px;
-          margin-top: 20px;
-        }
-
-        .fb-nav button {
-          background: #1e214a;
-          color: white;
-          border: none;
-          border-radius: 50%;
-          width: 42px;
-          height: 42px;
-          cursor: pointer;
-          font-size: 20px;
-        }
-
-        @media (max-width: 768px) {
-          .fb-section {
-            padding: 25px 15px;
-          }
-
-          .fb-post-card {
-            flex-basis: 100%;
-          }
-        }
-      `}</style>
-
-      <h5 className="it-feature-title">
-        Follow Us on Facebook
-      </h5>
-
-      <div className="fb-slider" ref={sliderRef}>
-        {posts.map((post, index) => (
-          <div className="fb-post-card" key={post}>
-            <a
-              href={post}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`View Facebook post ${index + 1 }`}
-            >
-              <img
-                src={`/assets/img/about/${images[index]}`}
-                alt={`Shiva Shiksha Sadan Facebook post ${index + 1 }`}
-                loading="lazy"
-              />
-            </a>
-          </div>
-        ))}
-      </div>
-
-      <div className="fb-nav">
-        <button
-          type="button"
-          aria-label="Previous Facebook post"
-          onClick={() => scroll(-1)}
+    <section
+      style={{
+        width: "100%",
+        padding: "40px 20px",
+        backgroundColor: "#f8faf9",
+        boxSizing: "border-box",
+      }}
+    >
+      <div
+        style={{
+          maxWidth: "1200px",
+          margin: "0 auto",
+          textAlign: "center",
+        }}
+      >
+        <h5 className="it-feature-title"
+          style={{
+            
+            marginBottom: "12px",
+          }}
         >
-          &#8592;
-        </button>
+          Follow Us on Facebook
+        </h5>
 
-        <button
-          type="button"
-          aria-label="Next Facebook post"
-          onClick={() => scroll(1)}
+        <p className="feature-notice-item "
+          style={{
+            
+            marginBottom: "30px",
+          }}
         >
-          &#8594;
-        </button>
+          Stay connected with our latest school
+          activities, events and achievements.
+        </p>
+
+        {/* Facebook Page Embed */}
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "500px",
+            margin: "0 auto",
+            overflow: "hidden",
+            borderRadius: "10px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <iframe
+            title="Facebook Page Feed"
+            src={embedUrl}
+            width="500"
+            height="400"
+            style={{
+              border: "none",
+              overflow: "hidden",
+              width: "100%",
+              maxWidth: "500px",
+              height: "400px",
+            }}
+            scrolling="no"
+            frameBorder="0"
+            allow="encrypted-media"
+            loading="lazy"
+          />
+        </div>
+
+        {/* Visit Facebook Button */}
+        
       </div>
     </section>
   );
-}
+};
+
+export default FacebookFeed;

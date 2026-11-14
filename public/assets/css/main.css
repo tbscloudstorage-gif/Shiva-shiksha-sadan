@@ -23048,7 +23048,12 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
   color: #1c1651;
   font-weight: 600;
 }
-
+.mobile-img-timeline{
+  display: none !important;
+}
+.desktop-img-timeline{
+  display: block !important;
+}
 .school-timeline-point:hover
 .school-timeline-text {
   color:#1c1651;
@@ -23111,7 +23116,12 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
     border-radius: 30px 30px 0 0;
     background: rgba(255, 255, 255, 0.97);
   }
-
+.mobile-img-timeline{
+  display: block !important;
+}
+.desktop-img-timeline{
+  display: none !important;
+}
   .school-timeline-point {
     gap: 15px;
   }
@@ -23134,7 +23144,7 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
 
 @media (max-width: 400px) {
   .school-timeline-wrapper {
-    height: 470px;
+    height: 650px;
   }
 
   .school-timeline-overlay {

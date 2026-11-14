@@ -5,21 +5,25 @@ const slides = [
   {
     title: "Teacher's Awards & Recognition",
     image: "/assets/img/about/banner-awards.png",
+    mobileImage : "/assets/img/about/banner-1-mobile.png",
     link: "/",
   },
   {
     title: "Student Achievements & Honours",
     image: "/assets/img/about/ach.png",
+     mobileImage : "/assets/img/about/banner-2-mobile.png",
     link: "/",
   },
   {
     title: "School Awards & Accolades",
     image: "/assets/img/about/schl.png",
+     mobileImage : "/assets/img/about/banner-3-mobile.png",
     link: "/",
   },
   {
     title: " TEDx Events & Inspiring Talks",
     image: "/assets/img/about/rr.png",
+     mobileImage : "/assets/img/about/banner-4-mobile.png",
     link: "/",
   },
 ];
@@ -152,8 +156,17 @@ const handleTimelineClick = (index: number) => {    activeRef.current = index;
       tabIndex={activeIndex === index ? 0 : -1}
       aria-label={`Explore ${slide.title}`}
     >
-      <img
+      <img className="desktop-img-timeline"
         src={slide.image}
+        alt={slide.title}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+        }}
+      />
+      <img className="mobile-img-timeline"
+        src={slide.mobileImage}
         alt={slide.title}
         style={{
           width: "100%",

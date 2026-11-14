@@ -313,7 +313,7 @@ export default function TransportFacility() {
 
               <FaExclamationCircle />
 
-              <h2>Important Information</h2>
+              <h2>Important Inffffformation</h2>
 
             </div>
 
