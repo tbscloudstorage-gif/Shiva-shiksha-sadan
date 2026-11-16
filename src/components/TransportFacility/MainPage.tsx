@@ -111,10 +111,20 @@ export default function TransportFacility() {
   ];
 
   const importantInfo = [
-    "Transport services are subject to availability on specific routes.",
-    "Parents must accompany children to and from pickup points",
-    "Parents must inform the school in advance of any changes to their address.",
-    "Transport rules and regulations must be strictly followed",
+    "School Transport facility is not mandatory but an optional service, available on certain routes only. It may not be available at every student's place.",
+    "The school reserves the right to suspend any route permanently or temporarily at the sole discretion of the Principal without any intimation.",
+    "The facility is available for full session only and no withdrawals shall be allowed in between the academic year. Bus facility, once withdrawn, shall not be permitted to start again, even if paid for the whole session but withdrawn. Request for changing of route/bus stoppage or one sided transportation shall not be entertained.",
+    "The bus/ van shall pick and drop students at the designated bus stops only (designated by the school). No diversion/ extension shall be entertained on routes/ designated stops. No student shall be picked from home or their street but only designated stoppages (designated by the school).",
+    "	The designated stops get revised regularly. Parents are required to check the same with the transport in charge before availing the school transport facility.",
+    "	In case the roads of a particular route are in bad shape / are narrow/ are under construction/ or blocked due to some reasons, the route and/or concerned bus stoppages may be changed and parents must have no objection to the same.",
+    "	If the students in a bus/ van are less than the minimum number of students required, then any route can be discontinued at any time with or without prior notice. In case, the school takes such a decision to discontinue any route or stoppage in between the session, the fee paid for the months for which the service has been denied, shall be adjusted.",
+    "	Transport Fee shall be paid with the school fee. Transport Fee is neither refundable nor transferable in any condition and shall be charged for 12 months. E.g. If a student joins/ is allotted a school bus in July, parents have to pay for the months of April, May, June and July, along with all the remaining months. Similarly, if a student discontinues availing the transport in November, the balance payment for December, subsequent months of Jan-Feb-March shall also be payable. Gap months shall also be charged.",
+    "	There may be a fee hike in the mid of the session owing to increase in the price of fuel etc.",
+    "	Students are expected to be at the designated bus stop at least 5 minutes prior to the arrival of the bus. The bus/ van shall not wait for any student and shall leave the bus stop at allotted time. Parents should escort the child personally to the bus stop in the morning and afternoon, observing the safety and security of their child.",
+    "	There shall be no fee concession for siblings studying in the school.",
+    "	The bus facility shall not be available during extra classes, board examinations, events, functions, PTMs and other special occasions.",
+    "	Students shall not take any body part like hands/ face etc. out of the bus/ van windows for any purpose, owing to safety concerns.",
+    "	Students, who are unable to maintain cleanliness, discipline or decorum in a bus or who do not follow the school transport rules mentioned above shall be barred from availing the conveyance facility.  "
   ];
 
   return (
@@ -196,7 +206,7 @@ export default function TransportFacility() {
       {/* ============================
           ROUTES
       ============================ */}
-      <section className="transport-section routes-section">
+      {/* <section className="transport-section routes-section">
 
         <div className="transport-container">
 
@@ -252,7 +262,7 @@ export default function TransportFacility() {
 
         </div>
 
-      </section>
+      </section> */}
 
 
       {/* ============================
@@ -307,13 +317,13 @@ export default function TransportFacility() {
 
         <div className="transport-container">
 
-          <div className="important-box">
+          <div className="important-box" style={{maxWidth: "1100px"}}>
 
             <div className="important-heading">
 
               <FaExclamationCircle />
 
-              <h2>Important Inffffformation</h2>
+              <h2>Important Information</h2>
 
             </div>
 
