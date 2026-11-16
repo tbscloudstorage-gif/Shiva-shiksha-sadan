@@ -23,7 +23,7 @@ export default function BlogFour() {
               </div>
               <div className="col-lg-4">
                 <div className="it-blog-btn text-lg-end">
-                  <Link to="/" className="it-btn-yellow theme-bg">
+                  {/* <Link to="/" className="it-btn-yellow theme-bg">
                     <span>
                       <span className="text-1">See All Articles</span>
                       <span className="text-2">See All Articles</span>
@@ -33,7 +33,7 @@ export default function BlogFour() {
                         <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
                       </svg>
                     </i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -70,11 +70,11 @@ export default function BlogFour() {
                     </span>
                   </div>
                   <h5 className="it-blog-title mb-15">
-                    <Link className="border-line" to="/blog-details-left-sidebar">How to Make Your Children’s Learning Better Every Single Day?
+                    <Link className="border-line" to="/how-to-make-your-childrens-learning-better-every-single-day">How to Make Your Children’s Learning Better Every Single Day?
 </Link>
                   </h5>
                   <div className="it-blog-btn">
-                    <Link to="#" className="it-btn-yellow">
+                    <Link to="/how-to-make-your-childrens-learning-better-every-single-day" className="it-btn-yellow">
                       <span>
                         <span className="text-1">More Details</span>
                         <span className="text-2">More Details</span>
@@ -119,11 +119,11 @@ export default function BlogFour() {
 Admin                    </span>
                   </div>
                   <h5 className="it-blog-title mb-15">
-                    <Link className="border-line" to="/blog-details-left-sidebar">The Golden Jubilee Celebration of Shiva Shiksha Sadan
+                    <Link className="border-line" to="/the-golden-jubilee-celebration-of-shiva-shiksha-sadan">The Golden Jubilee Celebration of Shiva Shiksha Sadan
 </Link>
                   </h5>
                   <div className="it-blog-btn">
-                    <Link to="#" className="it-btn-yellow">
+                    <Link to="/the-golden-jubilee-celebration-of-shiva-shiksha-sadan" className="it-btn-yellow">
                       <span>
                         <span className="text-1">More Details</span>
                         <span className="text-2">More Details</span>
@@ -168,11 +168,11 @@ Admin                    </span>
 Admin                     </span>
                   </div>
                   <h5 className="it-blog-title mb-15">
-                    <Link className="border-line" to="/blog-details-left-sidebar">How Can Schools Build Confidence and Leadership in Students?
+                    <Link className="border-line" to="/how-can-schools-build-confidence-and-leadership-in-students">How Can Schools Build Confidence and Leadership in Students?
 </Link>
                   </h5>
                   <div className="it-blog-btn">
-                    <Link to="#
+                    <Link to="/how-can-schools-build-confidence-and-leadership-in-students
                     " className="it-btn-yellow">
                       <span>
                         <span className="text-1">More Details</span>

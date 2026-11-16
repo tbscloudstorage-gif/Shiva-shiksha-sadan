@@ -45,7 +45,7 @@ export default function FeaturesThree() {
                       </div>
                     </div>
 
-                    <Link to="#">
+                    {/* <Link to="#">
                       View All Notices{" "}
                       <svg
                         width="15"
@@ -59,7 +59,7 @@ export default function FeaturesThree() {
                           fill="currentColor"
                         />
                       </svg>
-                    </Link>
+                    </Link> */}
                   </div></div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">

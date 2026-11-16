@@ -21,7 +21,7 @@ const images = [
     subtitle:"Ms. Abha Tyagi, Ms. Anju, Ms. Sonu, Ms. Sonam Jawa & Ms. Monika Honoured by Dainik Bhaskar"
   },
   {
-    url: "/assets/img/about/ac-4.png",
+    url: "/assets/img/about/op-jindall.png",
     title: "O.P. Jindal University",
         subtitle:"2nd Position in GK Quiz, Selected for District Level"
 

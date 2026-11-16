@@ -22088,7 +22088,7 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
   }
 }
 .it-feature-title {
-  margin-bottom: 7px;
+  margin-bottom: 27px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .it-feature-title {
@@ -23144,7 +23144,7 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
 
 @media (max-width: 400px) {
   .school-timeline-wrapper {
-    height: 650px;
+    height: 1000px;
   }
 
   .school-timeline-overlay {
@@ -23164,7 +23164,7 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
 }
 
 .feature-notice-window {
-  height: 320px;
+  height: 437px;
   overflow: hidden;
   position: relative;
   margin: 12px 0;

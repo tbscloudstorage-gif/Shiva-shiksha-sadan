@@ -32,8 +32,8 @@ Together, we inspire every learner to grow, achieve, and make a meaningful diffe
                      <div className="it-hero-bnt">
                         <Link to="/contact-us" className="it-btn-yellow">
                            <span>
-                              <span className="text-1">Get In Touch</span>
-                              <span className="text-2">Get In Touch</span>
+                              <span className="text-1 text-white">Get In Touch</span>
+                              <span className="text-2 text-white">Get In Touch</span>
                            </span>
                         </Link>
                      </div>
@@ -247,8 +247,8 @@ Continuous assessments and personalized feedback                      </span>
                 </div>
                 <Link to="/upcoming-event" className="it-btn-yellow">
                   <span>
-                    <span className="text-1">View Our Program</span>
-                    <span className="text-2">View Our Program</span>
+                    <span className="text-1 text-white">View Our Program</span>
+                    <span className="text-2 text-white">View Our Program</span>
                   </span>
                 </Link>
               </div>
