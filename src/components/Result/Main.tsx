@@ -198,7 +198,229 @@ export default function TeamSeven() {
             </div>
           </div>
           <div className="row">
-            <h5 className="it-section-title " style={{ marginTop: "20px", marginBottom: "50px" }}>Class XII  Toppers</h5>
+            <h5 className="it-section-title " style={{ marginTop: "20px", marginBottom: "50px" }}>CBSE CLASS XII BOARD RESULT (2025-26) <br/>
+ (COMMERCE STREAM)
+              
+            </h5>
+
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".3s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/shreya.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Shreya Goyal</Link></h4>
+                  <span>98.2%</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".5s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/icha.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Ichcha
+                  </Link></h4>
+                  <span>96.2%
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".5s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/vaishanvi.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Mehul Singla 
+                  </Link></h4>
+                  <span>89.2%
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".7s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/kanha.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Kanha Chugh</Link></h4>
+                  <span>95.6%</span>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <div className="row">
+             
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".3s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/vanshika.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Vanshika
+                  </Link></h4>
+                  <span>94.6%
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".3s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/vinti.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Vinti
+                  </Link></h4>
+                  <span>94.4%</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".7s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/hemant.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Hemant</Link></h4>
+                  <span> 94.2%</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".9s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/Saanvi-2.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Saanvi
+                  </Link></h4>
+                  <span>94%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".3s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/priyanshi.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">       Priyanshi
+
+                  </Link></h4>
+                  <span> 93.4%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".7s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/tanisk.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">   Tanishk
+
+                  </Link></h4>
+                  <span>92.8%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".5s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/mahak.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Mahak</Link></h4>
+                  <span>
+                    92%</span>
+                </div>
+              </div>
+            </div>            
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".9s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/aryan.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">      Aryan
+                  </Link></h4>
+                  <span>91.6%</span>
+                </div>
+              </div>
+              
+              
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+                data-wow-delay=".7s">
+                <div className="it-team-3-item text-center mb-35">
+                  <div className="it-team-3-thumb">
+                    <img src="assets/img/Alumni/naitik.png" alt="" />
+                  </div>
+                  <div className="it-team-3-content">
+                    <h4 className="it-team-3-title"><Link className="border-line" to="#">   Naitik Singla
+
+                    </Link></h4>
+                    <span>91%</span>
+                  </div>
+                </div>
+              </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+                data-wow-delay=".7s">
+                <div className="it-team-3-item text-center mb-35">
+                  <div className="it-team-3-thumb">
+                    <img src="assets/img/Alumni/kritagya.png" alt="" />
+                  </div>
+                  <div className="it-team-3-content">
+                    <h4 className="it-team-3-title"><Link className="border-line" to="#">   Kritagya
+
+                    </Link></h4>
+                    <span>91%</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".9s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/Alumni/mayank.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="#">Mayank
+                  </Link></h4>
+                  <span>
+                    95%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+           <div className="row">
+            <h5 className="it-section-title " style={{ marginTop: "20px", marginBottom: "50px" }}>CBSE CLASS XII BOARD RESULT (2025-26) <br/>
+ (SCIENCE STREAM)
+              
+            </h5>
 
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".3s">
@@ -244,7 +466,7 @@ export default function TeamSeven() {
               data-wow-delay=".7s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/7.png" alt="" />
+                  <img src="assets/img/Alumni/kanha.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Kanha Chugh</Link></h4>
@@ -260,7 +482,7 @@ export default function TeamSeven() {
               data-wow-delay=".3s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/10.png" alt="" />
+                  <img src="assets/img/Alumni/vanshika.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Vanshika
@@ -274,7 +496,7 @@ export default function TeamSeven() {
               data-wow-delay=".3s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/14.png" alt="" />
+                  <img src="assets/img/Alumni/vinti.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Vinti
@@ -287,7 +509,7 @@ export default function TeamSeven() {
               data-wow-delay=".7s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/12.png" alt="" />
+                  <img src="assets/img/Alumni/hemant.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Hemant</Link></h4>
@@ -299,7 +521,7 @@ export default function TeamSeven() {
               data-wow-delay=".9s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/13.png" alt="" />
+                  <img src="assets/img/Alumni/Saanvi-2.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Saanvi
@@ -314,7 +536,7 @@ export default function TeamSeven() {
               data-wow-delay=".3s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/1.png" alt="" />
+                  <img src="assets/img/Alumni/priyanshi.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">       Priyanshi
@@ -329,7 +551,7 @@ export default function TeamSeven() {
               data-wow-delay=".7s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/16.png" alt="" />
+                  <img src="assets/img/Alumni/tanisk.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">   Tanishk
@@ -344,7 +566,7 @@ export default function TeamSeven() {
               data-wow-delay=".5s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/6.png" alt="" />
+                  <img src="assets/img/Alumni/mahak.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Mahak</Link></h4>
@@ -357,7 +579,7 @@ export default function TeamSeven() {
               data-wow-delay=".9s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/17.png" alt="" />
+                  <img src="assets/img/Alumni/aryan.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">      Aryan
@@ -372,7 +594,7 @@ export default function TeamSeven() {
                 data-wow-delay=".7s">
                 <div className="it-team-3-item text-center mb-35">
                   <div className="it-team-3-thumb">
-                    <img src="assets/img/faculty/16.png" alt="" />
+                    <img src="assets/img/Alumni/naitik.png" alt="" />
                   </div>
                   <div className="it-team-3-content">
                     <h4 className="it-team-3-title"><Link className="border-line" to="#">   Naitik Singla
@@ -386,7 +608,7 @@ export default function TeamSeven() {
                 data-wow-delay=".7s">
                 <div className="it-team-3-item text-center mb-35">
                   <div className="it-team-3-thumb">
-                    <img src="assets/img/faculty/16.png" alt="" />
+                    <img src="assets/img/Alumni/kritagya.png" alt="" />
                   </div>
                   <div className="it-team-3-content">
                     <h4 className="it-team-3-title"><Link className="border-line" to="#">   Kritagya
@@ -400,7 +622,7 @@ export default function TeamSeven() {
               data-wow-delay=".9s">
               <div className="it-team-3-item text-center mb-35">
                 <div className="it-team-3-thumb">
-                  <img src="assets/img/faculty/8.png" alt="" />
+                  <img src="assets/img/Alumni/mayank.png" alt="" />
                 </div>
                 <div className="it-team-3-content">
                   <h4 className="it-team-3-title"><Link className="border-line" to="#">Mayank
