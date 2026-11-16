@@ -23097,7 +23097,7 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
   }
 
   .school-timeline-wrapper {
-    height: 510px;
+    height: 773px;
     border-radius: 25px;
   }
 
@@ -23144,7 +23144,7 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
 
 @media (max-width: 400px) {
   .school-timeline-wrapper {
-    height: 1000px;
+    height: 600px;
   }
 
   .school-timeline-overlay {
