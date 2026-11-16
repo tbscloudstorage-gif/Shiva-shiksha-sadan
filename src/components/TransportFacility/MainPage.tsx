@@ -4,7 +4,7 @@ import {
   FaShuttleVan,
   FaCheck,
   FaInfoCircle,
-  FaMapMarkerAlt,
+  
   FaUserShield,
   FaMapMarkedAlt,
   FaFirstAid,
@@ -44,48 +44,48 @@ export default function TransportFacility() {
     },
   ];
 
-  const routes = [
-    {
-      code: "A1",
-      title: "Dashrath Puri / Janakpuri Route",
-      locations: [
-        "Dashrath Puri Main Market",
-        "Janakpuri District Center",
-        "Janakpuri A-Block",
-        "C-2B Janakpuri",
-      ],
-    },
-    {
-      code: "A2",
-      title: "Uttam Nagar / Check Post Route",
-      locations: [
-        "Uttam Nagar East Metro",
-        "Uttam Nagar West",
-        "Dwarka Check Post",
-        "Mohan Garden",
-      ],
-    },
-    {
-      code: "A3",
-      title: "Dada Dev Hospital Route",
-      locations: [
-        "Dada Dev Hospital Main Gate",
-        "Raghuram Nagar",
-        "Sector 22 Dwarka",
-        "Sector 23 Dwarka",
-      ],
-    },
-    {
-      code: "A4",
-      title: "Dwarka Route",
-      locations: [
-        "Dwarka Sector 6",
-        "Dwarka Sector 10",
-        "Dwarka Sector 12",
-        "Dwarka Sector 13",
-      ],
-    },
-  ];
+  // const routes = [
+  //   {
+  //     code: "A1",
+  //     title: "Dashrath Puri / Janakpuri Route",
+  //     locations: [
+  //       "Dashrath Puri Main Market",
+  //       "Janakpuri District Center",
+  //       "Janakpuri A-Block",
+  //       "C-2B Janakpuri",
+  //     ],
+  //   },
+  //   {
+  //     code: "A2",
+  //     title: "Uttam Nagar / Check Post Route",
+  //     locations: [
+  //       "Uttam Nagar East Metro",
+  //       "Uttam Nagar West",
+  //       "Dwarka Check Post",
+  //       "Mohan Garden",
+  //     ],
+  //   },
+  //   {
+  //     code: "A3",
+  //     title: "Dada Dev Hospital Route",
+  //     locations: [
+  //       "Dada Dev Hospital Main Gate",
+  //       "Raghuram Nagar",
+  //       "Sector 22 Dwarka",
+  //       "Sector 23 Dwarka",
+  //     ],
+  //   },
+  //   {
+  //     code: "A4",
+  //     title: "Dwarka Route",
+  //     locations: [
+  //       "Dwarka Sector 6",
+  //       "Dwarka Sector 10",
+  //       "Dwarka Sector 12",
+  //       "Dwarka Sector 13",
+  //     ],
+  //   },
+  // ];
 
   const safetyStandards = [
     {
