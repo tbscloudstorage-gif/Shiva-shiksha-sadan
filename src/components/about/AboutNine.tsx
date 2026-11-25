@@ -24,7 +24,7 @@ export default function AboutNine() {
                 </div>
                 <div className="it-about-2-thumb-sm thumb-overlay border-radius-20 z-index-1">
                   <img src="assets/img/about/about-8-2.jpg" alt="" />
-                      <VideoPopup>
+                      <VideoPopup youtube_url="" >
                         <a className="it-about-thumb-icon pulse-white popup-video"
                         style={{ cursor: "pointer" }}
                          >

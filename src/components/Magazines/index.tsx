@@ -8,11 +8,11 @@ export default function index() {
   return (
     <div>
         <HeaderOne/>            
-            <Breadcrumb title="Editorial" subtitle="Editorial" breadcrumb_img="/assets/img/breadcrumb/editorial.png" />
+            <Breadcrumb title="e-Shivanjali" subtitle="e-Shivanjali" breadcrumb_img="/assets/img/breadcrumb/editorial.png" />
         
         <MainPage   pdfUrl="/assets/Magazine.pdf"
   coverImage="/assets/img/academics.JPG"
-  title="Editorial"  />
+  title="e-Shivanjali"  />
         <FooterThree/>
         {/* gg */}
     </div>

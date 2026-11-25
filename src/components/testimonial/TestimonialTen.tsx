@@ -78,7 +78,7 @@ export default function TestimonialTen() {
                         <div className="col-lg-5 col-md-5 col-sm-5">
                           <div className="it-testimonial-2-thumb p-relative thumb-overlay border-radius-20">
                             <img src="assets/img/testimonial/thumb-12-1.jpg" alt="" />
-                            <VideoPopup>
+                            <VideoPopup youtube_url="">
                               <a className="it-about-thumb-icon pulse-white popup-video" style={{cursor: "pointer"}}>
                                 <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M10.5 7.93782C11.1667 7.55292 11.1667 6.59067 10.5 6.20577L1.5 1.00962C0.833333 0.624718 0 1.10584 0 1.87564V12.2679C0 13.0378 0.833333 13.5189 1.5 13.134L10.5 7.93782Z" fill="currentcolor" />
@@ -118,7 +118,7 @@ export default function TestimonialTen() {
                         <div className="col-lg-5 col-md-5 col-sm-5">
                           <div className="it-testimonial-2-thumb p-relative thumb-overlay border-radius-20">
                             <img src="assets/img/testimonial/thumb-12-2.jpg" alt="" />
-                            <VideoPopup>
+                            <VideoPopup youtube_url="">
                               <a className="it-about-thumb-icon pulse-white popup-video" style={{ cursor: "pointer" }}>
                                 <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M10.5 7.93782C11.1667 7.55292 11.1667 6.59067 10.5 6.20577L1.5 1.00962C0.833333 0.624718 0 1.10584 0 1.87564V12.2679C0 13.0378 0.833333 13.5189 1.5 13.134L10.5 7.93782Z" fill="currentcolor" />
@@ -158,7 +158,7 @@ export default function TestimonialTen() {
                         <div className="col-lg-5 col-md-5 col-sm-5">
                           <div className="it-testimonial-2-thumb p-relative thumb-overlay border-radius-20">
                             <img src="assets/img/testimonial/thumb-12-1.jpg" alt="" />
-                            <VideoPopup>
+                            <VideoPopup youtube_url="">
                               <a className="it-about-thumb-icon pulse-white popup-video" style={{ cursor: "pointer" }}>
                                 <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M10.5 7.93782C11.1667 7.55292 11.1667 6.59067 10.5 6.20577L1.5 1.00962C0.833333 0.624718 0 1.10584 0 1.87564V12.2679C0 13.0378 0.833333 13.5189 1.5 13.134L10.5 7.93782Z" fill="currentcolor" />
@@ -198,7 +198,7 @@ export default function TestimonialTen() {
                         <div className="col-lg-5 col-md-5 col-sm-5">
                           <div className="it-testimonial-2-thumb p-relative thumb-overlay border-radius-20">
                             <img src="assets/img/testimonial/thumb-12-2.jpg" alt="" />
-                            <VideoPopup>
+                            <VideoPopup youtube_url="">
                               <a className="it-about-thumb-icon pulse-white popup-video" style={{ cursor: "pointer" }}>
                                 <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M10.5 7.93782C11.1667 7.55292 11.1667 6.59067 10.5 6.20577L1.5 1.00962C0.833333 0.624718 0 1.10584 0 1.87564V12.2679C0 13.0378 0.833333 13.5189 1.5 13.134L10.5 7.93782Z" fill="currentcolor" />

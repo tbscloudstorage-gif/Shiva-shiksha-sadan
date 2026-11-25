@@ -8,9 +8,10 @@ export default function TeamSeven() {
         <div className="container">
           <div className="mb-70">
             <div className="row align-items-center">
-              <div className="col-xl-8 col-lg-8 col-md-8">
+              <div className="col-xl-12 col-lg-12 col-md-12">
                 <div className="it-team-3-left">
-                  <h4 className="it-section-title"> Where Every Journey Begins, Every Success Inspires</h4>
+                  <h4 className="it-section-title">A Legacy of Excellence, A World of Achievements</h4>
+                  <p className="mt-4">With the town’s highest number of UPSC qualifiers, IITians, doctors, and Chartered Accountants, our alumni network reflects a remarkable journey of success. From boardrooms to Bollywood, battlefields to borders, and start-ups to MAANG companies, former students are making their presence felt across the globe. Whether as entrepreneurs, artists, Army and Police officers, Income Tax professionals, or sportspersons, they continue to excel in every sphere of life, carrying their ambition and achievements onto the world stage.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-md-4">

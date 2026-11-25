@@ -42,15 +42,17 @@ export default function FooterThree() {
                <div className=" mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
-                    <h4 className="it-footer-widget-title">Academics</h4>
+                    <h4 className="it-footer-widget-title">Resources</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
+                                                <li><a href="/academics">Academics</a></li>
+
                         <li><a href="/school-rules">School Rules</a></li>
                         {/* <li><a href="/List-of-books-stationery">List of Books & Stationery</a></li> */}
                         {/* <li><a href="/assessment-promotion">Assessment & Promotion</a></li> */}
                         <li><a href="results">Results</a></li>
                         {/* <li><a href="academic-calendar">Academic Calendar</a></li> */}
-                                                <li><a href="school-council">Student Council</a></li>
+                                                {/* <li><a href="school-council">Student Council</a></li> */}
 
                       </ul>
                     </div>

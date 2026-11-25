@@ -257,6 +257,37 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                       </div>
                     </div>
                   </div>
+                      <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="it-course-item mb-35">
+                      <div className="row gx-0">
+                        <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
+                          <div className="it-course-thumb z-index-1 border-radius-20">
+                            <a href="#"><img className="w-100" src="assets/img/course/2-3.png" alt="" /></a>
+
+                          </div>
+                        </div>
+                        <div className="col-xl-7 col-lg-12 col-md-12 col-sm-7">
+                          <div className="it-course-content p-relative">
+                            <div className="d-flex justify-content-between align-items-center mb-20">
+
+
+                            </div>
+                            <h5 className="it-course-title mb-20"><Link className="border-line" to="/#">Building Confidence Through English Theatre</Link></h5>
+                            <div className="it-course-rating mb-10">
+
+                            </div>
+                            <div className="it-course-meta d-flex justify-content-between">
+                              <span>
+
+                          Junior students showcase their creativity and confidence through Petrichor English Play, developing communication skills, expressive abilities, and teamwork through engaging performances.
+                              </span>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="tab-pane fade" id="popularity" role="tabpanel" aria-labelledby="trending-tab">

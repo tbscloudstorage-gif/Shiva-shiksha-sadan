@@ -12,7 +12,7 @@ export default function CoursesDetailsv3Area() {
             <div className="col-12">
               <div className="it-course-sidebar-thumb thumb-overlay z-index-1">
                 <img src="assets/img/breadcrumb/course-details-3.jpg" alt="" />
-                <VideoPopup>
+                <VideoPopup youtube_url="">
                   <a className="it-about-thumb-icon pulse-white popup-video" style={{cursor: "pointer"}}>
                     <svg width="37" height="42" viewBox="0 0 37 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M35.666 23.1261C36.9994 22.3563 36.9993 20.4318 35.666 19.662L3.66601 1.18674C2.33268 0.416943 0.666016 1.3792 0.666016 2.9188V39.8692C0.666016 41.4088 2.33268 42.3711 3.66602 41.6013L35.666 23.1261Z" fill="#181348" />

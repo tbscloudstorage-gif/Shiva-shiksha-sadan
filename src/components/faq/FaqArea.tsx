@@ -27,7 +27,7 @@ export default function FaqArea() {
                             <div id="collapseOne2" className="accordion-collapse collapse show"
                               aria-labelledby="headingOne2" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
-                                <p className="mb-0"> Shiva Shiksha Sadan is a co-educational school focused on academic excellence, holistic development, and strong values.</p>
+                                <p className="mb-0">Shiva Shiksha Sadan is a co-educational school focused on academic excellence, holistic development, discipline, and strong values.</p>
                               </div>
                             </div>
                           </div>
@@ -113,12 +113,12 @@ export default function FaqArea() {
                               <button className="accordion-buttons collapsed" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#collapseFour44"
                                 aria-expanded="false" aria-controls="collapseFour44">
-7. How does Shiva Shiksha Sadan encourage students to develop leadership skills?                      </button>
+7. How does Shiva Shiksha Sadan encourage students to develop leadership skills?                  </button>
                             </h4>
                             <div id="collapseFour44" className="accordion-collapse collapse"
                               aria-labelledby="headingFour44" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
-                                <p className="mb-0">The school encourages leadership through student council activities, house responsibilities, teamwork, and extracurricular programmes, helping students build confidence, responsibility, and decision-making skills.</p>
+                                <p className="mb-0">Shiva Shiksha Sadan encourages leadership through teamwork, extracurricular activities, collaborative learning, and active participation in school programmes, helping students develop confidence, responsibility, communication, and decision-making skills.</p>
                               </div>
                             </div>
                           </div>

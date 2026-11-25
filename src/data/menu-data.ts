@@ -70,18 +70,22 @@ const menu_data: DataType[] = [
     id: 2,
     title: "About",
     link: "#",
- has_dropdown: true,
-   sub_menus: [
+    has_dropdown: true,
+    sub_menus: [
       { link: "/about-school", title: "About School" },
-          { link: "/principal-message", title: "Principal's Message" },
-                    { link: "/our-philosophy", title: "Our Philosophy" },
-                              { link: "/our-faculty", title: "Our Faculty" },
-          { link: "/awards-&-honors", title: "Awards & Honors" },
-                    { link: "/our-alumni", title: "Our Alumni" },
+      { link: "/principal-message", title: "Principal's Message" },
+      { link: "/our-philosophy", title: "Our Philosophy" },
+      { link: "/our-faculty", title: "Our Faculty" },
+      { link: "/awards-&-honors", title: "Awards & Honors" },
+      { link: "/our-alumni", title: "Our Alumni" },
+      { link: "/tedx", title: "TEDx" },
 
 
+      { link: "/social-&-emotional-learning", title: "Social & Emotional Learning" },
+            { link: "/train-the-trainers", title: "Train The Trainer" },
 
-                    { link: "/mandatory-public-disclosure", title: "Mandatory Public Disclosure" },
+
+      { link: "/mandatory-public-disclosure", title: "Mandatory Public Disclosure" },
 
     ],
     // mega_menus: [
@@ -95,39 +99,39 @@ const menu_data: DataType[] = [
     //       { link: "/about-us-v2", title: "Awards & Honors" },
     //     ],
     //   },
-      // {
-      //   title: "Inner Pages",
-      //   menus: [
-      //     { link: "/career", title: "Career" },
-      //     { link: "/career-details", title: "Career Details" },
-      //     { link: "/event-grid", title: "Event Grid" },
-      //     { link: "/event-list", title: "Event List" },
-      //     { link: "/event-details", title: "Event Details" },
-      //     { link: "/team-details", title: "Instructor Details" },
-      //   ],
-      // },
-      // {
-      //   title: "Inner Pages",
-      //   menus: [
-      //     { link: "/price", title: "Price" },
-      //     { link: "/faq", title: "Faq" },
-      //     { link: "/privacy-policy", title: "Privacy Policy" },
-      //     { link: "/404", title: "Error" },
-      //     { link: "/zoom-metting", title: "Zoom Metting" },
-      //     { link: "/sign-in", title: "Sign In" },
-      //   ],
-      // },
-      // {
-      //   title: "Shop Pages",
-      //   menus: [
-      //     { link: "/shop", title: "Shop" },
-      //     { link: "/shop-list", title: "Shop List" },
-      //     { link: "/shop-details", title: "Shop Details" },
-      //     { link: "/cart", title: "Cart" },
-      //     { link: "/checkout", title: "Checkout" },
-      //     { link: "/sign-up", title: "Sign Up" },
-      //   ],
-      // },
+    // {
+    //   title: "Inner Pages",
+    //   menus: [
+    //     { link: "/career", title: "Career" },
+    //     { link: "/career-details", title: "Career Details" },
+    //     { link: "/event-grid", title: "Event Grid" },
+    //     { link: "/event-list", title: "Event List" },
+    //     { link: "/event-details", title: "Event Details" },
+    //     { link: "/team-details", title: "Instructor Details" },
+    //   ],
+    // },
+    // {
+    //   title: "Inner Pages",
+    //   menus: [
+    //     { link: "/price", title: "Price" },
+    //     { link: "/faq", title: "Faq" },
+    //     { link: "/privacy-policy", title: "Privacy Policy" },
+    //     { link: "/404", title: "Error" },
+    //     { link: "/zoom-metting", title: "Zoom Metting" },
+    //     { link: "/sign-in", title: "Sign In" },
+    //   ],
+    // },
+    // {
+    //   title: "Shop Pages",
+    //   menus: [
+    //     { link: "/shop", title: "Shop" },
+    //     { link: "/shop-list", title: "Shop List" },
+    //     { link: "/shop-details", title: "Shop Details" },
+    //     { link: "/cart", title: "Cart" },
+    //     { link: "/checkout", title: "Checkout" },
+    //     { link: "/sign-up", title: "Sign Up" },
+    //   ],
+    // },
     // ],
   },
 
@@ -135,10 +139,10 @@ const menu_data: DataType[] = [
     id: 3,
     title: "Events",
     link: "#",
-     has_dropdown: true,
+    has_dropdown: true,
     sub_menus: [
       { link: "/upcoming-event", title: "Upcoming Events" },
-        { link: "/editorial", title: "Editorial" },
+      { link: "/e-shivanjali", title: "e-Shivanjali" },
       { link: "/media-coverage", title: "Media Coverage" },
     ],
     // mega_menu: false,
@@ -181,19 +185,20 @@ const menu_data: DataType[] = [
     //   },
     // ],
   },
-{
+  {
     id: 4,
-    title: "Academics",
-    link: "/academics",
+    title: "Resources",
+    link: "",
     has_dropdown: true,
     sub_menus: [
-            { link: "/school-rules", title: "School Rules" },
+      { link: "/academics", title: "Academics" },
+      { link: "/school-rules", title: "School Rules" },
 
       // { link: "/List-of-books-stationery", title: "List of Books & Stationery" },
       // { link: "/assessment-promotion", title: "Assessment & Promotion" },
-            { link: "/results", title: "Results" },
-                        // { link: "/academic-calendar", title: "Academic Calendar" },
-                                                { link: "/school-council", title: "Student Council" },
+      { link: "/results", title: "Results" },
+      // { link: "/academic-calendar", title: "Academic Calendar" },
+      // { link: "/school-council", title: "Student Council" },
 
 
 
@@ -212,14 +217,14 @@ const menu_data: DataType[] = [
       { link: "/apply-now", title: "Apply Now" },
     ],
   },
-{
-id: 6,
-title : "Gallery",
-link : "/gallery",
-has_dropdown : false,
-},
   {
-    id:7,
+    id: 6,
+    title: "Gallery",
+    link: "/gallery",
+    has_dropdown: false,
+  },
+  {
+    id: 7,
     title: "Pre-primary",
     link: "/pre-primary",
     has_dropdown: false,

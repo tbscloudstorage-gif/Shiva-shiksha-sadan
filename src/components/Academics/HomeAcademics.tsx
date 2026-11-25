@@ -19,11 +19,7 @@ export default function HeroFive() {
                   </h1>
                   <div className="it-hero-tex wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".7s">
-                     <p className=" text-[#6C757D] ">At Shiva Shiksha Sadan, we believe education is more than academic success.
-We nurture curiosity, creativity, confidence, and strong values in every student.
-Through engaging learning experiences and diverse opportunities, we encourage students to explore their potential.
-Our aim is to prepare young minds to face the future with knowledge, character, and purpose.
-Together, we inspire every learner to grow, achieve, and make a meaningful difference.
+                     <p className=" text-[#6C757D]   mt-4" style={{paddingRight:"20px"}}>At Shiva Shiksha Sadan, we believe education is more than academic success. Our pre-primary curriculum, awarded an <strong>AAAA rating by the Education Minister of Haryana</strong>, reflects our commitment to quality early education. We nurture curiosity, creativity, confidence, and strong values through engaging learning experiences and diverse opportunities. Our aim is to prepare young minds to face the future with knowledge, character, and purpose. Together, we inspire every learner to grow, achieve, and make a meaningful difference.
 
 </p>
                   </div>
@@ -43,7 +39,7 @@ Together, we inspire every learner to grow, achieve, and make a meaningful diffe
             </div>
             <div className="col-xl-6 col-lg-6">
                <div className="it-hero-thumb z-index-1" data-parallax='{"y": 60, "smoothness": 30}'>
-                  <img src="assets/img/hero/hero-5-1.png" alt="" />
+                  <img src="assets/img/about/academic.JPG" alt="" style={{height:"490px"}} />
                </div>
             </div>
          </div>
@@ -61,7 +57,10 @@ Together, we inspire every learner to grow, achieve, and make a meaningful diffe
                 <div className="row gx-0 align-items-center">
                   <div className="col-lg-6 col-md-6 col-sm-6">
                     <div className="it-about-thumb z-index-1 border-radius-20 wow img-anim-left" data-wow-duration="1.5s" data-wow-delay="0.1">
-                      <img src="assets/img/about/about-5-1.jpg" alt="" />
+                      <img src="assets/img/about/pre.JPG" alt="" />
+                    </div>
+                     <div className="it-about-thumb mt-4 z-index-1 border-radius-20 wow img-anim-left" data-wow-duration="1.5s" data-wow-delay="0.1">
+                      <img src="assets/img/about/about-5-6.JPG" alt="" />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-sm-6">
@@ -254,7 +253,7 @@ Continuous assessments and personalized feedback                      </span>
               </div>
               <div className="col-lg-6">
                 <div className="it-language-thumb border-radius-30">
-                  <img src="assets/img/course/language.jpg" alt="" />
+                  <img src="assets/img/about/interactive-class.JPG" alt="" />
                 </div>
               </div>
             </div>

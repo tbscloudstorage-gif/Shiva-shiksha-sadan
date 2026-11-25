@@ -19,17 +19,38 @@ export default function TuitionThree() {
                     </svg>
                   Fee Structure
 </span>
-                  <h4 className="it-section-title">A Clear, Upfront Fee Structure for Every Stage
+                  <h4 className="it-section-title">Modest Fees for Exceptional Education
 </h4>
                 </div>
                 <div className="it-tuition-text">
-                  <p>We believe in maintaining transparency in our fee structure. Every family receives a complete breakdown of tuition fees, admission charges, and any additional costs during the admission process.</p>
+                  <p>For the Academic Session 2027–2028, we offer a thoughtful fee structure that makes quality education accessible while ensuring students receive enriching learning experiences, individual attention and opportunities for all-round development.
+
+
+
+
+
+
+
+
+
+
+
+
+This might also interest you.
+
+
+Ad
+Ad options
+
+
+
+Learn more</p>
                 </div>
                 <div className="it-tuition-btn">
-                  <Link to="/contact-us" className="it-btn-yellow theme-bg border-radius-100">
+                  <Link to="/" className="it-btn-yellow theme-bg border-radius-100">
                     <span>
-                      <span className="text-1">Contact Us </span>
-                      <span className="text-2">Contact Us</span>
+                      <span className="text-1">Download 2026–2027 Fee Structure </span>
+                      <span className="text-2">Download 2026–2027 Fee Structure</span>
                     </span>
                     <i>
                       <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">

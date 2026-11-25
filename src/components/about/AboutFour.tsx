@@ -20,10 +20,11 @@ export default function AboutFour() {
                   <img className="border-img" src="assets/img/shape/border.png" alt="" />
                 </div>
                 <div className="it-about-3-thumb style-1 border-radius-20">
-                  <img src="assets/img/about/about-4-1.jpg" alt="" />
+                                    <img src="assets/img/about/banner-pre-primary.JPG" alt="" />
+
                 </div>
                 <div className="it-about-3-thumb style-2 border-radius-20">
-                  <img src="assets/img/about/about-4-2.jpg" alt="" />
+                  <img src="assets/img/about/about-4-1.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -32,7 +33,7 @@ export default function AboutFour() {
               <div className="it-about-right">
                 <div className="it-about-section-title-box mb-25">
                   <span className="it-section-subtitle-2">About Us</span>
-                  <h4 className="it-section-title">Empowering Minds Through Meaningful <br /> Learning  Experiences   
+                  <h4 className="it-section-title">An Exclusive Curriculum for Early Years and AI Learning  
                     <span className="z-index-1">
                    <span className="it-title-shape">
                         <svg width="198" height="18" viewBox="0 0 198 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +45,7 @@ export default function AboutFour() {
                   </h4>
                 </div>
                 <div className="it-about-text">
-                  <p className="mb-45">We empower students through meaningful learning experiences that inspire curiosity, creativity, and confidence. With a strong focus on knowledge, values, and holistic development, we help every learner discover their potential and grow into a responsible, capable individual.</p>
+                  <p className="mb-45">We empower students through meaningful learning experiences that inspire curiosity, creativity, and confidence. With an exclusive early-years curriculum and AI-integrated learning, we focus on knowledge, values, and holistic development, helping every learner discover their potential and grow into a responsible, capable individual.</p>
                 </div>
                 <div className="row">
                   <div className="col-md-6 col-sm-6">

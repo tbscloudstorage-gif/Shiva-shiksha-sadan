@@ -23,7 +23,7 @@ export default function Aboutusv1() {
       <HeaderOne
        />
       <main>
-        <Breadcrumb title="Fee Structure" subtitle="Fee Structure" breadcrumb_img="/assets/img/breadcrumb/fee-structure.JPG" />
+        <Breadcrumb title="Fee Structure" subtitle="Fee Structure" breadcrumb_img="/assets/img/about/school-buildingh.png" />
     
       <TuitionThree/>
       </main>

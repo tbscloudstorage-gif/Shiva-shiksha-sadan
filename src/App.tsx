@@ -9,6 +9,8 @@ import LanguageAcademy from "@/components/homes/language-academy";
 import CookupAcademy from "@/components/homes/cookup-academy";
 import BooksShop from "@/components/homes/books-shop";
 import Magazines from "@/components/Magazines"
+import TrainTheTrainer from "@/components/TrainTheTrainer/index"
+import Tedxpage from "@/components/tedxpage/index"
 import AssessmentPromotion from "@/components/AssessmentPromotion/index"
 import BooksStationery from "@/components/BooksStationery"
 import Awards from "@/components/Awards/index.tsx"
@@ -63,6 +65,7 @@ import OurFaculty from "@/components/OurFaculty/index.tsx"
 import Academics from "@/components/Academics/index.tsx"
 import BlogSecond from "@/components/blog/BlogSecond/index.tsx"
 import AcademicCalender from "@/components/AcademicCalendar/index"
+import SEL from "@/components/SEL/index"
 import BlogThird from "@/components/blog/BlogThird/index.tsx"
 import Coursesv8 from "@/components/inner-pages/courses/courses-v8";
 import CoursesListSidebar from "@/components/inner-pages/courses/courses-list-sidebar";
@@ -94,12 +97,16 @@ const router = createBrowserRouter([
   { path: "/education", element:  <GeneralEducation /> },
     { path: "/fee-structure", element: <FeeStructure /> },
     { path: "/mandatory-public-disclosure", element: <MondatoryDisclosure /> },
-    
+        { path: "/tedx", element: <Tedxpage /> },
+                { path: "/train-the-trainers", element: <TrainTheTrainer /> },
+
+
     { path: "/academics", element: <Academics /> },
-    { path: "/editorial", element: <Magazines /> },
+    { path: "/e-shivanjali", element: <Magazines /> },
     { path: "/our-alumni", element: <Alumni /> },
     { path: "/media-coverage", element: <MediaCoverage /> },
     { path: "/assessment-promotion", element: <AssessmentPromotion /> },
+  { path: "/social-&-emotional-learning", element: <SEL /> },
 
   { path: "/language-academy", element: <LanguageAcademy /> },
   { path: "/cookup-academy", element: <CookupAcademy /> },

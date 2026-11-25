@@ -67,7 +67,7 @@ export default function BreadcrumbCoursesDetailsv1() {
                 <div className="it-breadcrumb-thumb thumb-overlay z-index-1">
                   <img src="assets/img/breadcrumb/course-details.jpg" alt="" />
                   <img className="it-breadcrumb-shape-2" src="assets/img/shape/breadcrumb-1-2.png" alt="" />
-                  <VideoPopup>
+                  <VideoPopup youtube_url="">
                     <a className="it-about-thumb-icon pulse-white popup-video" style={{cursor: "pointer"}}>
                       <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.5 7.93782C11.1667 7.55292 11.1667 6.59067 10.5 6.20577L1.5 1.00962C0.833333 0.624718 0 1.10584 0 1.87564V12.2679C0 13.0378 0.833333 13.5189 1.5 13.134L10.5 7.93782Z" fill="#F8C62F" />

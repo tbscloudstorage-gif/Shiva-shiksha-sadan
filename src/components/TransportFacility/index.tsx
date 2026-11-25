@@ -26,7 +26,7 @@ export default function Aboutusv1() {
       <main>
 
        
-        <Breadcrumb title="Transport Facility" subtitle="Transport Facility" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
+        <Breadcrumb title="Transport Facility" subtitle="Transport Facility" breadcrumb_img="/assets/img/breadcrumb/transport.JPG" />
         <MainPage/>
        </main>
       <FooterThree/>

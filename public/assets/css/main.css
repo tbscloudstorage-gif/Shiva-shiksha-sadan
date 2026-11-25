@@ -10441,7 +10441,6 @@ input[type=radio] {
   padding: 32px 0;
   position: relative;
   display: inline-block;
-  text-transform: capitalize;
   color: var(--it-common-black);
   font-family: var(--it-ff-jost);
 }
@@ -11669,9 +11668,389 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
 .it-hero-content {
   margin-bottom: 215px;
 }
+
+/* =====================================
+   TRAIN THE TRAINERS PAGE
+===================================== */
+
+.ttt-page {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: inherit;
+}
+
+.ttt-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* Hero */
+
+.ttt-hero {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url("/images/train-the-trainers/training-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ttt-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 20, 42, 0.58);
+}
+
+.ttt-hero .ttt-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.ttt-hero h1 {
+  color: #fff;
+  font-size: clamp(30px, 4vw, 48px);
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Common headings */
+
+
+
+.ttt-section-intro {
+  font-size: 16px;
+  text-align: center;
+  margin: 30px 0 28px;
+  
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--it-text-body);
+    font-family: var(--it-ff-body);
+}
+
+/* Quote */
+
+.ttt-quote {
+  text-align: center;
+  padding: 65px 15px 35px;
+}
+
+.ttt-quote p {
+  color: #850078;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.ttt-quote span {
+  font-size: 13px;
+  color: #555;
+}
+
+/* Objectives */
+
+.ttt-objectives {
+  padding: 15px 0 35px;
+}
+
+.ttt-objectives .ttt-section-intro {
+  margin-bottom: 40px;
+  margin-top:70px !important;
+}
+
+.ttt-objective-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ttt-objective-card {
+  min-height: 125px;
+  border: 1px solid #dedede;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ttt-objective-card.pink ,.ttt-objective-card.purple , .ttt-objective-card.peach ,.ttt-objective-card.blue
+ {
+border: 1px solid #1c1651}
+
+
+
+
+
+
+
+.ttt-objective-icon {
+  font-size: 30px;
+  color: #D41A2E;
+  margin-bottom: 10px;
+}
+
+.ttt-objective-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.ttt-objective-note {
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  color: #555;
+  margin: 25px 0 0;
+}
+
+/* General sections */
+
+.ttt-section {
+  padding: 35px 0;
+}
+
+.ttt-section h2,
+.ttt-trainer-section h2 {
+  margin-bottom: 18px;
+}
+
+/* Gallery */
+
+.ttt-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  width: 100%;
+}
+
+.ttt-gallery-item {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f1f1f1;
+}
+
+.ttt-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.ttt-gallery-item:hover img {
+  transform: scale(1.04);
+}
+
+/* In-house gallery */
+
+.ttt-inhouse-gallery {
+  grid-auto-flow: dense;
+}
+
+
+
+.ttt-inhouse-gallery .ttt-gallery-item {
+  height: 400px;
+}
+
+
+
+/* Time to Engage gallery */
+
+.ttt-engage-gallery .ttt-gallery-item {
+  height: 200px;
+}
+
+/* Trainer sections */
+
+.ttt-trainer-section {
+  padding: 35px 0;
+}
+
+
+
+.ttt-trainer-list {
+  padding-left: 20px;
+  margin: 0 0 25px;
+}
+
+.ttt-trainer-list li {
+  
+
+  font-size: 15px;
+    text-align: start;
+    margin: 0 0 12px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--it-text-body);
+    font-family: var(--it-ff-body);
+}
+
+.ttt-trainer-gallery .ttt-gallery-item {
+  height: 210px;
+}
+
+.trainer-gallery-2 .ttt-gallery-item {
+  height: 200px;
+}
+
+.trainer-gallery-3 .ttt-gallery-item {
+  height: 338px;
+}
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 991px) {
+  .ttt-hero {
+    min-height: 260px;
+  }
+
+  .ttt-objective-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ttt-gallery {
+    gap: 12px;
+  }
+
+  .ttt-gallery-item {
+    height: 200px;
+  }
+
+  .ttt-inhouse-gallery .ttt-gallery-item:nth-child(n) {
+    height: 210px;
+  }
+}
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 767px) {
+  .ttt-container {
+    padding: 0 15px;
+  }
+
+  .ttt-hero {
+    min-height: 190px;
+  }
+
+  .ttt-page h2 {
+    font-size: 21px;
+    margin-bottom: 14px;
+  }
+
+  .ttt-quote {
+    padding: 40px 5px 25px;
+  }
+
+  .ttt-quote p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .ttt-section-intro
+   {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .ttt-objective-grid {
+    gap: 10px;
+  }
+
+  .ttt-objective-card {
+    min-height: 110px;
+    padding: 12px 8px;
+  }
+
+  .ttt-objective-icon {
+    font-size: 25px;
+  }
+
+  .ttt-objective-card h3 {
+    font-size: 12px;
+  }
+
+  .ttt-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .ttt-gallery-item,
+  .ttt-inhouse-gallery .ttt-gallery-item:nth-child(n),
+  .ttt-engage-gallery .ttt-gallery-item,
+  .ttt-trainer-gallery .ttt-gallery-item,
+  .trainer-gallery-2 .ttt-gallery-item,
+  .trainer-gallery-3 .ttt-gallery-item {
+    height: 160px;
+  }
+
+  .ttt-section,
+  .ttt-trainer-section {
+    padding: 25px 0;
+  }
+
+  .ttt-trainer-list li {
+    font-size: 13px;
+  }
+}
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 420px) {
+  .ttt-hero {
+    min-height: 160px;
+  }
+
+  .ttt-hero h1 {
+    font-size: 27px;
+  }
+
+  .ttt-objective-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ttt-gallery {
+    gap: 8px;
+  }
+
+  .ttt-gallery-item,
+  .ttt-inhouse-gallery .ttt-gallery-item:nth-child(n),
+  .ttt-engage-gallery .ttt-gallery-item,
+  .ttt-trainer-gallery .ttt-gallery-item,
+  .trainer-gallery-2 .ttt-gallery-item,
+  .trainer-gallery-3 .ttt-gallery-item {
+    height: 135px;
+    border-radius: 8px;
+  }
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .it-hero-content {
-    margin-top: 120px;
+    margin-top: 160px;
     margin-bottom: 180px;
   }
 }
@@ -23139,6 +23518,1102 @@ it-about-2-thumb-sm border-radius-20 z-index-1 img{
 
   .school-timeline-text {
     font-size: 14px;
+  }
+}
+
+/* =========================================
+   VALUES, CULTURE & COMMUNITY PAGE
+   SHIVA SHIKSHA SADAN
+========================================= */
+
+.vcc-page {
+  --vcc-navy: #211b59;
+  --vcc-teal: #075f50;
+  --vcc-red: #e51d35;
+  --vcc-yellow: #ffc928;
+  --vcc-text: #45465c;
+  --vcc-muted: #777b8d;
+  --vcc-light: #f5f8f8;
+  --vcc-white: #ffffff;
+
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  color: var(--vcc-text);
+  font-family: inherit;
+}
+
+.vcc-page * {
+  box-sizing: border-box;
+}
+
+.vcc-page img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vcc-page a {
+  text-decoration: none;
+}
+
+
+
+/* COMMON */
+
+
+.vcc-section-heading {
+  max-width: 780px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.vcc-section-heading h2,
+.vcc-section-content h2,
+.vcc-anniversary-content h2,
+.vcc-hospital-content h2,
+.vcc-closing-content h2 {
+  color: var(--vcc-navy);
+  font-size: clamp(28px, 3.2vw, 40px);
+  line-height: 1.25;
+  font-weight: 800;
+  margin: 0 0 20px;
+}
+
+.vcc-section-heading h2 span,
+.vcc-section-content h2 span,
+.vcc-anniversary-content h2 span,
+.vcc-hospital-content h2 span,
+.vcc-closing-content h2 span {
+  color: var(--vcc-teal);
+}
+
+.vcc-section-heading p {
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--it-text-body);
+    font-family: var(--it-ff-body);
+    margin-top:20px;
+}
+
+.vcc-primary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--vcc-red);
+  color: #fff !important;
+  padding: 14px 23px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.vcc-primary-btn:hover {
+  background: var(--vcc-navy);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.vcc-primary-btn svg {
+  font-size: 12px;
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+.vcc-hero {
+  position: relative;
+  padding: 90px 0 105px;
+  background: linear-gradient(115deg, #f5f7fb 0%, #f5faf6 55%, #e6f5ef 100%);
+}
+
+.vcc-hero-decoration {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.vcc-decoration-one {
+  width: 220px;
+  height: 220px;
+  border: 35px solid rgba(255, 201, 40, 0.13);
+  top: -100px;
+  right: -40px;
+}
+
+.vcc-decoration-two {
+  width: 100px;
+  height: 100px;
+  background: rgba(7, 95, 80, 0.06);
+  bottom: 25px;
+  left: -40px;
+}
+
+.vcc-hero-content {
+  position: relative;
+  z-index: 2;
+  padding-right: 40px;
+}
+
+.vcc-hero-content h1 {
+  font-size: clamp(36px, 4.5vw, 57px);
+  line-height: 1.13;
+  color: var(--vcc-navy);
+  font-weight: 800;
+  margin: 0 0 22px;
+}
+
+.vcc-hero-content h1 span {
+  display: block;
+  color: var(--vcc-teal);
+}
+
+.vcc-hero-content p {
+ font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--it-text-body);
+    font-family: var(--it-ff-body);
+    margin-top:23px;;
+}
+
+.vcc-hero-image {
+  height: 400px;
+  position: relative;
+  z-index: 1;
+  padding: 12px;
+}
+
+.vcc-hero-image > img {
+  position: relative;
+  z-index: 2;
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(30, 38, 67, 0.14);
+}
+
+
+
+.vcc-image-note {
+  position: absolute;
+  z-index: 3;
+  left: -10px;
+  bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 22px;
+  border-radius: 9px;
+  background: #fff;
+  color: var(--vcc-navy);
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 10px 30px rgba(30, 38, 67, 0.12);
+}
+
+.vcc-image-note svg {
+  color: var(--vcc-red);
+  font-size: 20px;
+}
+
+/* =========================================
+   INTRODUCTION
+========================================= */
+
+.vcc-intro {
+  padding: 95px 0 90px;
+  background: #fff;
+}
+
+.vcc-intro-points {
+  margin-top: 20px;
+}
+
+.vcc-intro-card {
+  height: 100%;
+  padding: 35px 25px;
+  text-align: center;
+  border: 1px solid #e9efed;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(28, 43, 60, 0.05);
+  transition: 0.3s ease;
+}
+
+.vcc-intro-card:hover {
+  transform: translateY(-7px);
+  border-color: #b7d8cc;
+  box-shadow: 0 16px 35px rgba(28, 43, 60, 0.1);
+}
+
+.vcc-intro-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin: 0 auto 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9f5f0;
+  color: var(--vcc-teal);
+  font-size: 25px;
+}
+
+.vcc-intro-card h4 {
+  color: var(--vcc-navy);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.vcc-intro-card p {
+      font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--it-text-body);
+    font-family: var(--it-ff-body);
+    margin-top: 20px;
+}
+
+/* =========================================
+   MORAL EDUCATION
+========================================= */
+
+.vcc-sel-section {
+  padding: 90px 0 100px;
+  background: #f6f9f8;
+  position: relative;
+}
+
+.vcc-sel-top {
+  margin-bottom: 90px;
+}
+
+.vcc-sel-image {
+  position: relative;
+  height: 390px;
+  padding: 0 25px 25px 0;
+}
+
+.vcc-sel-image img {
+  border-radius: 15px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 15px 35px rgba(20, 42, 49, 0.1);
+}
+
+.vcc-sel-image::after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  background: #d7eee5;
+  border-radius: 15px;
+  right: 0;
+  bottom: 0;
+}
+
+.vcc-round-label {
+  position: absolute;
+  z-index: 3;
+  bottom: 5px;
+  left: -15px;
+  background: var(--vcc-yellow);
+  color: var(--vcc-navy);
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.vcc-round-label strong {
+  font-size: 15px;
+}
+
+.vcc-section-content {
+  padding-left: 45px;
+}
+
+.vcc-section-content p {
+      font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--it-text-body);
+    font-family: var(--it-ff-body);
+    margin-top: 20px;
+}
+
+.vcc-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--vcc-red);
+}
+
+.vcc-text-link:hover {
+  color: var(--vcc-navy);
+}
+
+.vcc-practices-heading {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.vcc-practices-heading h3 {
+  color: var(--vcc-navy);
+  font-size: 29px;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+
+.vcc-practices-heading p {
+  margin: 0;
+}
+
+.vcc-practice-card {
+  position: relative;
+  height: 100%;
+  min-height: 235px;
+  padding: 30px 27px;
+  background: #fff;
+  border-radius: 13px;
+  border: 1px solid #e7efec;
+  box-shadow: 0 8px 25px rgba(28, 43, 60, 0.04);
+  transition: 0.3s ease;
+  overflow: hidden;
+}
+
+.vcc-practice-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 35px rgba(28, 43, 60, 0.1);
+  border-color: #c4e1d6;
+}
+
+.vcc-practice-icon {
+  height: 55px;
+  width: 55px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e7f4ef;
+  color: var(--vcc-teal);
+  font-size: 23px;
+  margin-bottom: 22px;
+}
+
+.vcc-card-number {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #edf1ef;
+}
+
+.vcc-practice-card h4 {
+  color: var(--vcc-navy);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.vcc-practice-card p ,.vcc-anniversary-content p,.vcc-anniversary-content p ,.vcc-page p ,.vcc-cultural-content p , .vcc-outcomes-heading p{
+ font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--it-text-body);
+    font-family: var(--it-ff-body);
+    margin-top: 20px;
+}
+
+/* =========================================
+   KALASH YATRA FEATURE
+========================================= */
+
+.vcc-anniversary-section {
+  padding: 95px 0;
+  background: #fff;
+}
+
+.vcc-anniversary-card {
+  background: linear-gradient(120deg, #f3f7f5, #fff9e9);
+  border-radius: 20px;
+  padding: 35px;
+  overflow: hidden;
+  position: relative;
+}
+
+.vcc-anniversary-image {
+  height: 390px;
+  position: relative;
+}
+
+.vcc-anniversary-image img {
+  border-radius: 14px;
+}
+
+.vcc-anniversary-badge {
+  position: absolute;
+  right: -20px;
+  bottom: 25px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: var(--vcc-yellow);
+  color: var(--vcc-navy);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.vcc-anniversary-badge strong {
+  font-size: 43px;
+  line-height: 1;
+}
+
+.vcc-anniversary-content {
+  padding: 25px 35px;
+}
+
+
+
+
+
+
+.vcc-anniversary-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #e4e5d8;
+  color: var(--vcc-teal);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.vcc-anniversary-footer svg {
+  color: #e8ae00;
+  font-size: 18px;
+}
+
+/* =========================================
+   COMMUNITY CONNECT
+========================================= */
+
+.vcc-community-section {
+  padding: 100px 0;
+  background: #f6f9f8;
+}
+
+.vcc-community-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.vcc-community-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #e8eeec;
+  box-shadow: 0 8px 25px rgba(28, 43, 60, 0.05);
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.vcc-community-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 35px rgba(28, 43, 60, 0.1);
+}
+
+.vcc-community-image {
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+}
+
+.vcc-community-image img {
+  transition: transform 0.5s ease;
+}
+
+.vcc-community-card:hover .vcc-community-image img {
+  transform: scale(1.05);
+}
+
+.vcc-community-index {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: var(--vcc-yellow);
+  color: var(--vcc-navy);
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.vcc-community-content {
+  padding: 25px;
+}
+
+.vcc-category {
+  display: inline-block;
+  color: #d41a2e;
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.vcc-community-content h3 {
+  color: var(--vcc-navy);
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+
+/* =========================================
+   SHIVA HOSPITAL
+========================================= */
+
+.vcc-hospital-section {
+  padding: 90px 0;
+  background: #fff;
+}
+
+.vcc-hospital-box {
+  background: var(--vcc-navy);
+  padding: 35px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.vcc-hospital-image {
+  height: 370px;
+}
+
+.vcc-hospital-image img {
+  border-radius: 13px;
+}
+
+.vcc-hospital-content {
+  padding: 20px 25px 20px 35px;
+}
+
+.vcc-hospital-content .vcc-eyebrow {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.vcc-hospital-content h2 {
+  color: #fff;
+}
+
+.vcc-hospital-content h2 span {
+  color: var(--vcc-yellow);
+}
+
+.vcc-hospital-content p {
+  color: rgba(255, 255, 255, 0.77);
+}
+
+.vcc-hospital-points {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.vcc-hospital-points div {
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.vcc-hospital-points svg {
+  color: var(--vcc-yellow);
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+/* =========================================
+   CULTURE & SOCIAL EMOTIONAL LEARNING
+========================================= */
+
+.vcc-culture-section {
+  padding: 100px 0;
+  background: linear-gradient(140deg, #f4f8f6, #fff 60%, #fff9ed);
+}
+
+.vcc-cultural-highlights {
+  margin-bottom: 100px;
+}
+
+.vcc-cultural-card {
+  height: 100%;
+  border-radius: 15px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(28, 43, 60, 0.07);
+  border: 1px solid #e8eeec;
+  transition: 0.3s ease;
+}
+
+.vcc-cultural-card:hover {
+  transform: translateY(-6px);
+}
+
+.vcc-cultural-image {
+  height: 280px;
+  overflow: hidden;
+}
+
+.vcc-cultural-image img {
+  transition: transform 0.5s ease;
+}
+
+.vcc-cultural-card:hover .vcc-cultural-image img {
+  transform: scale(1.04);
+}
+
+.vcc-cultural-content {
+  padding: 28px;
+}
+
+.vcc-cultural-content h3 {
+  font-size: 24px;
+  color: var(--vcc-navy);
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+
+
+.vcc-sel-outcomes {
+  background: #fff;
+  border-radius: 20px;
+  padding: 60px 45px;
+  box-shadow: 0 12px 35px rgba(28, 43, 60, 0.05);
+}
+
+.vcc-outcomes-heading {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 45px;
+}
+
+.vcc-outcomes-heading h3 {
+  color: var(--vcc-navy);
+  font-size: 31px;
+  line-height: 1.3;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.vcc-outcomes-heading h3 span {
+  color: var(--vcc-teal);
+}
+
+
+
+.vcc-outcome-card {
+  height: 100%;
+  position: relative;
+  padding: 28px 24px;
+  border-radius: 12px;
+  background: #f6f9f8;
+  border: 1px solid #edf0ef;
+  transition: 0.3s ease;
+}
+
+.vcc-outcome-card:hover {
+  background: #eaf5ef;
+  transform: translateY(-5px);
+}
+
+.vcc-outcome-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e1f0e9;
+  color: var(--vcc-teal);
+  font-size: 21px;
+  margin-bottom: 18px;
+}
+
+.vcc-outcome-card > span {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #e4eae6;
+}
+
+.vcc-outcome-card h4 {
+  color: var(--vcc-navy);
+  font-size: 17px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.vcc-outcome-card p {
+  font-size: 15px;
+  margin: 0;
+}
+
+/* =========================================
+   CLOSING SECTION
+========================================= */
+
+.vcc-closing-section {
+  padding: 100px 0;
+  background: linear-gradient(120deg, #eaf5ef, #f6f8fc, #fff7e8);
+}
+
+.vcc-closing-content {
+  max-width: 780px;
+  margin: auto;
+  text-align: center;
+}
+
+.vcc-closing-icon {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--vcc-teal);
+  color: #fff;
+  font-size: 29px;
+  border-radius: 50%;
+  margin: 0 auto 25px;
+}
+
+.vcc-closing-content p {
+  font-size: 14px;
+  margin: 0 auto 30px;
+  max-width: 690px;
+}
+
+/* =========================================
+   TABLET RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+
+  .vcc-hero {
+    padding: 65px 0 80px;
+  }
+
+  .vcc-hero-content {
+    padding-right: 10px;
+    margin-bottom: 35px;
+  }
+
+  .vcc-hero-image {
+    height: 360px;
+  }
+
+  .vcc-section-content {
+    padding-left: 15px;
+  }
+
+  .vcc-sel-top {
+    margin-bottom: 65px;
+  }
+
+  .vcc-sel-image {
+    height: 350px;
+    margin-bottom: 35px;
+  }
+
+  .vcc-anniversary-content {
+    padding: 30px 10px 10px;
+  }
+
+  .vcc-anniversary-image {
+    height: 350px;
+  }
+
+  .vcc-community-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .vcc-hospital-content {
+    padding: 25px 10px 10px;
+  }
+
+  .vcc-hospital-image {
+    height: 330px;
+  }
+
+  .vcc-sel-outcomes {
+    padding: 45px 30px;
+  }
+}
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .vcc-page p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .vcc-hero {
+    padding: 55px 0 65px;
+  }
+
+  .vcc-hero-content {
+    padding: 0 5px;
+    margin-bottom: 30px;
+  }
+
+  .vcc-hero-content h1 {
+    font-size: 37px;
+  }
+
+  .vcc-hero-content p {
+    font-size: 13px;
+  }
+
+  .vcc-hero-image {
+    height: 280px;
+    padding: 8px;
+  }
+
+  .vcc-image-note {
+    left: 0;
+    bottom: 12px;
+    padding: 12px 15px;
+    font-size: 11px;
+  }
+
+ 
+
+  .vcc-section-heading {
+    margin-bottom: 35px;
+  }
+
+  .vcc-section-heading h2,
+  .vcc-section-content h2,
+  .vcc-anniversary-content h2,
+  .vcc-hospital-content h2,
+  .vcc-closing-content h2 {
+    font-size: 29px;
+  }
+
+  .vcc-intro,
+  .vcc-sel-section,
+  .vcc-community-section,
+  .vcc-hospital-section,
+  .vcc-culture-section {
+    padding: 65px 0;
+  }
+
+  .vcc-intro-card {
+    padding: 28px 20px;
+  }
+
+  .vcc-sel-top {
+    margin-bottom: 55px;
+  }
+
+  .vcc-sel-image {
+    height: 270px;
+    margin: 0 0 35px 10px;
+  }
+
+  .vcc-round-label {
+    width: 90px;
+    height: 90px;
+    left: -10px;
+    font-size: 10px;
+  }
+
+  .vcc-round-label strong {
+    font-size: 13px;
+  }
+
+  .vcc-section-content {
+    padding: 0;
+  }
+
+  .vcc-practices-heading h3 {
+    font-size: 25px;
+  }
+
+  .vcc-practice-card {
+    min-height: auto;
+    padding: 25px;
+  }
+
+  .vcc-anniversary-section {
+    padding: 65px 0;
+  }
+
+  .vcc-anniversary-card {
+    padding: 18px;
+    border-radius: 15px;
+  }
+
+  .vcc-anniversary-image {
+    height: 260px;
+  }
+
+  .vcc-anniversary-badge {
+    width: 100px;
+    height: 100px;
+    right: -5px;
+    bottom: 10px;
+  }
+
+  .vcc-anniversary-badge strong {
+    font-size: 33px;
+  }
+
+  .vcc-anniversary-content {
+    padding: 30px 5px 5px;
+  }
+
+  .vcc-community-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .vcc-community-image {
+    height: 230px;
+  }
+
+  .vcc-community-content {
+    padding: 23px;
+  }
+
+  .vcc-hospital-box {
+    padding: 18px;
+    border-radius: 15px;
+  }
+
+  .vcc-hospital-image {
+    height: 250px;
+  }
+
+  .vcc-hospital-content {
+    padding: 30px 3px 5px;
+  }
+
+  .vcc-cultural-highlights {
+    margin-bottom: 60px;
+  }
+
+  .vcc-cultural-image {
+    height: 235px;
+  }
+
+  .vcc-cultural-content {
+    padding: 23px;
+  }
+
+  .vcc-cultural-content h3 {
+    font-size: 21px;
+  }
+
+  .vcc-sel-outcomes {
+    padding: 35px 18px;
+    border-radius: 15px;
+  }
+
+  .vcc-outcomes-heading h3 {
+    font-size: 25px;
+  }
+
+  .vcc-outcome-card {
+    padding: 24px 20px;
+  }
+
+  .vcc-closing-section {
+    padding: 70px 0;
+  }
+
+  .vcc-closing-content h2 {
+    font-size: 27px;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 420px) {
+
+  .vcc-hero-content h1 {
+    font-size: 32px;
+  }
+
+  .vcc-hero-image {
+    height: 230px;
+  }
+
+  .vcc-eyebrow {
+    font-size: 9px;
+    padding: 7px 11px;
+  }
+
+  .vcc-section-heading h2,
+  .vcc-section-content h2,
+  .vcc-anniversary-content h2,
+  .vcc-hospital-content h2 {
+    font-size: 25px;
+  }
+
+  .vcc-primary-btn {
+    padding: 12px 17px;
+    font-size: 12px;
+  }
+
+  .vcc-community-image {
+    height: 205px;
+  }
+
+  .vcc-anniversary-image {
+    height: 220px;
+  }
+
+  .vcc-hospital-image {
+    height: 220px;
   }
 }
 

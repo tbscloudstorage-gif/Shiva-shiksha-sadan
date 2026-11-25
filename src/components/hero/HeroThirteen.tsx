@@ -55,7 +55,7 @@ export default function HeroThirteen() {
               <div className="col-xl-2 col-lg-2 wow itfadeRight" data-wow-duration=".9s"
                 data-wow-delay=".7s">
                 <div className="it-hero-11-play-btn">
-                  <VideoPopup>
+                  <VideoPopup youtube_url="">
                     <a className="popup-video" style={{ cursor: "pointer" }}>
                       <svg width="22" height="25" viewBox="0 0 22 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M21.2344 12.6723L0.360746 24.7237V0.620911L21.2344 12.6723Z" fill="#CD935A" />

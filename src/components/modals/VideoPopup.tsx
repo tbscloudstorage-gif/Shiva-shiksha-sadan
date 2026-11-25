@@ -1,9 +1,14 @@
- 
 import React, { useState } from "react";
 import { Modal } from "react-responsive-modal";
 import "react-responsive-modal/styles.css";
 
-const VideoPopup = ({ children }: { children: React.ReactNode }) => {
+const VideoPopup = ({
+  children,
+  youtube_url,
+}: {
+  children: React.ReactNode;
+  youtube_url: string;
+}) => {
   const [open, setOpen] = useState(false);
 
   const onOpenModal = (e: React.MouseEvent) => {
@@ -11,6 +16,7 @@ const VideoPopup = ({ children }: { children: React.ReactNode }) => {
     e.stopPropagation();
     setOpen(true);
   };
+
   const onCloseModal = () => setOpen(false);
 
   return (
@@ -31,7 +37,7 @@ const VideoPopup = ({ children }: { children: React.ReactNode }) => {
           }}
         >
           <iframe
-            src="https://www.youtube.com/embed/a54LiQ2nLzU"
+            src={youtube_url}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

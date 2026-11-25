@@ -11,7 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function HeroThree() {
   const slides = [
     {
-      desktop: "assets/img/slider/slider-1-2.jpg",
+      desktop: "assets/img/slider/slider-11.JPG",
       mobile: "assets/img/hero/mobile-banner-1.png",
       title: (
         <>

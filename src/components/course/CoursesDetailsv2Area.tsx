@@ -1774,7 +1774,7 @@ export default function CoursesDetailsv2Area() {
                 <div className="it-course-sidebar">
                   <div className="it-course-sidebar-thumb thumb-overlay z-index-1">
                     <img src="assets/img/course/details-v2.jpg" alt="" />
-                    <VideoPopup>
+                    <VideoPopup youtube_url="">
                       <a className="it-about-thumb-icon pulse-white popup-video" style={{ cursor: "pointer" }}>
                         <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.0234 8.09735C11.0234 7.52 11.0234 6.07607 10.0234 5.49872L3.36035 1.65204C2.36048 1.0749 1.11061 1.79643 1.11035 2.95087V10.6452C1.11052 11.7997 2.36044 12.5212 3.36035 11.944L10.0234 8.09735Z" fill="#181348" stroke="#181348" />

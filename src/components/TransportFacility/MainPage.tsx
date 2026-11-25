@@ -27,7 +27,7 @@ export default function TransportFacility() {
         "Equipped with First-Aid Kits",
         "Regular maintenance checks",
       ],
-      info: "Ideal for group transportation with maximum safety",
+      info: "The transport facility is available only on selected routes",
     },
     {
       icon: <FaShuttleVan />,
@@ -40,7 +40,7 @@ export default function TransportFacility() {
         "Personalized attention",
         "Efficient for smaller groups",
       ],
-      info: "Perfect for specific routes with fewer students",
+      info: "Mini Van Service is exclusively available for pre-primary students. Transport facilities are available only on selected routes.",
     },
   ];
 

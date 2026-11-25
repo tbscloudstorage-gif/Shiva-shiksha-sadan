@@ -42,7 +42,7 @@ export default function BrandThree() {
                   <div className="row ">
                  
                   <img src="assets/img/journey.JPG" alt="" />
-                  <VideoPopup>
+                  <VideoPopup youtube_url="">
                     <a className="it-about-thumb-icon pulse-white popup-video" style={{ cursor: "pointer" , left:"43%"}}
                     >
                       <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">

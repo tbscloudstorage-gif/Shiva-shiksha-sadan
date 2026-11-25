@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 
-type Category = "All" |"Pre-primary" | "Sports" | "Activities" ;
+type Category = "All" |"Pre-primary" | "Learning Spaces" | "Sports" | "Activities" | "Wall of Fame";
 
 interface GalleryImage {
   id: number;
@@ -80,12 +80,92 @@ const galleryImages: GalleryImage[] = [
     image: "/assets/img/gallery/sp-444.png",
     category: "Activities",
   },
+    {
+    id: 15,
+    image: "/assets/img/gallery/17.JPG",
+    category: "Sports",
+  },
+    {
+    id: 16,
+    image: "/assets/img/gallery/18.JPG",
+    category: "Sports",
+  },
+   {
+    id: 17,
+    image: "/assets/img/gallery/19.JPG",
+    category: "Sports",
+  },
+   {
+    id: 18,
+    image: "/assets/img/gallery/20.JPG",
+    category: "Pre-primary",
+  },
+   {
+    id: 19,
+    image: "/assets/img/gallery/22.JPG",
+    category: "Pre-primary",
+  },
+    {
+    id:20,
+    image: "/assets/img/gallery/23.JPG",
+    category: "Pre-primary",
+  },
+  {
+    id:21,
+    image: "/assets/img/gallery/25.png",
+    category: "Learning Spaces",
+  },
+   {
+    id:22,
+    image: "/assets/img/gallery/28.png",
+    category: "Learning Spaces",
+  },
+   {
+    id:23,
+    image: "/assets/img/gallery/30.JPG",
+    category: "Learning Spaces",
+  },
+    {
+    id:24,
+    image: "/assets/img/gallery/31.JPG",
+    category: "Learning Spaces",
+  },
+ {
+    id:25,
+    image: "/assets/img/gallery/wof-1.JPG",
+    category: "Wall of Fame",
+  },
+   {
+    id:26,
+    image: "/assets/img/gallery/wof-2.jpg",
+    category: "Wall of Fame",
+  },
+   {
+    id:27,
+    image: "/assets/img/gallery/wof-3.JPG",
+    category: "Wall of Fame",
+  },
+   {
+    id:28,
+    image: "/assets/img/gallery/wof-4.JPG",
+    category: "Wall of Fame",
+  },
+   {
+    id:29,
+    image: "/assets/img/gallery/wof-5.JPG",
+    category: "Wall of Fame",
+  },
+   {
+    id:30,
+    image: "/assets/img/gallery/wof-6.jpeg",
+    category: "Wall of Fame",
+  },
 ];
 
 export default function Gallery() {
   const [activeTab, setActiveTab] = useState<Category>("All");
 
-  const tabs: Category[] = ["All","Pre-primary" ,"Sports", "Activities"];
+  const tabs: Category[] = ["All","Pre-primary" , "Learning Spaces","Sports", "Activities" ,"Wall of Fame"];
 
   const filteredImages =
     activeTab === "All"

@@ -44,7 +44,7 @@ the Start                     <span className="it-title-shape">
                 </h1>
                 <div className="it-hero-3-text wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
-                  <p>Our Pre-primary programme nurtures young minds through joyful learning, creative activities, and meaningful experiences. We encourage curiosity, build confidence, and help every child develop essential skills in a <br /> caring and engaging environment. </p>
+                  <p>Our Pre-Primary programme nurtures young minds through joyful learning, creative activities, and meaningful experiences. We focus on reducing cognitive load while developing gross and fine motor skills, encouraging curiosity, building confidence, and nurturing essential skills in a caring and engaging environment.</p>
                 </div>
                 <div className="it-hero-3-btn wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".7s">

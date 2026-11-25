@@ -95,7 +95,7 @@ export default function TestimonialEight() {
             <div className="it-testimonial-3-thumb p-relative">
               <img src="assets/img/about/pradeep-ji.png" alt="Testimonial" />
               <div className="it-testimonial-3-play-icon">
-                <VideoPopup>
+                <VideoPopup youtube_url="https://www.youtube.com/embed/a54LiQ2nLzU">
                   <a className="pulse-theme popup-video"  style={{ cursor: "pointer" }}>
                     <svg width="40" height="45" viewBox="0 0 40 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M38.6017 20.6866C40.0189 21.5049 40.0189 23.5505 38.6017 24.3687L3.52475 44.6204C2.1075 45.4387 0.335938 44.4159 0.335938 42.7794V2.27602C0.335937 0.639517 2.1075 -0.383292 3.52475 0.434958L38.6017 20.6866Z" fill="currentcolor" />

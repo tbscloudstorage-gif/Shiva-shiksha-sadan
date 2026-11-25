@@ -238,7 +238,7 @@ export default function BlogSidebarArea() {
                 <div className="postbox-thumb-box mb-70">
                   <div className="postbox-main-thumb border-radius-20 mb-40 p-relative">
                     <img src="assets/img/blog/details-1-5.jpg" alt="" />
-                     <VideoPopup>
+                     <VideoPopup youtube_url="">
                       <a className="postbox-video-btn popup-video pulse-theme"
                         style={{cursor: "pointer"}}>
                         <svg width="25" height="20" viewBox="0 0 9 9" fill="none"
