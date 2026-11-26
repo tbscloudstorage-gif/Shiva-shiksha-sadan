@@ -30,6 +30,15 @@ export default function FooterThree() {
 </a></li>
                         <li><a href="/our-alumni">Our Alumni
 </a></li>
+  <li><a href="/tedx">TEDx
+
+</a></li>
+  <li><a href="/social-&-emotional-learning">Social & Emotional Learning
+
+</a></li>
+  <li><a href="/train-the-trainers">Train The Trainer
+
+</a></li>
 
            <li><a href="/mandatory-public-disclosure">Mandatory Public Disclosure
 
@@ -49,7 +58,8 @@ export default function FooterThree() {
 
                         <li><a href="/school-rules">School Rules</a></li>
                         {/* <li><a href="/List-of-books-stationery">List of Books & Stationery</a></li> */}
-                        {/* <li><a href="/assessment-promotion">Assessment & Promotion</a></li> */}
+                        <li><a href="/life-at-shiva">Life at Shiva
+</a></li>
                         <li><a href="results">Results</a></li>
                         {/* <li><a href="academic-calendar">Academic Calendar</a></li> */}
                                                 {/* <li><a href="school-council">Student Council</a></li> */}
@@ -75,11 +85,11 @@ export default function FooterThree() {
                  <div className=" mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
-                    <h4 className="it-footer-widget-title">News & Events</h4>
+                    <h4 className="it-footer-widget-title">Events</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
                         <li><a href="/upcoming-event">Upcoming Events</a></li>
-                        <li><a href="/editorial">Editorial</a></li>
+                        <li><a href="/editorial">e-Shivanjali</a></li>
                                                 <li><a href="/media-coverage">Media Coverage</a></li>
 
                       </ul>
@@ -103,11 +113,15 @@ export default function FooterThree() {
                   <div className=" mb-50 wow itfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
                   <div className="it-footer-widget it-footer-col-1-2">
-                    <h4 className="it-footer-widget-title">Contact Us</h4>
+                    <h4 className="it-footer-widget-title">More</h4>
                     <div className="it-footer-widget-menu">
                       <ul>
                         <li><a href="/contact-us">Contact</a></li>
                         <li><a href="/careers">Careers</a></li>
+                            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                                                    <li><a href="/undertaking">Undertaking</a></li>
+
+                        <li><a href="/guidelines-for-parents"> Guidelines For Parents </a></li>
                       </ul>
                     </div>
                   </div>

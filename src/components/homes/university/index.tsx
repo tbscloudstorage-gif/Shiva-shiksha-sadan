@@ -8,6 +8,7 @@ import BrandThree from "@/components/brand/BrandThree";
 import BackToTop from "@/components/common/BackToTop";
 // import CourseThree from "@/components/course/CourseThree";
 import CtaThree from "@/components/cta/CtaThree";
+import CampusThree from "@/components/campus/CampusThree";
 import FeaturesThree from "@/components/features/FeaturesThree";
 import HeroThree from "@/components/hero/HeroThree";
 import NewsletterThree from "@/components/newsletter/NewsletterThree";
@@ -35,9 +36,10 @@ export default function University() {
         <AwardsHome />
         {/* <FeaturesTwelve/>
         {/* <CourseThree /> */}
-        {/* <CampusThree /> */}
+       
                 <TimelineSlider/>
  <CtaThree />
+  <CampusThree />
         {/* <TuitionThree /> */}
         <GalleryFour/>
 

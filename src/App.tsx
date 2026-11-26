@@ -9,6 +9,9 @@ import LanguageAcademy from "@/components/homes/language-academy";
 import CookupAcademy from "@/components/homes/cookup-academy";
 import BooksShop from "@/components/homes/books-shop";
 import Magazines from "@/components/Magazines"
+import Undertaking from "@/components/undertaking/index"
+import Codeofconduct from "@/components/codeofconduct/index"
+import Guidelineforparent from "@/components/guidelineforparent/index"
 import TrainTheTrainer from "@/components/TrainTheTrainer/index"
 import Tedxpage from "@/components/tedxpage/index"
 import AssessmentPromotion from "@/components/AssessmentPromotion/index"
@@ -18,6 +21,7 @@ import MusicPlatform from "@/components/homes/music-platform";
 import QuranLearning from "@/components/homes/quran-learning";
 import InstructorShowcase from "@/components/homes/instructor-showcase";
 import GymTraining from "@/components/homes/gym-training";
+import CampusThree from "./components/campus/CampusThree";
 import Childcare from "@/components/homes/childcare";
 import FashionDesign from "@/components/homes/fashion-design";
 import YogaInstructor from "@/components/homes/yoga-instructor";
@@ -78,6 +82,7 @@ import CoursesDetailsv3 from "@/components/inner-pages/courses/courses-details-v
 import CoursesDetailsv4 from "@/components/inner-pages/courses/courses-details-v4";
 import BlogGrid from "@/components/inner-pages/blog/blog-grid";
 import BlogSidebar from "@/components/inner-pages/blog/blog-sidebar";
+import Lifeatshiva from "@/components/Lifeatshiva/index"
 import BlogDetailsLeftSidebar from "@/components/inner-pages/blog/blog-details-left-sidebar";
 import BlogDetailsRightSidebar from "@/components/inner-pages/blog/blog-details-right-sidebar";
 import BlogDetailsWithoutSidebar from "@/components/inner-pages/blog/blog-details-without-sidebar";
@@ -100,7 +105,9 @@ const router = createBrowserRouter([
         { path: "/tedx", element: <Tedxpage /> },
                 { path: "/train-the-trainers", element: <TrainTheTrainer /> },
 
-
+{ path: "/undertaking", element: <Undertaking /> },
+{ path: "/code-of-conduct", element: <Codeofconduct /> },
+{ path: "/guidelines-for-parents", element: <Guidelineforparent /> },
     { path: "/academics", element: <Academics /> },
     { path: "/e-shivanjali", element: <Magazines /> },
     { path: "/our-alumni", element: <Alumni /> },
@@ -143,8 +150,10 @@ const router = createBrowserRouter([
     { path: "/how-to-make-your-childrens-learning-better-every-single-day", element: <BlogDetailsWithoutSidebar /> },
   { path: "/the-golden-jubilee-celebration-of-shiva-shiksha-sadan", element: <BlogSecond/> },
   { path: "/how-can-schools-build-confidence-and-leadership-in-students", element: <BlogThird/> },
+  { path: "/life-at-shiva", element: <Lifeatshiva/> },
 
   { path: "/principal-message", element: <PrinicipalMessage/> },
+  { path: "/campusthree", element: <CampusThree /> },
 
   { path: "/our-faculty", element: <OurFaculty /> },
   { path: "/price", element: <Price /> },

@@ -16,15 +16,13 @@ export default function CampusThree() {
                     </svg>
                     Campus
                   </span>
-                  <h4 className="it-section-title">Growing Beyond the <br /> Classroom
+                  <h4 className="it-section-title">A World of Opportunities   <br />Beyond Academics
                   </h4>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-5">
                 <div className="it-campus-text">
-                  <p className="mb-0">Enhance your knowledge and grow professionally by <br />
-                    learning new skills anytime, anywhere. Access expert-led <br />
-                    courses designed to help you succeed in your </p>
+                  <p className="mb-0">At Shiva Shiksha Sadan, we believe learning extends beyond academics. Through sports, healthcare support and technology-enabled learning spaces, we provide enriching opportunities that nurture students' physical well-being, curiosity and overall development. </p>
                 </div>
               </div>
             </div>
@@ -33,9 +31,9 @@ export default function CampusThree() {
             <div className="col-xl-4 col-lg-4 col-md-6 mb-35 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".3s">
               <div className="it-campus-item p-relative">
-                <h4 className="it-campus-title"><Link className="border-line" to="/academics">Sustainability</Link></h4>
+                <h4 className="it-campus-title"><Link className="border-line" to="/academics">Sports</Link></h4>
                 <div className="it-campus-thumb">
-                  <img src="assets/img/blog/blog-1-2.jpg" alt="" />
+                  <img src="assets/img/gallery/sports-home.JPG" alt="" />
                 </div>
                 <div className="it-campus-arrow">
                   <Link to="/academics">
@@ -49,10 +47,10 @@ export default function CampusThree() {
             <div className="col-xl-4 col-lg-4 col-md-6 mb-35 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".5s">
               <div className="it-campus-item p-relative">
-                <h4 className="it-campus-title"><Link className="border-line" to="/academics">Build Confidence
+                <h4 className="it-campus-title"><Link className="border-line" to="/academics">Healthcare
                 </Link></h4>
                 <div className="it-campus-thumb">
-                  <img src="assets/img/campus/campus-3-2.jpg" alt="" />
+                  <img src="assets/img/gallery/hospital.JPG" alt="" />
                 </div>
                 <div className="it-campus-arrow">
                   <Link to="/academics">
@@ -66,10 +64,10 @@ export default function CampusThree() {
             <div className="col-xl-4 col-lg-4 col-md-6 mb-35 wow itfadeUp" data-wow-duration=".9s"
               data-wow-delay=".7s">
               <div className="it-campus-item p-relative">
-                <h4 className="it-campus-title"><Link className="border-line" to="/academics">Career Guidance
+                <h4 className="it-campus-title"><Link className="border-line" to="/academics">Learning
                 </Link></h4>
                 <div className="it-campus-thumb">
-                  <img src="assets/img/campus/campus-3-3.jpg" alt="" />
+                  <img src="assets/img/about/interactive-class.JPG" alt="" />
                 </div>
                 <div className="it-campus-arrow">
                   <Link to="/academics">

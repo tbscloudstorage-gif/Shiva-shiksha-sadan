@@ -47,7 +47,7 @@ export default function AboutOne() {
               <div className="it-about-right">
                 <div className="it-about-section-title-box mb-25">
                   <span className="it-section-subtitle yellow-style">About us</span>
-                  <h4 className="it-section-title">Empowering Students Through Education and <br /> Values <span className="z-index-1">
+                  <h4 className="it-section-title">An Educational Legacy Across Three Generations <span className="z-index-1">
                      
                     <span className="it-title-shape">
                       <svg width="198" height="18" viewBox="0 0 198 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +58,7 @@ export default function AboutOne() {
                   </span></h4>
                 </div>
                 <div className="it-about-text">
-                  <p className="mb-45">At Shiva Shiksha Sadan, we nurture young minds through quality education, strong values, and holistic learning, empowering every student to build confidence, discover their potential, and grow into responsible and compassionate individuals.
+                  <p className="mb-45">At Shiva Shiksha Sadan, our commitment to education has been carried forward across three generations, reflecting a lasting dedication to learning, values and student growth. This legacy inspires us to provide an enriching educational environment where every child is encouraged to learn, grow and shape a bright future.
 </p>
                 </div>
                 <div className="row">

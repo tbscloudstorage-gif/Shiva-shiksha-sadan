@@ -83,6 +83,7 @@ const menu_data: DataType[] = [
 
       { link: "/social-&-emotional-learning", title: "Social & Emotional Learning" },
             { link: "/train-the-trainers", title: "Train The Trainer" },
+          
 
 
       { link: "/mandatory-public-disclosure", title: "Mandatory Public Disclosure" },
@@ -193,6 +194,7 @@ const menu_data: DataType[] = [
     sub_menus: [
       { link: "/academics", title: "Academics" },
       { link: "/school-rules", title: "School Rules" },
+        { link: "/life-at-shiva", title: "Life at Shiva" },
 
       // { link: "/List-of-books-stationery", title: "List of Books & Stationery" },
       // { link: "/assessment-promotion", title: "Assessment & Promotion" },

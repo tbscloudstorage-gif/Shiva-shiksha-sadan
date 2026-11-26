@@ -262,7 +262,7 @@ From Class VIII onwards, students use R.D. Sharma's mathematics books to strengt
                       <div className="row gx-0">
                         <div className="col-xl-5 col-lg-12 col-md-12 col-sm-5">
                           <div className="it-course-thumb z-index-1 border-radius-20">
-                            <a href="#"><img className="w-100" src="assets/img/course/2-3.png" alt="" /></a>
+                            <a href="#"><img className="w-100" src="assets/img/about/english-club.png" alt="" /></a>
 
                           </div>
                         </div>
