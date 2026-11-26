@@ -7,44 +7,44 @@ const images = [
   link : "https://www.youtube.com/embed/ATUrpcbEcZA"
   },
   {
-    url: "/assets/img/about/aw-2.jpg",
+    url: "/assets/img/gallery/tedx-2.png",
     title: "Prof.Dr.Devinder Singh",
     subtitle : "Vice Chancellor National Law University, Sonipat" ,
     link:" https://www.youtube.com/embed/bCD1F82ivLs"
   },
   {
-    url: "/assets/img/about/aw-3.png",
+    url: "/assets/img/gallery/tedx-3.png",
     title: "Dr.Ankur Batra",
     subtitle : "Interventional Cardiologist & Healthcare Leader",
     link:" https://www.youtube.com/embed/55Sti5cUIUA"
   },
   {
-    url: "/assets/img/about/ac-4.png",
+    url: "/assets/img/gallery/tedx-4.png",
     title: "Kishalay Bhattacharjee",
     subtitle:"Professor & Dean — Jindal School of Journalism and Communication",
     link:" https://www.youtube.com/embed/H6Hy7Sh19yU"
   },
   {
-    url: "/assets/img/about/op-jindall.png",
+    url: "/assets/img/gallery/kanishka.png",
     title: "Kashika Jain",
         subtitle:"Final Year B.Tech Student & AI Enthusiast",
         link:"https://www.youtube.com/embed/Op4MsF-nIxg"
 
   },
   {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/gallery/karnal.jpeg",
     title: "Karnal Singh",
     subtitle:"Former Enforcement Directorate Chief, IPS Officer & Legal Strategist",
     link: " https://www.youtube.com/embed/ccKj0IfZLpY"
   },
   {
-    url: "/assets/img/about/iit.png",
+    url: "/assets/img/gallery/archana.png",
     title: "Archana Kamra",
     subtitle:"Head-Foundational Years",
     link:"https://www.youtube.com/embed/dgfPfXzlfQk"
   },
   {
-    url: "/assets/img/about/ca.png",
+    url: "/assets/img/gallery/gunn.png",
     title: "Gunn Mittal",
     subtitle:"MBBS Pre Final Year Student & Health Advocate   ",
     link:"https://www.youtube.com/embed/1Wl8kNHidj4"
@@ -56,49 +56,49 @@ const images = [
     link:"https://www.youtube.com/embed/Iz5gwHJirUw"
   },
   {
-    url: "/assets/img/about/ac-22.png",
+    url: "/assets/img/gallery/deepti.jpeg",
     title: "Dr.Deepti Garg",
     subtitle:"Orthodontist, MDS",
     link:"https://www.youtube.com/embed/-lhV40mR8Uc"
   },
   {
-    url: "/assets/img/about/6.png",
+    url: "/assets/img/gallery/ashok-ji.jpeg",
     title: "Ashok k.Pandey",
     subtitle:"Education Leader & Global Citizenship Advocate",
     link:"https://www.youtube.com/embed/EyEgaA67YtY"
   },
   {
-    url: "/assets/img/about/ac-43.png",
+    url: "/assets/img/gallery/ashok-ips.jpeg",
     title: "Ashok Kumar,IPS",
     subtitle:"Former DGP, Currently Vice Chancellor, Sports University   ",
     link:"https://www.youtube.com/embed/it_uinn_bzI"
   },
   {
-     url: "/assets/img/about/ac-43.png",
+     url: "/assets/img/gallery/badoli-ji.png",
     title: "Mohan Lal Badoli",
     subtitle:"Thought Leader & Former MLA  ",
     link:"https://www.youtube.com/embed/b1vUCWG_zkI"
   },
    {
-    url: "/assets/img/about/ac-43.png",
+    url: "/assets/img/gallery/anuraj.png",
     title: "Anurag Chandra",
     subtitle:"Educator & Innovator at Thomson Digital",
     link:"https://www.youtube.com/embed/8abkHDh_hik"
   },
    {
-    url: "/assets/img/about/ac-43.png",
+    url: "/assets/img/gallery/vandana.jpeg",
     title: "Vrinda Khana",
     subtitle:"Author,Youth Leader & Social Change Maker",
     link:"https://www.youtube.com/embed/MtQqUBX4Vb0"
   },
    {
-     url: "/assets/img/about/ac-43.png",
+     url: "/assets/img/gallery/mukesh-ji.png",
     title: "Mukesh garg",
     subtitle:"Social Change Maker",
     link:"https://www.youtube.com/embed/DpS-luhtQW0"
   },
    {
-    url: "/assets/img/about/ac-43.png",
+    url: "/assets/img/gallery/pracheta.png",
     title: "Pracheta Singh",
     subtitle:"CJM & Secretary, District Legal Services Authority     ",
     link:"https://www.youtube.com/embed/CRiB4iFYb7w"
