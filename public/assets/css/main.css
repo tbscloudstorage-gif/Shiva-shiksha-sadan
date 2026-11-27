@@ -11918,15 +11918,7 @@ border: 1px solid #1c1651}
 
 /* LIFE AT SHIVA */
 
-.life-shiva-page {
-  --shiva-green: #075c38;
-  --shiva-dark: #123e2d;
-  --shiva-light: #f5f7f1;
-  --shiva-cream: #f8f5eb;
-  --shiva-text: #555e57;
-  color: #183e2e;
-  overflow: hidden;
-}
+
 
 .life-shiva-container {
   width: min(1320px, calc(100% - 60px));
@@ -11942,7 +11934,7 @@ border: 1px solid #1c1651}
 
 .life-shiva-eyebrow {
   display: inline-block;
-  color: var(--shiva-green);
+  color: #D41A2E;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -11956,19 +11948,15 @@ border: 1px solid #1c1651}
   margin-top: 0;
 }
 
-.life-shiva-page h2 {
-  font-size: clamp(32px, 4vw, 49px);
-  line-height: 1.15;
-  font-weight: 700;
-  color: var(--shiva-dark);
-  margin-bottom: 20px;
-}
+
 
 .life-shiva-page p {
-  color: var(--shiva-text);
-  font-size: 15px;
-  line-height: 1.9;
-  margin-bottom: 16px;
+font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top:15px;
+    color: var(--it-text-body);
+    font-family: var(--it-ff-body);
 }
 
 .life-shiva-button {
@@ -12053,7 +12041,7 @@ border: 1px solid #1c1651}
 /* INTRODUCTION */
 
 .life-shiva-intro {
-  padding: 105px 0;
+  padding: 105px 0 0 0;
   background: white;
 }
 
@@ -12194,14 +12182,18 @@ border: 1px solid #1c1651}
 }
 
 .shiva-activity-content h3 {
-  font-size: 21px;
-  color: var(--shiva-dark);
+  font-size: 19px;
+  color: #1C1651;
   margin-bottom: 12px;
+  line-height: 1.5;
 }
 
 .shiva-activity-content p {
-  font-size: 14px;
-  margin-bottom: 0;
+  font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--it-text-body);
+    font-family: var(--it-ff-body);
 }
 
 /* GALLERY STRIP */

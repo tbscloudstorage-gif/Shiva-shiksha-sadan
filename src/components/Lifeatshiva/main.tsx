@@ -23,40 +23,52 @@ const sports = [
 
 const clubs = [
   {
-    title: "Science Club",
+    title: "The English Club",
     description:
       "Encouraging curiosity, experimentation and scientific thinking through practical activities.",
-    image: "/images/life-at-shiva/clubs/science-club.webp",
+    image: "/assets/img/about/english-club-las.png",
   },
   {
-    title: "Literary Club",
+    title: "The Heritage Club(The S.St Club)",
     description:
-      "Building communication, reading, writing and public speaking skills.",
-    image: "/images/life-at-shiva/clubs/literary-club.webp",
+      "The Heritage Club inspires students to appreciate and preserve cultural and natural heritage while fostering awareness, creativity, independence and self-expression.",
+    image: "/assets/img/about/heitage.png",
   },
   {
-    title: "Eco Club",
+    title: "Wings Of Fire (The Science Club)",
     description:
-      "Inspiring students to understand nature and take responsibility for the environment.",
-    image: "/images/life-at-shiva/clubs/eco-club.webp",
+      "Nurtures curiosity, innovation and scientific thinking through hands-on experiments, exploration and creative problem-solving.",
+    image: "/assets/img/about/science-club.png",
   },
   {
-    title: "Art & Craft Club",
+    title: "Aryabhatta (The Maths Club)",
     description:
       "Providing a platform for imagination, creativity and artistic expression.",
-    image: "/images/life-at-shiva/clubs/art-club.webp",
+    image: "/assets/img/about/maths-club.png",
   },
   {
-    title: "Music Club",
+    title: "Bharat Vani (The Hindi Club)",
     description:
       "Discovering musical interests and developing rhythm, confidence and creativity.",
-    image: "/images/life-at-shiva/clubs/music-club.webp",
+    image: "/assets/img/about/hindi-club.png",
   },
   {
-    title: "Dance Club",
+    title: "Techno Club (The Computer Club)",
     description:
       "Expressing ideas and emotions through movement, performance and dance.",
-    image: "/images/life-at-shiva/clubs/dance-club.webp",
+    image: "/assets/img/about/computer-club.JPG",
+  },
+   {
+    title: "AI INTEGRATION & ROBOTICS CLUB",
+    description:
+      "Expressing ideas and emotions through movement, performance and dance.",
+    image: "/assets/img/about/english-club-las.png",
+  },
+  {
+    title: "Impasto (The Drawing Club)",
+    description:
+      "Expressing ideas and emotions through movement, performance and dance.",
+    image: "/assets/img/about/impasto.png",
   },
 ];
 
@@ -114,7 +126,7 @@ const ActivityCard = ({
       <img src={image} alt={title} loading="lazy" decoding="async" />
     </div>
     <div className="shiva-activity-content">
-      <h3>{title}</h3>
+      <h3 className="it-course-title">{title}</h3>
       <p>{description}</p>
     </div>
   </article>
@@ -133,10 +145,10 @@ const LifeAtShiva = () => {
               <span className="life-shiva-eyebrow">
                 MORE THAN JUST LEARNING
               </span>
-              <h2>
+              <h4 className="it-section-title">
                 Every Day Brings a
                 <span> New Opportunity</span>
-              </h2>
+              </h4>
               <p>
                 At Shiva Shiksha Sadan, education extends beyond
                 textbooks and classrooms. From sports and creative
@@ -154,12 +166,12 @@ const LifeAtShiva = () => {
 
             <div className="life-shiva-intro-images">
               <img
-                src="/images/life-at-shiva/intro-main.webp"
+                src="assets/img/about/las-1.JPG"
                 alt="Students participating in school activities"
                 loading="lazy"
               />
               <img
-                src="/images/life-at-shiva/intro-small.webp"
+                src="assets/img/about/las-2.jpeg"
                 alt="Student activities at Shiva"
                 className="life-shiva-intro-small"
                 loading="lazy"
@@ -175,7 +187,7 @@ const LifeAtShiva = () => {
           <div className="life-shiva-section-heading">
             <div>
               <span className="life-shiva-eyebrow">ENERGY IN ACTION</span>
-              <h2>Sports & Fitness</h2>
+              <h4 className="it-section-title">Sports & Fitness</h4>
               <p>
                 Building strength, teamwork and sportsmanship through
                 active participation and healthy competition.
@@ -186,28 +198,24 @@ const LifeAtShiva = () => {
 
           <div className="life-shiva-feature-image">
             <img
-              src="/images/life-at-shiva/sports/sports-main.webp"
+              src="assets/img/about/banner-sports.JPG"
               alt="Sports activities at Shiva Shiksha Sadan"
               loading="lazy"
             />
             <div className="life-shiva-image-caption">
               <span>Play. Participate. Progress.</span>
-              <h3>Stronger Bodies. Stronger Minds.</h3>
+              <h4 className="it-section-title text-white"  >Stronger Bodies. Stronger Minds.</h4>
             </div>
           </div>
 
-          <div className="life-shiva-card-grid">
-            {sports.map((item) => (
-              <ActivityCard key={item.title} {...item} />
-            ))}
-          </div>
+        
 
           <div className="life-shiva-gallery-strip">
-            {["sports-1.webp", "sports-2.webp", "sports-3.webp"].map(
+            {["indorr.JPG", "indor-2.JPG", "indor-4.JPG" ,"indor.JPG", "games.JPG", "indor-3.JPG" ].map(
               (image) => (
                 <img
                   key={image}
-                  src={`/images/life-at-shiva/sports/${image}`}
+                  src={`assets/img/about/${image}`}
                   alt="Students enjoying sports"
                   loading="lazy"
                 />
@@ -223,7 +231,7 @@ const LifeAtShiva = () => {
           <div className="life-shiva-hospital-grid">
             <div className="life-shiva-hospital-image">
               <img
-                src="/images/life-at-shiva/hospital/hospital-main.webp"
+                src="assets/img/about/hospital.JPG"
                 alt="Shiva Hospital"
                 loading="lazy"
               />
@@ -233,10 +241,10 @@ const LifeAtShiva = () => {
               <span className="life-shiva-eyebrow">
                 CARE & WELL-BEING
               </span>
-              <h2>
+              <h4 className="it-section-title">
                 Shiva Hospital
                 <span> Caring Beyond Classrooms</span>
-              </h2>
+              </h4>
               <p>
                 The well-being of students is an important part of
                 their learning journey. Shiva Hospital represents
@@ -248,18 +256,16 @@ const LifeAtShiva = () => {
                 support, we strive to make student well-being an
                 integral part of school life.
               </p>
-              <a href="#campus-gallery" className="life-shiva-text-link">
-                Explore Our Facilities <span>↗</span>
-              </a>
+             
             </div>
           </div>
 
           <div className="life-shiva-hospital-gallery">
-            {["hospital-1.webp", "hospital-2.webp", "hospital-3.webp"].map(
+            {["hospital-1.JPG", "hospital-2.JPG", "hospital-3.JPG"].map(
               (image) => (
                 <img
                   key={image}
-                  src={`/images/life-at-shiva/hospital/${image}`}
+                  src={`assets/img/about/${image}`}
                   alt="Shiva Hospital facilities"
                   loading="lazy"
                 />
@@ -277,7 +283,7 @@ const LifeAtShiva = () => {
               <span className="life-shiva-eyebrow">
                 DISCOVER YOUR INTERESTS
               </span>
-              <h2>Clubs & Activities</h2>
+              <h4 className="it-section-title">Clubs & Activities</h4>
               <p>
                 Every student has a unique talent. Our clubs offer
                 opportunities to explore interests, learn new skills
@@ -296,14 +302,14 @@ const LifeAtShiva = () => {
       </section>
 
       {/* LABORATORIES */}
-      <section className="life-shiva-labs" id="laboratories">
+      {/* <section className="life-shiva-labs" id="laboratories">
         <div className="life-shiva-container">
           <div className="life-shiva-section-heading">
             <div>
               <span className="life-shiva-eyebrow">
                 LEARN BY EXPLORING
               </span>
-              <h2>Laboratories & Innovation</h2>
+              <h4 className="it-section-title">Laboratories & Innovation</h4>
               <p>
                 Where curiosity meets practical learning and
                 classroom concepts turn into real experiences.
@@ -318,7 +324,7 @@ const LifeAtShiva = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CREATIVE ACTIVITIES */}
       <section className="life-shiva-creative" id="creative-activities">
@@ -327,10 +333,10 @@ const LifeAtShiva = () => {
             <span className="life-shiva-eyebrow">
               IMAGINE. CREATE. EXPRESS.
             </span>
-            <h2>
+            <h4 className="it-section-title">
               Creativity Has
               <span> No Boundaries</span>
-            </h2>
+            </h4>
             <p>
               From music and dance to art, craft and cultural
               performances, students get opportunities to discover
@@ -341,7 +347,7 @@ const LifeAtShiva = () => {
 
           <div className="life-shiva-creative-images">
             <img
-              src="/images/life-at-shiva/creative/creative-1.webp"
+              src="/assets/img/about/"
               alt="Creative activities"
               loading="lazy"
             />
@@ -367,7 +373,7 @@ const LifeAtShiva = () => {
               <span className="life-shiva-eyebrow">
                 MEMORIES THAT LAST
               </span>
-              <h2>Events & Celebrations</h2>
+              <h4 className="it-section-title">Events & Celebrations</h4>
               <p>
                 Celebrating traditions, achievements, festivals
                 and special moments that bring our school community
@@ -386,7 +392,7 @@ const LifeAtShiva = () => {
               />
               <div>
                 <span>CELEBRATING TOGETHER</span>
-                <h3>Every Celebration Creates a Memory</h3>
+                 <h4 className="it-section-title text-white">Every Celebration Creates a Memory</h4>
               </div>
             </div>
 
@@ -411,7 +417,7 @@ const LifeAtShiva = () => {
         <div className="life-shiva-container">
           <div className="life-shiva-gallery-heading">
             <span className="life-shiva-eyebrow">MOMENTS AT SHIVA</span>
-            <h2>A Glimpse Into Our World</h2>
+            <h4 className="it-section-title">A Glimpse Into Our World</h4>
             <p>
               Little moments, big achievements and countless
               experiences that make life at Shiva special.
@@ -433,26 +439,7 @@ const LifeAtShiva = () => {
         </div>
       </section>
 
-      {/* FINAL CTA */}
-      <section className="life-shiva-cta">
-        <div className="life-shiva-container">
-          <span className="life-shiva-eyebrow">
-            THE SHIVA EXPERIENCE
-          </span>
-          <h2>
-            More Than a School.
-            <br />
-            A Place to Discover Yourself.
-          </h2>
-          <p>
-            Every opportunity opens a new door. Every experience
-            helps students grow into their best selves.
-          </p>
-          <a href="/admission" className="life-shiva-button">
-            Explore Admissions <span>↗</span>
-          </a>
-        </div>
-      </section>
+    
 
     </main>
   );

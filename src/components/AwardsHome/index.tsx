@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 const awards = [
   {
     image: "/assets/img/about/1.1.png",
-    title: "Honoured by the President of Mauritius",
+    title: "Awarded by President of Mauritius in International Education Summit 2023 with delegations from seven countries including UK, Japan etc",
   },
   {
     image: "/assets/img/about/2.1.png",

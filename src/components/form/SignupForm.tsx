@@ -3,60 +3,109 @@ import { useState } from 'react';
 export default function SignupForm() {
   const [result, setResult] = useState("");
 
-  
 
 
-const onSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
-  event.preventDefault();
 
-  const form = event.currentTarget;
-  
-  const formData = new FormData(form);
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
 
-  formData.append("access_key", "19619d88-a2af-43af-8877-fa79ea097158");
+    const form = event.currentTarget;
 
-  // Check all fields before submitting
-  console.log(
-    "Form Data:",
-    Object.fromEntries(formData.entries())
-  );
+    const formData = new FormData(form);
 
-  setResult("Submitting...");
+    formData.append("access_key", "19619d88-a2af-43af-8877-fa79ea097158");
 
-  try {
-    const response = await fetch(
-      "https://api.web3forms.com/submit",
-      {
-        method: "POST",
-        body: formData,
-      }
+    // Check all fields before submitting
+    console.log(
+      "Form Data:",
+      Object.fromEntries(formData.entries())
     );
 
-    const data = await response.json();
+    setResult("Submitting...");
 
-    console.log("Web3Forms Response:", data);
+    try {
+      const response = await fetch(
+        "https://api.web3forms.com/submit",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
-    if (response.ok && data.success) {
-      setResult("Application submitted successfully!");
+      const data = await response.json();
 
-      form.reset();
-    } else {
-      setResult(data.message || "Submission failed.");
+      console.log("Web3Forms Response:", data);
+
+      if (response.ok && data.success) {
+        setResult("Application submitted successfully!");
+
+        form.reset();
+      } else {
+        setResult(data.message || "Submission failed.");
+      }
+    } catch (error) {
+      console.error("Submission Error:", error);
+      setResult("Network error. Please try again.");
     }
-  } catch (error) {
-    console.error("Submission Error:", error);
-    setResult("Network error. Please try again.");
-  }
-};
+  };
 
 
-  
- 
+
+
   return (
     <>
       <div className="it-signup-area pt-130 pb-130 admission-page">
         <div className="container">
-
+          <div className="mb-70">
+            <div className="row align-items-center">
+              <div className="col-xl-12 col-lg-12 col-md-12">
+                <div className="it-team-3-left">
+                   <span className="admission-badge">
+                    Admissions Open for 2027–28
+                  </span>
+                  <h4 className="it-section-title">Admissions Open at Shiva Shiksha Sadan</h4>
+                  <p className="mt-4">Shiva Shiksha Sadan welcomes students to be part of a legacy of excellence and holistic education. With an advanced global educational approach, we focus on developing academic skills, creativity, confidence and overall personality. Our innovative teaching methods combine international learning practices with experiential education. We provide opportunities in literacy, numeracy, coding, robotics, cultural activities, theatre and sports. Give your child the right foundation for a bright and successful future.</p>
+                  <h6  style={{marginTop:"30px" , marginBottom
+                    :"30px"
+                  }}>Admissions Available For:
+                  </h6>
+                  <p><strong>Pre-primary:</strong> Children aged 3–4 years.</p>
+                  <p><strong>Class 11 (Girls Only)</strong>: Students from other CBSE schools with 75% or above in Pre-Board examinations.</p>
+                  <h6 style={{marginTop:"30px" , marginBottom
+                    :"30px"
+                  }}>Our Educational Highlights:
+                  </h6>
+                  <ul>
+                    <li className='mt-3 mb-2'>50 Years of Educational Excellence (Since 1974).</li>
+                    <li className='mt-3 mb-2'>Jolly Phonics and Jolly Grammar (UK).</li>
+                    <li className='mt-3 mb-2'>CPA-Based Numeracy Learning (Singapore).</li>
+                    <li className='mt-3 mb-2'>Fitzroy Readers (Australia).</li>
+                    <li  className='mt-3 mb-2'>Montessori and Reggio Emilia Learning Approach.</li>
+                    <li className='mt-3 mb-2'>Coding, Robotics and Experiential Learning.</li>
+                    <li className='mt-3 mb-2'>Volleyball, Badminton, Taekwondo, Yoga and Athletics.</li>
+                    <li className='mt-3 mb-2'> Transport facilities available in selected areas.</li>
+                  </ul>
+                  <p className='mb-2' style={{marginTop:"20px"}}>You can place the <strong>Admission Application Form</strong> directly below this section for parents to submit their enquiries.</p>
+                </div>
+                
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-4">
+                <div className="it-team-3-btn text-md-end">
+                  {/* <Link to="/" className="it-btn-yellow theme-bg border-radius-0">
+                    <span>
+                      <span className="text-1">Register As Alumni</span>
+                      <span className="text-2">Register  As Alumni</span>
+                    </span>
+                    <i>
+                      <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                      </svg>
+                    </i>
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="row justify-content-center">
             <div className="col-xxl-9 col-xl-10 col-lg-11">
 
@@ -64,12 +113,10 @@ const onSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
 
                 {/* Header */}
                 <div className="admission-form-header">
-                  <span className="admission-badge">
-                   Admissions Open for 2026–27 & 2027–28
-                  </span>
+                 
 
                   <h6 className="it-breadcrumb-title mb-0 pb-1">
-                    Admission Application Form
+                  Apply For Admission
                   </h6>
 
                   <p>
@@ -146,19 +193,19 @@ const onSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
                             Gender <b>*</b>
                           </label>
 
-                          
-<div className="contact__select admission-select sss-admission-dropdown-wrap">
-  <select
-    className="sss-admission-dropdown"
-    name="gender"
-    required
-    defaultValue=""
-  >
-    <option value="" disabled>Select Gender</option>
-    <option value="male">Male</option>
-    <option value="female">Female</option>
-  </select>
-</div>
+
+                          <div className="contact__select admission-select sss-admission-dropdown-wrap">
+                            <select
+                              className="sss-admission-dropdown"
+                              name="gender"
+                              required
+                              defaultValue=""
+                            >
+                              <option value="" disabled>Select Gender</option>
+                              <option value="male">Male</option>
+                              <option value="female">Female</option>
+                            </select>
+                          </div>
 
 
                         </div>
@@ -173,32 +220,24 @@ const onSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
                             Applying for Class <b>*</b>
                           </label>
 
-                       
-<div className="contact__select admission-select sss-admission-dropdown-wrap">
-  <select
-    className="sss-admission-dropdown"
-    name="class"
-    required
-    defaultValue=""
-  >
-    <option value="" disabled>Select Class</option>
-    <option value="nursery">Nursery</option>
-    <option value="lkg">LKG</option>
-    <option value="ukg">UKG</option>
-    <option value="1">Class I</option>
-    <option value="2">Class II</option>
-    <option value="3">Class III</option>
-    <option value="4">Class IV</option>
-    <option value="5">Class V</option>
-    <option value="6">Class VI</option>
-    <option value="7">Class VII</option>
-    <option value="8">Class VIII</option>
-    <option value="9">Class IX</option>
-    <option value="10">Class X</option>
-    <option value="11">Class XI</option>
-    <option value="12">Class XII</option>
-  </select>
-</div>
+
+                          <div className="contact__select admission-select sss-admission-dropdown-wrap">
+                            <select
+                              className="sss-admission-dropdown"
+                              name="class"
+                              required
+                              defaultValue=""
+                            >
+                              <option value="" disabled>Select Class</option>
+                              <option value="nursery">Nursery</option>
+                              <option value="lkg">LKG</option>
+                              <option value="ukg">UKG</option>
+                              
+                            
+                              <option value="11">Class XI</option>
+                            
+                            </select>
+                          </div>
 
 
                         </div>
@@ -213,19 +252,19 @@ const onSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
                             Academic Session <b>*</b>
                           </label>
 
-                        
-<div className="contact__select admission-select sss-admission-dropdown-wrap">
-  <select
-    className="sss-admission-dropdown"
-    name="academic_session"
-    required
-    defaultValue=""
-  >
-    <option value="" disabled>Select Academic Session</option>
-    <option value="2026-27">2026-27</option>
-    <option value="2027-28">2027-28</option>
-  </select>
-</div>
+
+                          <div className="contact__select admission-select sss-admission-dropdown-wrap">
+                            <select
+                              className="sss-admission-dropdown"
+                              name="academic_session"
+                              required
+                              defaultValue=""
+                            >
+                              <option value="" disabled>Select Academic Session</option>
+                              <option value="2026-27">2026-27</option>
+                              <option value="2027-28">2027-28</option>
+                            </select>
+                          </div>
 
 
                         </div>
@@ -320,7 +359,7 @@ const onSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
                         <div className="it-signup-input mb-20">
 
                           <label>
-                           Parent/Guardian Mobile Number<b>*</b>
+                            Parent/Guardian Mobile Number<b>*</b>
                           </label>
 
                           <input
@@ -448,18 +487,18 @@ const onSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
                             Do You Require School Transport?
                           </label>
 
-                         
-<div className="contact__select admission-select sss-admission-dropdown-wrap">
-  <select
-    className="sss-admission-dropdown"
-    name="transport"
-    defaultValue=""
-  >
-    <option value="" disabled>Select Option</option>
-    <option value="yes">Yes</option>
-    <option value="no">No</option>
-  </select>
-</div>
+
+                          <div className="contact__select admission-select sss-admission-dropdown-wrap">
+                            <select
+                              className="sss-admission-dropdown"
+                              name="transport"
+                              defaultValue=""
+                            >
+                              <option value="" disabled>Select Option</option>
+                              <option value="yes">Yes</option>
+                              <option value="no">No</option>
+                            </select>
+                          </div>
 
 
                         </div>
@@ -471,7 +510,7 @@ const onSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
                         <div className="it-signup-input mb-25">
 
                           <label>
-Message or Additional Information
+                            Message or Additional Information
                           </label>
 
                           <textarea
@@ -548,7 +587,7 @@ Message or Additional Information
                     </p>
 
                   </div>
-<p className='text-green-500 mt-5 text-sm' style={{color:"green"}}>{result}</p>
+                  <p className='text-green-500 mt-5 text-sm' style={{ color: "green" }}>{result}</p>
                 </form>
 
               </div>
