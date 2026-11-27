@@ -6,50 +6,56 @@ const clubs = [
   {
     title: "The English Club",
     description:
-      "Encouraging curiosity, experimentation and scientific thinking through practical activities.",
+      "Enhances language skills, vocabulary, communication and confidence through creative writing, storytelling, debates and interactive activities.",
     image: "/assets/img/about/english-club-las.png",
   },
   {
-    title: "The Heritage Club(The S.St Club)",
+    title: "The Heritage Club (The S.St Club)",
     description:
       "The Heritage Club inspires students to appreciate and preserve cultural and natural heritage while fostering awareness, creativity, independence and self-expression.",
     image: "/assets/img/about/heitage.png",
   },
   {
-    title: "Wings Of Fire (The Science Club)",
+    title: "Wings of Fire (The Science Club)",
     description:
       "Nurtures curiosity, innovation and scientific thinking through hands-on experiments, exploration and creative problem-solving.",
     image: "/assets/img/about/science-club.png",
   },
   {
-    title: "Aryabhatta (The Maths Club)",
+    title: "Aryabhatta (The Math Club)",
     description:
-      "Providing a platform for imagination, creativity and artistic expression.",
+      "Makes mathematics engaging through puzzles, logical reasoning, mathematical games and real-life problem-solving activities.",
     image: "/assets/img/about/maths-club.png",
   },
   {
     title: "Bharat Vani (The Hindi Club)",
     description:
-      "Discovering musical interests and developing rhythm, confidence and creativity.",
+      "Promotes love for Hindi language and literature through poetry, storytelling, recitation, creative writing and cultural activities.",
     image: "/assets/img/about/hindi-club.png",
   },
   {
     title: "Techno Club (The Computer Club)",
     description:
-      "Expressing ideas and emotions through movement, performance and dance.",
+      "Develops digital literacy, computational thinking and technology skills through computer-based learning, creative projects and hands-on exploration.",
     image: "/assets/img/about/computer-club.JPG",
   },
-   {
-    title: "AI INTEGRATION & ROBOTICS CLUB",
+  {
+    title: "AI Integration & Robotics Club",
     description:
-      "Expressing ideas and emotions through movement, performance and dance.",
-    image: "/assets/img/about/english-club-las.png",
+      "Introduces students to artificial intelligence, robotics and innovation through interactive projects, coding and hands-on technology experiences.",
+    image: "/assets/img/about/robotics.JPG",
   },
   {
     title: "Impasto (The Drawing Club)",
     description:
-      "Expressing ideas and emotions through movement, performance and dance.",
+      "Encourages imagination and artistic expression through drawing, sketching, painting and creative exploration of colours and techniques.",
     image: "/assets/img/about/impasto.png",
+  },
+  {
+    title: "English Language Enrichment",
+    description:
+      "Students learn English through engaging sessions led by a foreign teacher, improving pronunciation, fluency, vocabulary and confidence in everyday communication.",
+    image: "/assets/img/about/english-club-las.png",
   },
 ];
 
@@ -232,7 +238,7 @@ const LifeAtShiva = () => {
       </section>
 
       {/* CLUBS */}
-      <section className="life-shiva-section life-shiva-clubs" id="clubs">
+      <section className="life-shiva-section life-shiva-clubs" id="clubs" style={{paddingTop:"0px"}}>
         <div className="life-shiva-container">
           <div className="life-shiva-section-heading">
             <div>
@@ -283,7 +289,7 @@ const LifeAtShiva = () => {
       </section> */}
 
       {/* CREATIVE ACTIVITIES */}
-      <section className="life-shiva-creative" id="creative-activities">
+      <section className="life-shiva-creative" id="creative-activities" style={{paddingTop:"0px"}}>
         <div className="life-shiva-container life-shiva-creative-grid">
           <div className="life-shiva-creative-content">
             <span className="life-shiva-eyebrow">
@@ -303,17 +309,17 @@ const LifeAtShiva = () => {
 
           <div className="life-shiva-creative-images">
             <img
-              src="/assets/img/about/"
+              src="/assets/img/about/las-22.jpeg"
               alt="Creative activities"
               loading="lazy"
             />
             <img
-              src="/images/life-at-shiva/creative/creative-2.webp"
+              src="/assets/img/about/las-33.jpeg"
               alt="Student cultural activities"
               loading="lazy"
             />
             <img
-              src="/images/life-at-shiva/creative/creative-3.webp"
+              src="/assets/img/about/banner-las.jpg"
               alt="Art and craft activities"
               loading="lazy"
             />
@@ -322,7 +328,7 @@ const LifeAtShiva = () => {
       </section>
 
       {/* EVENTS */}
-      <section className="life-shiva-section" id="events">
+      <section className="life-shiva-section" id="events" style={{paddingTop:"0px"}}>
         <div className="life-shiva-container">
           <div className="life-shiva-section-heading">
             <div>
@@ -336,13 +342,13 @@ const LifeAtShiva = () => {
                 together.
               </p>
             </div>
-            <span className="life-shiva-section-number">04</span>
+            <span className="life-shiva-section-number">03</span>
           </div>
 
           <div className="life-shiva-events-grid">
             <div className="life-shiva-event-large">
               <img
-                src="/images/life-at-shiva/events/event-main.webp"
+                src="/assets/img/about/las-44.jpeg"
                 alt="School celebrations"
                 loading="lazy"
               />
@@ -354,14 +360,14 @@ const LifeAtShiva = () => {
 
             <div className="life-shiva-event-small">
               <img
-                src="/images/life-at-shiva/events/event-1.webp"
+                src="/assets/img/about/event-banner.jpeg" 
                 alt="School event"
-                loading="lazy"
+                loading="lazy" style={{height:"263px"}}
               />
               <img
-                src="/images/life-at-shiva/events/event-2.webp"
+                src="/assets/img/about/event-banner-2.jpeg"
                 alt="School celebration"
-                loading="lazy"
+                loading="lazy" style={{height:"187px"}}
               />
             </div>
           </div>
@@ -369,7 +375,7 @@ const LifeAtShiva = () => {
       </section>
 
       {/* CAMPUS GALLERY */}
-      <section className="life-shiva-gallery" id="campus-gallery">
+      {/* <section className="life-shiva-gallery" id="campus-gallery">
         <div className="life-shiva-container">
           <div className="life-shiva-gallery-heading">
             <span className="life-shiva-eyebrow">MOMENTS AT SHIVA</span>
@@ -393,7 +399,7 @@ const LifeAtShiva = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
     
 
