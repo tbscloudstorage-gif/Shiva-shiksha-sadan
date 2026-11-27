@@ -1,25 +1,6 @@
 
 
-const sports = [
-  {
-    title: "Outdoor Sports",
-    description:
-      "Students develop teamwork, discipline and confidence through a variety of outdoor sporting activities.",
-    image: "/images/life-at-shiva/sports/outdoor-sports.webp",
-  },
-  {
-    title: "Indoor Games",
-    description:
-      "Indoor games encourage strategic thinking, concentration and healthy competition.",
-    image: "/images/life-at-shiva/sports/indoor-games.webp",
-  },
-  {
-    title: "Physical Fitness",
-    description:
-      "Regular fitness activities help students build strength, stamina and an active lifestyle.",
-    image: "/images/life-at-shiva/sports/fitness.webp",
-  },
-];
+
 
 const clubs = [
   {
@@ -72,32 +53,7 @@ const clubs = [
   },
 ];
 
-const laboratories = [
-  {
-    title: "Physics Laboratory",
-    description:
-      "Hands-on experiments help students understand scientific principles and concepts.",
-    image: "/images/life-at-shiva/labs/physics-lab.webp",
-  },
-  {
-    title: "Chemistry Laboratory",
-    description:
-      "A practical learning environment where students explore chemical reactions and concepts.",
-    image: "/images/life-at-shiva/labs/chemistry-lab.webp",
-  },
-  {
-    title: "Biology Laboratory",
-    description:
-      "Students explore living organisms, biological structures and the natural world.",
-    image: "/images/life-at-shiva/labs/biology-lab.webp",
-  },
-  {
-    title: "Computer Laboratory",
-    description:
-      "Developing digital skills, technological understanding and computer literacy.",
-    image: "/images/life-at-shiva/labs/computer-lab.webp",
-  },
-];
+
 
 const gallery = [
   "gallery-1.webp",
