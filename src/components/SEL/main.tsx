@@ -62,7 +62,7 @@ const communityActivities = [
     className: "ramoham-card",
   },
   {
-    title: "Kalash Yatra",
+    title: "Bhagwat",
     category: "Learning Through Wisdom",
     image: "/assets/img/about/kalash.JPG",
     description:
@@ -85,11 +85,11 @@ const communityActivities = [
 className: "yagna-card",
   },
   {
-    title: "Temple Activities",
+    title: "Community Connect",
     category: "Cultural Awareness",
     image: "/assets/img/about/jain.jpg",
     description:
-      "Temple visits and related activities help students appreciate Indian traditions, respect cultural heritage and understand the importance of shared values.",
+      "Encourages students to appreciate Indian traditions, preserve cultural heritage, embrace shared values and strengthen community bonds.",
     className: "temple-card",
   },
   {

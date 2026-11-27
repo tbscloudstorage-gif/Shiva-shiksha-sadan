@@ -98,7 +98,7 @@ const trainers = [
 ];
 
 const imagePath = (image: string) =>
-  `/public/assets/img/faculty/${image}`;
+  `/assets/img/faculty/${image}`;
 
 const PhotoGallery = ({
   images,
