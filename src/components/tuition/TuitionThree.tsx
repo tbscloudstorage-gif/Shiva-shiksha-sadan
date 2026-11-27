@@ -23,7 +23,7 @@ export default function TuitionThree() {
 </h4>
                 </div>
                 <div className="it-tuition-text">
-                  <p>For the Academic Session 2027–2028, we offer a thoughtful fee structure that makes quality education accessible while ensuring students receive enriching learning experiences, individual attention and opportunities for all-round development.
+                  <p>For the Academic Session 2026–2027, we offer a thoughtful fee structure that makes quality education accessible while ensuring students receive enriching learning experiences, individual attention and opportunities for all-round development.
 
 
 
@@ -32,19 +32,7 @@ export default function TuitionThree() {
 
 
 
-
-
-
-
-This might also interest you.
-
-
-Ad
-Ad options
-
-
-
-Learn more</p>
+</p>
                 </div>
                 <div className="it-tuition-btn">
                   <Link to="/" className="it-btn-yellow theme-bg border-radius-100">
